@@ -13,3 +13,4 @@ tidal-rpc_autogen/
 /tidal-rpc.pro.user
 /.idea/
 /out
+/build
