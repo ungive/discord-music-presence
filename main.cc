@@ -4,7 +4,7 @@
  */
 
 #ifndef VERSION
-#define VERSION "v.1.3.0"
+#define VERSION "v.1.4.0"
 #endif
 
 #pragma message("Building version:" VERSION)
