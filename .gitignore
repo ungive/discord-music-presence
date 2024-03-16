@@ -6,11 +6,11 @@ Makefile
 cmake_install.cmake
 qrc_resources.cpp
 resources.qrc.depends
-tidal-rpc.app/
-tidal-rpc_autogen/
+discord-music-presence.app/
+discord-music-presence_autogen/
 /.vs/
 /cmake-build-*/
-/tidal-rpc.pro.user
+/discord-music-presence.pro.user
 /.idea/
 /out
 /build

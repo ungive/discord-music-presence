@@ -51,16 +51,16 @@ for:
       - cd .\build
       - cmake -G"NMake Makefiles" -DCMAKE_BUILD_TYPE=RELEASE ../
       - cmake --build .
-      - call %QTDIR%\bin\windeployqt --release tidal-rpc.exe
+      - call %QTDIR%\bin\windeployqt --release discord-music-presence.exe
 
     after_build:
       - xcopy /c "C:\OpenSSL-v111-Win64\bin\*.dll"
       - echo zipping %APPVEYOR_BUILD_VERSION%
-      - 7z a tidal-rpc.zip tidal-rpc.exe *.dll ./imageformats/ ./platforms/ ./styles/ ./iconengines ./tls
+      - 7z a discord-music-presence.zip discord-music-presence.exe *.dll ./imageformats/ ./platforms/ ./styles/ ./iconengines ./tls
 
     artifacts:
-      - path: build/tidal-rpc.zip
-        name: tidal-rpc.zip
+      - path: build/discord-music-presence.zip
+        name: discord-music-presence.zip
         type: zip
 
     deploy:
@@ -70,7 +70,7 @@ for:
         tag: v.$(APPVEYOR_BUILD_VERSION)
         auth_token:
           secure: jIbkiObOwXasiWeUpE0CEC5sJQcFpfFtjSSlg9DG40JnQrNDzXf/jC4VvIZFDRY/Od5pEL8jaHtAgxqjAOXb1EEF4wEVM/MpreIKHHiwe8/16NUAPtGV48FqGyTDP+0O # your encrypted token from GitHub
-        artifact: tidal-rpc.zip # upload all NuGet packages to release assets
+        artifact: discord-music-presence.zip # upload all NuGet packages to release assets
         draft: true
         prerelease: false
         on:
@@ -89,7 +89,7 @@ for:
       - cd build
       - cmake -G"Unix Makefiles" -DCMAKE_BUILD_TYPE=RELEASE ../ -DQt6_DIR=$HOME/Qt/6.4.0/macos/lib/cmake/Qt6 -DQt6CoreTools_DIR=$HOME/Qt/6.4.0/macos/lib/cmake/Qt6CoreTools -DQt6GuiTools_DIR=$HOME/Qt/6.4.0/macos/lib/cmake/Qt6GuiTools -DQt6WidgetsTools_DIR=$HOME/Qt/6.4.0/macos/lib/cmake/Qt6WidgetsTools ..
       - cmake --build .
-      - $HOME/Qt/6.4.0/macos/bin/macdeployqt tidal-rpc.app -dmg
+      - $HOME/Qt/6.4.0/macos/bin/macdeployqt discord-music-presence.app -dmg
 
     after_build:
       - echo $APPVEYOR_BUILD_FOLDER
@@ -97,8 +97,8 @@ for:
       - pwd
 
     artifacts:
-      - path: build/tidal-rpc.dmg
-        name: tidal-rpc.dmg
+      - path: build/discord-music-presence.dmg
+        name: discord-music-presence.dmg
         type: file
 
     deploy:
@@ -108,7 +108,7 @@ for:
         tag: v.$(APPVEYOR_BUILD_VERSION)
         auth_token:
           secure: jIbkiObOwXasiWeUpE0CEC5sJQcFpfFtjSSlg9DG40JnQrNDzXf/jC4VvIZFDRY/Od5pEL8jaHtAgxqjAOXb1EEF4wEVM/MpreIKHHiwe8/16NUAPtGV48FqGyTDP+0O # your encrypted token from GitHub
-        artifact: tidal-rpc.dmg # upload all NuGet packages to release assets
+        artifact: discord-music-presence.dmg # upload all NuGet packages to release assets
         draft: true
         prerelease: false
         on:

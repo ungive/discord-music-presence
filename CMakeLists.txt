@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.10)
-project(TIDAL-RPC)
+project(discord-music-presence)
 
 # Create executable
 include_directories(.)
@@ -21,13 +21,13 @@ set(CMAKE_AUTOUIC ON)
 find_package(Qt6 COMPONENTS Widgets Core Network gui REQUIRED)
 #set(CMAKE_CXX_FLAGS_COVERAGE "${CMAKE_CXX_FLAGS_RELEASE} -fprofile-arcs -ftest-coverage")
 qt6_add_resources(QRCS resources.qrc)
-add_executable(tidal-rpc main.cc resource.rc ${QRCS})
-target_include_directories(tidal-rpc PRIVATE discord-game-sdk/c)
-target_include_directories(tidal-rpc PRIVATE discord-game-sdk/cpp)
-target_link_libraries(tidal-rpc Qt6::Widgets Qt6::Core Qt6::Network)
+add_executable(discord-music-presence main.cc resource.rc ${QRCS})
+target_include_directories(discord-music-presence PRIVATE discord-game-sdk/c)
+target_include_directories(discord-music-presence PRIVATE discord-game-sdk/cpp)
+target_link_libraries(discord-music-presence Qt6::Widgets Qt6::Core Qt6::Network)
 
 if (DEFINED ENV{APPVEYOR_BUILD_VERSION})
-    target_compile_definitions(tidal-rpc PUBLIC VERSION="v.$ENV{APPVEYOR_BUILD_VERSION}")
+    target_compile_definitions(discord-music-presence PUBLIC VERSION="v.$ENV{APPVEYOR_BUILD_VERSION}")
 endif ()
 
 
@@ -36,7 +36,7 @@ if (NOT CMAKE_BUILD_TYPE STREQUAL "Debug")
     message("On release - generating gui app")
     if (WIN32) # Check if we are on Windows
         if (MSVC) # Check if we are using the Visual Studio compiler
-            set_target_properties(tidal-rpc PROPERTIES
+            set_target_properties(discord-music-presence PROPERTIES
                     WIN32_EXECUTABLE YES
                     LINK_FLAGS "/ENTRY:mainCRTStartup"
                     )
@@ -46,7 +46,7 @@ if (NOT CMAKE_BUILD_TYPE STREQUAL "Debug")
             message(SEND_ERROR "You are using an unsupported Windows compiler! (Not MSVC or GCC)")
         endif (MSVC)
     elseif (APPLE)
-        set_target_properties(tidal-rpc PROPERTIES
+        set_target_properties(discord-music-presence PROPERTIES
                 MACOSX_BUNDLE YES
                 )
     elseif (UNIX)
@@ -62,7 +62,7 @@ if (WIN32)
         STRING(REPLACE "/Od" "/O2" CMAKE_CXX_FLAGS ${CMAKE_CXX_FLAGS})
         set(CMAKE_CXX_FLAGS_RELEASE "/MT")
     else ()
-        target_link_libraries(tidal-rpc wsock32 ws2_32)
+        target_link_libraries(discord-music-presence wsock32 ws2_32)
         set(CMAKE_CXX_FLAGS_RELEASE "-O3 -mwindows -lwinpthread")
     endif ()
 
@@ -71,32 +71,32 @@ if (WIN32)
         # 64 bits
         message("\t64-bit")
 
-        target_link_libraries(tidal-rpc ${CMAKE_SOURCE_DIR}/discord-game-sdk/lib/x86_64/discord_game_sdk.dll.lib)
+        target_link_libraries(discord-music-presence ${CMAKE_SOURCE_DIR}/discord-game-sdk/lib/x86_64/discord_game_sdk.dll.lib)
 
         configure_file(${CMAKE_SOURCE_DIR}/discord-game-sdk/lib/x86_64/discord_game_sdk.dll ${CMAKE_BINARY_DIR}/discord_game_sdk.dll COPYONLY)
 
     elseif (CMAKE_SIZEOF_VOID_P EQUAL 4)
         # 32 bits
         message("\t32-bit")
-        target_link_libraries(tidal-rpc ${CMAKE_SOURCE_DIR}/discord-game-sdk/lib/x86/discord_game_sdk.dll.lib)
+        target_link_libraries(discord-music-presence ${CMAKE_SOURCE_DIR}/discord-game-sdk/lib/x86/discord_game_sdk.dll.lib)
 
         configure_file(${CMAKE_SOURCE_DIR}/discord-game-sdk/lib/x86/discord_game_sdk.dll ${CMAKE_BINARY_DIR}/discord_game_sdk.dll COPYONLY)
     endif ()
 
 elseif (APPLE)
     message("Building for MacOS")
-    target_link_libraries(tidal-rpc ${CMAKE_SOURCE_DIR}/discord-game-sdk/lib/x86_64/discord_game_sdk.dylib)
+    target_link_libraries(discord-music-presence ${CMAKE_SOURCE_DIR}/discord-game-sdk/lib/x86_64/discord_game_sdk.dylib)
     set(CMAKE_CXX_FLAGS "-framework carbon -framework foundation -framework CoreFoundation")
     set(CMAKE_CXX_FLAGS_RELEASE "-O3")
-    set(MACOSX_BUNDLE_BUNDLE_NAME rpc.tidal)
-    set(MACOSX_BUNDLE_EXECUTABLE_NAME tidal-rpc)
-    set(MACOSX_BUNDLE_INFO_STRING rpc.tidal)
-    set(MACOSX_BUNDLE_GUI_IDENTIFIER rpc.tidal)
+    set(MACOSX_BUNDLE_BUNDLE_NAME rpc.music)
+    set(MACOSX_BUNDLE_EXECUTABLE_NAME discord-music-presence)
+    set(MACOSX_BUNDLE_INFO_STRING rpc.music)
+    set(MACOSX_BUNDLE_GUI_IDENTIFIER rpc.music)
     set(MACOSX_BUNDLE_ICON_FILE icon.icns)
 
     set(app_icon_macos "${CMAKE_SOURCE_DIR}/assets/icon.icns")
     set_source_files_properties(${app_icon_macos} PROPERTIES
             MACOSX_PACKAGE_LOCATION "Resources")
 
-    target_sources(tidal-rpc PRIVATE ${app_icon_macos})
+    target_sources(discord-music-presence PRIVATE ${app_icon_macos})
 endif ()

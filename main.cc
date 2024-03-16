@@ -413,9 +413,9 @@ int main(int argc, char **argv) {
   app.setWindowIcon(appIcon);
 
   QSystemTrayIcon tray(appIcon, &app);
-  QAction titleAction(appIcon, "TIDAL - Discord RPC " VERSION, nullptr);
+  QAction titleAction(appIcon, "Discord Music Presence " VERSION, nullptr);
   QObject::connect(&titleAction, &QAction::triggered, [&app]() {
-	QDesktopServices::openUrl(QUrl("https://github.com/purpl3F0x/TIDAL-Discord-Rich-Presence-UNOFFICIAL/", QUrl::TolerantMode));
+	QDesktopServices::openUrl(QUrl("https://github.com/jonasberge/discord-music-presence/", QUrl::TolerantMode));
   });
 
   QAction changePresenceStatusAction("Running", nullptr);
@@ -436,7 +436,7 @@ int main(int argc, char **argv) {
   QAction currentlyPlayingAction("Status: waiting", nullptr);
   currentlyPlayingAction.setDisabled(true);
 
-  QMenu trayMenu("TIDAL - RPC", nullptr);
+  QMenu trayMenu("Discord Music Presence", nullptr);
 
   trayMenu.addAction(&titleAction);
   trayMenu.addAction(&changePresenceStatusAction);
@@ -457,7 +457,7 @@ int main(int argc, char **argv) {
 	QSslConfiguration config = QSslConfiguration::defaultConfiguration();
 	config.setProtocol(QSsl::TlsV1_2);
 	request.setSslConfiguration(config);
-	request.setUrl(QUrl("https://api.github.com/repos/purpl3F0x/TIDAL-Discord-Rich-Presence-UNOFFICIAL/releases/latest"));
+	request.setUrl(QUrl("https://api.github.com/repos/jonasberge/discord-music-presence/releases/latest"));
 	request.setHeader(QNetworkRequest::ServerHeader, "application/json");
 
 	reply = manager->get(request);
@@ -468,9 +468,9 @@ int main(int argc, char **argv) {
 	j = nlohmann::json::parse(reply->readAll().toStdString());
 
 	if (j["tag_name"].get<std::string>() > (VERSION)) {
-	  tray.showMessage("Tidal Discord RPC", "New Version Available!\nClick to download");
+	  tray.showMessage("Discord Music Presence", "New Version Available!\nClick to download");
 	  QObject::connect(&tray, &QSystemTrayIcon::messageClicked, &app, []() {
-		QDesktopServices::openUrl(QUrl("https://github.com/purpl3F0x/TIDAL-Discord-Rich-Presence-UNOFFICIAL/releases/latest",
+		QDesktopServices::openUrl(QUrl("https://github.com/jonasberge/discord-music-presence/releases/latest",
 									   QUrl::TolerantMode));
 	  });
 	}
