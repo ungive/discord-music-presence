@@ -1,6 +1,3 @@
-# These are supported funding model platforms
-
-github: purpl3F0x
-
-custom: ["https://www.paypal.com/donate/?cmd=_s-xclick&hosted_button_id=3XY7W2XHHUZF2&source=github"]
-
+github:
+  - jonasberge
+  - purpl3F0x
