@@ -11,10 +11,8 @@ environment:
       COMPILER: VS2019
       QTDIR: C:\Qt\6.2\msvc2019_64
       APPVEYOR_BUILD_WORKER_IMAGE: Visual Studio 2019
-
     - job_name: Mac OSX (Clang)
       APPVEYOR_BUILD_WORKER_IMAGE: macOS-BigSur
-
 
 matrix:
   fast_finish: true
@@ -26,7 +24,6 @@ platform:
   - x64
 configuration:
   - Release
-
 
 #matrix:
 #  exclude:
@@ -69,15 +66,15 @@ for:
     deploy:
       - provider: GitHub
         release: v.$(APPVEYOR_BUILD_VERSION)
-        description: "[![Donate](https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=3XY7W2XHHUZF2&source=url)"
+        description: "Discord Music Presence"
         tag: v.$(APPVEYOR_BUILD_VERSION)
         auth_token:
-          secure: uaiJgGxA9FAn4Z6GUxETsDIJkLKFF+aLshW8PTJadmp04JnCj3kbqBE7f5dzncgTeAAl+/O6QqrBhZK+/QzW7ZWReA27bAVtJeeg2reV/iboGUTqjBuynxbNKMx2c3tK               # your encrypted token from GitHub
-        artifact: tidal-rpc.zip          # upload all NuGet packages to release assets
+          secure: jIbkiObOwXasiWeUpE0CEC5sJQcFpfFtjSSlg9DG40JnQrNDzXf/jC4VvIZFDRY/Od5pEL8jaHtAgxqjAOXb1EEF4wEVM/MpreIKHHiwe8/16NUAPtGV48FqGyTDP+0O # your encrypted token from GitHub
+        artifact: tidal-rpc.zip # upload all NuGet packages to release assets
         draft: true
         prerelease: false
         on:
-          branch: master                 # release from master branch only
+          branch: master # release from master branch only
 
   - # Mac
     matrix:
@@ -107,12 +104,12 @@ for:
     deploy:
       - provider: GitHub
         release: v.$(APPVEYOR_BUILD_VERSION)
-        description: "[![Donate](https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=3XY7W2XHHUZF2&source=url)"
+        description: "Discord Music Presence"
         tag: v.$(APPVEYOR_BUILD_VERSION)
         auth_token:
-          secure: uaiJgGxA9FAn4Z6GUxETsDIJkLKFF+aLshW8PTJadmp04JnCj3kbqBE7f5dzncgTeAAl+/O6QqrBhZK+/QzW7ZWReA27bAVtJeeg2reV/iboGUTqjBuynxbNKMx2c3tK          # your encrypted token from GitHub
-        artifact: tidal-rpc.dmg          # upload all NuGet packages to release assets
+          secure: jIbkiObOwXasiWeUpE0CEC5sJQcFpfFtjSSlg9DG40JnQrNDzXf/jC4VvIZFDRY/Od5pEL8jaHtAgxqjAOXb1EEF4wEVM/MpreIKHHiwe8/16NUAPtGV48FqGyTDP+0O # your encrypted token from GitHub
+        artifact: tidal-rpc.dmg # upload all NuGet packages to release assets
         draft: true
         prerelease: false
         on:
-          branch: master                 # release from master branch only
+          branch: master # release from master branch only
