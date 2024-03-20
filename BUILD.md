@@ -19,6 +19,7 @@ then click "Edit JSON" in the top-right corner) to add an environment variable,
 so CMake can find the Qt6 SDK (if such an environment variable doesn't exist already),
 by adding the "variables" key to each of your configurations
 (with the appropriate Qt6 installation directory):
+
 ```json
 "variables": [
   {
@@ -28,6 +29,8 @@ by adding the "variables" key to each of your configurations
   }
 ],
 ```
+
+4. Trigger a build.
 
 ### Command Line
 
@@ -40,6 +43,19 @@ by adding the "variables" key to each of your configurations
 ## Linux
 
 *TODO*
+
+## Making a release
+
+1. Change the version number in `main.cc`
+2. Make sure the `CHANGELOG.md` file contains all changes
+3. Commit any changes that were not comitted yet and belong to this release
+4. Create a tag of the format `vN.N.N` (semantic versioning)
+5. Push the tag
+6. Wait for the AppVeyor build to finish (which is triggered by a tag push)
+7. Test the release and confirm it is working properly
+8. Edit the draft release that was created on GitHub,
+   by adding the changelog to its description
+9. Publish the release
 
 ## Troubleshooting
 
