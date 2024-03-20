@@ -1,80 +1,96 @@
-## Development roadmap
+# Project Roadmap
 
-Necessary before working on new features:
+Ideas and notes to indicate where the project is headed
+and which features are planned to be added in the future.
 
-- Make appropriate changes to make this a standalone project,
-independent of its original fork:
-  - Bump or reset the version number
-  - Change the update url that is being checked in `main.cc`
-  - Update the license file
-- Make a release for all newly implemented features so far, since
-[my pull request](https://github.com/purpl3F0x/TIDAL-Discord-Rich-Presence-UNOFFICIAL/pull/100)
-has not been merged yet and several people would like to make use of the new features.
-- Update the SDK to version 3.2.1
-([here](https://discord.com/developers/docs/game-sdk/sdk-starter-guide))
-and check if it's possible to use the "Listening to" activity type now.
-[Kizzy](https://github.com/dead8309/Kizzy) is able to show the "Listening" presence type,
-so we should be able to do that too.
-Investigate further, if the Game SDK
-[still](https://github.com/purpl3F0x/TIDAL-Discord-Rich-Presence-UNOFFICIAL/issues/77)
-does not allow us to do it.
+## Media Player Support
 
-New features:
+### Generic Desktop Media
 
-- Add more applications which show the current song in the title, while it's playing:
-  - Qobuz (works exactly the same as TIDAL, confirmed working)
-- Update the little icon in the presence based on the music player/streaming service
-which is playing the song that is displayed.
+Windows allows to view and control all played media through its WinRT Media API.
+This is accessible programmatically and can be used to view any media
+that is currently played on the user's machine.
+Support for this will allow to share songs from any application,
+but an application whitelist should probably be used,
+to exclude media from video streaming services.
 
-Extending platform/media detection support:
+Mac OS and Linux might support a similar kind of access,
+but this is subject to further research at the moment.
 
-- Check in what way I can support macOS, since I do not personally own an Apple computer.
-- Look into detecting any media being played on Windows through its Media API
-(visible in the menu that pops up when changing volume with the volume keys).
-  - It must be possible to detect playing/paused status
-  and the song name and artist at the minimum,
-  otherwise this is not an option.
-  - It will be a requirement to detect if the media being played is actually music.
-  We don't want an arbitrary YouTube video or other media to be shown as music on Discord.
-  We also don't want to make dozens of TIDAL API requests,
-  just to check if a YouTube video is a song
-  (we need some way to detect if the media title is a song or not),
-  so be careful here.
-  - Alternatively check which application is playing the media (if possible),
-  and check if it is whitelisted.
-  Adding support for a music player is then only a matter of whitelisting it.
-- Add support for Linux on a best-effort basis.
-  - [tidal-hifi](https://github.com/Mastermindzh/tidal-hifi) -
-  Linux desktop player for TIDAL,
-  which exposes the currently playing song via an API.
-  Does not show the currently playing song in the title, while it's playing though.
-  It also integrates Discord Rich Presence.
-  - Is it possible to enumerate media being played on Linux,
-  through something similar as the Windows Media API?
-  Very likely depends on the desktop environment that is being used.
-- Do not solely depend on the TIDAL API.
-Extend to e.g. iTunes or YouTube Music API,
-especially for fuzzy searching songs
-(other APIs might be better at that than the TIDAL API).
-This might not be in the interest of users though
-("what does a TIDAL or Qobuz listener have to do with iTunes or Google's YouTube Music?")
+With this, it is of course important to detect whether the media is actually music or not.
+Blindly assuming every media is music might result in unnecessary API calls
+to check whether the media title and artist actually represent music.
 
-Quality improvements:
+### Generic Browser Media
+
+The Windows Media API mentioned above also exposes which application is playing the media.
+It would be possible to detect a browser and add support for e.g. YouTube videos,
+by whitelisting the text "YouTube" in the browser window title
+and fuzzy searching for a song with the video title and artist.
+
+Alternatively a browser extension could be created,
+but that is likely a lot of effort for very little use.
+
+Just like with Desktop Media, it is important to detect
+whether played media is actually music or not.
+
+### Grabbing Music Metadata from Window titles
+
+This is possible on Windows and is used by the
+[original project](https://github.com/purpl3F0x/TIDAL-Discord-Rich-Presence-UNOFFICIAL)
+to find the song that is currently playing in TIDAL.
+Qobuz works the exact same way as TIDAL, so adding support this way is trivial.
+Media from a browser could be detected this way as well (as mentioned above).
+
+### Special cases
+
+#### TIDAL on Linux
+
+There is no official TIDAL Linux client,
+but there is an open-source community-driven desktop application,
+which even has it's own Discord Presence feature
+and exposes currently played music via an HTTP API:
+[Mastermindzh/tidal-hifi](https://github.com/Mastermindzh/tidal-hifi).
+
+The localhost API could be used to very easily check which song is currently playing.
+
+### Missing Support
+
+#### Qobuz on Linux
+
+There is currently no official Qobuz Linux client
+and there does not seem to be a community-developed desktop application either,
+so support for this application would likely only be available
+once Browser Media support lands.
+
+#### Mobile (Android and iOS)
+
+It might be possible to support mobile operating systems,
+but the Discord Game SDK might not be able to detect which user is using it.
+Also other platforms are priority at the moment.
+iOS will likely not be supported, as I do not use Apple devices,
+nor do I have an iPhone.
+
+#### Spotify
+
+Someone who mainly listens to TIDAL or Qobuz might want to occasionally
+listen to Spotify and show it in their Discord profile,
+through the same Discord Rich Presence status
+(without it interfering with the integrated Spotify presence).
+Support for Spotify might be added in the future.
+
+## Notes
+
+### Brainstorm
+
+- Add a config file and optionally a settings window
+- Allow configuring and fine-tuning the looks of the Discord status
+- Adapt the icon in the Discord status based on the application that is playing the media
+- Do not solely depend on the TIDAL API, add fallbacks to other APIs
+- Use our own TIDAL API token (currently still using the forked one)
+
+### Quality improvements
 
 - When starting a song, with the presence just activating,
 it starts showing as "idle" before showing the song information.
 The song details should be shown as early as possible.
-
-Adding Spotify to the list of supported applications (low priority):
-
-- Someone who mainly listens to TIDAL or Qobuz might want to occassionaly
-listen to Spotify and show it in their Discord profile,
-through the same Discord Rich Presence
-(without it interfering with the integrated Spotify presence).
-  - Spotify on Windows shows the currently playing song in the title
-  (just like TIDAL and Qobuz). What about macOS and Linux?
-
-## Brainstorm
-
-- Does it make sense to support Android?
-- Create a browser extension to support 
