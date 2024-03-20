@@ -88,6 +88,17 @@ Support for Spotify might be added in the future.
 - Adapt the icon in the Discord status based on the application that is playing the media
 - Do not solely depend on the TIDAL API, add fallbacks to other APIs
 - Use our own TIDAL API token (currently still using the forked one)
+- Support invites for TIDAL (and perhaps other applications), as this is frequently
+[requested](https://github.com/purpl3F0x/TIDAL-Discord-Rich-Presence-UNOFFICIAL/issues/82).
+But is this even possible, since you need to change songs?
+There would likely need to be an API to control the music player.
+TIDAL Hi-Fi (Linux) actually supports player controls!
+But it would need to work across platforms.
+- Add a button to listen to the song (what should it open though?)
+- Write logs to a log file
+- Create a GitHub Pages landing page
+- Create a Windows installer/signed exe (?)
+- Automatic updates?
 
 ### Quality improvements
 
