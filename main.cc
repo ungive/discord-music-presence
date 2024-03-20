@@ -52,7 +52,7 @@ static const std::string TIDAL_LOGO_URL = "https://resources.tidal.com/images/d1
 #define CURRENT_TIME std::time(nullptr)
 #define HIFI_ASSET "hifi"
 
-static long long APPLICATION_ID = 584458858731405315;
+static long long APPLICATION_ID = 1205619376275980288;
 static const int RPC_IDLE_TIMEOUT_SECONDS = 5;
 
 std::atomic<bool> isPresenceActive;
