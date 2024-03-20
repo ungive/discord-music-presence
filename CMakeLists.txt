@@ -22,8 +22,8 @@ find_package(Qt6 COMPONENTS Widgets Core Network gui REQUIRED)
 #set(CMAKE_CXX_FLAGS_COVERAGE "${CMAKE_CXX_FLAGS_RELEASE} -fprofile-arcs -ftest-coverage")
 qt6_add_resources(QRCS resources.qrc)
 add_executable(discord-music-presence main.cc resource.rc ${QRCS})
-target_include_directories(discord-music-presence PRIVATE discord-game-sdk/c)
-target_include_directories(discord-music-presence PRIVATE discord-game-sdk/cpp)
+target_include_directories(discord-music-presence PRIVATE vendor/discord_game_sdk/c)
+target_include_directories(discord-music-presence PRIVATE vendor/discord_game_sdk/cpp)
 target_link_libraries(discord-music-presence Qt6::Widgets Qt6::Core Qt6::Network)
 
 if (DEFINED ENV{APPVEYOR_BUILD_VERSION})
@@ -71,21 +71,21 @@ if (WIN32)
         # 64 bits
         message("\t64-bit")
 
-        target_link_libraries(discord-music-presence ${CMAKE_SOURCE_DIR}/discord-game-sdk/lib/x86_64/discord_game_sdk.dll.lib)
+        target_link_libraries(discord-music-presence ${CMAKE_SOURCE_DIR}/vendor/discord_game_sdk/lib/x86_64/discord_game_sdk.dll.lib)
 
-        configure_file(${CMAKE_SOURCE_DIR}/discord-game-sdk/lib/x86_64/discord_game_sdk.dll ${CMAKE_BINARY_DIR}/discord_game_sdk.dll COPYONLY)
+        configure_file(${CMAKE_SOURCE_DIR}/vendor/discord_game_sdk/lib/x86_64/discord_game_sdk.dll ${CMAKE_BINARY_DIR}/discord_game_sdk.dll COPYONLY)
 
     elseif (CMAKE_SIZEOF_VOID_P EQUAL 4)
         # 32 bits
         message("\t32-bit")
-        target_link_libraries(discord-music-presence ${CMAKE_SOURCE_DIR}/discord-game-sdk/lib/x86/discord_game_sdk.dll.lib)
+        target_link_libraries(discord-music-presence ${CMAKE_SOURCE_DIR}/vendor/discord_game_sdk/lib/x86/discord_game_sdk.dll.lib)
 
-        configure_file(${CMAKE_SOURCE_DIR}/discord-game-sdk/lib/x86/discord_game_sdk.dll ${CMAKE_BINARY_DIR}/discord_game_sdk.dll COPYONLY)
+        configure_file(${CMAKE_SOURCE_DIR}/vendor/discord_game_sdk/lib/x86/discord_game_sdk.dll ${CMAKE_BINARY_DIR}/discord_game_sdk.dll COPYONLY)
     endif ()
 
 elseif (APPLE)
     message("Building for MacOS")
-    target_link_libraries(discord-music-presence ${CMAKE_SOURCE_DIR}/discord-game-sdk/lib/x86_64/discord_game_sdk.dylib)
+    target_link_libraries(discord-music-presence ${CMAKE_SOURCE_DIR}/vendor/discord_game_sdk/lib/x86_64/discord_game_sdk.dylib)
     set(CMAKE_CXX_FLAGS "-framework carbon -framework foundation -framework CoreFoundation")
     set(CMAKE_CXX_FLAGS_RELEASE "-O3")
     set(MACOSX_BUNDLE_BUNDLE_NAME rpc.music)
