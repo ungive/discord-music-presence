@@ -1,4 +1,8 @@
-version: 1.4.0
+version: appveyor-{branch}-{build}
+
+branches:
+  only:
+    - /v\d+\.\d+\.\d+/
 
 environment:
   matrix:
@@ -49,9 +53,9 @@ for:
 
     deploy:
       - provider: GitHub
-        release: "Discord Music Presence v$(APPVEYOR_BUILD_VERSION)"
+        release: "Discord Music Presence $(APPVEYOR_REPO_TAG_NAME)"
         description: "Discord Music Presence"
-        tag: v$(APPVEYOR_BUILD_VERSION)
+        tag: $(APPVEYOR_REPO_TAG_NAME)
         auth_token:
           secure: jIbkiObOwXasiWeUpE0CEC5sJQcFpfFtjSSlg9DG40JnQrNDzXf/jC4VvIZFDRY/Od5pEL8jaHtAgxqjAOXb1EEF4wEVM/MpreIKHHiwe8/16NUAPtGV48FqGyTDP+0O # your encrypted token from GitHub
         artifact: discord-music-presence.zip # upload all NuGet packages to release assets
@@ -84,9 +88,9 @@ for:
 
     deploy:
       - provider: GitHub
-        release: "Discord Music Presence v$(APPVEYOR_BUILD_VERSION)"
+        release: "Discord Music Presence $(APPVEYOR_REPO_TAG_NAME)"
         description: "Discord Music Presence"
-        tag: v$(APPVEYOR_BUILD_VERSION)
+        tag: $(APPVEYOR_REPO_TAG_NAME)
         auth_token:
           secure: jIbkiObOwXasiWeUpE0CEC5sJQcFpfFtjSSlg9DG40JnQrNDzXf/jC4VvIZFDRY/Od5pEL8jaHtAgxqjAOXb1EEF4wEVM/MpreIKHHiwe8/16NUAPtGV48FqGyTDP+0O # your encrypted token from GitHub
         artifact: discord-music-presence.dmg # upload all NuGet packages to release assets
