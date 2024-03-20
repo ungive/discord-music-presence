@@ -1,8 +1,3 @@
-/**
- * @file    main.cc
- * @authors Stavros Avramidis
- */
-
 #ifndef VERSION
 #define VERSION "v1.4.0"
 #endif
@@ -409,7 +404,7 @@ int main(int argc, char **argv) {
 
   // Qt main app setup
   QApplication app(argc, argv);
-  auto appIcon = QIcon(":assets/icon.ico");
+  auto appIcon = QIcon(":icon.ico");
   app.setWindowIcon(appIcon);
 
   QSystemTrayIcon tray(appIcon, &app);

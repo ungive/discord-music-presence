@@ -12,7 +12,7 @@ Discord deeply integrates Spotify into its ecosystem,
 but other music players and streaming services are not supported at all.
 This application aims to fill this hole.
 
-> ![Screenshot of what the discord status currently looks like](./assets/screenshot-2.png)
+> ![Screenshot of what the discord status currently looks like](./assets/screenshot.png)
 
 This project emerged as a fork of the wonderful TIDAL rich presence plug-in by Stavros Avramidis,
 which you can find [here](https://github.com/purpl3F0x/TIDAL-Discord-Rich-Presence-UNOFFICIAL).

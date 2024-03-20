@@ -1,9 +1,3 @@
-/**
- * @file    osx_api_hook.hh
- * @authors Stavros Avramidis
- */
-
-
 #pragma once
 
 // cpp libs

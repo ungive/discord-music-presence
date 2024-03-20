@@ -1,13 +1,7 @@
 cmake_minimum_required(VERSION 3.10)
 project(discord-music-presence)
 
-# Create executable
-include_directories(.)
-#if (APPLE)
-#    #    set(CMAKE_PREFIX_PATH "~/Qt/5.14.2/clang_64/lib/cmake")
-#else (APPLE)
-#    set(CMAKE_PREFIX_PATH "C:\\Qt\\6.2.0\\msvc2019_64")
-#endif (APPLE)
+include_directories(./vendor)
 
 # Find includes in corresponding build directories
 set(CMAKE_INCLUDE_CURRENT_DIR ON)
@@ -20,8 +14,8 @@ set(CMAKE_AUTOUIC ON)
 # Find the QtWidgets library
 find_package(Qt6 COMPONENTS Widgets Core Network gui REQUIRED)
 #set(CMAKE_CXX_FLAGS_COVERAGE "${CMAKE_CXX_FLAGS_RELEASE} -fprofile-arcs -ftest-coverage")
-qt6_add_resources(QRCS resources.qrc)
-add_executable(discord-music-presence main.cc resource.rc ${QRCS})
+qt6_add_resources(QRCS resources/resources.qrc)
+add_executable(discord-music-presence src/main.cc resources/resource.rc ${QRCS})
 target_include_directories(discord-music-presence PRIVATE vendor/discord_game_sdk/c)
 target_include_directories(discord-music-presence PRIVATE vendor/discord_game_sdk/cpp)
 target_link_libraries(discord-music-presence Qt6::Widgets Qt6::Core Qt6::Network)
@@ -94,7 +88,7 @@ elseif (APPLE)
     set(MACOSX_BUNDLE_GUI_IDENTIFIER rpc.music)
     set(MACOSX_BUNDLE_ICON_FILE icon.icns)
 
-    set(app_icon_macos "${CMAKE_SOURCE_DIR}/assets/icon.icns")
+    set(app_icon_macos "${CMAKE_SOURCE_DIR}/resources/icon.icns")
     set_source_files_properties(${app_icon_macos} PROPERTIES
             MACOSX_PACKAGE_LOCATION "Resources")
 
