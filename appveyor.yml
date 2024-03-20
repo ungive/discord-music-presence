@@ -1,9 +1,5 @@
 version: appveyor-{branch}-{build}
 
-branches:
-  only:
-    - /v\d+\.\d+\.\d+/
-
 environment:
   matrix:
     - job_name: Windows (MSVC)
