@@ -1,7 +1,0 @@
-<component name="InspectionProjectProfileManager">
-  <profile version="1.0">
-    <option name="myName" value="Project Default" />
-    <inspection_tool class="EndlessLoop" enabled="true" level="TYPO" enabled_by_default="true" />
-    <inspection_tool class="InfiniteRecursion" enabled="true" level="TYPO" enabled_by_default="true" />
-  </profile>
-</component>
