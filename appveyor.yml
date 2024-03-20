@@ -1,4 +1,4 @@
-version: 1.4.0-{build}
+version: 1.4.0
 
 environment:
   matrix:
@@ -13,23 +13,11 @@ environment:
 matrix:
   fast_finish: true
 
-#image:
-#  - Visual Studio 2019
-#  - macOS-Mojave
 platform:
   - x64
 configuration:
   - Release
-
-#matrix:
-#  exclude:
-#    # Exclude invalid options
-#    - image: Visual Studio 2019
-#      COMPILER: CLang
-#
-#    - image: macos-mojave
-#      COMPILER: VS2019
-
+  
 for:
   - # Windows
     matrix:
@@ -61,25 +49,22 @@ for:
 
     deploy:
       - provider: GitHub
-        release: v.$(APPVEYOR_BUILD_VERSION)
+        release: "Discord Music Presence v$(APPVEYOR_BUILD_VERSION)"
         description: "Discord Music Presence"
-        tag: v.$(APPVEYOR_BUILD_VERSION)
+        tag: v$(APPVEYOR_BUILD_VERSION)
         auth_token:
           secure: jIbkiObOwXasiWeUpE0CEC5sJQcFpfFtjSSlg9DG40JnQrNDzXf/jC4VvIZFDRY/Od5pEL8jaHtAgxqjAOXb1EEF4wEVM/MpreIKHHiwe8/16NUAPtGV48FqGyTDP+0O # your encrypted token from GitHub
         artifact: discord-music-presence.zip # upload all NuGet packages to release assets
         draft: true
         prerelease: false
         on:
-          branch: master # release from master branch only
+          APPVEYOR_REPO_TAG: true
 
   - # Mac
     matrix:
       only:
         - job_name: Mac OSX (Clang)
-
-    #    before_build:
-    #      - export PATH=$HOME/Qt/6.4.0/macos/bin/:$PATH
-
+        
     build_script:
       - mkdir build
       - cd build
@@ -99,9 +84,9 @@ for:
 
     deploy:
       - provider: GitHub
-        release: v.$(APPVEYOR_BUILD_VERSION)
+        release: "Discord Music Presence v$(APPVEYOR_BUILD_VERSION)"
         description: "Discord Music Presence"
-        tag: v.$(APPVEYOR_BUILD_VERSION)
+        tag: v$(APPVEYOR_BUILD_VERSION)
         auth_token:
           secure: jIbkiObOwXasiWeUpE0CEC5sJQcFpfFtjSSlg9DG40JnQrNDzXf/jC4VvIZFDRY/Od5pEL8jaHtAgxqjAOXb1EEF4wEVM/MpreIKHHiwe8/16NUAPtGV48FqGyTDP+0O # your encrypted token from GitHub
         artifact: discord-music-presence.dmg # upload all NuGet packages to release assets

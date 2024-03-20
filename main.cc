@@ -4,7 +4,7 @@
  */
 
 #ifndef VERSION
-#define VERSION "v.1.4.0"
+#define VERSION "v1.4.0"
 #endif
 
 #pragma message("Building version:" VERSION)
@@ -467,8 +467,8 @@ int main(int argc, char **argv) {
 	nlohmann::json j;
 	j = nlohmann::json::parse(reply->readAll().toStdString());
 
-	if (j["tag_name"].get<std::string>() > (VERSION)) {
-	  tray.showMessage("Discord Music Presence", "New Version Available!\nClick to download");
+	if (auto version_string = j["tag_name"].get<std::string>(); true || version_string > (VERSION)) {
+	  tray.showMessage("Discord Music Presence", ("New version available: " + version_string + "\nClick to download.").c_str());
 	  QObject::connect(&tray, &QSystemTrayIcon::messageClicked, &app, []() {
 		QDesktopServices::openUrl(QUrl("https://github.com/jonasberge/discord-music-presence/releases/latest",
 									   QUrl::TolerantMode));
