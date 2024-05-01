@@ -1,0 +1,25 @@
+name: Player Request
+description: Request support for another media player
+labels: ["players"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please follow these steps to request support for a media player:
+        1. First try to play media with the media player in question. This step is necessary.
+        2. Click on "My media player is not detected" in the "Help" menu.
+        3. Proceed with the issue that opened in your browser and close this tab.
+  - type: markdown
+    attributes:
+      value: |
+        If for whichever reason you cannot follow the above steps,
+        please fill out the below form and describe which media player
+        you would like to be able to see in your Discord status.
+  - type: textarea
+    id: description
+    attributes:
+      label: Describe the problem
+      description: Is your request related to a problem? Please describe.
+      placeholder: A clear and concise description of what the problem is.
+    validations:
+      required: true

@@ -1,0 +1,62 @@
+Music Presence
+Copyright (c) 2024 Jonas van den Berg
+
+All rights reserved,
+except those rights explicitly granted in the following permission notice.
+
+Permission is hereby granted, to any person obtaining a copy of this software
+(the "Software"), to use, reproduce and distribute the Software in binary
+form, without modifications, provided that the following conditions are met:
+
+(a) The above copyright notice and this permission notice shall be included in
+    all copies of the Software; and
+
+(b) All notices of the absence of any warranty shall be kept intact; and
+
+(c) Only unmodified copies of the Software may be redistributed; redistribution
+    of the Software in any other form is not permitted.
+
+The Software is provided by the copyright holder on an "AS IS" BASIS, WITHOUT
+WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied, including, but
+not limited to, any warranties or conditions of MERCHANTABILITY, FITNESS FOR A
+PARTICULAR PURPOSE, or NON-INFRINGEMENT. In no event and under no legal theory,
+whether in tort (including negligence), contract, or otherwise, shall the
+authors or copyright holders be liable for any claim, damages or other
+liability, including any direct, indirect, special, incidental, or
+consequential damages of any character arising out of the use or inability to
+use the Software (including but not limited to loss of data or data being
+rendered inaccurate or losses sustained by you or third parties or a failure of
+the Software to operate with any other software), even if advised of the
+possibility of such damage.
+
+APPENDIX: Libraries used by the Software.
+
+Qt Framework
+The Software makes use of the Qt Framework licensed under the
+GNU LGPLv3 license <https://www.gnu.org/licenses/lgpl-3.0.en.html>.
+A copy of the source code can be obtained at
+    https://download.qt.io/official_releases/qt/
+
+openssl
+Copyright (c) 1995-2024 The OpenSSL Project Authors.
+Licensed under the Apache License 2.0.
+A copy of the source code can be obtained at
+    https://www.openssl.org/source/index.html
+
+discord-rpc
+Copyright (c) 2017 Discord, Inc.
+Licensed under the MIT License.
+A copy of the source code can be obtained at
+    https://github.com/discord/discord-rpc
+
+nlohmann/json
+Copyright (c) 2013-2024 Niels Lohmann
+Licensed under the MIT License.
+A copy of the source code can be obtained at
+    https://github.com/nlohmann/json
+
+yhirose/cpp-httplib
+Copyright (c) 2017 yhirose
+Licensed under the MIT License.
+A copy of the source code can be obtained at
+    https://github.com/yhirose/cpp-httplib
