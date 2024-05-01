@@ -11,8 +11,8 @@ body:
         3. Proceed with the issue that opened in your browser and close this tab.
   - type: markdown
     attributes:
-      value: |
-        If for whichever reason you cannot follow the above steps,
+      value: >
+        If, for whichever reason, you cannot follow the above steps,
         please fill out the below form and describe which media player
         you would like to be able to see in your Discord status.
   - type: textarea
