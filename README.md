@@ -32,16 +32,20 @@ and shared in your Discord status:
 
 **`TIDAL`**
 **`Qobuz`**
-**`foobar2000`**
 **`Spotify`**
+**`Deezer`**
 **`Amazon Music`**
+**`foobar2000`**
+**`MusicBee`**
 &nbsp;*and more...*
 
 <span><a href="https://tidal.com"><img title="TIDAL" alt="" height="48" src="https://live.musicpresence.app/v1/tidal.ico"></a></span>&nbsp;
 <span><a href="https://www.qobuz.com"><img title="Qobuz" alt="" height="48" src="https://live.musicpresence.app/v1/qobuz.ico"></a></span>&nbsp;
-<span><a href="https://www.foobar2000.org"><img title="foobar2000" alt="" height="48" src="https://live.musicpresence.app/v1/foobar2000.ico"></a></span>&nbsp;
 <span><a href="https://spotify.com"><img title="Spotify" alt="" height="48" src="https://live.musicpresence.app/v1/spotify.ico"></a></span>&nbsp;
+<span><a href="https://www.deezer.com"><img title="Deezer" alt="" height="48" src="https://live.musicpresence.app/v1/deezer.ico"></a></span>&nbsp;
 <span><a href="https://www.amazon.de/dp/B00CTTEKJW"><img title="Amazon Music" alt="" height="48" src="https://live.musicpresence.app/v1/amazon-music.ico"></a></span>&nbsp;
+<span><a href="https://www.foobar2000.org"><img title="foobar2000" alt="" height="48" src="https://live.musicpresence.app/v1/foobar2000.ico"></a></span>&nbsp;
+<span><a href="https://www.getmusicbee.com"><img title="MusicBee" alt="" height="48" src="https://live.musicpresence.app/v1/musicbee.ico"></a></span>&nbsp;
 
 If your media player is not listed, please
 [suggest it](#my-media-player-is-not-detected),
