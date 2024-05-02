@@ -1,4 +1,5 @@
-[![Number of downloads](https://img.shields.io/github/downloads/jonasberge/discord-music-presence/total?style=flat&label=Downloads&labelColor=444)](https://github.com/jonasberge/discord-music-presence/releases)
+[![Number of downloads](https://img.shields.io/github/downloads/jonasberge/discord-music-presence/total?style=flat&label=downloads&labelColor=444)](https://github.com/jonasberge/discord-music-presence/releases)
+&nbsp;[![Number of downloads of the latest version](https://img.shields.io/github/downloads/jonasberge/discord-music-presence/latest/total?style=flat&label=downloads%20%40latest&labelColor=444)](https://github.com/jonasberge/discord-music-presence/releases)
 &nbsp;
 [![Join the Discord server](https://img.shields.io/discord/1224509771068211292?logo=discord&logoColor=eee&label=Discord&labelColor=464ce5&color=fff)](https://discord-invite.musicpresence.app)
 &nbsp;
