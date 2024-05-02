@@ -81,7 +81,7 @@ Thank you!
 
 - **[Patreon](https://patreon.com/musicpresence)**
   &nbsp;&ndash;&nbsp; *the preferred option with
-  [additional benefits](./FUNDING.md)*
+  [additional benefits](https://www.patreon.com/musicpresence/membership)*
 - **[GitHub Sponsors](https://github.com/sponsors/jonasberge)**
 - **[LiberaPay](https://liberapay.com/jonasvandenberg)**
 

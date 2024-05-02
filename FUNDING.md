@@ -10,15 +10,10 @@ you can do so by making a donation.
 You can choose between these options:
 
 * **[Patreon](https://www.patreon.com/musicpresence)**
-  &nbsp;&ndash;&nbsp; *the preferred option for supporters with the following benefits:*  
-  * Early access to selected new features
-  * Updates on what features I am currently working on
-  * A special Discord Role to acknowledge your support
-  * Access to private channels on the
-    [Discord server](https://discord-invite.musicpresence.app/)
-  * All for as little as **1€ per month**.
+  &nbsp;&ndash;&nbsp; *the preferred option with
+  [additional benefits](https://www.patreon.com/musicpresence/membership)*
 
-Additional options for you, if you don't want a Patreon membership:
+If you don't want a Patreon membership:
 
 * **[GitHub Sponsors](https://github.com/sponsors/jonasberge)**
   &nbsp;&ndash;&nbsp; option for one-time donations, directly here on GitHub
@@ -27,7 +22,7 @@ Additional options for you, if you don't want a Patreon membership:
 
 Thank you for your support and your interest in this project!
 
-Join the [Discord server](https://discord-invite.musicpresence.app/)
+Join the **[Discord server](https://discord-invite.musicpresence.app/)**
 to stay in touch!
 
 ---
