@@ -9,14 +9,26 @@ you can do so by making a donation.
 
 You can choose between these options:
 
+* **[Patreon](https://www.patreon.com/musicpresence)**
+  &nbsp;&ndash;&nbsp; *the preferred option for supporters with the following benefits:*  
+  * Early access to selected new features
+  * Updates on what features I am currently working on
+  * A special Discord Role to acknowledge your support
+  * Access to private channels on the
+    [Discord server](https://discord-invite.musicpresence.app/)
+  * All for as little as **1€ per month**.
+
+Additional options for you, if you don't want a Patreon membership:
+
 * **[GitHub Sponsors](https://github.com/sponsors/jonasberge)**
-  &nbsp;&ndash;&nbsp; credit card only, directly here on GitHub
+  &nbsp;&ndash;&nbsp; option for one-time donations, directly here on GitHub
 * **[LiberaPay](https://liberapay.com/jonasvandenberg)**
-  &nbsp;&ndash;&nbsp; recurring only, possibility to donate anonymously
-* **[PayPal](https://www.paypal.com/donate/?hosted_button_id=WJE4KJ45EZQUN)**
-  &nbsp;&ndash;&nbsp; one-time and recurring
+  &nbsp;&ndash;&nbsp; option to donate anonymously
 
 Thank you for your support and your interest in this project!
+
+Join the [Discord server](https://discord-invite.musicpresence.app/)
+to stay in touch!
 
 ---
 
@@ -45,7 +57,5 @@ Your donation will fund the following:
 
 ## Disclaimer
 
-Note that donations neither grant you access to any additional features
-nor does it give your feature requests or issues priority.
-You are not paying for a product or a service.
-Donations are not refundable.
+Note that donations via GitHub Sponsors or LiberaPay
+do not grant you access to any additional features, like a Patreon membership.

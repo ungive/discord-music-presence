@@ -1,6 +1,6 @@
-[![Discord invitation](https://img.shields.io/discord/1224509771068211292?logo=discord&logoColor=eee&label=Discord&labelColor=464ce5&color=fff)](https://discord-invite.musicpresence.app)
-[![Number of downloads](https://img.shields.io/github/downloads/jonasberge/discord-music-presence/total?style=flat)](https://github.com/jonasberge/discord-music-presence/releases)
-[![Donate](https://img.shields.io/badge/Donate-30363D?style=flat&logo=GitHub-Sponsors)](./FUNDING.md)
+[![Number of downloads](https://img.shields.io/github/downloads/jonasberge/discord-music-presence/total?style=flat&label=Downloads&labelColor=444)](https://github.com/jonasberge/discord-music-presence/releases)
+[![Join the Discord server](https://img.shields.io/discord/1224509771068211292?logo=discord&logoColor=eee&label=Discord&labelColor=464ce5&color=fff)](https://discord-invite.musicpresence.app)
+[![Support Music Presence on Patreon](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Fshieldsio-patreon.vercel.app%2Fapi%3Fusername%3Dmusicpresence%26type%3Dpatrons&style=social)](https://patreon.com/musicpresence)
 
 # Music Presence for Discord
 
@@ -76,11 +76,13 @@ or would simply like to show your appreciation,
 you can do so by making a donation.
 Thank you!
 
+- **[Patreon](https://patreon.com/musicpresence)**
+  &nbsp;&ndash;&nbsp; *the preferred option with
+  [additional benefits](./FUNDING.md)*
 - **[GitHub Sponsors](https://github.com/sponsors/jonasberge)**
 - **[LiberaPay](https://liberapay.com/jonasvandenberg)**
-- **[PayPal](https://www.paypal.com/donate/?hosted_button_id=WJE4KJ45EZQUN)**
 
-For more information, read [FUNDING.md](./FUNDING.md).
+For more information, check [FUNDING.md](./FUNDING.md).
 
 ## My media player is not detected
 
