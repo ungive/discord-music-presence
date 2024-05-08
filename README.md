@@ -30,17 +30,8 @@ The most notable features include:
 
 ## Supported media players
 
-Currently, the following media players will be detected
+The following media players will be detected
 and shared in your Discord status:
-
-**`TIDAL`**
-**`Qobuz`**
-**`Spotify`**
-**`Deezer`**
-**`Amazon Music`**
-**`foobar2000`**
-**`MusicBee`**
-&nbsp;*and more...*
 
 <span><a href="https://tidal.com"><img title="TIDAL" alt="" height="48" src="https://live.musicpresence.app/v1/tidal.ico"></a></span>&nbsp;
 <span><a href="https://www.qobuz.com"><img title="Qobuz" alt="" height="48" src="https://live.musicpresence.app/v1/qobuz.ico"></a></span>&nbsp;
@@ -49,8 +40,15 @@ and shared in your Discord status:
 <span><a href="https://www.amazon.de/dp/B00CTTEKJW"><img title="Amazon Music" alt="" height="48" src="https://live.musicpresence.app/v1/amazon-music.ico"></a></span>&nbsp;
 <span><a href="https://www.foobar2000.org"><img title="foobar2000" alt="" height="48" src="https://live.musicpresence.app/v1/foobar2000.ico"></a></span>&nbsp;
 <span><a href="https://www.getmusicbee.com"><img title="MusicBee" alt="" height="48" src="https://live.musicpresence.app/v1/musicbee.ico"></a></span>&nbsp;
+<span><a href="https://music.apple.com"><img title="Apple Music" alt="" height="48" src="https://live.musicpresence.app/v1/apple-music.ico"></a></span>&nbsp;
+&ensp;*and more...*
 
-If your media player is not listed, please
+This is only a selection of supported media players.
+For a table of all players
+and how well they are supported on each operating system,
+please refer to [PLAYERS.md](./PLAYERS.md).
+
+If your media player is not listed or detected, please
 [suggest it](#my-media-player-is-not-detected),
 as described below!
 
@@ -103,27 +101,6 @@ To report that a media player is not detected:
 The issue will be filled out with some information about your system.
 This will help me add support for the media player that you are requesting.
 Once you have submitted the issue, I will come back to you as soon as I can!
-
-## Media player support table
-
-Overview of supported media players for each operating system.
-This is still incomplete,
-as Music Presence is not yet released for Mac and Linux.
-This will be updated with every new version of Music Presence.
-
-| Player | Windows | Mac | Linux |
-|-|:-:|:-:|:-:|
-| TIDAL | :white_check_mark: | ... | ... |
-| Qobuz | :white_check_mark: | ... | :x: |
-| Spotify | :white_check_mark: | ... | ... |
-| foobar2000 | :white_check_mark: | ... | :x: |
-| Amazon Music | :white_check_mark: | ... | :x: |
-
-### Legend
-
-:white_check_mark: means the player is fully supported.  
-:x: means there is no desktop application for this operating system.  
-&nbsp;...&ensp; means support is being worked on.
 
 ---
 
