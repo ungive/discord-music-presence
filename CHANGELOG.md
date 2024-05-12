@@ -17,6 +17,7 @@
   - Improved handling of erroneous playback position data from some media players
   - Fixed an issue where media with a duration of 0 seconds would be stuck at "0:00 left"
   - Reduced the number of similar or less meaningful messages in the logs
+  - Fixed crash when there is a new version on GitHub
 - Added a Windows ZIP archive release, for those who want it
 
 ## 2.0.0
