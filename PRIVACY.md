@@ -63,6 +63,7 @@ on program startup at most once a day:
 
 * The version of the Software
 * Operating system name and architecture
+* Your current time zone
 
 No data that could be used to identify the user ("Personal Data")
 is being *explicitly* collected or shared.
@@ -177,6 +178,19 @@ and handled according to their privacy policy:
   &ndash; [Privacy Policy](
     https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement)
 
+Additionally, the following requests are made to **GitHub**
+on application startup:
+
+* Download of information about media players from
+  [live.musicpresence.app](https://live.musicpresence.app),
+  which is hosted on **GitHub**
+  ([repository](https://github.com/jonasberge/live.musicpresence.app)).
+  **GitHub** may collect data in accordance with their Privacy Policy.
+* Check for a new release of Music Presence.
+  The application makes a request to **GitHub**'s API
+  to check whether there is a new release of Music Presence.
+  **GitHub** may collect data in accordance with their Privacy Policy.
+
 ## Which data is shared by default?
 
 By default, the application will only share Media Metadata
@@ -243,7 +257,7 @@ will be shared with third parties.
 
 ## Scope of this privacy policy
 
-This document applies to version 2.0.0 of Music Presence and that version only.
+This document applies to version 2.0.1 of Music Presence and that version only.
 
 ## Changes to this privacy policy
 
@@ -251,7 +265,7 @@ This privacy policy is kept under regular review.
 Any updates are placed into this file in this repository.
 The last update to this policy is stated below.
 
-Last updated on 27 April 2024.  
+Last updated on 12 May 2024.  
 
 ## Contact details
 

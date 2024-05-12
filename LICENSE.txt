@@ -60,3 +60,9 @@ Copyright (c) 2017 yhirose
 Licensed under the MIT License.
 A copy of the source code can be obtained at
     https://github.com/yhirose/cpp-httplib
+
+HowardHinnant/date
+Copyright (c) 2015, 2016, 2017 Howard Hinnant and contributors
+Licensed under the MIT License.
+A copy of the source code can be obtained at
+    https://github.com/HowardHinnant/date
