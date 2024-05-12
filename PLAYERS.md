@@ -4,12 +4,14 @@ Overview of supported media players for each operating system.
 
 ## Support Table
 
+> Note: A release for Mac is being worked on.
+
 | Application      |                   Windows                   |           Mac            |          Linux           | test status               |
 |------------------|:-------------------------------------------:|:------------------------:|:------------------------:|:--------------------------|
 | TIDAL            |             :white_check_mark:              |    :white_check_mark:    |           ...            | paid only                 |
 | Amazon Music     | :white_check_mark: :face_with_head_bandage: |   :white_check_mark:*    |     :grey_question:      | paid only                 |
 | Apple Music      |               :grey_question:               |    :white_check_mark:    |     :grey_question:      | unpaid + local files only |
-| Deezer           |             :white_check_mark:*             |   :white_check_mark:*    |     :grey_question:      | unpaid                    |
+| Deezer           |             :white_check_mark:*             |   :white_check_mark:*    |     :grey_question:      | unpaid only               |
 | foobar2000       |             :white_check_mark:*             |    :white_check_mark:    | :heavy_multiplication_x: | fully tested              |
 | MusicBee         |         :white_check_mark: :pencil:         | :heavy_multiplication_x: | :heavy_multiplication_x: | fully tested              |
 | Qobuz            |             :white_check_mark:*             |        :warning:         | :heavy_multiplication_x: | unpaid only               |
