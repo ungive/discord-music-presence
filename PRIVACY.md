@@ -58,12 +58,24 @@ is collected when observing media playback:
   (this can be album artwork or a small thumbnail of the media)
 
 Additionally the following anonymous metrics ("Analytics Metrics")
-are transmitted to a privacy-friendly analytics service (Simple Analytics)
-on program startup at most once a day:
+are transmitted to a privacy-friendly analytics service
+(Simple Analytics, more information in the next section)
+on program startup at most once a day.
 
-* The version of the Software
-* Operating system name and architecture
-* Your current time zone
+* The version of the Software that is used
+* The operating system type (Windows, Mac or Linux) and its architecture
+* Your current time zone (for region information)
+
+This data is only used to understand
+which older versions of the Software are still being used,
+which operating system and architecture is used most predominantly
+and from which regions users are vaguely coming from.
+To put this into perspective:
+Nowadays almost all websites use some form of analytics
+and most of them will collect much more information than what is listed above.
+Your IP address is never stored or used in any way
+(for specifics, see the privacy policy
+and linked articles of Simple Analytics below).
 
 No data that could be used to identify the user ("Personal Data")
 is being *explicitly* collected or shared.
@@ -163,7 +175,8 @@ Analytics Metrics are sent to this service:
 
 * **[Simple Analytics](https://simpleanalytics.com)**
   &ndash; [Privacy Policy](https://simpleanalytics.com/privacy-policy)
-  &ndash; [No Tracking](https://simpleanalytics.com/no-tracking)
+  * Article: [We don't track people](https://simpleanalytics.com/no-tracking)
+  * Article: [What we do (and don't) collect](https://docs.simpleanalytics.com/what-we-do-and-dont-collect)
 
 **Simple Analytics** does not store any personal data.
 To find out which data this analytics service stores,
