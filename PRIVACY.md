@@ -26,6 +26,29 @@ about how your data is processed.
   which old versions are still in use
   and which operating systems the application is used on.
 
+## Table of Contents
+
+* [Overview](#overview)
+* [Table of Contents](#table-of-contents)
+* [How does the Software collect data?](#how-does-the-software-collect-data)
+* [What data is collected by the Software?](#what-data-is-collected-by-the-software)
+  * [Media Metadata](#media-metadata)
+  * [Analytics Metrics (privacy-friendly)](#analytics-metrics-privacy-friendly)
+  * [No Personal Data](#no-personal-data)
+  * [Reporting undetected media players](#reporting-undetected-media-players)
+* [How is the data being used and shared?](#how-is-the-data-being-used-and-shared)
+  * [Discord](#discord)
+  * [TIDAL](#tidal)
+  * [MetaBrainz (MusicBrainz and Cover Art Archive)](#metabrainz-musicbrainz-and-cover-art-archive)
+  * [Simple Analytics](#simple-analytics)
+  * [GitHub](#github)
+  * [Encryption](#encryption)
+* [Which Media Metadata is shared by default?](#which-media-metadata-is-shared-by-default)
+* [How can the user control which data is shared?](#how-can-the-user-control-which-data-is-shared)
+* [Scope of this privacy policy](#scope-of-this-privacy-policy)
+* [Changes to this privacy policy](#changes-to-this-privacy-policy)
+* [Contact details](#contact-details)
+
 ## How does the Software collect data?
 
 Music Presence (the "Software")
@@ -37,6 +60,8 @@ Some of this data is collected and shared with third parties,
 exactly how is outlined in the following sections.
 
 ## What data is collected by the Software?
+
+### Media Metadata
 
 The following data ("Media Metadata")
 is collected when observing media playback:
@@ -57,6 +82,8 @@ is collected when observing media playback:
 * The cover image of the media
   (this can be album artwork or a small thumbnail of the media)
 
+### Analytics Metrics (privacy-friendly)
+
 Additionally the following anonymous metrics ("Analytics Metrics")
 are transmitted to a privacy-friendly analytics service
 (Simple Analytics, more information in the next section)
@@ -76,6 +103,8 @@ and most of them will collect much more information than what is listed above.
 Your IP address is never stored or used in any way
 (for specifics, see the privacy policy
 and linked articles of Simple Analytics below).
+
+### No Personal Data
 
 No data that could be used to identify the user ("Personal Data")
 is being *explicitly* collected or shared.
@@ -103,6 +132,8 @@ In the event that Personal Data has been shared with third parties,
 the data is handled by these third parties
 in accordance with their privacy policies
 (see the next section).
+
+### Reporting undetected media players
 
 The user also has the option to report when a Media Player is not detected,
 by clicking on "My media player is not detected" in the "Help" menu
@@ -132,14 +163,11 @@ When the Presence is "inactive" or "disabled", no data is being shared.
 
 Media Metadata is never shared with the developer of the Software.
 
-The Software sends some or all Media Metadata to the following services:
+The Software sends some or all Media Metadata to the following services,
+which will handle your Media Metadata
+in accordance with their respective privacy policy:
 
-* **[Discord](https://discord.com/)**
-  &ndash; [Privacy Policy](https://discord.com/privacy)
-* **[TIDAL](https://tidal.com/)**
-  &ndash; [Privacy Policy](https://tidal.com/privacy)
-* **[MetaBrainz](https://metabrainz.org)**
-  &ndash; [Privacy Policy](https://metabrainz.org/privacy)
+### Discord
 
 Media Metadata is sent to **Discord**, to show a
 "[Rich Presence](https://discord.com/developers/docs/rich-presence/how-to)"
@@ -148,11 +176,21 @@ This Rich Presence aims to display
 what media the user is currently listening to
 and shows this information to other users of the Discord platform.
 
+* **[Discord](https://discord.com/)**
+  &ndash; [Privacy Policy](https://discord.com/privacy)
+
+### TIDAL
+
 Media Metadata is sent to **TIDAL**, more specifically the
 [TIDAL API](https://developer.tidal.com/documentation/api/api-overview),
 to complete Media Metadata that is lacking song, track or video information
 and to get more information about the media that is playing
 from an online music database.
+
+* **[TIDAL](https://tidal.com/)**
+  &ndash; [Privacy Policy](https://tidal.com/privacy)
+
+### MetaBrainz (MusicBrainz and Cover Art Archive)
 
 Media Metadata is sent to **MetaBrainz**, more specifically the
 [MusicBrainz API](https://musicbrainz.org/doc/MusicBrainz_API)
@@ -161,15 +199,10 @@ to complete Media Metadata that is lacking song, track or video information
 and to get more information about the media that is playing
 from an online music database.
 
-These companies and services will handle your Media Metadata
-in accordance with their respective privacy policy.
+* **[MetaBrainz](https://metabrainz.org)**
+  &ndash; [Privacy Policy](https://metabrainz.org/privacy)
 
-Media Metadata is **encrypted** with the use of
-modern and secure transport protocols,
-when sent to **TIDAL** and **MetaBrainz**.
-Media Metadata that is sent to **Discord** communicates
-with the locally running Discord client application
-without the use of a connection over an external network.
+### Simple Analytics
 
 Analytics Metrics are sent to this service:
 
@@ -183,6 +216,8 @@ To find out which data this analytics service stores,
 besides the Analytics Metrics mentioned in the previous section,
 visit [this link](https://docs.simpleanalytics.com/what-we-collect)
 ("What we collect") on their website.
+
+### GitHub
 
 Report Information is transmitted to **GitHub**
 and handled according to their privacy policy:
@@ -204,7 +239,18 @@ on application startup:
   to check whether there is a new release of Music Presence.
   **GitHub** may collect data in accordance with their Privacy Policy.
 
-## Which data is shared by default?
+### Encryption
+
+All data is **encrypted** with the use of
+modern and secure transport protocols,
+when sent to **TIDAL**, **MetaBrainz**, **Simple Analytics** and **GitHub**.
+Media Metadata that is sent to **Discord** communicates
+with the locally running Discord client application
+without the use of a connection over an external network
+and therefore does not use encryption,
+since it does not leave the user's device.
+
+## Which Media Metadata is shared by default?
 
 By default, the application will only share Media Metadata
 from applications that have been whitelisted by the developer of the Software.
@@ -278,7 +324,7 @@ This privacy policy is kept under regular review.
 Any updates are placed into this file in this repository.
 The last update to this policy is stated below.
 
-Last updated on 12 May 2024.  
+Last updated on 15 May 2024.  
 
 ## Contact details
 
