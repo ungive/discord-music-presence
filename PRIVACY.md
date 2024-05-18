@@ -316,7 +316,7 @@ will be shared with third parties.
 
 ## Scope of this privacy policy
 
-This document applies to version 2.0.1 of Music Presence and that version only.
+This document applies to version 2.1.0 of Music Presence and that version only.
 
 ## Changes to this privacy policy
 
@@ -324,7 +324,7 @@ This privacy policy is kept under regular review.
 Any updates are placed into this file in this repository.
 The last update to this policy is stated below.
 
-Last updated on 15 May 2024.  
+Last updated on 18 May 2024.  
 
 ## Contact details
 
