@@ -1,5 +1,29 @@
 # Changelog
 
+## 2.1.0
+
+- Added release for Mac OS (required version is 11.0 or newer)
+- Added some necessary limits and delays to presence updates:
+  - An enforced hard limit of 5 presence updates per 20 seconds (as required by Discord):
+    https://discord.com/developers/docs/topics/gateway-events#activity-object-example-activity-with-rich-presence
+  - A configurable limit of 2 updates per 5000 milliseconds
+    (see [#14](https://github.com/jonasberge/discord-music-presence/issues/14)).
+    For information on how to customize this limit see
+    [here](https://github.com/jonasberge/discord-music-presence/issues/14#issuecomment-2117614770).
+    If you play around with it, please let me know in the linked issue
+    which values work best for you. Thank you!
+  - Any update that falls outside of the allowed range
+    is delayed until a point in time where this limit would not be violated.
+    If many updates are delayed in a row, only the latest one
+    will be shown in the Discord presence.
+- Other improvements and bug fixes:
+  - Removed repeated Presence updates in cases where the media didn't change at all
+  - Fixed a bug where songs that were being played on repeat
+    did not reset their playback position back to 0:00
+  - Settings are not saved when the application is closed anymore,
+    so that the user can edit the settings file while Music Presence is opened
+    and restart the application without the changes being deleted
+
 ## 2.0.1
 
 - Media player support:
