@@ -65,3 +65,9 @@ Copyright (c) 2015, 2016, 2017 Howard Hinnant and contributors
 Licensed under the MIT License.  
 A copy of the source code can be obtained at  
     <https://github.com/HowardHinnant/date>
+
+fmtlib/fmt  
+Copyright (c) 2012 - present, Victor Zverovich and {fmt} contributors  
+Licensed under the MIT License.  
+A copy of the source code can be obtained at  
+    <https://github.com/fmtlib/fmt>
