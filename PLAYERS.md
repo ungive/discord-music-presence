@@ -4,7 +4,7 @@ Overview of supported media players for each operating system.
 
 ## Support Table
 
-> Note: A release for Mac is being worked on.
+> Note: A release for Linux is being worked on.
 
 | Application      |                   Windows                   |           Mac            |          Linux           | test status               |
 |------------------|:-------------------------------------------:|:------------------------:|:------------------------:|:--------------------------|
