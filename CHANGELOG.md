@@ -17,6 +17,8 @@
     If many updates are delayed in a row, only the latest one
     will be shown in the Discord presence.
 - Other improvements and bug fixes:
+  - Added a banner and button to the tray menu
+    to inform the user when a new version is available
   - Removed repeated Presence updates in cases where the media didn't change at all
   - Fixed a bug where songs that were being played on repeat
     did not reset their playback position back to 0:00
