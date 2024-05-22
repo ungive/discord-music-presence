@@ -57,8 +57,8 @@ as described below!
 For downloads visit the
 **[Releases](https://github.com/jonasberge/discord-music-presence/releases)**
 page.
-You can currently download Music Presence for **Windows**.
-Support for **Mac** and **Linux** is underway
+You can currently download Music Presence for **Windows** and **Mac**.
+Support for **Linux** is underway
 and will be added in a future update!
 
 ## Join the Discord server
