@@ -1,5 +1,16 @@
 # Changelog
 
+## Next release
+
+- Improvements and bug fixes
+  - Fixed a problem with multiple instances of the same media player,
+    where songs from those two instances would continuously conflict
+    and cause the media observer to detect "changes" that aren't there
+  - Fixed never clearing presence when it's queued for clearing
+    too frequently (the presence is always cleared after a short delay),
+    which happened a lot with the previous bug
+  - Only clearing the presence once and not again, if it's already cleared
+
 ## 2.1.0
 
 - Added release for Mac OS (required version is 11.0 or newer)
