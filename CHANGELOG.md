@@ -1,15 +1,22 @@
 # Changelog
 
-## Next release
+## 2.1.1
 
+- Features
+  - Added option to show title and artist on separate lines
 - Improvements and bug fixes
   - Fixed a problem with multiple instances of the same media player,
     where songs from those two instances would continuously conflict
-    and cause the media observer to detect "changes" that aren't there
-  - Fixed never clearing presence when it's queued for clearing
-    too frequently (the presence is always cleared after a short delay),
+    and cause the media observer to detect "changes" even though there are none
+  - Fixed never clearing presence when it's queued for clearing too frequently
+    (the presence is always cleared after a short delay),
     which happened a lot with the previous bug
   - Only clearing the presence once and not again, if it's already cleared
+  - Clearing the presence when a Discord RPC error occurs
+  - Fixed a bug with text in the presence that is only one character long,
+    which would cause a Discord error and break the presence
+- Other
+  - Changed my username on GitHub to "ungive" which is reflected in the application
 
 ## 2.1.0
 
