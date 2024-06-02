@@ -1,5 +1,12 @@
 # Changelog
 
+## 2.1.2
+
+- Features
+  - You can now start Music Presence at login on Windows
+- Improvements and bug fixes
+  - Added product, copyright and version information to the Windows executable
+
 ## 2.1.1
 
 - Features
