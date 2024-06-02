@@ -25,9 +25,9 @@
   - An enforced hard limit of 5 presence updates per 20 seconds (as required by Discord):
     https://discord.com/developers/docs/topics/gateway-events#activity-object-example-activity-with-rich-presence
   - A configurable limit of 2 updates per 5000 milliseconds
-    (see [#14](https://github.com/jonasberge/discord-music-presence/issues/14)).
+    (see [#14](https://github.com/ungive/discord-music-presence/issues/14)).
     For information on how to customize this limit see
-    [here](https://github.com/jonasberge/discord-music-presence/issues/14#issuecomment-2117614770).
+    [here](https://github.com/ungive/discord-music-presence/issues/14#issuecomment-2117614770).
     If you play around with it, please let me know in the linked issue
     which values work best for you. Thank you!
   - Any update that falls outside of the allowed range
@@ -53,7 +53,7 @@
   - Fixed out of sync playback positions or the remaining time showing "0:00".
   - Fixed a bug where sometimes media wouldn't show in the status
     for some media players
-    ([#7](https://github.com/jonasberge/discord-music-presence/issues/7))
+    ([#7](https://github.com/ungive/discord-music-presence/issues/7))
   - Improved detection of when the Discord presence should be updated,
     so it's updated only as frequently as needed.
   - Improved caching of music API requests to reduce the number of requests that are made
@@ -89,10 +89,10 @@
 - While all media on the system is detected,
   only a set of whitelisted players is shared with Discord for the moment.
   The rationale behind this is outlined in [this issue](
-    https://github.com/jonasberge/discord-music-presence/issues/4).
+    https://github.com/ungive/discord-music-presence/issues/4).
   Users can easily suggest the addition of a new player by:
   - Opening an appropriate issue [here](
-      https://github.com/jonasberge/discord-music-presence/issues/new/choose)
+      https://github.com/ungive/discord-music-presence/issues/new/choose)
   - Clicking on "My media player is not detected" in the tray menu.
 - Now includes a detailed privacy policy that outlines:
   - Which data is collected by the software.

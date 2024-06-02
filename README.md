@@ -1,5 +1,5 @@
-[![Number of downloads](https://img.shields.io/github/downloads/jonasberge/discord-music-presence/total?style=flat&label=downloads&labelColor=444)](https://github.com/jonasberge/discord-music-presence/releases)
-&nbsp;[![Number of downloads of the latest version](https://img.shields.io/github/downloads/jonasberge/discord-music-presence/latest/total?style=flat&label=downloads%20%40latest&labelColor=444)](https://github.com/jonasberge/discord-music-presence/releases)
+[![Number of downloads](https://img.shields.io/github/downloads/ungive/discord-music-presence/total?style=flat&label=downloads&labelColor=444)](https://github.com/ungive/discord-music-presence/releases)
+&nbsp;[![Number of downloads of the latest version](https://img.shields.io/github/downloads/ungive/discord-music-presence/latest/total?style=flat&label=downloads%20%40latest&labelColor=444)](https://github.com/ungive/discord-music-presence/releases)
 &nbsp;
 [![Join the Discord server](https://img.shields.io/discord/1224509771068211292?logo=discord&logoColor=eee&label=Discord&labelColor=464ce5&color=fff)](https://discord-invite.musicpresence.app)
 &nbsp;
@@ -55,7 +55,7 @@ as described below!
 ## Download
 
 For downloads visit the
-**[Releases](https://github.com/jonasberge/discord-music-presence/releases)**
+**[Releases](https://github.com/ungive/discord-music-presence/releases)**
 page.
 You can currently download Music Presence for **Windows** and **Mac**.
 Support for **Linux** is underway
@@ -80,7 +80,7 @@ Thank you!
 - **[Patreon](https://patreon.com/musicpresence)**
   &nbsp;&ndash;&nbsp; *the preferred option with
   [additional benefits](https://www.patreon.com/musicpresence/membership)*
-- **[GitHub Sponsors](https://github.com/sponsors/jonasberge)**
+- **[GitHub Sponsors](https://github.com/sponsors/ungive)**
 - **[LiberaPay](https://liberapay.com/jonasvandenberg)**
 
 For more information, check [FUNDING.md](./FUNDING.md).
@@ -130,7 +130,7 @@ For more information read the [LICENSE.txt](./LICENSE.txt) file.
 
 For the source code of versions prior to version 2.0.0,
 please visit the repository for the
-[legacy source code](https://github.com/jonasberge/tidal-discord-presence).
+[legacy source code](https://github.com/ungive/tidal-discord-presence).
 
 ## Disclaimer
 

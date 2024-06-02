@@ -139,7 +139,7 @@ The user also has the option to report when a Media Player is not detected,
 by clicking on "My media player is not detected" in the "Help" menu
 of the Software.
 This will open a [new issue on GitHub](
-    https://github.com/jonasberge/discord-music-presence/issues/new)
+    https://github.com/ungive/discord-music-presence/issues/new)
 that is filled out with the following information ("Report Information"):
 
 * The user's operating system
@@ -232,7 +232,7 @@ on application startup:
 * Download of information about media players from
   [live.musicpresence.app](https://live.musicpresence.app),
   which is hosted on **GitHub**
-  ([repository](https://github.com/jonasberge/live.musicpresence.app)).
+  ([repository](https://github.com/ungive/live.musicpresence.app)).
   **GitHub** may collect data in accordance with their Privacy Policy.
 * Check for a new release of Music Presence.
   The application makes a request to **GitHub**'s API

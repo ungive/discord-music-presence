@@ -31,7 +31,7 @@ The following media players might be supported in the near future:
 
 If you have an idea or a feature request,
 feel free to [open an issue](
-  https://github.com/jonasberge/discord-music-presence/issues).
+  https://github.com/ungive/discord-music-presence/issues).
 
 ## Donations
 

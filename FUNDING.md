@@ -15,7 +15,7 @@ You can choose between these options:
 
 If you don't want a Patreon membership:
 
-* **[GitHub Sponsors](https://github.com/sponsors/jonasberge)**
+* **[GitHub Sponsors](https://github.com/sponsors/ungive)**
   &nbsp;&ndash;&nbsp; option for one-time donations, directly here on GitHub
 * **[LiberaPay](https://liberapay.com/jonasvandenberg)**
   &nbsp;&ndash;&nbsp; option to donate anonymously
