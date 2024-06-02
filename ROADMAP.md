@@ -4,6 +4,8 @@
 
 - Media from browsers
 - Listening along with other people
+- Adding an option to show "Playing TIDAL" or "Playing Deezer"
+  instead of "Playing Music", depending on which media player is being used
 - Adding support for Linux
 
 ### Other planned features
