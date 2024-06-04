@@ -2,9 +2,37 @@
 
 ## 2.1.2
 
-- Features
-  - You can now start Music Presence at login on Windows
+- Added the option to start Music Presence at login on Windows.
+  When you're updating or installing Music Presence for the first time,
+  the application will be registered to start at login automatically
+  - You can disable autostart in the settings menu of the application
+    or by opening the task manager and disabling the entry for Music Presence
+    under the "Autostart" tab
+  - Autostart on Mac will be added in a future update
+- Added a launcher executable `launcher.exe` which aids with the following:
+  - Starting Music Presence multiple times will make sure it's only running once
+    (if started with the Start Menu shortcut or directly with the launcher executable)
+  - The uninstaller makes use of the launcher
+    to close all running instances of Music Presence
+    before proceeding to uninstall the old version
+    and then installing the new version
+    (solves [#24](https://github.com/ungive/discord-music-presence/issues/24))
+  - The launcher executable takes the following command line arguments:
+    - `--launch-if-closed`: Launches Music Presence if it's not running
+    - `--launch`: Simply launches Music Presence, without any checks
+    - `--close-all`: Closes all instances of Music Presence
+      (even if there is more than one running).
+      The launcher exits once all instances of Music Presence have terminated.
+    - No arguments: Behaves the same as with `--launch-if-closed` only.
+    - You can start the launcher with multiple arguments
+      and each of them will be evaluated in the order they were used.
+      For instance, to restart Music Presence you can use
+      `launcher.exe --close-all --launch`
+- Media players
+  - Added more application identifiers for Apple Music on Windows
 - Improvements and bug fixes
+  - The Music Presence application will exit with an error
+    if it's started with any command line arguments
   - Added product, copyright and version information to the Windows executable
 
 ## 2.1.1
