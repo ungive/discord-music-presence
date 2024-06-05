@@ -2,9 +2,13 @@
 
 ## 2.1.2
 
+- Added the option to show the name of the media player you are using after "Playing",
+  so e.g. "Playing TIDAL" or "Playing Amazon Music" as an alternative to "Playing Music".
+  Visit the settings to enable this feature!
 - Added the option to start Music Presence at login on Windows.
   When you're updating or installing Music Presence for the first time,
-  the application will be registered to start at login automatically
+  the application will be registered to start at login automatically,
+  you do not have to enable this yourself
   - You can disable autostart in the settings menu of the application
     or by opening the task manager and disabling the entry for Music Presence
     under the "Autostart" tab
@@ -29,8 +33,15 @@
       For instance, to restart Music Presence you can use
       `launcher.exe --close-all --launch`
 - Media players
+  - Added Windows Media Player (disabled by default)
+    - The reason why it is disabled by default is
+      that users might not expect media from the Windows Media Player
+      to show up in their status, if they mainly use it to watch video files
   - Added more application identifiers for Apple Music on Windows
 - Improvements and bug fixes
+  - Using the album artist, if it is available and the media player
+    does not report any artist. Mitigates an issue with Apple Music
+    (see [#20](https://github.com/ungive/discord-music-presence/issues/20))
   - The Music Presence application will exit with an error
     if it's started with any command line arguments
   - Added product, copyright and version information to the Windows executable
