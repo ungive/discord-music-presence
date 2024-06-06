@@ -42,9 +42,14 @@
   - Using the album artist, if it is available and the media player
     does not report any artist. Mitigates an issue with Apple Music
     (see [#20](https://github.com/ungive/discord-music-presence/issues/20))
-  - The Music Presence application will exit with an error
-    if it's started with any command line arguments
   - Added product, copyright and version information to the Windows executable
+  - Added `--version` command line flag to print the current version
+    - Also closing the application if it's called with any other command line arguments
+  - In light of the new autolaunch feature on Windows
+    and the possibilty that many users have added Music Presence to `shell:startup`,
+    the main executable will exit if it detects that it's already running.
+    Otherwise the application might be launched twice with the new update
+  - Changed the Windows app icon back to the same one as the tray icon
 
 ## 2.1.1
 
