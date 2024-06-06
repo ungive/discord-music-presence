@@ -33,14 +33,15 @@ The most notable features include:
 The following media players will be detected
 and shared in your Discord status:
 
-<span><a href="https://tidal.com"><img title="TIDAL" alt="" height="48" src="https://live.musicpresence.app/v1/tidal.ico"></a></span>&nbsp;
-<span><a href="https://www.qobuz.com"><img title="Qobuz" alt="" height="48" src="https://live.musicpresence.app/v1/qobuz.ico"></a></span>&nbsp;
-<span><a href="https://spotify.com"><img title="Spotify" alt="" height="48" src="https://live.musicpresence.app/v1/spotify.ico"></a></span>&nbsp;
-<span><a href="https://www.deezer.com"><img title="Deezer" alt="" height="48" src="https://live.musicpresence.app/v1/deezer.ico"></a></span>&nbsp;
-<span><a href="https://www.amazon.de/dp/B00CTTEKJW"><img title="Amazon Music" alt="" height="48" src="https://live.musicpresence.app/v1/amazon-music.ico"></a></span>&nbsp;
-<span><a href="https://www.foobar2000.org"><img title="foobar2000" alt="" height="48" src="https://live.musicpresence.app/v1/foobar2000.ico"></a></span>&nbsp;
-<span><a href="https://www.getmusicbee.com"><img title="MusicBee" alt="" height="48" src="https://live.musicpresence.app/v1/musicbee.ico"></a></span>&nbsp;
-<span><a href="https://music.apple.com"><img title="Apple Music" alt="" height="48" src="https://live.musicpresence.app/v1/apple-music.ico"></a></span>&nbsp;
+<span><a href="https://tidal.com"><img title="TIDAL" alt="" height="48" src="https://live.musicpresence.app/v2/tidal.ico"></a></span>&nbsp;
+<span><a href="https://www.qobuz.com"><img title="Qobuz" alt="" height="48" src="https://live.musicpresence.app/v2/qobuz.ico"></a></span>&nbsp;
+<span><a href="https://spotify.com"><img title="Spotify" alt="" height="48" src="https://live.musicpresence.app/v2/spotify.ico"></a></span>&nbsp;
+<span><a href="https://www.deezer.com"><img title="Deezer" alt="" height="48" src="https://live.musicpresence.app/v2/deezer.ico"></a></span>&nbsp;
+<span><a href="https://www.amazon.de/dp/B00CTTEKJW"><img title="Amazon Music" alt="" height="48" src="https://live.musicpresence.app/v2/amazon-music.ico"></a></span>&nbsp;
+<span><a href="https://www.foobar2000.org"><img title="foobar2000" alt="" height="48" src="https://live.musicpresence.app/v2/foobar2000.ico"></a></span>&nbsp;
+<span><a href="https://www.getmusicbee.com"><img title="MusicBee" alt="" height="48" src="https://live.musicpresence.app/v2/musicbee.ico"></a></span>&nbsp;
+<span><a href="https://music.apple.com"><img title="Apple Music" alt="" height="48" src="https://live.musicpresence.app/v2/apple-music.ico"></a></span>&nbsp;
+<span><a href="https://en.wikipedia.org/wiki/Windows_Media_Player_(2022)"><img title="Windows Media Player" alt="" height="48" src="https://live.musicpresence.app/v2/windows-media-player.ico"></a></span>&nbsp;
 &ensp;*and more...*
 
 This is only a selection of supported media players.

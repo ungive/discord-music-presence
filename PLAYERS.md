@@ -6,17 +6,18 @@ Overview of supported media players for each operating system.
 
 > Note: A release for Linux is being worked on.
 
-| Application      |                   Windows                   |           Mac            |          Linux           | test status               |
-|------------------|:-------------------------------------------:|:------------------------:|:------------------------:|:--------------------------|
-| TIDAL            |             :white_check_mark:              |    :white_check_mark:    |           ...            | paid only                 |
-| Amazon Music     | :white_check_mark: :face_with_head_bandage: |   :white_check_mark:*    |     :grey_question:      | paid only                 |
-| Apple Music      |               :grey_question:               |    :white_check_mark:    |     :grey_question:      | unpaid + local files only |
-| Deezer           |             :white_check_mark:*             |   :white_check_mark:*    |     :grey_question:      | unpaid only               |
-| foobar2000       |             :white_check_mark:*             |    :white_check_mark:    | :heavy_multiplication_x: | fully tested              |
-| MusicBee         |         :white_check_mark: :pencil:         | :heavy_multiplication_x: | :heavy_multiplication_x: | fully tested              |
-| Qobuz            |             :white_check_mark:*             |        :warning:         | :heavy_multiplication_x: | unpaid only               |
-| Spotify          |           :ballot_box_with_check:           | :ballot_box_with_check:  |           ...            | not tested                |
-| Spotify (unpaid) |                  :warning:                  |    :white_check_mark:    |           ...            | fully tested              |
+| Application          |                   Windows                   |           Mac            |          Linux           | test status               |
+|----------------------|:-------------------------------------------:|:------------------------:|:------------------------:|:--------------------------|
+| TIDAL                |             :white_check_mark:              |    :white_check_mark:    |           ...            | paid only                 |
+| Amazon Music         | :white_check_mark: :face_with_head_bandage: |   :white_check_mark:*    |     :grey_question:      | paid only                 |
+| Apple Music          |               :grey_question:               |    :white_check_mark:    |     :grey_question:      | unpaid + local files only |
+| Deezer               |             :white_check_mark:*             |   :white_check_mark:*    |     :grey_question:      | unpaid only               |
+| foobar2000           |             :white_check_mark:*             |    :white_check_mark:    | :heavy_multiplication_x: | fully tested              |
+| MusicBee             |         :white_check_mark: :pencil:         | :heavy_multiplication_x: | :heavy_multiplication_x: | fully tested              |
+| Qobuz                |             :white_check_mark:*             |        :warning:         | :heavy_multiplication_x: | unpaid only               |
+| Spotify              |           :ballot_box_with_check:           | :ballot_box_with_check:  |           ...            | not tested                |
+| Spotify (unpaid)     |                  :warning:                  |    :white_check_mark:    |           ...            | fully tested              |
+| Windows Media Player |             :white_check_mark:              | :heavy_multiplication_x: | :heavy_multiplication_x: | fully tested              |
 
 ### Legend
 
