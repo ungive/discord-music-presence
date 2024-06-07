@@ -139,7 +139,7 @@ The user also has the option to report when a Media Player is not detected,
 by clicking on "My media player is not detected" in the "Help" menu
 of the Software.
 This will open a [new issue on GitHub](
-    https://github.com/ungive/discord-music-presence/issues/new)
+    https://github.com/jonasberge/discord-music-presence/issues/new)
 that is filled out with the following information ("Report Information"):
 
 * The user's operating system
@@ -232,7 +232,7 @@ on application startup:
 * Download of information about media players from
   [live.musicpresence.app](https://live.musicpresence.app),
   which is hosted on **GitHub**
-  ([repository](https://github.com/ungive/live.musicpresence.app)).
+  ([repository](https://github.com/jonasberge/live.musicpresence.app)).
   **GitHub** may collect data in accordance with their Privacy Policy.
 * Check for a new release of Music Presence.
   The application makes a request to **GitHub**'s API
@@ -316,7 +316,7 @@ will be shared with third parties.
 
 ## Scope of this privacy policy
 
-This document applies to version 2.1.1 of Music Presence and that version only.
+This document applies to version 2.1.2 of Music Presence and that version only.
 
 ## Changes to this privacy policy
 
@@ -325,6 +325,7 @@ Any updates are placed into this file in this repository.
 The last update to this policy is stated below.
 
 Last updated on 1 June 2024.  
+This does not include changes to the scope of this privacy policy.
 
 ## Contact details
 
