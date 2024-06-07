@@ -24,8 +24,7 @@
   - The launcher executable takes the following command line arguments:
     - `--launch-if-closed`: Launches Music Presence if it's not running
     - `--launch`: Simply launches Music Presence, without any checks
-    - `--close-all`: Closes all instances of Music Presence
-      (even if there is more than one running).
+    - `--close-all`: Closes all instances of Music Presence.
       The launcher exits once all instances of Music Presence have terminated.
     - No arguments: Behaves the same as with `--launch-if-closed` only.
     - You can start the launcher with multiple arguments
