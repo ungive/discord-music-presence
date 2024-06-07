@@ -13,7 +13,7 @@
     or by opening the task manager and disabling the entry for Music Presence
     under the "Autostart" tab
   - Autostart on Mac will be added in a future update
-- Added a launcher executable `launcher.exe` which aids with the following:
+- Added a launcher executable `launcher.exe` on Windows which aids with the following:
   - Starting Music Presence multiple times will make sure it's only running once
     (if started with the Start Menu shortcut or directly with the launcher executable)
   - The uninstaller makes use of the launcher
@@ -33,16 +33,18 @@
       For instance, to restart Music Presence you can use
       `launcher.exe --close-all --launch`
 - Media players
-  - Added Windows Media Player (disabled by default)
+  - Added Windows Media Player on Windows (disabled by default)
     - The reason why it is disabled by default is
       that users might not expect media from the Windows Media Player
       to show up in their status, if they mainly use it to watch video files
   - Added more application identifiers for Apple Music on Windows
 - Improvements and bug fixes
-  - Using the album artist, if it is available and the media player
-    does not report any artist. Mitigates an issue with Apple Music
+  - Added "by" prefix to artist name when title and artist are shown on separate lines,
+    so that it's clear which one resembles the artist
+  - Using the album artist on Windows, if it is available and the media player
+    does not report any artist. Mitigates an issue with Apple Music on Windows
     (see [#20](https://github.com/ungive/discord-music-presence/issues/20))
-  - Added product, copyright and version information to the Windows executable
+  - Added product, copyright and version information to the main Windows executable
   - Added `--version` command line flag to print the current version
     - Also closing the application if it's called with any other command line arguments
   - In light of the new autolaunch feature on Windows
@@ -50,6 +52,8 @@
     the main executable will exit if it detects that it's already running.
     Otherwise the application might be launched twice with the new update
   - Changed the Windows app icon back to the same one as the tray icon
+  - Disabled requests to music APIs while Discord wasn't even connected
+  - Fixed presence updates sometimes being wrongfully cancelled
 
 ## 2.1.1
 
