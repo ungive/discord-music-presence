@@ -1,0 +1,23 @@
+#!/bin/bash
+
+set -e # exit on error
+
+cd $(dirname $0)
+
+TAG=$(git describe --tags --abbrev=0 --match="v[0-9]*" HEAD)
+
+echo "Tag is $TAG"
+if ! [[ "$TAG" =~ ^v[0-9]+\.[0-9]+\.[0-9]+$ ]]; then
+    echo "Error: wrong version format"
+    exit 1
+fi
+
+read -r -p "Proceed? [y/N] " response
+if ! [[ "$response" =~ ^([yY][eE][sS]|[yY])$ ]]; then
+    exit 0
+fi
+
+VERSION="${TAG:1}"
+./generate-release-changelog "$VERSION"
+gh release edit -F ./out/changelog.md "$TAG"
+rm -rf ./out
