@@ -1,7 +1,7 @@
 [![Number of downloads](https://img.shields.io/github/downloads/ungive/discord-music-presence/total?style=flat&label=downloads&labelColor=444)](https://github.com/ungive/discord-music-presence/releases)
 &nbsp;[![Number of downloads of the latest version](https://img.shields.io/github/downloads/ungive/discord-music-presence/latest/total?style=flat&label=downloads%20%40latest&labelColor=444)](https://github.com/ungive/discord-music-presence/releases)
 &nbsp;
-[![Join the Discord server](https://img.shields.io/discord/1224509771068211292?logo=discord&logoColor=eee&label=Discord&labelColor=464ce5&color=fff)](https://discord-invite.musicpresence.app)
+[![Join the Discord server](https://img.shields.io/discord/1224509771068211292?logo=discord&logoColor=eee&label=Discord&labelColor=464ce5&color=fff&cacheSeconds=43200)](https://discord-invite.musicpresence.app)
 &nbsp;
 [![Support Music Presence on Patreon](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Fshieldsio-patreon.vercel.app%2Fapi%3Fusername%3Dmusicpresence%26type%3Dpatrons&style=social)](https://patreon.com/musicpresence)
 
