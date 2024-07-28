@@ -316,7 +316,7 @@ will be shared with third parties.
 
 ## Scope of this privacy policy
 
-This document applies to version 2.1.2 of Music Presence and that version only.
+This document applies to version 2.1.3 of Music Presence and that version only.
 
 ## Changes to this privacy policy
 

@@ -1,5 +1,25 @@
 # Changelog
 
+## 2.1.3
+
+- Added the option to use the "Listening" activity type instead of "Playing".
+  This option is **disabled by default** and must be enabled explicitly.
+  The listening activity type does not show any playback duration though,
+  due to Discord seemingly ignoring the timestamp fields at this time.
+  The text on the large image is also put on the last line,
+  so when using the "on" prefix the text that pops up
+  when hovering over the album image will contain "on" as well.
+  Closes [#29](https://github.com/ungive/discord-music-presence/issues/29).
+- Showing all artists for songs from TIDAL, not just the main artist.
+- Added the option to enable/disable the "by" prefix for the artist name.
+- Added the option to enable/disable an "on" prefix for the album name.
+- Added the option to enable/disable the album name.
+- Added the option to enable/disable the playback duration.
+- Improvements and bug fixes
+  - Logging the version of Music Presence on program startup.
+  - Renamed the setting `Show the name of the player after "Playing"` to
+    `Show the name of the player instead of "Music"`.
+
 ## 2.1.2
 
 - Added the option to show the name of the media player you are using after "Playing",
