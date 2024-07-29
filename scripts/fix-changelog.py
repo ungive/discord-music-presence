@@ -1,5 +1,5 @@
 # Fixes a changelog's bullet points to not contain linebreaks
-# because release notes on GitHub will interpret them as actualy linebreaks.
+# because release notes on GitHub will interpret them as actual linebreaks.
 # Accepts input from stdin, prints result to stdout.
 
 import sys
