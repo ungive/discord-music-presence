@@ -103,6 +103,17 @@ The issue will be filled out with some information about your system.
 This will help me add support for the media player that you are requesting.
 Once you have submitted the issue, I will come back to you as soon as I can!
 
+## Integrating with Music Presence
+
+Are you interested in integrating
+your application or service with Music Presence?
+
+The plan is to allow our users to integrate external services
+in order to **stream real-time playback information of currently playing music**
+not only to Discord, but **anywhere they want**.
+
+Read more [here](./INTEGRATION.md).
+
 ---
 
 ## Privacy
