@@ -79,7 +79,7 @@
     which contain the SHA256 checksum and the Ed25519 signature respectively.
     If you want to, you can use these files to verify your download yourself,
     by following the steps
-    [here](https://github.com/ungive/discord-music-presence/blob/master/documentation/automatic-updates.md).
+    [here](https://github.com/ungive/discord-music-presence/blob/master/documentation/automatic-updates.md#verifying-releases).
 
 - Made various improvements to the tray menu:
   - When clicking a checkbox, the tray menu is not closed anymore.
