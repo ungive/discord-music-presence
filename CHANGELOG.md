@@ -20,7 +20,7 @@
     and stored only for the duration that the Discord status is visible.
     This has minimal impact on your internet bandwidth.
     For more information read the
-    [documentation](./documentation/cover-images-proxy.md).
+    [documentation](https://github.com/ungive/discord-music-presence/blob/master/documentation/cover-images-proxy.md).
   - If this feature is disabled or encounters an error,
     then Music Presence falls back to the old behaviour
     and works exactly like previous versions by using
@@ -67,7 +67,7 @@
     and remain using the currently installed version.
   - This feature is currently only available to Windows users,
     but Mac will get automatic updates in the future too.
-  - There are a lot of features [planned](./ROADMAP.md),
+  - There are a lot of features [planned](https://github.com/ungive/discord-music-presence/blob/master/ROADMAP.md),
     which is why automatic updates were introduced.
     Automatic updates allow me to make more frequent and smaller releases
     which can be adopted much more quickly than before.
@@ -309,14 +309,16 @@
   - Which data is collected by the software.
   - Which online services the data is sent to.
   - How the user can control their data.
-  - To read the entire privacy policy, see [PRIVACY.md](./PRIVACY.md).
+  - To read the entire privacy policy, see
+    [PRIVACY.md](https://github.com/ungive/discord-music-presence/blob/master/PRIVACY.md).
 - Released under the name "Music Presence", without using the Discord brand name.
 - Licensed under different terms,
   since the software has been rewritten from the ground up.
-  See [LICENSE.txt](./LICENSE.txt) for details.
+  See [LICENSE.md](https://github.com/ungive/discord-music-presence/blob/master/LICENSE.md) for details.
 - Currently only works on Windows, but support for Mac and Linux is underway.
-- Future plans are outlined in [ROADMAP.md](./ROADMAP.md).
-- If you would like to fund the project, see [FUNDING.md](./FUNDING.md).
+- Future plans are outlined in [ROADMAP.md](https://github.com/ungive/discord-music-presence/blob/master/README.md).
+- If you would like to fund the project, see
+  [FUNDING.md](https://github.com/ungive/discord-music-presence/blob/master/FUNDING.md).
 
 ## 1.4.1
 
