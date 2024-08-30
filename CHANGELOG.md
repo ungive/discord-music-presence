@@ -2,7 +2,7 @@
 
 ## 2.2.0
 
-*This update was a lot of work. Please consider supporting me on*
+*This update was a lot of work. Please consider supporting me*
 *on [**Patreon**](https://www.patreon.com/musicpresence)* ❤️
 
 ---
