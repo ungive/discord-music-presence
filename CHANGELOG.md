@@ -2,156 +2,204 @@
 
 ## 2.2.0
 
-- Added the option to use the album cover image directly from the media player.
-  You will now always have a cover image in your status,
-  if your media player supplies one.
-  - Media players like foobar2000 and MusicBee,
-    which play local files, like MP3 and FLAC,
-    will show the cover image that is embedded in the music file.
-  - Media players like TIDAL, Qobuz or Deezer do not rely on an external service
-    like the TIDAL API anymore to have a cover image in the status.
-  - Some media players do not report the name of the album the song is from.
-    Because of this, in previous versions it was impossible to tell
-    which album cover image was the correct one
-    and sometimes the Discord status would show the wrong image.
-    With this update the status will always show the correct cover image.
-  - How this works: A small version of the cover image
-    (100x100, less than 50KB) is temporarily uploaded to our own service
-    and stored only for the duration that the Discord status is visible.
-    This has minimal impact on your internet bandwidth.
-    For more information read the
-    [documentation](https://github.com/ungive/discord-music-presence/blob/master/documentation/cover-images-proxy.md).
-  - If this feature is disabled or encounters an error,
-    then Music Presence falls back to the old behaviour
-    and works exactly like previous versions by using
-    an appropriate API service to get a cover image.
-  - Music Presence only contacts our service when its enabled in the settings,
-    when the Discord status is enabled and music is actively playing
-    and being shared in your Discord status.
-    When you stop listening,
-    Music Presence disconnects after a short idle timeout,
-    which can be observed in the application logs.
+This version introduces the option
+to show the cover image from your media player in your status,
+update installation directly within the app,
+including automatic cryptographic verification
+and automatic installation whenever a new version is available,
+a revamped tray menu which is better organized and more user-friendly,
+controls over which external services are used to get additional song metadata
+and more.
+Read below for details.
 
-- The application now installs updates automatically.
-  A number of checks are done before an update is actually installed,
-  including but not limited to
-  cryptographically strong authentication of the source.
-  Read below for details.
-  - This feature is enabled by default, but can be disabled in the settings.
-  - Updates are downloaded from the
-    [GitHub release page](https://github.com/ungive/discord-music-presence/releases),
-    just like you would to manually update.
-  - The following checks are made before any downloaded update is installed:
-    - The [integrity](https://en.wikipedia.org/wiki/Data_integrity)
-      of the downloaded update's content is verified with a SHA256 checksum.
-    - The [authenticity](https://en.wikipedia.org/wiki/Message_authentication)
-      of the downloaded update's content is verified
-      with an Ed25519 cryptographic signature.
-    - The update is only installed when the version is newer
-      than the currently running version.
-      This check is also authenticated with the same cryptographic signature.
-  - The source code of the updater component is open-source:
-    [https://github.com/ungive/libupdate](https://github.com/ungive/libupdate)
-  - For more information about the security of the updater read the
-    [documentation](https://github.com/ungive/discord-music-presence).
-  - The update installation does not require elevated administator privileges.
-  - Downloaded updates are only applied and executed on program startup.
-    Whenever an update is installed,
-    you are required to manually restart the application
-    or wait until you run Music Presence the next time.
-  - If you disable automatic updates,
-    any downloaded updates will be deleted immediately.
-    So in case an update was installed automatically,
-    but you don't want it to be executed,
-    you can simply disable the feature
-    and remain using the currently installed version.
-  - This feature is currently only available to Windows users,
-    but Mac will get automatic updates in the future too.
-  - There are a lot of features [planned](https://github.com/ungive/discord-music-presence/blob/master/ROADMAP.md),
-    which is why automatic updates were introduced.
-    Automatic updates allow me to make more frequent and smaller releases
-    which can be adopted much more quickly than before.
-    This feature also saves the manual download step that was necessary before
-    and verifies the integrity and authenticity of the downloaded update,
-    so you do not have to do it manually.
-  - Because of the introduction of this update,
-    each release now also has a `sha256sum.txt` and `sha256sum.txt.sig` file,
-    which contain the SHA256 checksum and the Ed25519 signature respectively.
-    If you want to, you can use these files to verify your download yourself,
-    by following the steps
-    [here](https://github.com/ungive/discord-music-presence/blob/master/documentation/automatic-updates.md#verifying-releases).
+### Cover images from media players
 
-- Made various improvements to the tray menu:
-  - When clicking a checkbox, the tray menu is not closed anymore.
-    That way it should be easier to change multiple settings in one go
-    instead of having to reopen the menu every time after changing a setting.
-  - Separated settings into two new submenus "Appearance" and "Settings".
-    "Appearance" contains all settings
-    in regard to what your Discord presence looks like.
-    "Settings" contains all other settings.
-  - Added controls for which external services are enabled and used.
-    You can now enable or disable the use of the TIDAL API and MusicBrainz API.
-    These services are used to get cover images,
-    additional artists and other song metadata that might be missing.
-    If other services are added in the future,
-    controls for them will appear here.
-    If an API for a specific streaming service is enabled,
-    it will generally only be used
-    when its respective media player is playing music.
-  - Appearance settings for "Playing" and "Listening to" are retained
-    when switching between them. You can now switch to one
-    without losing your settings for the other.
-    Before "Playing" and "Listening to" were reset to the default settings,
-    whenever you switched between them.
-    This has been fixed.
+Added the option to use the album cover image directly from the media player.
+You will now always have a cover image in your status,
+if your media player supplies one.
 
-- Other improvements:
-  - Media without an artist is not skipped anymore.
-    You can now share songs from e.g. MP3 files that aren't properly tagged.
-    Previously media without an artist was skipped by Music Presence.
-  - Renamed the setting "Show the song title and artist on separate lines"
-    to "Show the song title and artist on a single line".
-  - Showing the album name on the third line in the Discord status,
-    when using the "Playing" type,
-    the title and artist are shown on a single line
-    and showing the album name is enabled in the settings.
-  - The autostart path is updated when the application starts.
-    Previously, if you launched Music Presence
-    from a different install location,
-    autostart would appear disabled for that installation
-    until enabled manually.
-    This fixes that.
-  - The `--launch` parameter of `launcher.exe` on Windows
-    now behaves the same way as the `--launch-if-closed` parameter,
-    only launching the application if it is not running already.
-  - Added a `--local-launch` parameter to `launcher.exe` on Windows,
-    which applies any updates that have been downloaded
-    to `%LOCALAPPDATA%\Music Presence` and starts the latest version.
-    To clarify, `--launch` only launches the executable that is
-    in the same directory as the launcher, while `--local-launch`
-    launches any installation in the local app data directory.
-  - Moved the update information banner to the bottom of the tray menu.
-  - Saving a backup of the settings file if it contains syntax errors,
-    such that editing it does not cause it to be completely reset,
-    in case any syntax errors are introduced by the user.
-  - Removed the setting to enable or Discord invite notifications,
-    as that notification is only shown once per installation anyway.
-  - Fixed Discord RPC and TIDAL API errors
-    when song or artist names are too long.
-  - Long title and/or artist names are shortened in the tray menu,
-    so that the menu does not get overly wide.
-    Hovering over the song information shows the entire title and artist.
-  - The application now shows a popup with the latest changelog
-    whenever you start a new version.
-    This can be disabled in the settings,
-    but I recommend you leave it on,
-    so you don't miss out on what was added in the latest update.
-    This popup is not shown if you launch Music Presence
-    for the very first time.
-  - Fixed an issue with UTF-16 characters in filesystem paths,
-    where configuration and log files would not be saved correctly or at all.
-    Fixes [#34](https://github.com/ungive/discord-music-presence/issues/34).
-  - The Windows installer does not require elevated privileges anymore.
+- Media players like foobar2000 and MusicBee,
+  which play local files, like MP3 and FLAC,
+  will show the cover image that is embedded in the music file
+  or detected otherwise by your media player.
+- How does this work? A small version of the cover image
+  (100x100, less than 50KB) is temporarily uploaded to our own service
+  and stored only for the duration that the Discord status is visible.
+  This has minimal impact on your internet bandwidth.
+  For more information read the
+  [documentation](https://github.com/ungive/discord-music-presence/blob/master/documentation/cover-images-proxy.md)
+  and the [privacy notice](https://github.com/ungive/discord-music-presence/blob/master/PRIVACY.md).
+- Why? Some media players do not report the name of the album the song is from.
+  Because of this it is impossible to tell
+  which album cover image is the correct one
+  and sometimes the Discord status would show the wrong image
+  (or no image at all).
+  With this update the status will always show the correct cover image.
+  Additionally Music Presence does not rely
+  on an external service like the TIDAL API anymore
+  to have a cover image in the status.
+- If this feature is disabled or an error is encountered,
+  then Music Presence falls back to the old behaviour
+  and works exactly like previous versions by using
+  an appropriate API service to get a cover image
+  (given that these are enabled in the settings).
+- Music Presence only contacts our service when its enabled in the settings,
+  when the Discord status is enabled and music is actively playing
+  and being shared in your Discord status.
+  When you stop listening,
+  Music Presence disconnects after a short idle timeout.
+- The application logs show exactly when Music Presence connects to the proxy,
+  when it disconnects and when a cover image is uploaded.
+
+### Automatic updates
+
+The application now installs updates automatically.
+A number of checks are made before an update is actually installed,
+including but not limited to
+cryptographically strong authentication of the source.
+
+- For information about the security of the updater read the
+  [documentation](https://github.com/ungive/discord-music-presence).
+- This feature is enabled by default, but can be disabled in the settings.
+- Updates are downloaded from the
+  [GitHub release page](https://github.com/ungive/discord-music-presence/releases),
+  just like you would to manually update.
+- The following checks are made before any downloaded update is installed:
+  - The [integrity](https://en.wikipedia.org/wiki/Data_integrity)
+    of the downloaded update's content is verified with a SHA256 checksum.
+  - The [authenticity](https://en.wikipedia.org/wiki/Message_authentication)
+    of the downloaded update's content is verified
+    with an Ed25519 cryptographic signature.
+  - The update is only installed when the version is newer
+    than the currently running version.
+    This check is also authenticated with the same cryptographic signature.
+- The source code of the updater component is open-source:
+  [https://github.com/ungive/libupdate](https://github.com/ungive/libupdate)
+- The update installation does not require elevated administator privileges.
+- Why? There are a lot of features
+  [planned](https://github.com/ungive/discord-music-presence/blob/master/ROADMAP.md),
+  which is why automatic updates were introduced.
+  Automatic updates allow me to make more frequent and smaller releases
+  which can be adopted much more quickly than before.
+  This feature also saves the manual download step that was necessary before
+  and verifies the integrity and authenticity of the downloaded update,
+  so you do not have to do it manually.
+- Downloaded updates are only applied and executed on program startup.
+  Whenever an update is installed,
+  you are required to manually restart the application
+  or wait until you run Music Presence the next time.
+- If you disable automatic updates,
+  any downloaded updates will be deleted immediately.
+  So in case an update was installed automatically,
+  but you don't want it to be executed,
+  you can simply disable the feature
+  and remain using the currently installed version.
+- Because of the introduction of this update,
+  each release now also has a `sha256sum.txt` and `sha256sum.txt.sig` file,
+  which contain the SHA256 checksum and the Ed25519 signature respectively.
+  If you want to, you can use these files to verify your download yourself,
+  by following the steps
+  [here](https://github.com/ungive/discord-music-presence/blob/master/documentation/automatic-updates.md#verifying-releases).
+- This feature is currently only available to Windows users,
+  but Mac users will get automatic updates in the future too.
+
+### Changelog popup
+
+- When automatic updates are enabled and a new version is launched,
+  you will see a popup with the latest changes,
+  so you won't miss out on what was added in the latest update.
+- You can also open the changelog popup from the settings window,
+  if you ever think you missed something.
+- When a new version is available and automatic updates are disabled,
+  the application shows a popup window with the changelog of the newest version
+  and a button to install the update.
+  This can be disabled in the settings.
+- The application now shows a popup with the latest changelog
+  whenever you start a new version.
+  This can be disabled in the settings,
+  but I recommend you leave it on,
+  so you don't miss out on what was added in the latest update.
+  This popup is not shown if you launch Music Presence
+  for the very first time.
+
+### Tray menu improvements
+
+- When clicking a checkbox, the tray menu is not closed anymore.
+  That way it should be easier to change multiple settings in one go
+  instead of having to reopen the menu every time after changing a setting.
+- Separated settings into two new submenus "Appearance" and "Settings".
+  "Appearance" contains all settings
+  in regard to what your Discord presence looks like.
+  "Settings" contains all other settings.
+- Added controls for which external services are enabled and used.
+  You can now enable or disable the use of the TIDAL API and MusicBrainz API.
+  These services are used to get cover images,
+  additional artists and other song metadata that might be missing.
+  If other services are added in the future,
+  controls for them will appear here.
+  If an API for a specific streaming service is enabled,
+  it will generally only be used
+  when its respective media player is playing music.
+- Appearance settings for "Playing" and "Listening to" are retained
+  when switching between them. You can now switch to one
+  without losing your settings for the other.
+  Before "Playing" and "Listening to" were reset to the default settings,
+  whenever you switched between them.
+  This has been fixed.
+
+### Other improvements
+
+- Media without an artist is not skipped anymore.
+  You can now share songs from e.g. MP3 files that aren't properly tagged.
+  Previously media without an artist was skipped by Music Presence.
+- Showing the album name on the third line in the Discord status,
+  when using the "Playing" type,
+  the title and artist are shown on a single line
+  and showing the album name is enabled in the settings.
+- The autostart path is updated when the application starts.
+  Previously, if you launched Music Presence
+  from a different install location,
+  autostart would appear disabled for that installation
+  until enabled manually.
+  This fixes that.
+- Moved the update information banner to the bottom of the tray menu,
+  so it's not in the way, but still clearly visible.
+- Now saving a backup of the settings file if it contains syntax errors,
+  such that editing it does not cause it to be completely reset,
+  in case any syntax errors are introduced by the user.
+- Removed the setting to enable or disable Discord invite notifications,
+  as that notification is only shown once per installation anyway.
+- Long title and/or artist names are shortened in the tray menu,
+  so that the menu does not get overly wide.
+  Hovering over the song information shows the entire title and artist.
+- The Windows installer does not require elevated privileges anymore.
+- Renamed the setting "Show the song title and artist on separate lines"
+  to "Show the song title and artist on a single line".
+
+### Bug fixes
+
+- Fixed Discord RPC and TIDAL API errors
+  when song or artist names are too long.
+- Fixed an issue with UTF-16 characters in filesystem paths,
+  where configuration and log files would not be saved correctly or at all.
+  Fixes [#34](https://github.com/ungive/discord-music-presence/issues/34).
+
+### Technical changes
+
+- The `--launch` parameter of `launcher.exe` on Windows
+  now behaves the same way as the `--launch-if-closed` parameter,
+  only launching the application if it is not running already.
+- Added a `--local-launch` parameter to `launcher.exe` on Windows,
+  which applies any updates that have been downloaded
+  to `%LOCALAPPDATA%\Music Presence` and starts the latest version.
+  To clarify, `--launch` only launches the executable that is
+  in the same directory as the launcher, while `--local-launch`
+  launches any installation in the local app data directory.
+
+Wow, you have read until the end! Here is a cookie. 🍪
+
+Please consider supporting my work on
+**[Patreon](https://www.patreon.com/musicpresence)**. ❤️
 
 ## 2.1.3
 
