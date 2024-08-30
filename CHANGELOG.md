@@ -29,6 +29,8 @@ if your media player supplies one.
   For more information read the
   [documentation](https://github.com/ungive/discord-music-presence/blob/master/documentation/cover-images-proxy.md)
   and the [privacy notice](https://github.com/ungive/discord-music-presence/blob/master/PRIVACY.md).
+- The code that powers this feature is open-source! See
+  [https://github.com/ungive/loon](https://github.com/ungive/loon).
 - Why? Some media players do not report the name of the album the song is from.
   Because of this it is impossible to tell
   which album cover image is the correct one
@@ -73,8 +75,8 @@ cryptographically strong authentication of the source.
   - The update is only installed when the version is newer
     than the currently running version.
     This check is also authenticated with the same cryptographic signature.
-- The source code of the updater component is open-source:
-  [https://github.com/ungive/libupdate](https://github.com/ungive/libupdate)
+- The source code of the updater component is open-source (too)! See
+  [https://github.com/ungive/libupdate](https://github.com/ungive/libupdate).
 - The update installation does not require elevated administator privileges.
 - Why? There are a lot of features
   [planned](https://github.com/ungive/discord-music-presence/blob/master/ROADMAP.md),
