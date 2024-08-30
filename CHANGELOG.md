@@ -2,6 +2,11 @@
 
 ## 2.2.0
 
+*This update was a lot of work. Please consider supporting me on*
+*on [**Patreon**](https://www.patreon.com/musicpresence)* ❤️
+
+---
+
 This version introduces the option
 to show the cover image from your media player in your status,
 update installation directly within the app,
@@ -198,10 +203,7 @@ cryptographically strong authentication of the source.
   in the same directory as the launcher, while `--local-launch`
   launches any installation in the local app data directory.
 
-Wow, you have read until the end! Here is a cookie. 🍪
-
-Please consider supporting my work on
-**[Patreon](https://www.patreon.com/musicpresence)**. ❤️
+Wow, you have read until the end! Here is a cookie for you. 🍪
 
 ## 2.1.3
 
