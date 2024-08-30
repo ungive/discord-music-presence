@@ -136,6 +136,21 @@
     in case any syntax errors are introduced by the user.
   - Removed the setting to enable or Discord invite notifications,
     as that notification is only shown once per installation anyway.
+  - Fixed Discord RPC and TIDAL API errors
+    when song or artist names are too long.
+  - Long title and/or artist names are shortened in the tray menu,
+    so that the menu does not get overly wide.
+    Hovering over the song information shows the entire title and artist.
+  - The application now shows a popup with the latest changelog
+    whenever you start a new version.
+    This can be disabled in the settings,
+    but I recommend you leave it on,
+    so you don't miss out on what was added in the latest update.
+    This popup is not shown if you launch Music Presence
+    for the very first time.
+  - Fixed an issue with UTF-16 characters in filesystem paths,
+    where configuration and log files would not be saved correctly or at all.
+    Fixes [#34](https://github.com/ungive/discord-music-presence/issues/34).
 
 ## 2.1.3
 
