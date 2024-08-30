@@ -151,6 +151,7 @@
   - Fixed an issue with UTF-16 characters in filesystem paths,
     where configuration and log files would not be saved correctly or at all.
     Fixes [#34](https://github.com/ungive/discord-music-presence/issues/34).
+  - The Windows installer does not require elevated privileges anymore.
 
 ## 2.1.3
 
