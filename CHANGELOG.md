@@ -179,7 +179,10 @@ cryptographically strong authentication of the source.
 - Long title and/or artist names are shortened in the tray menu,
   so that the menu does not get overly wide.
   Hovering over the song information shows the entire title and artist.
-- The Windows installer does not require elevated privileges anymore.
+- The Windows installer does not require elevated privileges anymore,
+  unless you have a version prior to Music Presence version 2.2.0 installed,
+  in which case the "uninstaller.exe" will require elevated privileges
+  in order to uninstall it from the program files directory.
 - Renamed the setting "Show the song title and artist on separate lines"
   to "Show the song title and artist on a single line".
 
