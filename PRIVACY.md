@@ -20,6 +20,10 @@ about how your data is processed.
 * You should be aware that some media might contain Personal Data.
   It is your responsibility to disable applications that play media
   with Personal Data attached to it.
+* The application updates itself by default.
+  This is done securely by downloading via an encrypted connection,
+  verifying the download's content with a checksum
+  and authenticating it with a cryptographic signature.
 * Additionally, the application reports limited statistics at most once a day,
   to understand how many users are actively using the software,
   which old versions are still in use and for how long,
@@ -35,20 +39,21 @@ about how your data is processed.
 * [Table of Contents](#table-of-contents)
 * [How does the Software collect data?](#how-does-the-software-collect-data)
 * [What data is collected by the Software?](#what-data-is-collected-by-the-software)
-    * [Media Metadata](#media-metadata)
-    * [Analytics Metrics privacy-friendly](#analytics-metrics-privacy-friendly)
-    * [No Personal Data](#no-personal-data)
-    * [Reporting undetected media players](#reporting-undetected-media-players)
+  * [Media Metadata](#media-metadata)
+  * [Analytics Metrics (privacy-friendly)](#analytics-metrics-privacy-friendly)
+  * [No Personal Data](#no-personal-data)
+  * [Reporting undetected media players](#reporting-undetected-media-players)
 * [How is the data being used and shared?](#how-is-the-data-being-used-and-shared)
-    * [Discord](#discord)
-    * [TIDAL](#tidal)
-    * [MetaBrainz - MusicBrainz and Cover Art Archive](#metabrainz---musicbrainz-and-cover-art-archive)
-    * [Simple Analytics](#simple-analytics)
-    * [GitHub](#github)
-    * [Our own services](#our-own-services)
-    * [Encryption](#encryption)
+  * [Discord](#discord)
+  * [TIDAL](#tidal)
+  * [MetaBrainz - MusicBrainz and Cover Art Archive](#metabrainz---musicbrainz-and-cover-art-archive)
+  * [Simple Analytics](#simple-analytics)
+  * [GitHub](#github)
+  * [Our own services](#our-own-services)
+  * [Encryption](#encryption)
 * [Which Media Metadata is shared by default?](#which-media-metadata-is-shared-by-default)
 * [How can the user control which data is shared?](#how-can-the-user-control-which-data-is-shared)
+* [Automatic updates](#automatic-updates)
 * [Scope of this privacy policy](#scope-of-this-privacy-policy)
 * [Changes to this privacy policy](#changes-to-this-privacy-policy)
 * [Contact details](#contact-details)
@@ -110,7 +115,7 @@ which operating system and architecture is used most predominantly
 and from which regions users are vaguely coming from.
 Additionally, the listed settings are reported
 in order to understand how many users
-are interested in application updates.
+are interested in updates of the Software.
 
 To put this into perspective:
 Nowadays almost all websites use some form of analytics
@@ -202,7 +207,7 @@ to complete Media Metadata that is lacking song, track or video information
 and to get more information about the media that is playing
 from an online music database.
 
-This service can be disabled in the settings of the application.
+This service can be disabled in the settings of the Software.
 
 * **[TIDAL](https://tidal.com/)**
   &ndash; [Privacy Policy](https://tidal.com/privacy)
@@ -216,7 +221,7 @@ to complete Media Metadata that is lacking song, track or video information
 and to get more information about the media that is playing
 from an online music database.
 
-This service can be disabled in the settings of the application.
+This service can be disabled in the settings of the Software.
 
 * **[MetaBrainz](https://metabrainz.org)**
   &ndash; [Privacy Policy](https://metabrainz.org/privacy)
@@ -254,13 +259,13 @@ on application startup:
   ([repository](https://github.com/jonasberge/live.musicpresence.app)).
   **GitHub** may collect data in accordance with their Privacy Policy.
 * Check for a new release of Music Presence.
-  The application makes a request to **GitHub**'s API
+  The Software makes a request to **GitHub**'s API
   to check whether there is a new release of Music Presence.
   **GitHub** may collect data in accordance with their Privacy Policy.
 
 ### Our own services
 
-We provide our own services to extend the functionality of the application
+We provide our own services to extend the functionality of the Software
 in accordance with this privacy policy.
 These include the following services:
 
@@ -283,7 +288,7 @@ since it does not leave the user's device.
 
 ## Which Media Metadata is shared by default?
 
-By default, the application will only share Media Metadata
+By default, the Software will only share Media Metadata
 from applications that have been whitelisted by the developer of the Software.
 That means not all Media Metadata is shared by default,
 but only that of a predefined set of applications.
@@ -342,6 +347,33 @@ After doing so "enabled" disappears and an "x" appears
 in front of the name of the Media Player,
 to signal that no Media Metadata from that Media Player
 will be shared with third parties.
+
+## Automatic updates
+
+The Software checks for updates on application startup
+and at an interval of 12 hours while it is running.
+When a new version is available and automatic updates are enabled,
+the Software downloads the update in the background.
+The downloaded update then goes through the following checks,
+to ensure that it has not been tampered with and stems from a trusted source:
+
+- A checksum is used to verify the file's integrity,
+  i.e. that the contents have not been modified.
+- A cryptographic signature is used to verify the file's authenticity,
+  i.e. that it stems from a trusted source
+  (the developer of the Software and no other party).
+- The signature is also used to ensure
+  that the application is never downgraded to an older version.
+
+Once all those checks have passed,
+the update is installed to the user's computer
+and executed after the application has been restarted.
+For more detailed information read the
+[documentation](https://automatic-updates-docs.musicpresence.app/).
+
+Automatic updates can be disabled in the settings.
+If they are disabled, the user has the option to install updates manually
+by clicking the respective button in the Tray Menu.
 
 ---
 
