@@ -69,7 +69,7 @@ including but not limited to
 cryptographically strong authentication of the source.
 
 - For information about the security of the updater read the
-  [documentation](https://github.com/ungive/discord-music-presence).
+  [documentation](https://github.com/ungive/discord-music-presence/blob/master/documentation/automatic-updates.md).
 - This feature is enabled by default, but can be disabled in the settings.
 - Updates are downloaded from the
   [GitHub release page](https://github.com/ungive/discord-music-presence/releases),
