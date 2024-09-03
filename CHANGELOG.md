@@ -2,12 +2,11 @@
 
 ## 2.2.0
 
-*A lot of work went into this update, but it's finally here!
-Consider supporting me
+*A lot of work went into this update, but it's finally here!*
+
+*Consider supporting me
 on [**Patreon**](https://www.patreon.com/musicpresence),
-so I can put more of my time into this project.
-Check the [**roadmap**](https://github.com/ungive/discord-music-presence/blob/master/ROADMAP.md)
-to see what's next!*
+so I can put more of my time into this project.* ❤️
 
 ---
 
