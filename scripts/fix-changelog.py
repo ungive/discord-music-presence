@@ -12,9 +12,13 @@ linebreak = False
 
 for line in sys.stdin:
     if len(line.strip()) == 0:
+        state = DEFAULT
+        print()
         print()
         continue
-    is_bullet_start = line.lstrip()[0] in ('-', '*', '+')
+    is_bullet_start = line.lstrip()[0] in ('-', '*', '+') \
+        and line.lstrip()[1] not in ('-', '*', '+')
+    # print((is_bullet_start, line))
     if state == BULLET and not is_bullet_start:
         if not linebreak:
             print(' ', end='')
@@ -28,4 +32,4 @@ for line in sys.stdin:
         print(line.rstrip() + ('  ' if linebreak else ''), end=('\n' if linebreak else ''))
     else:
         state = DEFAULT
-        print(line)
+        print(line.rstrip() + ' ', end='')
