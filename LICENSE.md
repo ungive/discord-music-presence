@@ -71,3 +71,29 @@ Copyright (c) 2012 - present, Victor Zverovich and {fmt} contributors
 Licensed under the MIT License.  
 A copy of the source code can be obtained at  
     <https://github.com/fmtlib/fmt>
+
+ungive/loon  
+Copyright (c) 2024 Jonas van den Berg  
+A copy of the source code can be obtained at  
+    <https://github.com/ungive/loon>
+
+ungive/libupdate  
+Copyright (c) 2024 Jonas van den Berg  
+Licensed under the MIT License.  
+A copy of the source code can be obtained at  
+    <https://github.com/ungive/libupdate>
+
+madler/zlib  
+Copyright (c) 1995-2024 Jean-loup Gailly and Mark Adler  
+A copy of the source code can be obtained at  
+    <https://github.com/madler/zlib>
+
+zlib-ng/minizip-ng  
+Copyright (c) Nathan Moinvaziri  
+A copy of the source code can be obtained at  
+    <https://github.com/zlib-ng/minizip-ng>
+
+google/protobuf  
+Copyright (c) 2008 Google Inc.  
+A copy of the source code can be obtained at  
+    <https://github.com/protocolbuffers/protobuf>
