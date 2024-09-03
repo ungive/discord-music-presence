@@ -20,34 +20,40 @@ about how your data is processed.
 * You should be aware that some media might contain Personal Data.
   It is your responsibility to disable applications that play media
   with Personal Data attached to it.
-* Additionally, the application reports if it has been used at most once a day.
-  This is done completely anonymously and serves the purpose of understanding
-  how many users are actively using the Software,
-  which old versions are still in use
+* Additionally, the application reports limited statistics at most once a day,
+  to understand how many users are actively using the software,
+  which old versions are still in use and for how long,
+  whether automatic updates are enabled or not
   and which operating systems the application is used on.
+  This is done completely anonymously.
 
 ## Table of Contents
+
+<!-- TOC -->
 
 * [Overview](#overview)
 * [Table of Contents](#table-of-contents)
 * [How does the Software collect data?](#how-does-the-software-collect-data)
 * [What data is collected by the Software?](#what-data-is-collected-by-the-software)
-  * [Media Metadata](#media-metadata)
-  * [Analytics Metrics (privacy-friendly)](#analytics-metrics-privacy-friendly)
-  * [No Personal Data](#no-personal-data)
-  * [Reporting undetected media players](#reporting-undetected-media-players)
+    * [Media Metadata](#media-metadata)
+    * [Analytics Metrics privacy-friendly](#analytics-metrics-privacy-friendly)
+    * [No Personal Data](#no-personal-data)
+    * [Reporting undetected media players](#reporting-undetected-media-players)
 * [How is the data being used and shared?](#how-is-the-data-being-used-and-shared)
-  * [Discord](#discord)
-  * [TIDAL](#tidal)
-  * [MetaBrainz (MusicBrainz and Cover Art Archive)](#metabrainz-musicbrainz-and-cover-art-archive)
-  * [Simple Analytics](#simple-analytics)
-  * [GitHub](#github)
-  * [Encryption](#encryption)
+    * [Discord](#discord)
+    * [TIDAL](#tidal)
+    * [MetaBrainz - MusicBrainz and Cover Art Archive](#metabrainz---musicbrainz-and-cover-art-archive)
+    * [Simple Analytics](#simple-analytics)
+    * [GitHub](#github)
+    * [Our own services](#our-own-services)
+    * [Encryption](#encryption)
 * [Which Media Metadata is shared by default?](#which-media-metadata-is-shared-by-default)
 * [How can the user control which data is shared?](#how-can-the-user-control-which-data-is-shared)
 * [Scope of this privacy policy](#scope-of-this-privacy-policy)
 * [Changes to this privacy policy](#changes-to-this-privacy-policy)
 * [Contact details](#contact-details)
+
+<!-- /TOC -->
 
 ## How does the Software collect data?
 
@@ -87,16 +93,25 @@ is collected when observing media playback:
 Additionally the following anonymous metrics ("Analytics Metrics")
 are transmitted to a privacy-friendly analytics service
 (Simple Analytics, more information in the next section)
-on program startup at most once a day.
+at most once a day:
 
 * The version of the Software that is used
 * The operating system type (Windows, Mac or Linux) and its architecture
-* Your current time zone (for region information)
+* Your current time zone (for region information) and your local time
+* The following settings in regard to automatic updates:
+  * Whether automatic updates are enabled
+  * Whether update popups are enabled
+  * Whether the changelog is shown
+    when a new version is launched for the first time
 
 This data is only used to understand
 which older versions of the Software are still being used,
 which operating system and architecture is used most predominantly
 and from which regions users are vaguely coming from.
+Additionally, the listed settings are reported
+in order to understand how many users
+are interested in application updates.
+
 To put this into perspective:
 Nowadays almost all websites use some form of analytics
 and most of them will collect much more information than what is listed above.
@@ -131,7 +146,7 @@ It is the responsibility of the user to:
 In the event that Personal Data has been shared with third parties,
 the data is handled by these third parties
 in accordance with their privacy policies
-(see the next section).
+(see the following sections).
 
 ### Reporting undetected media players
 
@@ -181,23 +196,27 @@ and shows this information to other users of the Discord platform.
 
 ### TIDAL
 
-Media Metadata is sent to **TIDAL**, more specifically the
+Media Metadata may be sent to **TIDAL**, more specifically the
 [TIDAL API](https://developer.tidal.com/documentation/api/api-overview),
 to complete Media Metadata that is lacking song, track or video information
 and to get more information about the media that is playing
 from an online music database.
 
+This service can be disabled in the settings of the application.
+
 * **[TIDAL](https://tidal.com/)**
   &ndash; [Privacy Policy](https://tidal.com/privacy)
 
-### MetaBrainz (MusicBrainz and Cover Art Archive)
+### MetaBrainz - MusicBrainz and Cover Art Archive
 
-Media Metadata is sent to **MetaBrainz**, more specifically the
+Media Metadata may be sent to **MetaBrainz**, more specifically the
 [MusicBrainz API](https://musicbrainz.org/doc/MusicBrainz_API)
 and the [Cover Art Archive](https://coverartarchive.org/),
 to complete Media Metadata that is lacking song, track or video information
 and to get more information about the media that is playing
 from an online music database.
+
+This service can be disabled in the settings of the application.
 
 * **[MetaBrainz](https://metabrainz.org)**
   &ndash; [Privacy Policy](https://metabrainz.org/privacy)
@@ -238,6 +257,18 @@ on application startup:
   The application makes a request to **GitHub**'s API
   to check whether there is a new release of Music Presence.
   **GitHub** may collect data in accordance with their Privacy Policy.
+
+### Our own services
+
+We provide our own services to extend the functionality of the application
+in accordance with this privacy policy.
+These include the following services:
+
+- A proxying service which makes cover images from media players
+  accessible via a randomly generated, internet-accessible URL
+  for a short amount of time,
+  such that they can be shown in a Rich Presence on Discord.
+  This service can be disabled in the settings.
 
 ### Encryption
 
@@ -316,7 +347,7 @@ will be shared with third parties.
 
 ## Scope of this privacy policy
 
-This document applies to version 2.1.3 of Music Presence and that version only.
+This document applies to version 2.2.0 of Music Presence and that version only.
 
 ## Changes to this privacy policy
 
@@ -324,7 +355,7 @@ This privacy policy is kept under regular review.
 Any updates are placed into this file in this repository.
 The last update to this policy is stated below.
 
-Last updated on 1 June 2024.  
+Last updated on 3 September 2024.  
 This does not include changes to the scope of this privacy policy.
 
 ## Contact details
