@@ -72,6 +72,21 @@ and the checksum is computed and compared as described in the next section.
 If everything is valid, the download is ready for installation
 and is installed automatically if automatic updates are enabled.
 
+Note that the last two files above (checksums and signature)
+are NOT downloaded from the GitHub release itself,
+but from the following URLs (at the example of version 2.1.3):
+
+- https://pages.musicpresence.app/releases/2.1.3/sha256sum.txt
+- https://pages.musicpresence.app/releases/2.1.3/sha256sum.txt.sig
+
+These files are hosted
+[on GitHub as well](https://github.com/ungive/discord-music-presence/tree/master/docs/releases)
+and have the same content as the files attached to the release.
+The reason for not downloading the from the release
+is to not artifically inflate the GitHub download counter.
+Otherwise one in-app or automatic update
+would cause the download counter to increase by 3 instead of 1.
+
 [^1]: Music Presence releases:
 https://github.com/ungive/discord-music-presence/releases
 [^2]: GitHub API documentation: https://docs.github.com/en/rest
