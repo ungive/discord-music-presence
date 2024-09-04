@@ -95,7 +95,7 @@ is collected when observing media playback:
 
 ### Analytics Metrics (privacy-friendly)
 
-Additionally the following anonymous metrics ("Analytics Metrics")
+The following anonymous metrics ("Analytics Metrics")
 are transmitted to a privacy-friendly analytics service
 (Simple Analytics, more information in the next section)
 at most once a day:
@@ -117,7 +117,15 @@ Additionally, the listed settings are reported
 in order to understand how many users
 are interested in updates of the Software.
 
-To put this into perspective:
+When the user installs an update within the app,
+either manually or because automatic updates are enabled,
+and the installation fails with an error message,
+the error message is anonymized
+and transmitted to the mentioned analytics service.
+This is necessary in order to know about update problems as soon as possible
+and to be informed when critical errors occur that need attention.
+
+To put these collected Analytics Metrics into perspective:
 Nowadays almost all websites use some form of analytics
 and most of them will collect much more information than what is listed above.
 Your IP address is never stored or used in any way
