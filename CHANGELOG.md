@@ -162,6 +162,8 @@ cryptographically strong authentication of the source.
 - Media without an artist is not skipped anymore.
   You can now share songs from e.g. MP3 files that aren't properly tagged.
   Previously media without an artist was skipped by Music Presence.
+- MusicBrainz API results now add additional artists, if available,
+  and make a best-effort guess at the album name, if it is missing.
 - Showing the album name on the third line in the Discord status,
   when using the "Playing" type,
   the title and artist are shown on a single line
