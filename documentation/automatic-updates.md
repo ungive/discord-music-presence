@@ -1,8 +1,5 @@
 # Automatic updates
 
-> This is a preview document and might be updated
-> before version 2.2.0 is released.
-
 > At the moment this feature is only available for Windows users.
 
 Starting with version 2.2.0, Music Presence ships with the option
