@@ -6,22 +6,25 @@ Overview of supported media players for each operating system.
 
 > Note: A release for Linux is being worked on.
 
-| Application          |                   Windows                   |           Mac            |          Linux           | test status                |
-|----------------------|:-------------------------------------------:|:------------------------:|:------------------------:|:---------------------------|
-| TIDAL                |             :white_check_mark:              |    :white_check_mark:    |           ...            | paid only*                 |
-| Amazon Music         | :white_check_mark: :face_with_head_bandage: |   :white_check_mark:*    |     :grey_question:      | paid only*                 |
-| Apple Music          |               :grey_question:               |    :white_check_mark:    |     :grey_question:      | unpaid* + local files only |
-| Deezer               |             :white_check_mark:*             |   :white_check_mark:*    |     :grey_question:      | unpaid only*               |
-| foobar2000           |             :white_check_mark:*             |    :white_check_mark:    | :heavy_multiplication_x: | fully tested               |
-| MusicBee             |         :white_check_mark: :pencil:         | :heavy_multiplication_x: | :heavy_multiplication_x: | fully tested               |
-| Qobuz                |             :white_check_mark:*             |        :warning:         | :heavy_multiplication_x: | unpaid only*               |
-| Spotify              |           :ballot_box_with_check:           | :ballot_box_with_check:  |           ...            | not tested                 |
-| Spotify (unpaid)     |                  :warning:                  |    :white_check_mark:    |           ...            | fully tested               |
-| Windows Media Player |             :white_check_mark:              | :heavy_multiplication_x: | :heavy_multiplication_x: | fully tested               |
+| Application               |                   Windows                   |           Mac            |          Linux           | test status                |
+|---------------------------|:-------------------------------------------:|:------------------------:|:------------------------:|:---------------------------|
+| TIDAL                     |             :white_check_mark:              |    :white_check_mark:    |           ...            | paid only*                 |
+| Amazon Music              | :white_check_mark: :face_with_head_bandage: |   :white_check_mark:*    |           ...            | paid only*                 |
+| Apple Music               |               :grey_question:               |    :white_check_mark:    |           ...            | unpaid* + local files only |
+| Deezer                    |             :white_check_mark:*             |   :white_check_mark:*    |           ...            | unpaid only*               |
+| foobar2000                |             :white_check_mark:*             |    :white_check_mark:    | :heavy_multiplication_x: | fully tested               |
+| MusicBee                  |         :white_check_mark: :pencil:         | :heavy_multiplication_x: | :heavy_multiplication_x: | fully tested               |
+| Qobuz                     |             :white_check_mark:*             |        :warning:         | :heavy_multiplication_x: | unpaid only*               |
+| Spotify                   |           :ballot_box_with_check:           | :ballot_box_with_check:  |           ...            | not tested                 |
+| Spotify (unpaid)          |                  :warning:                  |    :white_check_mark:    |           ...            | fully tested               |
+| Windows Media Player      | :white_check_mark: :face_with_head_bandage: | :heavy_multiplication_x: | :heavy_multiplication_x: | fully tested               |
+| YouTube Music<sup>1</sup> |             :white_check_mark:              |           ...            |           ...            | fully tested               |
 
 *\* This means Music Presence was only tested
 with the paid or unpaid version of the player,
 i.e. with a paid subscription or with the free, unpaid version.*
+
+<sup>1</sup> Using [this unofficial desktop app](https://github.com/th-ch/youtube-music).
 
 ### Legend
 
@@ -57,6 +60,12 @@ not with Music Presence!
 Affected players are sometimes reporting
 incorrect song metadata or playback information,
 Music Presence cannot do anything about that.
+
+### Not working randomly
+
+Some players stop reporting song information arbitrarily at some point.
+
+- Windows Media Player on Windows
 
 ### Incorrect song metadata
 
