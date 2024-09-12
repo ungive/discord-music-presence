@@ -2,6 +2,8 @@
 
 ## 2.2.1
 
+> Upcoming changes in the next version
+
 - Redesigned the Music Presence logo and tray icon.
   The tray icon is now less convoluted, monochrome and has better contrast.
   Sharing music is now symbolized by a triangle
