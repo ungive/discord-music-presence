@@ -1,14 +1,49 @@
 # Changelog
 
+## 2.2.1
+
+- Redesigned the Music Presence logo and tray icon.
+  The tray icon is now less convoluted, monochrome and has better contrast.
+  Sharing music is now symbolized by a triangle
+  in the bottom right corner of the tray icon,
+  with the app logo remaining to be recognizable and easily identifiable
+  - The icon color adapts to the system theme
+  - Source code: https://github.com/music-presence/icons
+- Fixed system theme changes not being reflected properly in the app
+  (not detected reliably in version 2.1.3 and prior,
+  temporarily disabled in version 2.2.0).
+  Now all colours and icons in the tray menu are properly updated,
+  when you change your system theme
+- Improvements and bug fixes in regard to cover images from media players
+  ("Use cover images from media players")
+  - The cover image from the media player is now also used
+    when Music Presence reconnects to the proxy server after a disconnect
+    or when it takes longer to connect than the initial timeout
+    (e.g. because of an unstable or slow internet connection)
+  - Fixed Discord account switching or Discord restarts
+    not disconnecting from the Proxy,
+    entering an idle disconnect/reconnect loop
+    and wrongfully reusing proxy links that aren't valid anymore
+  - Increased the idle timeout to 60 seconds (from 30 seconds)
+    to accomodate for bad internet connections
+    and give enough time to reconnect to the proxy server, if needed
+  - Increased reconnect interval in case the client disconnects
+    or fails to connect to the proxy server
+- Left-clicking on the tray icon now opens the tray menu as well.
+  Previously the tray menu could only be opened by right-clicking it
+- Title and artist are now shown on separate lines by default,
+  assuming most users will prefer to have it this way
+- The application logs now show if the media has a cover image available,
+  whether it is used in the status or if an API's cover image is used
+  - If the media player has a cover image, the log shows `cover:image`
+  - If the cover image from the media player is shown in the status
+    using the proxy server, the log shows `cover:image/proxy`
+  - Otherwise the domain name of the image URL is shown,
+    e.g. `resources.tidal.com` for TIDAL images
+- Added support for the following media players:
+  - [Next-Player](https://www.microsoft.com/store/apps/9nblggh67n4f) on Windows
+
 ## 2.2.0
-
-*A lot of work went into this update, but it's finally here!*
-
-*Consider supporting me
-on [**Patreon**](https://www.patreon.com/musicpresence),
-so I can put more of my time into this project.* ❤️
-
----
 
 This version introduces the option
 to show the cover image from your media player in your status,
@@ -210,8 +245,6 @@ cryptographically strong authentication of the source.
   To clarify, `--launch` only launches the executable that is
   in the same directory as the launcher, while `--local-launch`
   launches any installation in the local app data directory.
-
-Wow, you have read until the end! Here is a cookie for you. 🍪
 
 ## 2.1.3
 
