@@ -2,20 +2,20 @@
 
 ## 2.2.1
 
-> Upcoming changes in the next version
+Upcoming changes in the next version:
 
 - Redesigned the Music Presence logo and tray icon.
-  The tray icon is now less convoluted, monochrome and has better contrast.
+  The tray icon is now more defined, monochrome and has better contrast.
   Sharing music is now symbolized by a triangle
   in the bottom right corner of the tray icon,
   with the app logo remaining to be recognizable and easily identifiable
-  - The icon color adapts to the system theme
-  - Source code: https://github.com/music-presence/icons
-- Fixed system theme changes not being reflected properly in the app
-  (not detected reliably in version 2.1.3 and prior,
-  temporarily disabled in version 2.2.0).
-  Now all colours and icons in the tray menu are properly updated,
-  when you change your system theme
+  - The icon color adapts to the system theme (changes to either black or white)
+  - More information:
+    [https://github.com/ungive/discord-music-presence/issues/36](https://github.com/ungive/discord-music-presence/issues/36)
+- Added the option to hide the player logo for media players
+  that are not streaming services.
+  You can hide it for e.g. foobar2000 or MusicBee,
+  but not players like TIDAL, Spotify or Apple Music.
 - Improvements and bug fixes in regard to cover images from media players
   ("Use cover images from media players")
   - The cover image from the media player is now also used
@@ -31,10 +31,13 @@
     and give enough time to reconnect to the proxy server, if needed
   - Increased reconnect interval in case the client disconnects
     or fails to connect to the proxy server
+- Fixed system theme changes not being reflected properly in the app
+  (not detected reliably in version 2.1.3 and prior,
+  temporarily disabled in version 2.2.0).
+  Now all colours and icons in the tray menu are properly updated,
+  when you change your system theme
 - Left-clicking on the tray icon now opens the tray menu as well.
   Previously the tray menu could only be opened by right-clicking it
-- Title and artist are now shown on separate lines by default,
-  assuming most users will prefer to have it this way
 - The application logs now show if the media has a cover image available,
   whether it is used in the status or if an API's cover image is used
   - If the media player has a cover image, the log shows `cover:image`
@@ -42,6 +45,12 @@
     using the proxy server, the log shows `cover:image/proxy`
   - Otherwise the domain name of the image URL is shown,
     e.g. `resources.tidal.com` for TIDAL images
+- Changed the following default settings:
+  - Using the "Listening to" activity type by default now
+    and removed the "(BETA)" status
+  - The artist ("by") and album prefix ("on") is not enabled by default anymore
+  - Title and artist are now shown on separate lines by default,
+    assuming most users will prefer to have it this way
 - Added support for the following media players:
   - [Next-Player](https://www.microsoft.com/store/apps/9nblggh67n4f) on Windows
 
