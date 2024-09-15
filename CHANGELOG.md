@@ -2,42 +2,46 @@
 
 ## 2.2.1
 
-Upcoming changes in the next version:
-
-- Redesigned the Music Presence logo and tray icon.
-  The tray icon is now more defined, monochrome and has better contrast.
-  Sharing music is now symbolized by a triangle
+- **Redesigned the Music Presence tray icon and logo.**  
+  The tray icon is now more defined and has better contrast.
+  Sharing music in your status is now symbolized by a triangle
   in the bottom right corner of the tray icon,
-  with the app logo remaining to be recognizable and easily identifiable
-  - The icon color adapts to the system theme (changes to either black or white)
-  - More information:
-    [https://github.com/ungive/discord-music-presence/issues/36](https://github.com/ungive/discord-music-presence/issues/36)
-- Added the option to hide the player logo for media players
-  that are not streaming services.
-  You can hide it for e.g. foobar2000 or MusicBee,
-  but not players like TIDAL, Spotify or Apple Music.
-- Improvements and bug fixes in regard to cover images from media players
-  ("Use cover images from media players")
+  with the app logo remaining to be recognizable and easily identifiable.
+  - The icon color automatically adapts to the system theme
+    (changes to either black or white)
+  - You can read more about this 
+    [here](https://github.com/ungive/discord-music-presence/issues/36)
+- Improvements and bug fixes for cover images from media players
+  ("use cover images from media players")
   - The cover image from the media player is now also used
     when Music Presence reconnects to the proxy server after a disconnect
-    or when it takes longer to connect than the initial timeout
-    (e.g. because of an unstable or slow internet connection)
+    or when it takes longer to connect than the initial timeout.
+    This should help with unstable or slow internet connections
   - Fixed Discord account switching or Discord restarts
-    not disconnecting from the Proxy,
-    entering an idle disconnect/reconnect loop
+    not causing the app to disconnect from the proxy server
+    and instead entering an idle disconnect/reconnect loop
     and wrongfully reusing proxy links that aren't valid anymore
   - Increased the idle timeout to 60 seconds (from 30 seconds)
     to accomodate for bad internet connections
     and give enough time to reconnect to the proxy server, if needed
-  - Increased reconnect interval in case the client disconnects
-    or fails to connect to the proxy server
+  - Increased the interval at which the app
+    attempts to reconnect to the proxy server,
+    in case the client disconnects or fails to connect
+- Added the option to hide the player logo for media players
+  that are not streaming services.
+  You can hide it for e.g. foobar2000 or MusicBee,
+  but not players like TIDAL, Spotify or Apple Music.
+- When starting Music Presence for the first time
+  the application now shows a small popup instead of a notification
+  to inform you that it sits in the tray menu.
+  First-time users should now have an easier time finding the app.
+- Left-clicking on the tray icon now opens the tray menu as well.
+  Previously the tray menu could only be opened by right-clicking it
 - Fixed system theme changes not being reflected properly in the app
   (not detected reliably in version 2.1.3 and prior,
   temporarily disabled in version 2.2.0).
   Now all colours and icons in the tray menu are properly updated,
   when you change your system theme
-- Left-clicking on the tray icon now opens the tray menu as well.
-  Previously the tray menu could only be opened by right-clicking it
 - The application logs now show if the media has a cover image available,
   whether it is used in the status or if an API's cover image is used
   - If the media player has a cover image, the log shows `cover:image`
@@ -52,7 +56,7 @@ Upcoming changes in the next version:
   - Title and artist are now shown on separate lines by default,
     assuming most users will prefer to have it this way
 - Added support for the following media players:
-  - [Next-Player](https://www.microsoft.com/store/apps/9nblggh67n4f) on Windows
+  - Next-Player (DryForest) on Windows
 
 ## 2.2.0
 
