@@ -1,23 +1,6 @@
 # Roadmap
 
-Last updated: 13.08.2024
-
-## Upcoming releases
-
-- 2.2.0
-  - Adds the option to use the cover image
-    directly from your media player in your status.
-    No more missing album covers, especially for foobar2000 and MusicBee users,
-    but also users of any other player.
-  - A revised tray menu with more controls
-    over which external services are used.
-  - Automatic updates to new versions,
-    so you don't have to install updates manually anymore (can be disabled).
-    The roadmap is long and this project is very active,
-    employing automatic updates allows me to make releases more frequently
-    without fearing that users get annoyed of updating all the time.
-
-## Planned features
+## Work in progress and planned features
 
 - Listening along with other Music Presence users and your friends.
 - A button in your status that has links for the song
@@ -32,27 +15,31 @@ Last updated: 13.08.2024
 - Community-driven translations of the application to other languages.
 - ...
 
-## Past releases
+## Donations
 
-To see what was added in past releases,
-read the detailed [CHANGELOG](./CHANGELOG.md).
+By making a donation you are actively helping
+in making these planned features a reality.
+Your financial support allows me to invest more of my time into this project
+and helps cover recurring server and domain costs.
 
----
+You can choose between these options:
 
-## Donating
+* **[Patreon](https://www.patreon.com/musicpresence)**
+  &nbsp;&ndash;&nbsp; membership with additional perks
+* **[LiberaPay](https://liberapay.com/jonasvandenberg)**
+  &nbsp;&ndash;&nbsp; option to donate anonymously
+* **[GitHub Sponsors](https://github.com/sponsors/ungive)**
+  &nbsp;&ndash;&nbsp; option for one-time donations, directly here on GitHub
 
-You can support the development of this project
-by making a [donation](./FUNDING.md).
-
-Any support is highly appreciated.
-Thank you for your consideration!
+You can read [**here**](./FUNDING.md) for more information.
 
 ## Feature requests
 
 If you have an idea or a feature request,
 feel free to [open an issue](
   https://github.com/ungive/discord-music-presence/issues).
+I am always happy to hear about new ideas!
 
-Even if your idea is already on the list or an issue for it exists already,
-let me know if you want the feature by leaving a comment,
-getting feedback is always helpful!
+---
+
+*Last updated: 15.09.2024*
