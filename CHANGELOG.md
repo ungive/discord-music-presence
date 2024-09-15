@@ -137,7 +137,7 @@ cryptographically strong authentication of the source.
   [https://github.com/ungive/libupdate](https://github.com/ungive/libupdate).
 - The update installation does not require elevated administator privileges.
 - Why? There are a lot of features
-  [planned](https://github.com/ungive/discord-music-presence/blob/master/ROADMAP.md),
+  [planned](https://github.com/ungive/discord-music-presence/blob/master/documentation/roadmap.md),
   which is why automatic updates were introduced.
   Automatic updates allow me to make more frequent and smaller releases
   which can be adopted much more quickly than before.
@@ -440,7 +440,7 @@ cryptographically strong authentication of the source.
   since the software has been rewritten from the ground up.
   See [LICENSE.md](https://github.com/ungive/discord-music-presence/blob/master/LICENSE.md) for details.
 - Currently only works on Windows, but support for Mac and Linux is underway.
-- Future plans are outlined in [ROADMAP.md](https://github.com/ungive/discord-music-presence/blob/master/README.md).
+- Future plans are outlined in [the roadmap](https://github.com/ungive/discord-music-presence/blob/master/documentation/roadmap.md).
 - If you would like to fund the project, see
   [FUNDING.md](https://github.com/ungive/discord-music-presence/blob/master/FUNDING.md).
 

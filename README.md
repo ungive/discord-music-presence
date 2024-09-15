@@ -1,5 +1,5 @@
 ![Screenshot of the application in the tray menu and the Discord status](
-  ./assets/banner.png)
+  ./.github/assets/banner.png)
 
 [![Number of downloads](https://img.shields.io/github/downloads/ungive/discord-music-presence/total?style=flat&label=downloads&labelColor=444)](https://github.com/ungive/discord-music-presence/releases)
 &nbsp;[![Number of downloads of the latest version](https://img.shields.io/github/downloads/ungive/discord-music-presence/latest/total?style=flat&label=downloads%20%40latest&labelColor=444)](https://github.com/ungive/discord-music-presence/releases)
@@ -39,7 +39,7 @@ You can download Music Presence
 &nbsp;&bullet;&nbsp;
 [**Changelog**](./CHANGELOG.md)
 &nbsp;&bullet;&nbsp;
-[**Roadmap**](./ROADMAP.md)
+[**Roadmap**](./documentation/roadmap.md)
 &nbsp;&bullet;&nbsp;
 [**Privacy**](./PRIVACY.md)
 
@@ -89,7 +89,8 @@ on the effort of a single developer.
 Your financial support allows me to invest more of my time into this project
 and helps cover recurring server and domain costs,
 which ultimately helps in making improvements
-and working on [new features](./ROADMAP.md) that are waiting to be implemented!
+and working on [new features](./documentation/roadmap.md)
+that are waiting to be implemented!
 
 Any donation is highly appreciated. Thank you!
 

@@ -11,3 +11,4 @@ If you feel like something is missing, feel free to open an issue.
 - [Cover images from media players](./cover-images-proxy.md)
 - [Automatic updates](./automatic-updates.md)
 - [Integrating with Music Presence for third-parties](./third-party-integration.md)
+- [Project roadmap](./roadmap.md)

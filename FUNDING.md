@@ -5,7 +5,7 @@ on the effort of a single developer.
 Your financial support allows me to invest more of my time into this project
 and helps cover recurring server and domain costs,
 which ultimately helps in making improvements
-and working on [new features](./ROADMAP.md) that are waiting to be implemented!
+and working on [new features](./documentation/roadmap.md) that are waiting to be implemented!
 
 You can choose between these options:
 
