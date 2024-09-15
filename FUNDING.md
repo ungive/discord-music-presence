@@ -1,29 +1,22 @@
 # Donating
 
-The development of this project largely depends
-on the effort of a single developer,
-who is working on this application in his free-time.
-If you would like to support the development progress
-or would simply like to show your appreciation,
-you can do so by making a donation.
+The development of this project solely depends
+on the effort of a single developer.
+Your financial support allows me to invest more of my time into this project
+and helps cover recurring server and domain costs,
+which ultimately helps in making improvements
+and working on [new features](./ROADMAP.md) that are waiting to be implemented!
 
 You can choose between these options:
 
 * **[Patreon](https://www.patreon.com/musicpresence)**
-  &nbsp;&ndash;&nbsp; *the preferred option with
-  [additional benefits](https://www.patreon.com/musicpresence/membership)*
-
-If you don't want a Patreon membership:
-
-* **[GitHub Sponsors](https://github.com/sponsors/ungive)**
-  &nbsp;&ndash;&nbsp; option for one-time donations, directly here on GitHub
+  &nbsp;&ndash;&nbsp; membership with additional perks
 * **[LiberaPay](https://liberapay.com/jonasvandenberg)**
   &nbsp;&ndash;&nbsp; option to donate anonymously
+* **[GitHub Sponsors](https://github.com/sponsors/ungive)**
+  &nbsp;&ndash;&nbsp; option for one-time donations, directly here on GitHub
 
 Thank you for your support and your interest in this project!
-
-Join the **[Discord server](https://discord-invite.musicpresence.app/)**
-to stay in touch!
 
 ---
 
@@ -49,8 +42,3 @@ Your donation will fund the following:
 
 * **Domain costs**  
   Costs for the domain **musicpresence.app**.
-
-## Disclaimer
-
-Note that donations via GitHub Sponsors or LiberaPay
-do not grant you access to any additional features, like a Patreon membership.
