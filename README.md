@@ -1,3 +1,6 @@
+![Screenshot of the application in the tray menu and the Discord status](
+  ./assets/banner.png)
+
 [![Number of downloads](https://img.shields.io/github/downloads/ungive/discord-music-presence/total?style=flat&label=downloads&labelColor=444)](https://github.com/ungive/discord-music-presence/releases)
 &nbsp;[![Number of downloads of the latest version](https://img.shields.io/github/downloads/ungive/discord-music-presence/latest/total?style=flat&label=downloads%20%40latest&labelColor=444)](https://github.com/ungive/discord-music-presence/releases)
 &nbsp;
@@ -5,149 +8,118 @@
 &nbsp;
 [![Support Music Presence on Patreon](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Fshieldsio-patreon.vercel.app%2Fapi%3Fusername%3Dmusicpresence%26type%3Dpatrons&style=social)](https://patreon.com/musicpresence)
 
-# Music Presence for Discord
+**Music Presence** shows your friends on Discord
+what music you are listening to.
 
-![Screenshot of the application in the tray menu and the Discord status](
-  ./assets/banner.png)
+It works with any media player, be that Spotify, TIDAL or foobar2000.
+When you play music with an app, it is automatically detected
+and appears in the tray menu, as you can see in the screenshot above!
 
-Music Presence allows you to show your friends what you are listening to,
-no matter which media player or streaming service you are using.
-It works by observing which media players are playing music on your device
-and showing the information as a Discord activity.
+These are some of the most notable features
 
-The most notable features include:
+- Shows the **correct album cover 100% of the time** for every media player,
+  no missing covers
+- Shows the exact current playback position, if the media player supports it
+- Fine-grained control over which applications are shared and which are not
+- The tray icon changes and reflects
+  whether your status is currently active or not
 
-- Fine-grained control over which applications are shared
-  in your Discord status.
-- Supports numerous music players and streaming services
-  (support for more is being worked on!)
-- The tray icon changes and reflects whether your status is currently active or not!
-- Shows the streaming service or media player you are using in your status.
-- Shows a button in the status that allows others to open a link the song
-  (only for TIDAL right now).
-- Shows the exact playback position, if the media player supports it.
-- Controls are easily accessible via the tray menu.
-
-## Supported media players
-
-The following media players will be detected
-and shared in your Discord status:
-
-<span><a href="https://tidal.com"><img title="TIDAL" alt="" height="48" src="https://live.musicpresence.app/v2/tidal.ico"></a></span>&nbsp;
-<span><a href="https://www.qobuz.com"><img title="Qobuz" alt="" height="48" src="https://live.musicpresence.app/v2/qobuz.ico"></a></span>&nbsp;
-<span><a href="https://spotify.com"><img title="Spotify" alt="" height="48" src="https://live.musicpresence.app/v2/spotify.ico"></a></span>&nbsp;
-<span><a href="https://www.deezer.com"><img title="Deezer" alt="" height="48" src="https://live.musicpresence.app/v2/deezer.ico"></a></span>&nbsp;
-<span><a href="https://www.amazon.com/music"><img title="Amazon Music" alt="" height="48" src="https://live.musicpresence.app/v2/amazon-music.ico"></a></span>&nbsp;
-<span><a href="https://www.foobar2000.org"><img title="foobar2000" alt="" height="48" src="https://live.musicpresence.app/v2/foobar2000.ico"></a></span>&nbsp;
-<span><a href="https://www.getmusicbee.com"><img title="MusicBee" alt="" height="48" src="https://live.musicpresence.app/v2/musicbee.ico"></a></span>&nbsp;
-<span><a href="https://music.apple.com"><img title="Apple Music" alt="" height="48" src="https://live.musicpresence.app/v2/apple-music.ico"></a></span>&nbsp;
-<span><a href="https://en.wikipedia.org/wiki/Windows_Media_Player_(2022)"><img title="Windows Media Player" alt="" height="48" src="https://live.musicpresence.app/v2/windows-media-player.ico"></a></span>&nbsp;
-<span><a href="https://th-ch.github.io/youtube-music/"><img title="YouTube Music (Unofficial Desktop)" alt="" height="48" src="https://live.musicpresence.app/v2/youtube-music.ico"></a></span>&nbsp;
-&ensp;*and more...*
-
-This is only a selection of supported media players.
-For a table of all players
-and how well they are supported on each operating system,
-please refer to [PLAYERS.md](./PLAYERS.md).
-
-If your media player is not listed or detected, please
-[suggest it](#my-media-player-is-not-detected),
-as described below!
-
-## Download
-
-For downloads visit the
-**[Releases](https://github.com/ungive/discord-music-presence/releases)**
-page.
-You can currently download Music Presence for **Windows** and **Mac**.
-Support for **Linux** is underway
-and will be added in a future update!
-
-## Join the Discord server
-
-Feel free to join the Discord server to stay in touch!
-
-- **[Open the invite](https://discord-invite.musicpresence.app)**
-
-## Donations
-
-The development of this project largely depends
-on the effort of a single developer,
-who is working on this application in his free-time.
-If you would like to support the development progress
-or would simply like to show your appreciation,
-you can do so by making a donation.
-Thank you!
-
-- **[Patreon](https://patreon.com/musicpresence)**
-  &nbsp;&ndash;&nbsp; *the preferred option with
-  [additional benefits](https://www.patreon.com/musicpresence/membership)*
-- **[GitHub Sponsors](https://github.com/sponsors/ungive)**
-- **[LiberaPay](https://liberapay.com/jonasvandenberg)**
-
-For more information, check [FUNDING.md](./FUNDING.md).
-
-## My media player is not detected
-
-> The application is still in early development.
-> If your media player is not detected, simply follow the steps outlined here
-> to request support for your media player or streaming service.
-
-To report that a media player is not detected:
-
-1. In the tray menu, navigate to "Help"
-   and click on "My media player is not detected".
-2. A new GitHub issue will open in your browser.
-3. Please describe which media player is not detected and submit the form.
-
-The issue will be filled out with some information about your system.
-This will help me add support for the media player that you are requesting.
-Once you have submitted the issue, I will come back to you as soon as I can!
-
-## Integrating with Music Presence
-
-Are you interested in integrating
-your application or service with Music Presence?
-
-The plan is to allow our users to integrate external services
-in order to **stream real-time playback information of currently playing music**
-not only to Discord, but **anywhere they want**.
-
-Read more [here](./INTEGRATION.md).
+You can download Music Presence
+[**here**](https://github.com/ungive/discord-music-presence/releases/latest)
 
 ---
 
-## Privacy
+[**Download**](https://github.com/ungive/discord-music-presence/releases/latest)
+&nbsp;&bullet;&nbsp;
+[**Discord**](https://discord.com/invite/7rc8dWD4ug)
+&nbsp;&bullet;&nbsp;
+[**Patreon**](https://patreon.com/musicpresence)
+&nbsp;&bullet;&nbsp;
+[**Documentation**](./documentation/README.md)
+&nbsp;&bullet;&nbsp;
+[**Changelog**](./CHANGELOG.md)
+&nbsp;&bullet;&nbsp;
+[**Roadmap**](./ROADMAP.md)
+&nbsp;&bullet;&nbsp;
+[**Privacy**](./PRIVACY.md)
 
-For detailed information on which data Music Presence collects
-and to which services the data is sent,
-please read [`PRIVACY.md`](./PRIVACY.md)
-or click on "Privacy Notice" in the "Help" menu of the application.
+---
 
-## Roadmap
+## Features
 
-For an overview of features that are being worked on,
-please read [ROADMAP.md](./ROADMAP.md).
+- Music Presence works with *any* media player!
+- Shows the correct album cover image 100% of the time!  
+  *This works with any media player
+  and is achieved without the use of external image sources.*
+- Fine-grained control
+  over which applications are shared in your status
+- Fine-grained control over the appearance of your status
+- Shows the exact playback position, if the media player supports it
+- Option to switch between the "Listening to"
+  and "Playing" activity type with one click
+- Option to switch between the player name
+  and "Music" as the activity name with one click  
+  *This means you can either have it show "Listening to Music"
+  or e.g. "Listening to TIDAL"*
+- Shows the logo of the media player or streaming service
+  that is playing your music in your status
+- In-app and automatic updates of Music Presence,
+  so you don't have to install new versions by downloading them manually.
+  In addition to that you're always informed
+  about any changes and additions with an informational popup
+- The tray icon changes and reflects the current state of Music Presence,
+  i.e. whether it is currently sharing media in your status,
+  whether it's waiting for media playback
+  or if it has been disabled by you entirely
+- For TIDAL users:
+  - Shows a "Listen to this song" button
+  - Shows all additional artists, not just the main one
 
-## Changelog
+## Further links
 
-For information about changes with each version
-read the [CHANGELOG.md](./CHANGELOG.md) file.
+- [Supported media players](https://github.com/ungive/discord-music-presence/blob/master/documentation/supported-media-players.md)
+- [What if my media player is not detected?](https://github.com/ungive/discord-music-presence/blob/master/documentation/supported-media-players.md#my-media-player-is-not-detected-)
+- [Integrating with Music Presence for third-parties](https://github.com/ungive/discord-music-presence/blob/master/documentation/third-party-integration.md)
+- [Verifying your download]([./documentation/](https://github.com/ungive/discord-music-presence/blob/master/documentation/automatic-updates.md#verifying-releases))
 
-## License
+## Donations
 
-This project is licensed under the Music Presence license.  
-For more information read the [LICENSE.txt](./LICENSE.txt) file.
+The development of this project solely depends
+on the effort of a single developer.
+Your financial support allows me to invest more of my time into this project
+and helps cover recurring server and domain costs,
+which ultimately helps in making improvements
+and working on [new features](./ROADMAP.md) that are waiting to be implemented!
 
-## Legacy source code
+Any donation is highly appreciated. Thank you!
 
-For the source code of versions prior to version 2.0.0,
-please visit the repository for the
-[legacy source code](https://github.com/ungive/tidal-discord-presence).
+* **[Patreon](https://www.patreon.com/musicpresence)**
+  &nbsp;&ndash;&nbsp; membership with additional perks
+* **[LiberaPay](https://liberapay.com/jonasvandenberg)**
+  &nbsp;&ndash;&nbsp; option to donate anonymously
+* **[GitHub Sponsors](https://github.com/sponsors/ungive)**
+  &nbsp;&ndash;&nbsp; option for one-time donations, directly here on GitHub
+
+You can read [**here**](./FUNDING.md) for more information.
+
+## Community
+
+Our community is slowly growing
+over on our [**Discord**](https://discord.com/invite/7rc8dWD4ug) server!
+
+If you ever encounter an issue, have a question
+or simply want to chat with me and other users of Music Presence,
+you are more than welcome to swing by.
+I'm usually very active there
+and I try to respond to message as swiftly as I can.
 
 ## Disclaimer
 
 - This software is **not** affiliated with or endorsed by Discord.  
 - This software is **not** affiliated with or endorsed by
   any streaming service, media player or company that distributes music,
-  including but not limited to those mentioned above.
+  including but not limited to those displayed within the Music Presence app.
+
+---
+
+Copyright (c) 2024 Jonas van den Berg
