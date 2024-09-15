@@ -1,12 +1,15 @@
 # Supported media players
 
-Overview of supported media players for each operating system.
+> [!NOTE] Media player not detected?
+> If your media player is not detected,
+read [below](#my-media-player-is-not-detected-)
+for more information on what you can do.
 
 ## Support Table
 
-> Note: A release for Linux is being worked on.
+> This information is not updated regularly and may be outdated
 
-| Application               |                   Windows                   |           Mac            |          Linux           | test status                |
+| Desktop Application       |                   Windows                   |           Mac            |          Linux           | test status                |
 |---------------------------|:-------------------------------------------:|:------------------------:|:------------------------:|:---------------------------|
 | TIDAL                     |             :white_check_mark:              |    :white_check_mark:    |           ...            | paid only*                 |
 | Amazon Music              | :white_check_mark: :face_with_head_bandage: |   :white_check_mark:*    |           ...            | paid only*                 |
@@ -18,15 +21,8 @@ Overview of supported media players for each operating system.
 | Spotify                   |           :ballot_box_with_check:           | :ballot_box_with_check:  |           ...            | not tested                 |
 | Spotify (unpaid)          |                  :warning:                  |    :white_check_mark:    |           ...            | fully tested               |
 | Windows Media Player      | :white_check_mark: :face_with_head_bandage: | :heavy_multiplication_x: | :heavy_multiplication_x: | fully tested               |
-| YouTube Music<sup>1</sup> |             :white_check_mark:              |           ...            |           ...            | fully tested               |
-
-*\* This means Music Presence was only tested
-with the paid or unpaid version of the player,
-i.e. with a paid subscription or with the free, unpaid version.*
-
-<sup>1</sup> Using [this unofficial desktop app](https://github.com/th-ch/youtube-music).
-
-### Legend
+| YouTube Music<sup>1</sup> |             :white_check_mark:              |     :grey_question:      |           ...            | fully tested               |
+| Next-Player<sup>2</sup>   |             :white_check_mark:              |           ...            |           ...            | fully tested               |
 
 |          Symbol          | Meaning                                                                        |
 |:------------------------:|--------------------------------------------------------------------------------|
@@ -40,26 +36,56 @@ i.e. with a paid subscription or with the free, unpaid version.*
 |     :grey_question:      | Not tested or not known to have a desktop application on this operating system |
 |           ...            | Not supported yet, but will likely be added in the future                      |
 
+> Support for Linux is not yet available, but is being worked on
+
+*\* This means Music Presence was only tested
+with the paid or unpaid version of the player,
+i.e. with a paid subscription or with the free, unpaid version*
+
+<sup>1</sup> Using [this](https://github.com/th-ch/youtube-music) unofficial desktop app  
+<sup>2</sup> From the developer "DryForest", [link](https://apps.microsoft.com/detail/9nblggh67n4f)
+
 ## Additional notes
 
-### Music Bee
+### MusicBee
 
-Music Bee works well with this plugin:
+MusicBee works well with this plugin:
 https://github.com/HenryPDT/mb_MediaControl
 
 The installation of such a plugin is required
 because otherwise MusicBee does not report what it is playing to Windows.
 Once you have installed and enabled it, Music Presence should detect Music Bee.
 
+## My media player is not detected 😢
+
+If this happens, simply follow these steps:
+
+1. In the tray menu of the application,
+   navigate to "Help" and click on "My media player is not detected"
+2. A new GitHub issue will open in your browser,
+   you will have to log in with a GitHub account
+3. Please describe which media player is not detected and submit the form
+
+The issue will be filled out with some information about your system.
+This will help me add support for the media player that you are requesting.
+
+Once you have submitted the issue, I will come back to you as soon as I can.
+Adding support for a player usually doesn't take very long
+and you can expect to be able to use it within the day!
+
 ---
 
 ## Players with known issues
 
 > These are issues with the ***media players themselves***,
-not with Music Presence!
-Affected players are sometimes reporting
-incorrect song metadata or playback information,
-Music Presence cannot do anything about that.
+> not with Music Presence!
+> Affected players are sometimes reporting
+> incorrect song metadata or playback information,
+> we unfortunately can't do much about that.
+
+> Also note that the information here was gathered some time ago
+> and might be outdated for some media players.
+> Contributions with updated information are very welcome.
 
 ### Not working randomly
 
