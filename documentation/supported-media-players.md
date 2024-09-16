@@ -1,6 +1,6 @@
 # Supported media players
 
-> [!NOTE] Media player not detected?
+> [!NOTE]
 > If your media player is not detected,
 read [below](#my-media-player-is-not-detected-)
 for more information on what you can do.
