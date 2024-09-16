@@ -113,6 +113,10 @@ or simply want to chat with me and other users of Music Presence,
 you are more than welcome to swing by.
 I'm usually very active there and respond to messages rather quickly.
 
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=ungive/discord-music-presence&type=Date)](https://star-history.com/#ungive/discord-music-presence&Date)
+
 ## Disclaimer
 
 - This software is **not** affiliated with or endorsed by Discord.  
