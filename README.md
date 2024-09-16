@@ -72,6 +72,10 @@ You can download Music Presence
   i.e. whether it is currently sharing media in your status,
   whether it's waiting for media playback
   or if it has been disabled by you entirely
+- Obsoletes the need for other Rich Presence applications
+  and specific plugins for your music player,
+  by giving you unified controls and customization for all media players
+  in a single place
 - For TIDAL users:
   - Shows a "Listen to this song" button
   - Shows all additional artists, not just the main one
