@@ -36,7 +36,7 @@
   to inform you that it sits in the tray menu.
   First-time users should now have an easier time finding the app.
 - Left-clicking on the tray icon now opens the tray menu as well.
-  Previously the tray menu could only be opened by right-clicking it
+  Previously the tray menu could only be opened by right-clicking it (Windows)
 - Fixed system theme changes not being reflected properly in the app
   (not detected reliably in version 2.1.3 and prior,
   temporarily disabled in version 2.2.0).
