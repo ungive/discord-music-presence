@@ -125,6 +125,17 @@ I'm usually very active there and respond to messages rather quickly.
 
 [![Star History Chart](https://api.star-history.com/svg?repos=ungive/discord-music-presence&type=Date)](https://star-history.com/#ungive/discord-music-presence&Date)
 
+## Media
+
+Links to other places on the internet that mention Music Presence
+
+- 16.09.2024&nbsp; *Requested to be featured in jacc/awesome-discord*  
+  https://github.com/jacc/awesome-discord/pull/112
+- 16.09.2024&nbsp; *Requested to be featured in NoPlagiarism/awesome-discord-activities*  
+  https://github.com/NoPlagiarism/awesome-discord-activities/issues/4
+- 02.06.2024&nbsp; **I made a Discord status for TIDAL – Music Presence**  
+  https://www.reddit.com/r/TIdaL/comments/1d6azbm
+
 ## Disclaimer
 
 - This software is **not** affiliated with or endorsed by Discord.  
