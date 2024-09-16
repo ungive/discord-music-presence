@@ -1,4 +1,0 @@
-5b72a0cadad0b9707eafdc84bf3d1370067ab82ce65f91b894831e8393be6ed6 *music-presence-2.2.0-mac-arm64.dmg
-7a864ac2b49339bf87a09dff26c5686508590aea37c5a66d423286c1b554f438 *music-presence-2.2.0-mac-x64.dmg
-99705d84979e9512a79093980ad4cc74aba4e856a2650da277cd3ca3ab98716e *music-presence-2.2.0-win64.exe
-a1fc7043cdc65d8d389d5f20b246fec4cda0dbad472a78fc49aaed8139c2ec6e *music-presence-2.2.0-win64.zip
