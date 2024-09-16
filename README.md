@@ -80,6 +80,9 @@ You can download Music Presence
   - Shows a "Listen to this song" button
   - Shows all additional artists, not just the main one
 
+*If anything is missing, feel free to open
+[an issue](https://github.com/ungive/discord-music-presence/issues/new/choose)!*
+
 ## Further links
 
 - [Supported media players](https://github.com/ungive/discord-music-presence/blob/master/documentation/supported-media-players.md)
