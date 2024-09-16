@@ -80,7 +80,7 @@ You can download Music Presence
 - [Supported media players](https://github.com/ungive/discord-music-presence/blob/master/documentation/supported-media-players.md)
 - [What if my media player is not detected?](https://github.com/ungive/discord-music-presence/blob/master/documentation/supported-media-players.md#my-media-player-is-not-detected-)
 - [Integrating with Music Presence for third-parties](https://github.com/ungive/discord-music-presence/blob/master/documentation/third-party-integration.md)
-- [Verifying your download]([./documentation/](https://github.com/ungive/discord-music-presence/blob/master/documentation/automatic-updates.md#verifying-releases))
+- [Verifying your download](https://github.com/ungive/discord-music-presence/blob/master/documentation/automatic-updates.md#verifying-releases)
 
 ## Donations
 
@@ -111,8 +111,7 @@ over on our [**Discord**](https://discord.com/invite/7rc8dWD4ug) server!
 If you ever encounter an issue, have a question
 or simply want to chat with me and other users of Music Presence,
 you are more than welcome to swing by.
-I'm usually very active there
-and I try to respond to message as swiftly as I can.
+I'm usually very active there and respond to messages rather quickly.
 
 ## Disclaimer
 
