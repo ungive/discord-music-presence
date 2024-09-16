@@ -287,7 +287,8 @@ These include the following services:
 
 All data is **encrypted** with the use of
 modern and secure transport protocols,
-when sent to **TIDAL**, **MetaBrainz**, **Simple Analytics** and **GitHub**.
+when sent to **TIDAL**, **MetaBrainz**, **Simple Analytics**, **GitHub**
+and our own services.
 Media Metadata that is sent to **Discord** communicates
 with the locally running Discord client application
 without the use of a connection over an external network
