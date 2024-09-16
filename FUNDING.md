@@ -22,23 +22,24 @@ Thank you for your support and your interest in this project!
 
 Your donation will fund the following:
 
+* **Server costs**  
+  Costs to run our servers that power features
+  like using cover images from media players directly,
+  without external images sources.
+  This also allows me to invest in more infrastructure for future features.
+
+* **Domain costs**  
+  Costs for the domains **musicpresence.app** and **musicpresence.io**.
+
 * **Subscriptions to music streaming services**  
   This application aims to support every popular streaming service.
   Testing Music Presence often requires me to have a subscription
   to use the service in its full capacity.
-  I will be able to subscribe to more services
+  I will be able to subscribe to streaming services, if needed,
   and properly test the application with each of them.
 
 * **Development time**  
-  I've already invested quite a few hours into programming and refining
-  Music Presence. Your donation reassures me that you appreciate my work
-  and motivates me to keep improving it.
-
-* **Future server costs**  
-  Currently everything is hosted on GitHub,
-  but I am planning new features for this application,
-  which involves running a server that will have monthly costs
-  associated with it.
-
-* **Domain costs**  
-  Costs for the domain **musicpresence.app** and **musicpresence.io**.
+  I've already invested tons of hours
+  into programming and refining Music Presence.
+  Your donation allows me to keep doing that and invest more of my time.
+  Thank you!
