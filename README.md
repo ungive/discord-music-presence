@@ -12,7 +12,7 @@
 **Music Presence** shows your friends on Discord
 what music you are listening to.
 
-It works with any media player, be that Spotify, TIDAL or foobar2000.
+It works with any media player, be that e.g. Spotify, TIDAL or foobar2000.
 When you play music with an app, it is automatically detected
 and appears in the tray menu, as you can see in the screenshot above!
 
