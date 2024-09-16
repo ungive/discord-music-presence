@@ -41,4 +41,4 @@ Your donation will fund the following:
   associated with it.
 
 * **Domain costs**  
-  Costs for the domain **musicpresence.app**.
+  Costs for the domain **musicpresence.app** and **musicpresence.io**.
