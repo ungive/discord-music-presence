@@ -1,5 +1,5 @@
 ![Screenshot of the application in the tray menu and the Discord status](
-  ./.github/assets/banner.png)
+  ./assets/banner.png)
 
 [![Number of GitHub stars](https://img.shields.io/github/stars/ungive/discord-music-presence?style=flat&label=Stars&logo=github&labelColor=444&color=DAAA3F&cacheSeconds=3600)](https://star-history.com/#ungive/discord-music-presence&Date)
 &nbsp;[![Total number of downloads](https://img.shields.io/github/downloads/ungive/discord-music-presence/total?style=flat&label=Downloads&labelColor=444&logo=hack-the-box&logoColor=white&cacheSeconds=600)](https://github.com/ungive/discord-music-presence/releases)
