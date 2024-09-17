@@ -22,15 +22,15 @@ for more information on what you can do.
 
 <span><a href="https://www.foobar2000.org"><img title="foobar2000" alt="" height="48" src="https://live.musicpresence.app/v2/foobar2000.ico"></a></span>&nbsp;
 <span><a href="https://www.getmusicbee.com"><img title="MusicBee" alt="" height="48" src="https://live.musicpresence.app/v2/musicbee.ico"></a></span>&nbsp;
-<span><a href="https://en.wikipedia.org/wiki/Windows_Media_Player_(2022)"><img title="Windows Media Player" alt="" height="48" src="https://live.musicpresence.app/v2/windows-media-player.ico"></a></span>&nbsp;
-<span><a href="https://apps.microsoft.com/detail/9nblggh67n4f"><img title="Next-Player (DryForest)" alt="" height="48" src="https://live.musicpresence.app/v2/next-player.ico"></a></span>&nbsp;
 <span><a href="https://winamp.com/"><img title="Winamp" alt="" height="48" src="https://live.musicpresence.app/v2/winamp.ico"></a></span>&nbsp;
 <span><a href="https://getwacup.com/"><img title="WACUP" alt="" height="48" src="https://live.musicpresence.app/v2/wacup.ico"></a></span>&nbsp;
-<span><a href="https://github.com/Sandakan/Nora"><img title="Nora Music" alt="" height="48" src="https://live.musicpresence.app/v2/nora.ico"></a></span>&nbsp;
-<span><a href="https://www.aimp.ru"><img title="AIMP" alt="" height="48" src="https://live.musicpresence.app/v2/aimp.ico"></a></span>&nbsp;
-<span><a href="https://github.com/digimezzo/dopamine"><img title="Dopamine" alt="" height="48" src="https://live.musicpresence.app/v2/dopamine.ico"></a></span>&nbsp;
-<span><a href="https://www.mediamonkey.com"><img title="MediaMonkey" alt="" height="48" src="https://live.musicpresence.app/v2/mediamonkey.ico"></a></span>&nbsp;
 <span><a href="https://www.videolan.org/vlc"><img title="VLC Media Player" alt="" height="48" src="https://live.musicpresence.app/v2/vlc.ico"></a></span>&nbsp;
+<span><a href="https://www.aimp.ru"><img title="AIMP" alt="" height="48" src="https://live.musicpresence.app/v2/aimp.ico"></a></span>&nbsp;
+<span><a href="https://www.mediamonkey.com"><img title="MediaMonkey" alt="" height="48" src="https://live.musicpresence.app/v2/mediamonkey.ico"></a></span>&nbsp;
+<span><a href="https://en.wikipedia.org/wiki/Windows_Media_Player_(2022)"><img title="Windows Media Player" alt="" height="48" src="https://live.musicpresence.app/v2/windows-media-player.ico"></a></span>&nbsp;
+<span><a href="https://github.com/Sandakan/Nora"><img title="Nora Music" alt="" height="48" src="https://live.musicpresence.app/v2/nora.ico"></a></span>&nbsp;
+<span><a href="https://apps.microsoft.com/detail/9nblggh67n4f"><img title="Next-Player (DryForest)" alt="" height="48" src="https://live.musicpresence.app/v2/next-player.ico"></a></span>&nbsp;
+<span><a href="https://github.com/digimezzo/dopamine"><img title="Dopamine" alt="" height="48" src="https://live.musicpresence.app/v2/dopamine.ico"></a></span>&nbsp;
 
 ## Support Table
 
