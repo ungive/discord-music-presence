@@ -65,9 +65,9 @@
   - Title and artist are now shown on separate lines by default,
     assuming most users will prefer to have it this way
 - Added support for the following media players:
+  - SoundCloud on Windows
   - Next-Player (DryForest) on Windows
-  - Winamp on Windows
-  - WACUP on Windows
+  - Winamp and WACUP on Windows
   - Nora on Windows
 
 ## 2.2.0

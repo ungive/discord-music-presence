@@ -16,6 +16,7 @@ for more information on what you can do.
 <span><a href="https://www.amazon.com/music"><img title="Amazon Music" alt="" height="48" src="https://live.musicpresence.app/v2/amazon-music.ico"></a></span>&nbsp;
 <span><a href="https://music.apple.com"><img title="Apple Music" alt="" height="48" src="https://live.musicpresence.app/v2/apple-music.ico"></a></span>&nbsp;
 <span><a href="https://th-ch.github.io/youtube-music/"><img title="YouTube Music (Unofficial Desktop)" alt="" height="48" src="https://live.musicpresence.app/v2/youtube-music.ico"></a></span>&nbsp;
+<span><a href="https://apps.microsoft.com/detail/9nvjbt29b36l"><img title="SoundCloud" alt="" height="48" src="https://live.musicpresence.app/v2/soundcloud.ico"></a></span>&nbsp;
 
 **Offline media players**
 
@@ -48,6 +49,7 @@ for more information on what you can do.
 | WACUP                     |             :white_check_mark:*             | :heavy_multiplication_x: | :heavy_multiplication_x: | fully tested               |
 | Nora<sup>3</sup>          |             :white_check_mark:              | :heavy_multiplication_x: |           ...            | fully tested               |
 | AIMP                      |        :white_check_mark:* :pencil:         | :heavy_multiplication_x: |           ...            | fully tested               |
+| Soundcloud<sup>4</sup>    |             :white_check_mark:              |           ...            |           ...            | fully tested               |
 
 |          Symbol          | Meaning                                                                        |
 |:------------------------:|--------------------------------------------------------------------------------|
@@ -69,7 +71,8 @@ i.e. with a paid subscription or with the free, unpaid version*
 
 <sup>1</sup> Using [this](https://github.com/th-ch/youtube-music) unofficial desktop app  
 <sup>2</sup> From the developer "DryForest", [link](https://apps.microsoft.com/detail/9nblggh67n4f)  
-<sup>3</sup> [GitHub](https://github.com/Sandakan/Nora)
+<sup>3</sup> [GitHub](https://github.com/Sandakan/Nora)  
+<sup>4</sup> [Official app](https://apps.microsoft.com/detail/9nvjbt29b36l) (only works on Windows 11)
 
 ## Additional notes
 
