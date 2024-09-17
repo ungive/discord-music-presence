@@ -50,6 +50,15 @@
   - Otherwise the domain name of the image URL is shown,
     e.g. `resources.tidal.com` for TIDAL images
 - Changed the following default settings:
+  - MusicBrainz is now disabled by default for new users.
+    The reason for this is that since the last update
+    it does not add much value to the status anymore
+    and just increases the delay until the Discord status is visible.
+    It also only gets useful information sometimes, not all the time.
+    Since Music Presence is slowly growing in popularity,
+    I want to make sure the MusicBrainz API is not strained unnecessarily
+    for information that is not needed in most cases anway.
+    If you want to use it, you can always enable it manually
   - Using the "Listening to" activity type by default now
     and removed the "(BETA)" status
   - The artist ("by") and album prefix ("on") is not enabled by default anymore
@@ -57,6 +66,9 @@
     assuming most users will prefer to have it this way
 - Added support for the following media players:
   - Next-Player (DryForest) on Windows
+  - Winamp on Windows
+  - WACUP on Windows
+  - Nora on Windows
 
 ## 2.2.0
 
