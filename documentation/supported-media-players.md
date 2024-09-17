@@ -30,6 +30,7 @@ for more information on what you can do.
 <span><a href="https://www.aimp.ru"><img title="AIMP" alt="" height="48" src="https://live.musicpresence.app/v2/aimp.ico"></a></span>&nbsp;
 <span><a href="https://github.com/digimezzo/dopamine"><img title="Dopamine" alt="" height="48" src="https://live.musicpresence.app/v2/dopamine.ico"></a></span>&nbsp;
 <span><a href="https://www.mediamonkey.com"><img title="MediaMonkey" alt="" height="48" src="https://live.musicpresence.app/v2/mediamonkey.ico"></a></span>&nbsp;
+<span><a href="https://www.videolan.org/vlc"><img title="VLC Media Player" alt="" height="48" src="https://live.musicpresence.app/v2/vlc.ico"></a></span>&nbsp;
 
 ## Support Table
 
@@ -54,6 +55,7 @@ for more information on what you can do.
 | Soundcloud<sup>4</sup>    |             :white_check_mark:              |           ...            |           ...            | fully tested               |
 | Dopamine<sup>5</sup>      |             :white_check_mark:              |           ...            |           ...            | fully tested               |
 | MediaMonkey               | :white_check_mark: :face_with_head_bandage: | :heavy_multiplication_x: | :heavy_multiplication_x: | fully tested               |
+| VLC Media Player          |        :white_check_mark:* :pencil:         |           ...            |           ...            | fully tested               |
 
 |          Symbol          | Meaning                                                                        |
 |:------------------------:|--------------------------------------------------------------------------------|
@@ -97,6 +99,14 @@ https://www.aimp.ru/forum/index.php?topic=63341
 
 Unfortunately this plugin does not report accurate playback information,
 but everything else seems to work just fine.
+
+### VLC
+
+VLC requires this plugin to work:
+https://github.com/spmn/vlc-win10smtc
+
+At the moment this plugin does not report any cover images,
+nor an accurate playback position.
 
 ## My media player is not detected 😢
 
@@ -163,6 +173,7 @@ depending on which playback position you jump to in the song.
 - WACUP on Windows
 - AIMP on Windows
 - MediaMonkey on Windows
+- VLC on Windows
 
 #### Incorrect playback position timestamp
 
@@ -182,3 +193,4 @@ for a song that's 3 minutes long.
 These players do not report the album cover to the operating system.
 
 - MediaMonkey on Windows
+- VLC on Windows

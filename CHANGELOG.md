@@ -71,6 +71,7 @@
   - Nora on Windows
   - Dopamine on Windows
   - MediaMonkey on Windows
+  - VLC Media Player on Windows
 
 ## 2.2.0
 
