@@ -61,7 +61,7 @@ for more information on what you can do.
 |     :grey_question:      | Not tested or not known to have a desktop application on this operating system |
 |           ...            | Not supported yet, but will likely be added in the future                      |
 
-> Support for Linux is not yet available, but is being worked on
+> Media from websites in browsers and Linux are not yet supported
 
 *\* This means Music Presence was only tested
 with the paid or unpaid version of the player,
