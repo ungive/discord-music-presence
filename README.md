@@ -48,7 +48,12 @@ You can download Music Presence
 
 ## Features
 
-- Music Presence works with *any* media player!
+- Music Presence works with **any** media player!  
+  Currently
+  **[15](./documentation/supported-media-players.md)**
+  different players are supported
+  and adding a missing one is
+  [trivial](./documentation/supported-media-players.md#my-media-player-is-not-detected-)
 - Shows the correct album cover image 100% of the time!  
   *This works with any media player
   and is achieved without the use of external image sources.*
