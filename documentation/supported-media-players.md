@@ -30,8 +30,6 @@ for more information on what you can do.
 
 ## Support Table
 
-> This information is not updated regularly and may be outdated
-
 | Desktop Application       |                   Windows                   |           Mac            |          Linux           | test status                |
 |---------------------------|:-------------------------------------------:|:------------------------:|:------------------------:|:---------------------------|
 | TIDAL                     |             :white_check_mark:              |    :white_check_mark:    |           ...            | paid only*                 |
