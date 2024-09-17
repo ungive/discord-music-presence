@@ -29,6 +29,7 @@ for more information on what you can do.
 <span><a href="https://github.com/Sandakan/Nora"><img title="Nora Music" alt="" height="48" src="https://live.musicpresence.app/v2/nora.ico"></a></span>&nbsp;
 <span><a href="https://www.aimp.ru"><img title="AIMP" alt="" height="48" src="https://live.musicpresence.app/v2/aimp.ico"></a></span>&nbsp;
 <span><a href="https://github.com/digimezzo/dopamine"><img title="Dopamine" alt="" height="48" src="https://live.musicpresence.app/v2/dopamine.ico"></a></span>&nbsp;
+<span><a href="https://www.mediamonkey.com"><img title="MediaMonkey" alt="" height="48" src="https://live.musicpresence.app/v2/mediamonkey.ico"></a></span>&nbsp;
 
 ## Support Table
 
@@ -51,7 +52,8 @@ for more information on what you can do.
 | Nora<sup>3</sup>          |             :white_check_mark:              | :heavy_multiplication_x: |           ...            | fully tested               |
 | AIMP                      |        :white_check_mark:* :pencil:         | :heavy_multiplication_x: |           ...            | fully tested               |
 | Soundcloud<sup>4</sup>    |             :white_check_mark:              |           ...            |           ...            | fully tested               |
-| Dopamine<sup>5</sup>    |             :white_check_mark:              |           ...            |           ...            | fully tested               |
+| Dopamine<sup>5</sup>      |             :white_check_mark:              |           ...            |           ...            | fully tested               |
+| MediaMonkey               | :white_check_mark: :face_with_head_bandage: | :heavy_multiplication_x: | :heavy_multiplication_x: | fully tested               |
 
 |          Symbol          | Meaning                                                                        |
 |:------------------------:|--------------------------------------------------------------------------------|
@@ -160,6 +162,7 @@ depending on which playback position you jump to in the song.
 - Winamp on Windows
 - WACUP on Windows
 - AIMP on Windows
+- MediaMonkey on Windows
 
 #### Incorrect playback position timestamp
 
@@ -173,3 +176,9 @@ which might report something like "13:04 elapsed"
 for a song that's 3 minutes long.
 
 - Deezer on Mac
+
+##### Missing album cover image
+
+These players do not report the album cover to the operating system.
+
+- MediaMonkey on Windows

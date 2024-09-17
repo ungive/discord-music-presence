@@ -50,7 +50,7 @@ You can download Music Presence
 
 - Music Presence works with **any** media player!  
   Currently
-  **[17](./documentation/supported-media-players.md)**
+  **[18](./documentation/supported-media-players.md)**
   different players are supported
   and adding a missing one is
   [trivial](./documentation/supported-media-players.md#my-media-player-is-not-detected-)

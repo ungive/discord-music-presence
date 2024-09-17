@@ -70,6 +70,7 @@
   - Winamp and WACUP on Windows
   - Nora on Windows
   - Dopamine on Windows
+  - MediaMonkey on Windows
 
 ## 2.2.0
 
