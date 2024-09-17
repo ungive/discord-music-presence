@@ -188,7 +188,7 @@ for a song that's 3 minutes long.
 
 - Deezer on Mac
 
-##### Missing album cover image
+#### Missing album cover image
 
 These players do not report the album cover to the operating system.
 
