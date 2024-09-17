@@ -85,10 +85,10 @@ You can download Music Presence
 
 ## Further links
 
-- [Supported media players](https://github.com/ungive/discord-music-presence/blob/master/documentation/supported-media-players.md)
-- [What if my media player is not detected?](https://github.com/ungive/discord-music-presence/blob/master/documentation/supported-media-players.md#my-media-player-is-not-detected-)
-- [Integrating with Music Presence for third-parties](https://github.com/ungive/discord-music-presence/blob/master/documentation/third-party-integration.md)
-- [Verifying your download](https://github.com/ungive/discord-music-presence/blob/master/documentation/automatic-updates.md#verifying-releases)
+- [Supported media players](./documentation/supported-media-players.md)
+- [What if my media player is not detected?](./documentation/supported-media-players.md#my-media-player-is-not-detected-)
+- [Integrating with Music Presence for third-parties](./documentation/third-party-integration.md)
+- [Verifying your download](./documentation/automatic-updates.md#verifying-releases)
 
 ## Donations
 
