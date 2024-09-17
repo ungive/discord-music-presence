@@ -69,6 +69,7 @@
   - Next-Player (DryForest) on Windows
   - Winamp and WACUP on Windows
   - Nora on Windows
+  - Dopamine on Windows
 
 ## 2.2.0
 

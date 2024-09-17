@@ -28,6 +28,7 @@ for more information on what you can do.
 <span><a href="https://getwacup.com/"><img title="WACUP" alt="" height="48" src="https://live.musicpresence.app/v2/wacup.ico"></a></span>&nbsp;
 <span><a href="https://github.com/Sandakan/Nora"><img title="Nora Music" alt="" height="48" src="https://live.musicpresence.app/v2/nora.ico"></a></span>&nbsp;
 <span><a href="https://www.aimp.ru"><img title="AIMP" alt="" height="48" src="https://live.musicpresence.app/v2/aimp.ico"></a></span>&nbsp;
+<span><a href="https://github.com/digimezzo/dopamine"><img title="Dopamine" alt="" height="48" src="https://live.musicpresence.app/v2/dopamine.ico"></a></span>&nbsp;
 
 ## Support Table
 
@@ -50,6 +51,7 @@ for more information on what you can do.
 | Nora<sup>3</sup>          |             :white_check_mark:              | :heavy_multiplication_x: |           ...            | fully tested               |
 | AIMP                      |        :white_check_mark:* :pencil:         | :heavy_multiplication_x: |           ...            | fully tested               |
 | Soundcloud<sup>4</sup>    |             :white_check_mark:              |           ...            |           ...            | fully tested               |
+| Dopamine<sup>5</sup>    |             :white_check_mark:              |           ...            |           ...            | fully tested               |
 
 |          Symbol          | Meaning                                                                        |
 |:------------------------:|--------------------------------------------------------------------------------|
@@ -72,7 +74,8 @@ i.e. with a paid subscription or with the free, unpaid version*
 <sup>1</sup> Using [this](https://github.com/th-ch/youtube-music) unofficial desktop app  
 <sup>2</sup> From the developer "DryForest", [link](https://apps.microsoft.com/detail/9nblggh67n4f)  
 <sup>3</sup> [GitHub](https://github.com/Sandakan/Nora)  
-<sup>4</sup> [Official app](https://apps.microsoft.com/detail/9nvjbt29b36l) (only works on Windows 11)
+<sup>4</sup> [Official app](https://apps.microsoft.com/detail/9nvjbt29b36l) (only works on Windows 11)  
+<sup>5</sup> [GitHub](https://github.com/digimezzo/dopamine), works with Dopamine version 2 and 3
 
 ## Additional notes
 
