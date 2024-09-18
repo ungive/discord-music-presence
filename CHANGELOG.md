@@ -1,5 +1,88 @@
 # Changelog
 
+## 2.2.2
+
+- **Redesigned the Music Presence tray icon and logo.**  
+  The tray icon is now more defined and has better contrast.
+  Sharing music in your status is now symbolized by a triangle
+  in the bottom right corner of the tray icon,
+  with the app logo remaining to be recognizable and easily identifiable.
+  - The icon color automatically adapts to the system theme
+    (changes to either black or white)
+  - You can read more about this 
+    [here](https://github.com/ungive/discord-music-presence/issues/36)
+- Added the option to hide the player logo for media players
+  that are not streaming services.
+  You can hide it for e.g. foobar2000 or MusicBee,
+  but not players like TIDAL, Spotify or Apple Music at the moment
+- Improvements and bug fixes for cover images from media players
+  ("use cover images from media players")
+  - The cover image from the media player is now also used
+    when Music Presence reconnects to the proxy server after a disconnect
+    or when it takes longer to connect than the initial timeout.
+    This should help with unstable or slow internet connections
+  - Fixed Discord account switching or Discord restarts
+    not causing the app to disconnect from the proxy server
+    and instead entering an idle disconnect/reconnect loop
+    and wrongfully reusing proxy links that aren't valid anymore
+  - When the proxy client disconnects the status is updated
+    to use a different cover image (if available)
+    so that it does not show nothing
+  - When there is no correct cover image URL from an API or the proxy,
+    the status falls back to a guessed cover image (if available),
+    so that there is at least something to show
+  - Increased the idle timeout to 60 seconds (from 30 seconds)
+    to accomodate for bad internet connections
+    and give enough time to reconnect to the proxy server, if needed
+  - Increased the interval at which the app
+    attempts to reconnect to the proxy server,
+    in case the client disconnects or fails to connect
+- When starting Music Presence for the first time
+  the application now shows a small popup instead of a notification
+  to inform you that it sits in the tray menu.
+  First-time users should now have an easier time finding the app.
+- Left-clicking on the tray icon now opens the tray menu as well.
+  Previously the tray menu could only be opened by right-clicking it (Windows)
+- Fixed system theme changes not being reflected properly in the app
+  (not detected reliably in version 2.1.3 and prior,
+  temporarily disabled in version 2.2.0).
+  Now all colours and icons in the tray menu are properly updated,
+  when you change your system theme
+- When installing this update from within the app,
+  either via automatic updates or by manually clicking install,
+  the start menu shortcut on Windows should be updated automatically
+  to reflect the app icon change
+- The application logs now show if the media has a cover image available,
+  whether it is used in the status or if an API's cover image is used
+  - If the media player has a cover image, the log shows `cover:image`
+  - If the cover image from the media player is shown in the status
+    using the proxy server, the log shows `cover:image/proxy`
+  - Otherwise the domain name of the image URL is shown,
+    e.g. `resources.tidal.com` for TIDAL images
+- Changed the following default settings:
+  - MusicBrainz is now disabled by default for new users.
+    The reason for this is that since the last update
+    it does not add much value to the status anymore
+    and just increases the delay until the Discord status is visible.
+    It also only gets useful information sometimes, not all the time.
+    Since Music Presence is slowly growing in popularity,
+    I want to make sure the MusicBrainz API is not strained unnecessarily
+    for information that is not needed in most cases anway.
+    If you want to use it, you can always enable it manually
+  - Using the "Listening to" activity type by default now
+    and removed the "(BETA)" status
+  - The artist ("by") and album prefix ("on") is not enabled by default anymore
+  - Title and artist are now shown on separate lines by default,
+    assuming most users will prefer to have it this way
+- Added support for the following media players:
+  - SoundCloud on Windows
+  - Next-Player (DryForest) on Windows
+  - Winamp and WACUP on Windows
+  - Nora on Windows
+  - Dopamine on Windows
+  - MediaMonkey on Windows
+  - VLC Media Player on Windows
+
 ## 2.2.1
 
 - **Redesigned the Music Presence tray icon and logo.**  
