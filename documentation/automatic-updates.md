@@ -129,7 +129,7 @@ and it is good practice to not put all your trust into one party.
 - https://vandenbe.com/keys
 - https://github.com/ungive/keys
 
-The key's filename should be `ed25519_ungive.key`.
+The key's filename should be `ed25519_musicpresence_release.pub.pem`.
 
 #### Step 1: Verifying the checksum
 
@@ -173,7 +173,7 @@ the file hash/checksum is identical.
 To verify the signature `sha256sum.txt.sig` execute the following command:
 
 ```
-openssl pkeyutl -verify -pubin -inkey ed25519_ungive.key -rawin -in sha256sum.txt -sigfile sha256sum.txt.sig
+openssl pkeyutl -verify -pubin -inkey ed25519_musicpresence_release.pub.pem -rawin -in sha256sum.txt -sigfile sha256sum.txt.sig
 ```
 
 The signature is **valid** with the following output:
