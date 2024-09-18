@@ -11,7 +11,7 @@ VERSION=$1
 cd $(dirname $0)
 
 mkdir -p out
-sed "/^## $VERSION$/,/^## /!d;//d" ../CHANGELOG.md > out/tmp.txt
+sed "/^## $VERSION$/,/^## /!d;//d" ../../CHANGELOG.md > out/tmp.txt
 cat out/tmp.txt | python3 fix-changelog.py > out/tmp2.txt
 cp release-changelog.template.md out/changelog.md
 sed -e '/`insert:changelog`/ {' -e 'r out/tmp2.txt' -e 'd' -e '}' -i out/changelog.md
