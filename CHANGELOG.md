@@ -48,6 +48,10 @@
   temporarily disabled in version 2.2.0).
   Now all colours and icons in the tray menu are properly updated,
   when you change your system theme
+- When installing this update from within the app,
+  either via automatic updates or by manually clicking install,
+  the start menu shortcut on Windows should be updated automatically
+  to reflect the app icon change
 - The application logs now show if the media has a cover image available,
   whether it is used in the status or if an API's cover image is used
   - If the media player has a cover image, the log shows `cover:image`
