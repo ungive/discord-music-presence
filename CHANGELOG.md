@@ -11,6 +11,10 @@
     (changes to either black or white)
   - You can read more about this 
     [here](https://github.com/ungive/discord-music-presence/issues/36)
+- Added the option to hide the player logo for media players
+  that are not streaming services.
+  You can hide it for e.g. foobar2000 or MusicBee,
+  but not players like TIDAL, Spotify or Apple Music at the moment
 - Improvements and bug fixes for cover images from media players
   ("use cover images from media players")
   - The cover image from the media player is now also used
@@ -21,16 +25,15 @@
     not causing the app to disconnect from the proxy server
     and instead entering an idle disconnect/reconnect loop
     and wrongfully reusing proxy links that aren't valid anymore
+  - When the proxy client disconnects the status is updated
+    to use a different cover image
+    so that it does not show nothing
   - Increased the idle timeout to 60 seconds (from 30 seconds)
     to accomodate for bad internet connections
     and give enough time to reconnect to the proxy server, if needed
   - Increased the interval at which the app
     attempts to reconnect to the proxy server,
     in case the client disconnects or fails to connect
-- Added the option to hide the player logo for media players
-  that are not streaming services.
-  You can hide it for e.g. foobar2000 or MusicBee,
-  but not players like TIDAL, Spotify or Apple Music.
 - When starting Music Presence for the first time
   the application now shows a small popup instead of a notification
   to inform you that it sits in the tray menu.
