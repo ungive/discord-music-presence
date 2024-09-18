@@ -13,6 +13,11 @@ TODO remove duplicate changelog for 2.2.1
     (changes to either black or white)
   - You can read more about this 
     [here](https://github.com/ungive/discord-music-presence/issues/36)
+- If you previously installed version 2.2.1
+  and you are now seeing the same changelog appear again,
+  that is because 2.2.1 contained a bug that would crash the app
+  which is fixed in this version.
+  Read more [here](https://github.com/ungive/discord-music-presence/issues/39)
 - Added the option to hide the player logo for media players
   that are not streaming services.
   You can hide it for e.g. foobar2000 or MusicBee,
