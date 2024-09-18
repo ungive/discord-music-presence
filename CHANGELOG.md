@@ -1,5 +1,7 @@
 # Changelog
 
+TODO remove duplicate changelog for 2.2.1
+
 ## 2.2.2
 
 - **Redesigned the Music Presence tray icon and logo.**  
