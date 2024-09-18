@@ -26,8 +26,11 @@
     and instead entering an idle disconnect/reconnect loop
     and wrongfully reusing proxy links that aren't valid anymore
   - When the proxy client disconnects the status is updated
-    to use a different cover image
+    to use a different cover image (if available)
     so that it does not show nothing
+  - When there is no correct cover image URL from an API or the proxy,
+    the status falls back to a guessed cover image (if available),
+    so that there is at least something to show
   - Increased the idle timeout to 60 seconds (from 30 seconds)
     to accomodate for bad internet connections
     and give enough time to reconnect to the proxy server, if needed
