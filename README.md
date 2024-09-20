@@ -134,6 +134,8 @@ I'm usually very active there and respond to messages rather quickly.
 
 Links to other places on the internet that mention Music Presence
 
+- 20.09.2024&nbsp; *Requested to be featured in MoonWalker440/Music-Megathread*  
+  https://github.com/MoonWalker440/Music-Megathread/issues/17
 - 16.09.2024&nbsp; *Requested to be featured in jacc/awesome-discord*  
   https://github.com/jacc/awesome-discord/pull/112
 - 16.09.2024&nbsp; *Requested to be featured in NoPlagiarism/awesome-discord-activities*  
