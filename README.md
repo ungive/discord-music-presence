@@ -134,10 +134,9 @@ I'm usually very active there and respond to messages rather quickly.
 
 Links to other places on the internet that mention Music Presence
 
+- 21.09.2024&nbsp; Featured in [**MoonWalker440/Music-Megathread**](https://github.com/MoonWalker440/Music-Megathread/issues/17)
 - 20.09.2024&nbsp; **r/musicbee**&nbsp;
   [Reliable album covers in your Discord status with Music Presence](https://www.reddit.com/r/musicbee/comments/1fli01d)
-- 20.09.2024&nbsp; **MoonWalker440/Music-Megathread**&nbsp;
-  [*Requested to be featured*](https://github.com/MoonWalker440/Music-Megathread/issues/17)
 - 16.09.2024&nbsp; **jacc/awesome-discord**&nbsp;
   [*Requested to be featured*](https://github.com/jacc/awesome-discord/pull/112)
 - 16.09.2024&nbsp; **NoPlagiarism/awesome-discord-activities**&nbsp;
