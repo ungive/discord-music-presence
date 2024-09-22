@@ -1,5 +1,19 @@
 # Changelog
 
+## 2.2.3
+
+- Fixed an issue with the Discord status not updating
+  when the artist name, song title or album name is a single unicode character.
+  This was due to improper calculation of the text length
+  in case of multibyte text
+  and Discord requiring the text to be 2 characters or longer.
+- Explicitly setting the program locale to the system locale
+  and attempting to use a UTF-8 variant of that locale on program startup.
+  This is necessary for proper text length calculation with multibyte strings.
+- Fixed Music Presence not setting the status any longer until a program restart
+  when a Discord RPC error occurs.
+  This was due to assuming Discord RPC disconnects on every error.
+
 ## 2.2.2
 
 - **Redesigned the Music Presence tray icon and logo.**  
