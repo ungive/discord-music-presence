@@ -146,6 +146,20 @@ Links to other places on the internet that mention Music Presence
 - 02.06.2024&nbsp; **r/TIdaL**&nbsp;
   [I made a Discord status for TIDAL – Music Presence](https://www.reddit.com/r/TIdaL/comments/1d6azbm)
 
+## Improving media players
+
+Some media players report incomplete song metadata.
+The following is a list of bug reports that were submitted
+in order to improve what metadata these players report,
+so that they can work better with Music Presence in the future.
+
+- [**MediaSession API does not report the album to the Windows system**](https://issues.chromium.org/issues/349310439)  
+  Many media players are built on-top of **Chromium**,
+  especially media players of popular streaming services,
+  which unfortunately does not report the current album name.
+  This affects players like TIDAL amongst quite a few others.
+  Initially reported this to TIDAL [here](https://github.com/orgs/tidal-music/discussions/74).
+
 ## Disclaimer
 
 - This software is **not** affiliated with or endorsed by Discord.  
