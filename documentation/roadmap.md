@@ -31,7 +31,7 @@ You can choose between these options:
 * **[GitHub Sponsors](https://github.com/sponsors/ungive)**
   &nbsp;&ndash;&nbsp; option for one-time donations, directly here on GitHub
 
-You can read [**here**](./FUNDING.md) for more information.
+You can read [**here**](../FUNDING.md) for more information.
 
 ## Feature requests
 
