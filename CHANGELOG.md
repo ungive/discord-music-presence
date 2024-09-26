@@ -9,7 +9,7 @@
   - When you enable paused media for your status
     the playback progress bar/timer disappears,
     since the media is not playing anymore.
-    The rest of the song information remains visible.
+    The rest of the song information remains visible
   - Paused media shows a small paused icon (two vertical bars)
     by default when you enable it,
     but you can uncheck that option again, if you don't want it
@@ -34,7 +34,7 @@
     when the artist name, song title or album name
     is a single unicode character.
     This was due to improper calculation of the text length
-    in case of multibyte text
+    with multibytes characters
     and Discord requiring the text to be 2 characters or longer
   - Fixed Music Presence not setting the status any longer
     until a program restart when a Discord RPC error occurs.
