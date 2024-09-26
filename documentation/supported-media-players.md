@@ -42,8 +42,7 @@ please visit the [**troubleshooting**](./troubleshooting.md) page
 | foobar2000                |             :white_check_mark:*             |    :white_check_mark:    | :heavy_multiplication_x: | fully tested               |
 | MusicBee                  |         :white_check_mark: :pencil:         | :heavy_multiplication_x: | :heavy_multiplication_x: | fully tested               |
 | Qobuz                     |             :white_check_mark:*             |        :warning:         | :heavy_multiplication_x: | unpaid only*               |
-| Spotify                   |           :ballot_box_with_check:           | :ballot_box_with_check:  |           ...            | not tested                 |
-| Spotify (unpaid)          |                  :warning:                  |    :white_check_mark:    |           ...            | fully tested               |
+| Spotify                   |             :white_check_mark:              |    :white_check_mark:    |           ...            | fully tested               |
 | Windows Media Player      | :white_check_mark: :face_with_head_bandage: | :heavy_multiplication_x: | :heavy_multiplication_x: | fully tested               |
 | YouTube Music<sup>1</sup> |             :white_check_mark:              |           ...            |           ...            | fully tested               |
 | Next-Player<sup>2</sup>   |             :white_check_mark:              | :heavy_multiplication_x: | :heavy_multiplication_x: | fully tested               |
