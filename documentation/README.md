@@ -7,6 +7,7 @@ If you feel like something is missing, feel free to open an issue.
 
 ## Documents
 
+- [Troubleshooting](./troubleshooting.md)
 - [Supported media players](./supported-media-players.md)
 - [Cover images from media players](./cover-images-proxy.md)
 - [Automatic updates](./automatic-updates.md)
