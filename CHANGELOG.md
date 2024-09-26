@@ -2,9 +2,6 @@
 
 ## 2.2.3
 
-This version comes with some bug fixes
-and the option to show paused media with offline media players!
-
 - Offline media players now have the option to show paused media in your status.
   Note that this does **not** work with streaming services at this time
   (read below for more information)
