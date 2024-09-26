@@ -2,8 +2,7 @@
 
 > [!NOTE]
 > If your media player is not detected,
-read [below](#my-media-player-is-not-detected-)
-for more information on what you can do.
+please visit the [**troubleshooting**](./troubleshooting.md) page
 
 ## Overview
 
@@ -107,23 +106,6 @@ https://github.com/spmn/vlc-win10smtc
 
 At the moment this plugin does not report any cover images,
 nor an accurate playback position.
-
-## My media player is not detected 😢
-
-If this happens, simply follow these steps:
-
-1. In the tray menu of the application,
-   navigate to "Help" and click on "My media player is not detected"
-2. A new GitHub issue will open in your browser,
-   you will have to log in with a GitHub account
-3. Please describe which media player is not detected and submit the form
-
-The issue will be filled out with some information about your system.
-This will help me add support for the media player that you are requesting.
-
-Once you have submitted the issue, I will come back to you as soon as I can.
-Adding support for a player usually doesn't take very long
-and you can expect to be able to use it within the day!
 
 ---
 
