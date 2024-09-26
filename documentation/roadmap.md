@@ -15,6 +15,9 @@
 - Community-driven translations of the application to other languages.
 - ...
 
+If you have any questions or ideas,
+feel free to reach out on [Discord](https://discord-invite.musicpresence.app)!
+
 ## Donations
 
 By making a donation you are actively helping
