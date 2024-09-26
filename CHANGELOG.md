@@ -2,6 +2,15 @@
 
 ## 2.2.3
 
+If you like this project consider supporting me by
+[**donating**](https://www.patreon.com/musicpresence)&nbsp;❤️
+or giving it a
+[**star**](https://github.com/ungive/discord-music-presence)&nbsp;⭐
+on GitHub!
+
+This version comes with the option to show paused media in your Discord status
+for **offline** media players and a few bug fixes and small improvements.
+
 - Offline media players now have the option to show paused media in your status.
   Note that this does **not** work with streaming services at this time
   (read below for more information)
