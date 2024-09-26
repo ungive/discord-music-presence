@@ -15,10 +15,10 @@ for these media players to be detected by Music Presence.
 
 Otherwise continue reading the next section.
 
-### Reporting an issue with your media player
+### Reporting an issue with a different media player
 
 First make sure you played some media with your media player
-while Music Presence was running.
+while Music Presence is running.
 
 After that, navigate to the **Help** menu and click on
 
