@@ -2,17 +2,59 @@
 
 ## 2.2.3
 
-- Fixed an issue with the Discord status not updating
-  when the artist name, song title or album name is a single unicode character.
-  This was due to improper calculation of the text length
-  in case of multibyte text
-  and Discord requiring the text to be 2 characters or longer.
-- Explicitly setting the program locale to the system locale
-  and attempting to use a UTF-8 variant of that locale on program startup.
-  This is necessary for proper text length calculation with multibyte strings.
-- Fixed Music Presence not setting the status any longer until a program restart
-  when a Discord RPC error occurs.
-  This was due to assuming Discord RPC disconnects on every error.
+This version comes with some bug fixes
+and the option to show paused media with offline media players!
+
+- Offline media players now have the option to show paused media in your status.
+  Note that this does **not** work with streaming services at this time
+  (read below for more information)
+  - This is disabled by default and must be enabled in the appearance settings
+  - When you enable paused media for your status
+    the playback progress bar/timer disappears,
+    since the media is not playing anymore.
+    The rest of the song information remains visible.
+  - Paused media shows a small paused icon (two vertical bars)
+    by default when you enable it,
+    but you can uncheck that option again, if you don't want it
+  - Playing media can have a small playing icon (a triangle)
+    which you can explicitly enable in the settings.
+    This will replace the player logo for playing media
+  - You can also show for how long your media is paused,
+    if you want to. This will count the time from the point the media is paused.
+    Note that this timer might be reset by scrubbing the song!
+  - This is not availabe for streaming services
+    and I'm not planning to add it at this time,
+    as I always want to show the service brand/logo whenever I can
+    and showing paused media would not be very meaningful
+    without at least showing a paused icon.
+    If you really want this for streaming services too though,
+    please let me know by opening an issue
+    [here](https://github.com/ungive/discord-music-presence/issues/new/choose)
+    or by letting me know on our
+    [Discord server](https://discord-invite.musicpresence.app)
+- Bug fixes and small improvements
+  - Fixed an issue with the Discord status not updating
+    when the artist name, song title or album name
+    is a single unicode character.
+    This was due to improper calculation of the text length
+    in case of multibyte text
+    and Discord requiring the text to be 2 characters or longer
+  - Fixed Music Presence not setting the status any longer
+    until a program restart when a Discord RPC error occurs.
+    This was due to assuming Discord RPC disconnects on every error
+  - Moved the option to hide the player logo
+    for non-service (i.e. offline) media players
+    into "Settings for offline music players"
+    and changed the name to "Show the logo of the media player"
+  - The help menu entry "My media player is not detected" now opens
+    the [troubleshooting](https://troubleshooting.musicpresence.app) page
+    to serve as first aid for users of media players
+    that need additional steps to work.
+    You can still submit detected media players
+    by clicking on "Submit detected media players" in the help menu
+  - Explicitly setting the program locale to the system locale
+    and attempting to use a UTF-8 variant of that locale on program startup.
+    This is necessary for proper text length calculation with multibyte strings
 
 ## 2.2.2
 
