@@ -1,12 +1,33 @@
 # Changelog
 
-## 2.2.3
+## 2.2.4
 
-If you like this project consider supporting me by
-[**donating**](https://www.patreon.com/musicpresence)&nbsp;❤️
-or giving it a
-[**star**](https://github.com/ungive/discord-music-presence)&nbsp;⭐
-on GitHub!
+- Updated automatic update library
+  [`ungive/update`](https://github.com/ungive/update)
+  from commit `8f12c40` to
+  [`TODO`](https://github.com/ungive/update/compare/8f12c40...e6254b98)
+  - Updates do not fail anymore
+    when updating any existing start menu shortcut fails.
+    This has caused a handful of automatic update failures
+    which should now be fixed
+  - Properly encoding paths as UTF-8 for ZIP extraction.
+    Extracting the ZIP file failed for some users,
+    mainly those that likely had non-ASCII characters in their Windows username.
+    This has caused a few automatic update failures which should now be fixed
+  - Now logging the results of successful SHA256 checksum verifications
+    and cryptographic signature verifications
+    in addition to logging when these checks fail
+  - Added logging of purely informational, non-fatal error messages
+  - Improved error messages
+- Bug fixes and improvements
+  - Fixed the potential for a crash
+    when a new version of Music Presence is started for the first time
+    and it wasn't launched from the local appdata installation directory.
+    This was the case
+    because launching a new version updates any existing start menu shortcut
+    which would cause an error if the executable didn't exist in that directory
+
+## 2.2.3
 
 This version comes with the option to show paused media in your Discord status
 for **offline** media players and a few bug fixes and small improvements.
