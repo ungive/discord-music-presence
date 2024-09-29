@@ -138,12 +138,15 @@ Links to other places on the internet that mention Music Presence
 - 21.09.2024&nbsp; Featured in [**MoonWalker440/Music-Megathread**](https://github.com/MoonWalker440/Music-Megathread)
 - 21.09.2024&nbsp; **MusicBee Forum**&nbsp;
   [A new Discord Rich Presence for MusicBee](https://getmusicbee.com/forum/index.php?topic=41833.0)
-- 20.09.2024&nbsp; **r/musicbee**&nbsp;
-  [Reliable album covers in your Discord status with Music Presence](https://www.reddit.com/r/musicbee/comments/1fli01d)
 - 16.09.2024&nbsp; **jacc/awesome-discord**&nbsp;
   [*Requested to be featured*](https://github.com/jacc/awesome-discord/pull/112)
+
+<!--
 - 02.06.2024&nbsp; **r/TIdaL**&nbsp;
   [I made a Discord status for TIDAL – Music Presence](https://www.reddit.com/r/TIdaL/comments/1d6azbm)
+- 20.09.2024&nbsp; **r/musicbee**&nbsp;
+  [Reliable album covers in your Discord status with Music Presence](https://www.reddit.com/r/musicbee/comments/1fli01d)
+-->
 
 ## Improving media players
 
