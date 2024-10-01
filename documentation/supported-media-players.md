@@ -30,6 +30,7 @@ please visit the [**troubleshooting**](./troubleshooting.md) page
 <span><a href="https://github.com/Sandakan/Nora"><img title="Nora Music" alt="" height="48" src="https://live.musicpresence.app/v2/nora.ico"></a></span>&nbsp;
 <span><a href="https://apps.microsoft.com/detail/9nblggh67n4f"><img title="Next-Player (DryForest)" alt="" height="48" src="https://live.musicpresence.app/v2/next-player.ico"></a></span>&nbsp;
 <span><a href="https://github.com/digimezzo/dopamine"><img title="Dopamine" alt="" height="48" src="https://live.musicpresence.app/v2/dopamine.ico"></a></span>&nbsp;
+<span><a href="https://harmonoid.com"><img title="Harmonoid" alt="" height="48" src="https://live.musicpresence.app/v2/harmonoid.ico"></a></span>&nbsp;
 
 ## Support Table
 
@@ -54,6 +55,7 @@ please visit the [**troubleshooting**](./troubleshooting.md) page
 | Dopamine<sup>5</sup>      |             :white_check_mark:              |           ...            |           ...            | fully tested               |
 | MediaMonkey               | :white_check_mark: :face_with_head_bandage: | :heavy_multiplication_x: | :heavy_multiplication_x: | fully tested               |
 | VLC Media Player          |        :white_check_mark:* :pencil:         |           ...            |           ...            | fully tested               |
+| Harmonoid                 |             :white_check_mark:              | :heavy_multiplication_x: |           ...            | fully tested               |
 
 |          Symbol          | Meaning                                                                        |
 |:------------------------:|--------------------------------------------------------------------------------|
@@ -155,6 +157,7 @@ depending on which playback position you jump to in the song.
 - AIMP on Windows
 - MediaMonkey on Windows
 - VLC on Windows
+- Harmonoid on Windows
 
 #### Incorrect playback position timestamp
 
