@@ -2,6 +2,11 @@
 
 ## 2.2.4
 
+- Added support for **animated cover images** for TIDAL
+  - Animated covers are enabled by default,
+    but you can disable them in the settings, if you want to
+  - The video is automatically converted to a GIF using our own servers
+  - Server source code: https://github.com/ungive/video-conversion-service
 - Updated automatic update library
   [`ungive/update`](https://github.com/ungive/update)
   from commit `8f12c40` to
@@ -26,6 +31,8 @@
     This was the case
     because launching a new version updates any existing start menu shortcut
     which would cause an error if the executable didn't exist in that directory
+- Media players
+  - Added Harmonoid on Windows
 
 ## 2.2.3
 
