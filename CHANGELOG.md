@@ -33,6 +33,7 @@
     which would cause an error if the executable didn't exist in that directory
 - Media players
   - Added Harmonoid on Windows
+  - Added Pocket Casts (Podcasts) on Windows
 
 ## 2.2.3
 

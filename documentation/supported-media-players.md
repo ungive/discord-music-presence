@@ -16,6 +16,7 @@ please visit the [**troubleshooting**](./troubleshooting.md) page
 <span><a href="https://music.apple.com"><img title="Apple Music" alt="" height="48" src="https://live.musicpresence.app/v2/apple-music.ico"></a></span>&nbsp;
 <span><a href="https://th-ch.github.io/youtube-music/"><img title="YouTube Music (Unofficial Desktop)" alt="" height="48" src="https://live.musicpresence.app/v2/youtube-music.ico"></a></span>&nbsp;
 <span><a href="https://apps.microsoft.com/detail/9nvjbt29b36l"><img title="SoundCloud" alt="" height="48" src="https://live.musicpresence.app/v2/soundcloud.ico"></a></span>&nbsp;
+<span><a href="https://pocketcasts.com/"><img title="Pocket Casts (Podcasts)" alt="" height="48" src="https://live.musicpresence.app/v2/pocketcasts.ico"></a></span>&nbsp;
 
 **Offline media players**
 
@@ -56,6 +57,7 @@ please visit the [**troubleshooting**](./troubleshooting.md) page
 | MediaMonkey               | :white_check_mark: :face_with_head_bandage: | :heavy_multiplication_x: | :heavy_multiplication_x: | fully tested               |
 | VLC Media Player          |        :white_check_mark:* :pencil:         |           ...            |           ...            | fully tested               |
 | Harmonoid                 |             :white_check_mark:              | :heavy_multiplication_x: |           ...            | fully tested               |
+| Pocket Casts              |             :white_check_mark:              | :heavy_multiplication_x: | :heavy_multiplication_x: | fully tested               |
 
 |          Symbol          | Meaning                                                                        |
 |:------------------------:|--------------------------------------------------------------------------------|
