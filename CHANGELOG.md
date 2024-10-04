@@ -2,10 +2,18 @@
 
 ## 2.2.4
 
+- Improved how local cover images are cropped
+  - Now cropping covers to the largest center square
+    without too many surrounding transparent pixels
+  - This has the added benefit that Spotify's album cover images 
+    do not appear in your status with the Spotify logo/brand at the bottom,
+    which is redundant
+    because the Spotify logo is already shown as a small icon.
+    Before and after: [https://i.imgur.com/hy9nJOL.png](https://i.imgur.com/hy9nJOL.png)
 - Added support for **animated cover images** for TIDAL
   - Animated covers are enabled by default,
     but you can disable them in the settings, if you want to
-  - The video is automatically converted to a GIF using our own servers
+  - The video is automatically converted to a GIF using our own online service
   - Server source code: https://github.com/ungive/video-conversion-service
 - Updated automatic update library
   [`ungive/update`](https://github.com/ungive/update)
@@ -24,7 +32,7 @@
     in addition to logging when these checks fail
   - Added logging of purely informational, non-fatal error messages
   - Improved error messages
-- Bug fixes and improvements
+- Bug fixes and small improvements
   - Fixed the potential for a crash
     when a new version of Music Presence is started for the first time
     and it wasn't launched from the local appdata installation directory.
