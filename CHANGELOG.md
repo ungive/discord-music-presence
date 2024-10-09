@@ -2,7 +2,55 @@
 
 ## 2.2.4
 
-- Improved how local cover images are cropped
+- Added **individual settings per player**.
+  This includes both the possibility
+  to override certain global settings for one specific player,
+  as well as player-specific options that aren't available for other players.
+  - This menu is called "Player" and should be pretty intuitive to use.
+    You need to first play media
+    in order to configure the player that is playing the media.
+    You can still configure that player when it's paused
+    until another player starts playing media
+  - You will also get a visual clue in the "Appearance" menu
+    if any settings are overridden for the currently active player
+  - To revert back to using the global setting either:
+    - Hold SHIFT while clicking the overridden setting
+    - or click "Reset all overridden settings"
+  - You can override these global settings per player at the moment:
+    - *Show the name of the player instead of "Music"*
+    - *Show paused media in your status*
+    - *Show a playing icon when music is playing* (non-service players only)
+    - *Show the logo of a media player* (non-service players only)
+    - If you feel like another setting should be overridable per player,
+      please [let me know](https://github.com/ungive/discord-music-presence/issues/new/choose)!
+  - There are also individual settings per player, namely the following:
+    - Spotify: Option to try and filter out advertisements (enabled by default).
+      This might not be reliable or break in the future.
+      Check if it's still working when you update Spotify!
+      You can always keep an eye on the tray icon when an ad is playing
+    - Spotify: Option to always show "Listening to a Podcast" for podcasts.
+      This means it will show that
+      even when you enabled player names ("Listening to Spotify").
+      Listening to music would therefore show "Spotify",
+      but podcasts "a Podcast" (disabled by default)
+    - Spotify: Option to *only* share podcasts, but not music from Spotify.
+      This is useful if you want to use the official Spotify status for music
+      and Music Presence to show podcasts (disabled by default)
+    - Apple Music: Splitting album and artist, which are reported together,
+      separated by a hyphen (enabled by default).
+      If you liked the way it looked before you can uncheck this setting
+- Improvements for specific media players
+  - Spotify will now show "Listening to a Podcast" instead of "Music",
+    when listening to a podcast
+  - Pocket Casts now always shows "Listening to a Podcast" instead of "Music"
+  - Using the Deezer API to retrieve missing song information,
+    mainly the album name and the duration of the song
+    - The Deezer API is only used for Deezer and can be disabled in the settings
+- **Paused media is now also shown for streaming services**!
+  There won't be any paused icon,
+  but you can show a timer for how long media is paused.
+  This might get further improvements in the future
+- Improved cropping of local cover images to remove unnecessary transparency
   - Now cropping covers to the largest center square
     without too many surrounding transparent pixels
   - This has the added benefit that Spotify's album cover images 
@@ -10,38 +58,61 @@
     which is redundant
     because the Spotify logo is already shown as a small icon.
     Before and after: [https://i.imgur.com/hy9nJOL.png](https://i.imgur.com/hy9nJOL.png)
+  - Cover images are also never cropped too much (currently at most 50%)
+- Bug fixes and improvements
+  - Updated automatic update library
+    [`ungive/update`](https://github.com/ungive/update)
+    to commit
+    [`fd38aa6e`](https://github.com/ungive/update/compare/8f12c40...fd38aa6e)
+    - Updates do not fail anymore
+      when updating any existing start menu shortcut fails.
+      This has caused a handful of automatic update failures
+      which should now be fixed
+    - Properly encoding paths as UTF-8 for ZIP extraction.
+      Extracting the ZIP file failed for some users,
+      mainly those that likely had non-ASCII characters in their Windows username.
+      This has caused a few automatic update failures which should now be fixed
+    - Now logging the results of successful SHA256 checksum verifications
+      and cryptographic signature verifications
+      in addition to logging when these checks fail
+    - Added logging of purely informational, non-fatal error messages
+    - Improved error messages
+  - Cancelling automatic updates for one week, if they keep failing too often.
+    Otherwise the download counter on GitHub keeps increasing for failed updates
+    which incorrectly reflects how often a new version is downloaded.
+    This currently amounts to a maximum of 16 allowed update failures per month
+  - Fixed the potential for a crash when starting
+    a new version of Music Presence
+    if it was never installed to the default installation directory
+  - Fixed paused media duration not showing when timestamps are disabled
+  - Fixed the potential for a very unlikely deadlock (application freeze)
+    under specific conditions
+  - Fixed a crash when updating the Discord status
+    for a media player that is not whitelisted
+    (which practically never happens)
+  - Showing the app name and currently shared song in the tray tooltip text.
+    Fixes [#48](https://github.com/ungive/discord-music-presence/issues/48)
+  - Fixed "See what's new when launching a new version"
+    incorrectly toggling the checkbox and setting for
+    "Notify when a new version is available".
+    Fixes [#50](https://github.com/ungive/discord-music-presence/issues/50)
+  - Fixed album name not showing when there is no cover image
+  - Fixed accidentally increasing the size of TIDAL API query parameters
+    and sending a lot of URL-encoded null bytes
+  - Fixed the tray icon being stuck at an incorrect state
+    in some cases when no media player was detected
+- Media players
+  - Added Harmonoid on Windows
+  - Added Pocket Casts (Podcasts) on Windows
+  - Added Windows 11 identifier for Deezer
+
+_
+
 - Added support for **animated cover images** for TIDAL
   - Animated covers are enabled by default,
     but you can disable them in the settings, if you want to
   - The video is automatically converted to a GIF using our own online service
   - Server source code: https://github.com/ungive/video-conversion-service
-- Updated automatic update library
-  [`ungive/update`](https://github.com/ungive/update)
-  from commit `8f12c40` to
-  [`TODO`](https://github.com/ungive/update/compare/8f12c40...e6254b98)
-  - Updates do not fail anymore
-    when updating any existing start menu shortcut fails.
-    This has caused a handful of automatic update failures
-    which should now be fixed
-  - Properly encoding paths as UTF-8 for ZIP extraction.
-    Extracting the ZIP file failed for some users,
-    mainly those that likely had non-ASCII characters in their Windows username.
-    This has caused a few automatic update failures which should now be fixed
-  - Now logging the results of successful SHA256 checksum verifications
-    and cryptographic signature verifications
-    in addition to logging when these checks fail
-  - Added logging of purely informational, non-fatal error messages
-  - Improved error messages
-- Bug fixes and small improvements
-  - Fixed the potential for a crash
-    when a new version of Music Presence is started for the first time
-    and it wasn't launched from the local appdata installation directory.
-    This was the case
-    because launching a new version updates any existing start menu shortcut
-    which would cause an error if the executable didn't exist in that directory
-- Media players
-  - Added Harmonoid on Windows
-  - Added Pocket Casts (Podcasts) on Windows
 
 ## 2.2.3
 
