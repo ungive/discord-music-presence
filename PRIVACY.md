@@ -46,6 +46,7 @@ about how your data is processed.
 * [How is the data being used and shared?](#how-is-the-data-being-used-and-shared)
   * [Discord](#discord)
   * [TIDAL](#tidal)
+  * [Deezer](#deezer)
   * [MetaBrainz - MusicBrainz and Cover Art Archive](#metabrainz---musicbrainz-and-cover-art-archive)
   * [Simple Analytics](#simple-analytics)
   * [GitHub](#github)
@@ -213,12 +214,25 @@ Media Metadata may be sent to **TIDAL**, more specifically the
 [TIDAL API](https://developer.tidal.com/documentation/api/api-overview),
 to complete Media Metadata that is lacking song, track or video information
 and to get more information about the media that is playing
-from an online music database.
+from their online music database.
 
 This service can be disabled in the settings of the Software.
 
-* **[TIDAL](https://tidal.com/)**
+* **[TIDAL](https://tidal.com)**
   &ndash; [Privacy Policy](https://tidal.com/privacy)
+
+### Deezer
+
+Media Metadata may be sent to **Deezer**, more specifically the
+[Deezer API](https://developers.deezer.com/api),
+to complete Media Metadata that is lacking song, track or video information
+and to get more information about the media that is playing
+from their online music database.
+
+This service can be disabled in the settings of the Software.
+
+* **[Deezer](https://www.deezer.com)**
+  &ndash; [Privacy Policy](https://www.deezer.com/legal/personal-datas)
 
 ### MetaBrainz - MusicBrainz and Cover Art Archive
 
@@ -287,7 +301,8 @@ These include the following services:
 
 All data is **encrypted** with the use of
 modern and secure transport protocols,
-when sent to **TIDAL**, **MetaBrainz**, **Simple Analytics**, **GitHub**
+when sent to
+**TIDAL**, **Deezer**, **MetaBrainz**, **Simple Analytics**, **GitHub**
 and our own services.
 Media Metadata that is sent to **Discord** communicates
 with the locally running Discord client application
