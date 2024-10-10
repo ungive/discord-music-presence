@@ -2,6 +2,15 @@
 
 ## 2.2.4
 
+- **Better support for podcasts** with Spotify and other players!
+  - Spotify and Deezer will now show "Listening to a Podcast" instead of "Music"
+    when listening to a podcast
+  - For Spotify specifically you have the option
+    to *only* show podcasts in your status.
+    That means you can use Music Presence
+    together with the official Spotify status
+    in order to share both your music and the podcasts you listen to!
+  - Pocket Casts now always shows "Listening to a Podcast" instead of "Music"
 - Added **individual settings per player**.
   This includes both the possibility
   to override certain global settings for one specific player,
@@ -10,19 +19,19 @@
     You need to first play media
     in order to configure the player that is playing the media.
     You can still configure that player when it's paused
-    until another player starts playing media
-  - You will also get a visual clue in the "Appearance" menu
-    if any settings are overridden for the currently active player
-  - To revert back to using the global setting either:
-    - Hold SHIFT while clicking the overridden setting
-    - or click "Reset all overridden settings"
+    until another player starts playing media.
+    You will also get a visual clue in the "Appearance" menu,
+    if any settings are overridden for the currently active player.
+    To revert back to using the global setting either
+    hold SHIFT while clicking the overridden setting
+    or click "Reset all overridden settings"
   - You can override these global settings per player at the moment:
     - *Show the name of the player instead of "Music"*
     - *Show paused media in your status*
     - *Show a playing icon when music is playing* (non-service players only)
     - *Show the logo of a media player* (non-service players only)
     - If you feel like another setting should be overridable per player,
-      please [let me know](https://github.com/ungive/discord-music-presence/issues/new/choose)!
+      please [let me know](https://github.com/ungive/discord-music-presence/issues)!
   - There are also individual settings per player, namely the following:
     - Spotify: Option to try and filter out advertisements (enabled by default).
       This might not be reliable or break in the future.
@@ -39,17 +48,14 @@
     - Apple Music: Splitting album and artist, which are reported together,
       separated by a hyphen (enabled by default).
       If you liked the way it looked before you can uncheck this setting
-- Improvements for specific media players
-  - Spotify will now show "Listening to a Podcast" instead of "Music",
-    when listening to a podcast
-  - Pocket Casts now always shows "Listening to a Podcast" instead of "Music"
-  - Using the Deezer API to retrieve missing song information,
-    mainly the album name and the duration of the song
-    - The Deezer API is only used for Deezer and can be disabled in the settings
+    - Deezer: Option to try and filter out advertisements (enabled by default).
+      Sometimes this doesn't work because while an ad is being played
+      Deezer reports it as if it were the song you just played,
+      which is impossible to detect
 - **Paused media is now also shown for streaming services**!
   There won't be any paused icon,
   but you can show a timer for how long media is paused.
-  This might get further improvements in the future
+  This might be further improved in the future
 - Improved cropping of local cover images to remove unnecessary transparency
   - Now cropping covers to the largest center square
     without too many surrounding transparent pixels
@@ -59,6 +65,11 @@
     because the Spotify logo is already shown as a small icon.
     Before and after: [https://i.imgur.com/hy9nJOL.png](https://i.imgur.com/hy9nJOL.png)
   - Cover images are also never cropped too much (currently at most 50%)
+- Added the option to use the Deezer API to retrieve missing song information
+  - The Deezer API is only used for Deezer and can be disabled in the settings
+  - This is used to retrieve the missing album name, the song duration
+    and the correct cover image for podcasts.
+    The local cover image for podcasts is merely a simple icon for some reason
 - Bug fixes and improvements
   - Updated automatic update library
     [`ungive/update`](https://github.com/ungive/update)
@@ -87,6 +98,11 @@
   - Fixed paused media duration not showing when timestamps are disabled
   - Fixed the potential for a very unlikely deadlock (application freeze)
     under specific conditions
+  - Added a workaround for another potential but unlikely deadlock
+    when using cover images from media players.
+    This is caused by the Qt websocket library freezing
+    when attempting to send data using a connection that isn't opened yet.
+    See [e8b08c5](https://github.com/ungive/loon/commit/e8b08c5)
   - Fixed a crash when updating the Discord status
     for a media player that is not whitelisted
     (which practically never happens)
@@ -101,18 +117,12 @@
     and sending a lot of URL-encoded null bytes
   - Fixed the tray icon being stuck at an incorrect state
     in some cases when no media player was detected
+  - Using the MusicBrainz API to retrieve missing song durations as well now,
+    so the status shows a progress bar whenever that information is available
 - Media players
   - Added Harmonoid on Windows
   - Added Pocket Casts (Podcasts) on Windows
   - Added Windows 11 identifier for Deezer
-
-_
-
-- Added support for **animated cover images** for TIDAL
-  - Animated covers are enabled by default,
-    but you can disable them in the settings, if you want to
-  - The video is automatically converted to a GIF using our own online service
-  - Server source code: https://github.com/ungive/video-conversion-service
 
 ## 2.2.3
 
