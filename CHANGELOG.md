@@ -2,6 +2,17 @@
 
 ## 2.2.4
 
+This version comes with better support for podcasts,
+the option to change certain global settings for specific players only,
+additional individual settings for some players,
+the option to show paused media for streaming services
+and an overall better synergy with Spotify.
+Read more below!
+
+*Consider supporting my ongoing efforts to improve Music Presence*
+*by becoming a [**Patreon member**](https://patreon.com/musicpresence).*
+*Thank&nbsp;you to all my supporters&nbsp;🤍*
+
 - **Better support for podcasts** with Spotify and other players!
   - Spotify and Deezer will now show "Listening to a Podcast" instead of "Music"
     when listening to a podcast
