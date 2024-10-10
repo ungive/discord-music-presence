@@ -263,6 +263,8 @@ besides the Analytics Metrics mentioned in the previous section,
 visit [this link](https://docs.simpleanalytics.com/what-we-collect)
 ("What we collect") on their website.
 
+Media Metadata is never sent to Simple Analytics.
+
 ### GitHub
 
 Report Information is transmitted to **GitHub**
