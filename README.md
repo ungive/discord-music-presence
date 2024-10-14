@@ -54,39 +54,42 @@ You can download Music Presence
   different players are supported
   and adding a missing one is
   [trivial](./documentation/supported-media-players.md#my-media-player-is-not-detected-)
-- Shows the correct album cover image 100% of the time!  
+- Shows the correct album cover image **100%** of the time!  
   *This works with any media player
   and is achieved without the use of external image sources.*
 - Fine-grained control
   over which applications are shared in your status
-- Fine-grained control over the appearance of your status
-- Shows the exact playback position, if the media player supports it
-- Option to switch between the "Listening to"
-  and "Playing" activity type with one click
-- Option to switch between the player name
-  and "Music" as the activity name with one click  
-  *This means you can either have it show "Listening to Music"
-  or e.g. "Listening to TIDAL"*
-- Shows the logo of the media player or streaming service
-  that is playing your music in your status
-- In-app and automatic updates of Music Presence,
-  so you don't have to install new versions by downloading them manually.
-  In addition to that you're always informed
-  about any changes and additions with an informational popup
+  and what your status looks like,
+  including individual settings and the option to override settings
+  for each media player individually.
+- Perfect synergy with Spotify and the official Spotify integration!
+  Podcasts can be shown in your status with the title "Listening to a Podcast",
+  while the official Spotify integration doesn't show podcasts.
+  You can also just use Music Presence for Spotify podcasts
+  and use the official Spotify integration for music.
 - The tray icon changes and reflects the current state of Music Presence,
   i.e. whether it is currently sharing media in your status,
   whether it's waiting for media playback
   or if it has been disabled by you entirely
+- Always shows the exact playback position, if the media player supports it
+- Option to switch between the player name
+  and "Music" as the activity name with one click  
+  *This means you can either have it show "Listening to Music"
+  or e.g. "Listening to TIDAL"*
+- You can also show paused media in your status for as long as you want.
+  Offline media players get the option to show a playing and/or paused icon
+  instead of the player logo
 - Obsoletes the need for other Rich Presence applications
   and specific plugins for your music player,
   by giving you unified controls and customization for all media players
   in a single place
-- For TIDAL users:
+- In-app and automatic updates of Music Presence,
+  so you don't have to install new versions by downloading them manually.
+  In addition to that you're always informed
+  about any changes and additions with an informational popup
+- For TIDAL and Deezer users:
   - Shows a "Listen to this song" button
   - Shows all additional artists, not just the main one
-- For offline music players:
-  - Shows paused music in your status and optionally for how long it's paused
-  - Option to show a playing and/or paused icon instead of the player logo
 
 *If you think a feature is missing, feel free to open
 [an issue](https://github.com/ungive/discord-music-presence/issues/new/choose)!*
