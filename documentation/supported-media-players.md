@@ -41,7 +41,7 @@ please visit the [**troubleshooting**](./troubleshooting.md) page
 | Amazon Music              | :white_check_mark: :face_with_head_bandage: |   :white_check_mark:*    |           ...            | paid only*                 |
 | Apple Music               |               :grey_question:               |    :white_check_mark:    |           ...            | unpaid* + local files only |
 | Deezer                    |             :white_check_mark:*             |   :white_check_mark:*    |           ...            | unpaid only*               |
-| foobar2000                |             :white_check_mark:*             |    :white_check_mark:    | :heavy_multiplication_x: | fully tested               |
+| foobar2000                |         :white_check_mark: :pencil:         |    :white_check_mark:    | :heavy_multiplication_x: | fully tested               |
 | MusicBee                  |         :white_check_mark: :pencil:         | :heavy_multiplication_x: | :heavy_multiplication_x: | fully tested               |
 | Qobuz                     |             :white_check_mark:*             |        :warning:         | :heavy_multiplication_x: | unpaid only*               |
 | Spotify                   |             :white_check_mark:              |    :white_check_mark:    |           ...            | fully tested               |
@@ -93,6 +93,15 @@ https://github.com/HenryPDT/mb_MediaControl
 The installation of such a plugin is required
 because otherwise MusicBee does not report what it is playing to Windows.
 Once you have installed and enabled it, Music Presence should detect Music Bee.
+
+### foobar2000
+
+While foobar2000 reports basic information out of the box,
+this plugin will add the album name and a progress bar to your status:
+https://github.com/ungive/foo_mediacontrol
+
+This is a fork of an old plugin which I have adapted
+to report missing song information.
 
 ### AIMP
 
