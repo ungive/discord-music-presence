@@ -22,7 +22,7 @@ please visit the [**troubleshooting**](./troubleshooting.md) page
 
 <span><a href="https://www.foobar2000.org"><img title="foobar2000" alt="" height="48" src="https://live.musicpresence.app/v2/foobar2000.ico"></a></span>&nbsp;
 <span><a href="https://www.getmusicbee.com"><img title="MusicBee" alt="" height="48" src="https://live.musicpresence.app/v2/musicbee.ico"></a></span>&nbsp;
-<span><a href="https://winamp.com/"><img title="Winamp" alt="" height="48" src="https://live.musicpresence.app/v2/winamp.ico"></a></span>&nbsp;
+<span><a href="https://getwacup.com/"><img title="Winamp (installed via WACUP)" alt="" height="48" src="https://live.musicpresence.app/v2/winamp.ico"></a></span>&nbsp;
 <span><a href="https://getwacup.com/"><img title="WACUP" alt="" height="48" src="https://live.musicpresence.app/v2/wacup.ico"></a></span>&nbsp;
 <span><a href="https://www.videolan.org/vlc"><img title="VLC Media Player" alt="" height="48" src="https://live.musicpresence.app/v2/vlc.ico"></a></span>&nbsp;
 <span><a href="https://www.aimp.ru"><img title="AIMP" alt="" height="48" src="https://live.musicpresence.app/v2/aimp.ico"></a></span>&nbsp;
@@ -48,7 +48,7 @@ please visit the [**troubleshooting**](./troubleshooting.md) page
 | Windows Media Player      | :white_check_mark: :face_with_head_bandage: | :heavy_multiplication_x: | :heavy_multiplication_x: | fully tested               |
 | YouTube Music<sup>1</sup> |             :white_check_mark:              |           ...            |           ...            | fully tested               |
 | Next-Player<sup>2</sup>   |             :white_check_mark:              | :heavy_multiplication_x: | :heavy_multiplication_x: | fully tested               |
-| Winamp                    |             :white_check_mark:*             | :heavy_multiplication_x: | :heavy_multiplication_x: | fully tested               |
+| Winamp<sup>6</sup>                    |             :white_check_mark:*             | :heavy_multiplication_x: | :heavy_multiplication_x: | fully tested               |
 | WACUP                     |             :white_check_mark:*             | :heavy_multiplication_x: | :heavy_multiplication_x: | fully tested               |
 | Nora<sup>3</sup>          |             :white_check_mark:              | :heavy_multiplication_x: |           ...            | fully tested               |
 | AIMP                      |        :white_check_mark:* :pencil:         | :heavy_multiplication_x: |           ...            | fully tested               |
@@ -81,7 +81,8 @@ i.e. with a paid subscription or with the free, unpaid version*
 <sup>2</sup> From the developer "DryForest", [link](https://apps.microsoft.com/detail/9nblggh67n4f)  
 <sup>3</sup> [GitHub](https://github.com/Sandakan/Nora)  
 <sup>4</sup> [Official app](https://apps.microsoft.com/detail/9nvjbt29b36l) (only works on Windows 11)  
-<sup>5</sup> [GitHub](https://github.com/digimezzo/dopamine), works with Dopamine version 2 and 3
+<sup>5</sup> [GitHub](https://github.com/digimezzo/dopamine), works with Dopamine version 2 and 3  
+<sup>6</sup> Winamp only works when installed via the [WACUP](https://getwacup.com) installer
 
 ## Additional notes
 
