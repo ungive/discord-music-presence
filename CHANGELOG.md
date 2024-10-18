@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.2.5
+
+- Placeholder
+
 ## 2.2.4
 
 This version comes with better support for podcasts,
