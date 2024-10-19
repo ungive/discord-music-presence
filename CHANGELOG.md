@@ -2,7 +2,26 @@
 
 ## 2.2.5
 
-- Placeholder
+- Bug fixes and improvements
+  - Fixed continuous disconnects and reconnects from the proxy server
+    when the album cover image that the media player reports has zero bytes.
+    Images with such a size are now treated as if there was no image.
+    Also logging and ignoring cover images
+    for which conversion to a smaller format
+    results in an image with zero bytes.
+    Fixes [#59](https://github.com/ungive/discord-music-presence/issues/59)
+  - Improved release file naming.
+    Files now follow a more consistent and descriptive naming scheme
+    which should make it easier to find the right file you are looking for.
+    Also added a `legacy` file for Windows
+    so that automatic updates do not break for versions prior to 2.2.5
+  - Starting with this version releases of Music Presence
+    are built automatically instead of manually
+    using a custom CI pipeline.
+    This lays the foundation for future a preview build channel in the future,
+    where users can get releases of the newest changes much earlier
+- Media players
+  - Added Yandex.Music on Windows
 
 ## 2.2.4
 
