@@ -28,6 +28,8 @@ These are some of the most notable features
 You can download Music Presence
 [**here**](https://github.com/ungive/discord-music-presence/releases/latest)
 
+Join the Discord: [**discord.gg/musicpresence**](https://discord.gg/musicpresence)
+
 ---
 
 [**Download**](https://github.com/ungive/discord-music-presence/releases/latest)
