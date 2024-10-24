@@ -3,6 +3,12 @@
 ## 2.2.5
 
 - Bug fixes and improvements
+  - Fixed missing cover images in your status (appearing as a question mark),
+    when you have an unstable internet connection.
+    Fixes [#52](https://github.com/ungive/discord-music-presence/issues/52)
+  - Fixed crash when disconnecting your internet while listening to music
+    and using cover images from media players.
+    This possibly also fixes crashes that happen with unstable connections
   - Fixed continuous disconnects and reconnects from the proxy server
     when the album cover image that the media player reports has zero bytes.
     Images with such a size are now treated as if there was no image.
@@ -10,18 +16,23 @@
     for which conversion to a smaller format
     results in an image with zero bytes.
     Fixes [#59](https://github.com/ungive/discord-music-presence/issues/59)
+  - Fixed the possibility of disconnecting from the proxy server continuously
+    and spamming the log file, when the Discord RPC would not report
+    when it disconnected from Discord
   - Improved release file naming.
     Files now follow a more consistent and descriptive naming scheme
     which should make it easier to find the right file you are looking for.
     Also added a `legacy` file for Windows
     so that automatic updates do not break for versions prior to 2.2.5
+    (it has the same content as the ZIP file for Windows)
   - Starting with this version releases of Music Presence
     are built automatically instead of manually
     using a custom CI pipeline.
-    This lays the foundation for future a preview build channel in the future,
+    This lays the foundation for a preview build channel in the future,
     where users can get releases of the newest changes much earlier
 - Media players
   - Added Yandex.Music on Windows
+  - Added Windows 11 identifier for YouTube Music on Windows
 
 ## 2.2.4
 
