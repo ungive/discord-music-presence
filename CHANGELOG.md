@@ -3,6 +3,11 @@
 ## 2.2.5
 
 - Bug fixes and improvements
+  - Added the option to show a frozen progress bar for paused media.
+    Enable this in the settings using the
+    "Freeze the progress bar for paused media" option.
+    You can now show no progress bar, a frozen one
+    or how long the media is paused
   - Fixed missing cover images in your status (appearing as a question mark),
     when you have an unstable internet connection.
     Fixes [#52](https://github.com/ungive/discord-music-presence/issues/52)
