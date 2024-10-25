@@ -17,6 +17,7 @@ please visit the [**troubleshooting**](./troubleshooting.md) page
 <span><a href="https://th-ch.github.io/youtube-music/"><img title="YouTube Music (Unofficial Desktop)" alt="" height="48" src="https://live.musicpresence.app/v2/youtube-music.ico"></a></span>&nbsp;
 <span><a href="https://apps.microsoft.com/detail/9nvjbt29b36l"><img title="SoundCloud" alt="" height="48" src="https://live.musicpresence.app/v2/soundcloud.ico"></a></span>&nbsp;
 <span><a href="https://pocketcasts.com/"><img title="Pocket Casts (Podcasts)" alt="" height="48" src="https://live.musicpresence.app/v2/pocketcasts.ico"></a></span>&nbsp;
+<span><a href="https://en.wikipedia.org/wiki/Yandex_Music"><img title="Yandex Music" alt="" height="48" src="https://live.musicpresence.app/v2/yandex-music.ico"></a></span>&nbsp;
 
 **Offline media players**
 
@@ -39,7 +40,7 @@ please visit the [**troubleshooting**](./troubleshooting.md) page
 |---------------------------|:-------------------------------------------:|:------------------------:|:------------------------:|:---------------------------|
 | TIDAL                     |             :white_check_mark:              |    :white_check_mark:    |           ...            | paid only*                 |
 | Amazon Music              | :white_check_mark: :face_with_head_bandage: |   :white_check_mark:*    |           ...            | paid only*                 |
-| Apple Music               |               :grey_question:               |    :white_check_mark:    |           ...            | unpaid* + local files only |
+| Apple Music               |             :white_check_mark:              |    :white_check_mark:    |           ...            | unpaid* + local files only |
 | Deezer                    |             :white_check_mark:*             |   :white_check_mark:*    |           ...            | unpaid only*               |
 | foobar2000                |         :white_check_mark: :pencil:         |    :white_check_mark:    | :heavy_multiplication_x: | fully tested               |
 | MusicBee                  |         :white_check_mark: :pencil:         | :heavy_multiplication_x: | :heavy_multiplication_x: | fully tested               |
@@ -48,7 +49,7 @@ please visit the [**troubleshooting**](./troubleshooting.md) page
 | Windows Media Player      | :white_check_mark: :face_with_head_bandage: | :heavy_multiplication_x: | :heavy_multiplication_x: | fully tested               |
 | YouTube Music<sup>1</sup> |             :white_check_mark:              |           ...            |           ...            | fully tested               |
 | Next-Player<sup>2</sup>   |             :white_check_mark:              | :heavy_multiplication_x: | :heavy_multiplication_x: | fully tested               |
-| Winamp<sup>6</sup>                    |             :white_check_mark:*             | :heavy_multiplication_x: | :heavy_multiplication_x: | fully tested               |
+| Winamp<sup>6</sup>        |             :white_check_mark:*             | :heavy_multiplication_x: | :heavy_multiplication_x: | fully tested               |
 | WACUP                     |             :white_check_mark:*             | :heavy_multiplication_x: | :heavy_multiplication_x: | fully tested               |
 | Nora<sup>3</sup>          |             :white_check_mark:              | :heavy_multiplication_x: |           ...            | fully tested               |
 | AIMP                      |        :white_check_mark:* :pencil:         | :heavy_multiplication_x: |           ...            | fully tested               |
@@ -58,6 +59,7 @@ please visit the [**troubleshooting**](./troubleshooting.md) page
 | VLC Media Player          |        :white_check_mark:* :pencil:         |           ...            |           ...            | fully tested               |
 | Harmonoid                 |             :white_check_mark:              | :heavy_multiplication_x: |           ...            | fully tested               |
 | Pocket Casts              |             :white_check_mark:              | :heavy_multiplication_x: | :heavy_multiplication_x: | fully tested               |
+| Yandex Music              |             :white_check_mark:              |     :grey_question:      | :heavy_multiplication_x: | fully tested               |
 
 |          Symbol          | Meaning                                                                        |
 |:------------------------:|--------------------------------------------------------------------------------|
