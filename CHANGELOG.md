@@ -2,6 +2,12 @@
 
 ## 2.2.5
 
+- Added support for **animated cover images** for TIDAL
+  - Animated covers are enabled by default,
+    but you can disable them in the settings, if you want to
+  - The video is automatically converted to a GIF using our own online service,
+    for which you can find the source code here:
+    https://github.com/ungive/video-conversion-service
 - Bug fixes and improvements
   - Added the option to show a frozen progress bar for paused media.
     Enable this in the settings using the
