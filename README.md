@@ -142,6 +142,7 @@ I'm usually very active there and respond to messages rather quickly.
 
 Links to other places on the internet that mention Music Presence
 
+- 01.11.2024&nbsp; **r/foobar2000**&nbsp; [Discord status problems? Try Music Presence and never look back](https://www.reddit.com/r/foobar2000/comments/1gh8bhb)
 - 24.09.2024&nbsp; Featured in [**NoPlagiarism/awesome-discord-activities**](https://github.com/NoPlagiarism/awesome-discord-activities)
 - 21.09.2024&nbsp; Featured in [**MoonWalker440/Music-Megathread**](https://github.com/MoonWalker440/Music-Megathread)
 - 21.09.2024&nbsp; **MusicBee Forum**&nbsp;
