@@ -14,6 +14,11 @@
     "Freeze the progress bar for paused media" option.
     You can now show no progress bar, a frozen one
     or how long the media is paused
+  - The option to use the MusicBrainz API will be removed in a future version
+    and is automatically disabled upon launching this version.
+    You can still enable it again, but if you rely on it please let me know by
+    [opening an issue](https://github.com/ungive/discord-music-presence/issues)
+    or [joining the Discord](https://discord-invite.musicpresence.app)
   - Fixed missing cover images in your status (appearing as a question mark),
     when you have an unstable internet connection.
     Fixes [#52](https://github.com/ungive/discord-music-presence/issues/52)
@@ -41,9 +46,17 @@
     using a custom CI pipeline.
     This lays the foundation for a preview build channel in the future,
     where users can get releases of the newest changes much earlier
+  - Fixed duplicate artists in the Discord status with media players
+    that rely on an external API.
+    Fixes [#67](https://github.com/ungive/discord-music-presence/issues/67)
+  - Fixed rectangle cover images being cropped incorrectly
 - Media players
   - Added Yandex.Music on Windows
   - Added Windows 11 identifier for YouTube Music on Windows
+  - Added Podurama for Windows (via WebCatalog)
+  - Added identifier for SoundCloud on Windows (via WebCatalog)
+  - Added identifier for YouTube on Windows (via WebCatalog)
+  - Added Cider for Mac
 
 ## 2.2.4
 
