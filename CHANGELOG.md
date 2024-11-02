@@ -50,6 +50,10 @@
     that rely on an external API.
     Fixes [#67](https://github.com/ungive/discord-music-presence/issues/67)
   - Fixed rectangle cover images being cropped incorrectly
+  - Removing personal data from songs from a user's "Station"
+    that are played with Apple Music on Windows.
+    The name of the station usually contains the user's username/name.
+    Fixes [#69](https://github.com/ungive/discord-music-presence/issues/69)
 - Media players
   - Added Yandex.Music on Windows
   - Added Windows 11 identifier for YouTube Music on Windows
