@@ -47,6 +47,9 @@
     Fixes [#67](https://github.com/ungive/discord-music-presence/issues/67)
   - Fixed rectangle cover images being cropped incorrectly
     Fixes [#69](https://github.com/ungive/discord-music-presence/issues/69)
+  - Fixed random crashes on Windows
+    (rare for some users, more frequent for others)
+    related to how media is detected
   - Improved release file naming.
     Files now follow a more consistent and descriptive naming scheme
     which should make it easier to find the right file you are looking for.
