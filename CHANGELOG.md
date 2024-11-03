@@ -2,23 +2,30 @@
 
 ## 2.2.5
 
-- Added support for **animated cover images** for TIDAL
+- Added the option to show a frozen progress bar for paused media.
+  Enable this in the settings using the
+  "Freeze the progress bar for paused media" option.
+  You can now show no progress bar, a frozen one
+  or how long the media is paused.
+  Note that "frozen" means stuck at 0:00
+  since Discord doesn't offer any way to pin it to a specific time
+- TIDAL: Added support for **animated cover images**
   - Animated covers are enabled by default,
     but you can disable them in the settings, if you want to
   - The video is automatically converted to a GIF using our own online service,
     for which you can find the source code here:
     https://github.com/ungive/video-conversion-service
+- Apple Music on Windows:
+  Automatically removing the Apple Music user name
+  from songs that are played from a personalized "Station",
+  The name of the station usually contains the user's name.
+- The option to use the MusicBrainz API will be removed in a future version
+  and is automatically disabled upon launching this version.
+  You can still enable it again, but if you rely on it please let me know by
+  [opening an issue](https://github.com/ungive/discord-music-presence/issues)
+  or [joining the Discord](https://discord-invite.musicpresence.app),
+  otherwise it will disappear soon
 - Bug fixes and improvements
-  - Added the option to show a frozen progress bar for paused media.
-    Enable this in the settings using the
-    "Freeze the progress bar for paused media" option.
-    You can now show no progress bar, a frozen one
-    or how long the media is paused
-  - The option to use the MusicBrainz API will be removed in a future version
-    and is automatically disabled upon launching this version.
-    You can still enable it again, but if you rely on it please let me know by
-    [opening an issue](https://github.com/ungive/discord-music-presence/issues)
-    or [joining the Discord](https://discord-invite.musicpresence.app)
   - Fixed missing cover images in your status (appearing as a question mark),
     when you have an unstable internet connection.
     Fixes [#52](https://github.com/ungive/discord-music-presence/issues/52)
@@ -35,6 +42,11 @@
   - Fixed the possibility of disconnecting from the proxy server continuously
     and spamming the log file, when the Discord RPC would not report
     when it disconnected from Discord
+  - Fixed duplicate artists in the Discord status with media players
+    that rely on an external API.
+    Fixes [#67](https://github.com/ungive/discord-music-presence/issues/67)
+  - Fixed rectangle cover images being cropped incorrectly
+    Fixes [#69](https://github.com/ungive/discord-music-presence/issues/69)
   - Improved release file naming.
     Files now follow a more consistent and descriptive naming scheme
     which should make it easier to find the right file you are looking for.
@@ -46,20 +58,12 @@
     using a custom CI pipeline.
     This lays the foundation for a preview build channel in the future,
     where users can get releases of the newest changes much earlier
-  - Fixed duplicate artists in the Discord status with media players
-    that rely on an external API.
-    Fixes [#67](https://github.com/ungive/discord-music-presence/issues/67)
-  - Fixed rectangle cover images being cropped incorrectly
-  - Removing personal data from songs from a user's "Station"
-    that are played with Apple Music on Windows.
-    The name of the station usually contains the user's username/name.
-    Fixes [#69](https://github.com/ungive/discord-music-presence/issues/69)
 - Media players
   - Added Yandex.Music on Windows
   - Added Windows 11 identifier for YouTube Music on Windows
   - Added Podurama for Windows (via WebCatalog)
   - Added identifier for SoundCloud on Windows (via WebCatalog)
-  - Added identifier for YouTube on Windows (via WebCatalog)
+  - Added YouTube on Windows (via WebCatalog)
   - Added Cider for Mac
 
 ## 2.2.4
