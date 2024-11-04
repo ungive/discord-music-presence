@@ -16,6 +16,9 @@
   or how long the media is paused.
   Note that "frozen" means stuck at 0:00
   since Discord doesn't offer any way to pin it to a specific time
+- Added the option to **show the artist and the album on the same line**,
+  separated by a dash. This is great if want to show the album name
+  without showing three lines of text
 - Added support for **animated cover images** for TIDAL
   - Animated covers are enabled by default,
     but you can disable them in the settings, if you want to
