@@ -61,6 +61,9 @@
     using a custom CI pipeline.
     This lays the foundation for a preview build channel in the future,
     where users can get releases of the newest changes much earlier
+  - Now using the user's country code for the TIDAL API
+    to get more accurate search results, see the `countryCode` parameter in the
+    [TIDAL API documentation](https://developer.tidal.com/apiref?spec=search-v2&ref=get-searchresults-v2)
 - Media players
   - Added Yandex.Music on Windows
   - Added Windows 11 identifier for YouTube Music on Windows
