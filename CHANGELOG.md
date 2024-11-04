@@ -2,14 +2,21 @@
 
 ## 2.2.5
 
-- Added the option to show a frozen progress bar for paused media.
+- Enabled the **paused icon for streaming services** as well.
+  When you pause media you will see a paused icon
+  instead of the streaming service logo,
+  to more clearly indicate that the media is not playing,
+  as this as pretty unclear up until now.
+  Playing media from streaming services
+  will still always show the player's logo.
+- Added the option to show a **frozen progress bar for paused media**.
   Enable this in the settings using the
   "Freeze the progress bar for paused media" option.
   You can now show no progress bar, a frozen one
   or how long the media is paused.
   Note that "frozen" means stuck at 0:00
   since Discord doesn't offer any way to pin it to a specific time
-- TIDAL: Added support for **animated cover images**
+- Added support for **animated cover images** for TIDAL
   - Animated covers are enabled by default,
     but you can disable them in the settings, if you want to
   - The video is automatically converted to a GIF using our own online service,
