@@ -50,6 +50,10 @@
   - Fixed random crashes on Windows
     (rare for some users, more frequent for others)
     related to how media is detected
+  - Fixed segmentation fault (crash) on Mac
+    when an app without a bundle identifier
+    (i.e. an app that is not located in the Applications directory)
+    was playing and reporting media
   - Improved release file naming.
     Files now follow a more consistent and descriptive naming scheme
     which should make it easier to find the right file you are looking for.
