@@ -55,7 +55,7 @@ please visit the [**troubleshooting**](./troubleshooting.md) page
 | Harmonoid                 |             :white_check_mark:              |  :heavy_multiplication_x:   |           ...            |
 | iTunes<sup>8</sup>        |         :white_check_mark: :pencil:         |  :heavy_multiplication_x:   | :heavy_multiplication_x: |
 | MediaMonkey               | :white_check_mark: :face_with_head_bandage: |  :heavy_multiplication_x:   | :heavy_multiplication_x: |
-| mpv                       |    :white_check_mark: :pencil: :wrench:     | :white_check_mark: :wrench: |           ...            |
+| mpv                       |         :white_check_mark: :pencil:         | :white_check_mark: :wrench: |           ...            |
 | MusicBee                  |         :white_check_mark: :pencil:         |  :heavy_multiplication_x:   | :heavy_multiplication_x: |
 | Next-Player<sup>2</sup>   |             :white_check_mark:              |  :heavy_multiplication_x:   | :heavy_multiplication_x: |
 | Nora<sup>3</sup>          |             :white_check_mark:              |  :heavy_multiplication_x:   |           ...            |
@@ -154,6 +154,9 @@ If you need Music Presence to work with the command line tool only
 and you don't want to install an app bundle,
 please [open an issue](https://github.com/ungive/discord-music-presence/issues).
 
+If cover images are not showing or the above setting is not available,
+try updating mpv or installing a development version of mpv.
+
 ---
 
 ## Players with known issues
@@ -224,5 +227,4 @@ These players do not report the album cover to the operating system.
 
 - MediaMonkey on Windows
 - VLC on Windows
-- mpv on Windows and Mac
 - Podurama on Windows
