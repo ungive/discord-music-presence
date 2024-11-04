@@ -41,6 +41,8 @@ please visit the [**troubleshooting**](./troubleshooting.md) page
 
 ## Support Table
 
+> Media from websites in browsers and Linux are not yet supported
+
 | Desktop Application       |                   Windows                   |             Mac             |          Linux           |
 |---------------------------|:-------------------------------------------:|:---------------------------:|:------------------------:|
 | AIMP                      |    :white_check_mark: :pencil: :wrench:     |  :heavy_multiplication_x:   |           ...            |
@@ -82,8 +84,6 @@ please visit the [**troubleshooting**](./troubleshooting.md) page
 | :heavy_multiplication_x: | Not available on this operating system                                         |
 |     :grey_question:      | Not tested or not known to have a desktop application on this operating system |
 |           ...            | Not supported yet, but will likely be added in the future                      |
-
-> Media from websites in browsers and Linux are not yet supported
 
 <sup>1</sup> Using [this](https://github.com/th-ch/youtube-music) unofficial desktop app  
 <sup>2</sup> From the developer "DryForest", [link](https://apps.microsoft.com/detail/9nblggh67n4f)  
