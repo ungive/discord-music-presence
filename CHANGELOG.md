@@ -74,7 +74,9 @@
   - Added Podurama for Windows (via WebCatalog)
   - Added identifier for SoundCloud on Windows (via WebCatalog)
   - Added YouTube on Windows (via WebCatalog)
-  - Added Cider for Mac
+  - Added Cider on Mac
+  - Added mpv on Mac and Windows
+  - Added iTunes on Windows
 
 ## 2.2.4
 
