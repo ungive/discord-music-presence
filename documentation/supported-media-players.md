@@ -43,32 +43,32 @@ please visit the [**troubleshooting**](./troubleshooting.md) page
 
 | Desktop Application       |                   Windows                   |             Mac             |          Linux           | test status                |
 |---------------------------|:-------------------------------------------:|:---------------------------:|:------------------------:|:---------------------------|
-| TIDAL                     |             :white_check_mark:              |     :white_check_mark:      |           ...            | paid only*                 |
+| AIMP                      |    :white_check_mark: :pencil: :wrench:     |  :heavy_multiplication_x:   |           ...            | fully tested               |
 | Amazon Music              | :white_check_mark: :face_with_head_bandage: |     :white_check_mark:*     |           ...            | paid only*                 |
 | Apple Music               |             :white_check_mark:              |     :white_check_mark:      |           ...            | unpaid* + local files only |
+| Cider<sup>7</sup>         |               :grey_question:               |     :white_check_mark:      | :heavy_multiplication_x: | help needed                |
 | Deezer                    |             :white_check_mark:              |     :white_check_mark:*     |           ...            | unpaid only*               |
-| foobar2000                |         :white_check_mark: :pencil:         |     :white_check_mark:      | :heavy_multiplication_x: | fully tested               |
-| MusicBee                  |         :white_check_mark: :pencil:         |  :heavy_multiplication_x:   | :heavy_multiplication_x: | fully tested               |
-| Qobuz                     |             :white_check_mark:              |          :warning:          | :heavy_multiplication_x: | unpaid only*               |
-| Spotify                   |             :white_check_mark:              |     :white_check_mark:      |           ...            | fully tested               |
-| Windows Media Player      | :white_check_mark: :face_with_head_bandage: |  :heavy_multiplication_x:   | :heavy_multiplication_x: | fully tested               |
-| YouTube Music<sup>1</sup> |             :white_check_mark:              |             ...             |           ...            | fully tested               |
-| Next-Player<sup>2</sup>   |             :white_check_mark:              |  :heavy_multiplication_x:   | :heavy_multiplication_x: | fully tested               |
-| Winamp<sup>6</sup>        |         :white_check_mark: :wrench:         |  :heavy_multiplication_x:   | :heavy_multiplication_x: | fully tested               |
-| WACUP                     |         :white_check_mark: :wrench:         |  :heavy_multiplication_x:   | :heavy_multiplication_x: | fully tested               |
-| Nora<sup>3</sup>          |             :white_check_mark:              |  :heavy_multiplication_x:   |           ...            | fully tested               |
-| AIMP                      |    :white_check_mark: :pencil: :wrench:     |  :heavy_multiplication_x:   |           ...            | fully tested               |
-| Soundcloud<sup>4</sup>    |             :white_check_mark:              |             ...             |           ...            | fully tested               |
 | Dopamine<sup>5</sup>      |             :white_check_mark:              |             ...             |           ...            | fully tested               |
-| MediaMonkey               | :white_check_mark: :face_with_head_bandage: |  :heavy_multiplication_x:   | :heavy_multiplication_x: | fully tested               |
-| VLC Media Player          |    :white_check_mark: :pencil: :wrench:     |             ...             |           ...            | fully tested               |
+| foobar2000                |         :white_check_mark: :pencil:         |     :white_check_mark:      | :heavy_multiplication_x: | fully tested               |
 | Harmonoid                 |             :white_check_mark:              |  :heavy_multiplication_x:   |           ...            | fully tested               |
+| iTunes<sup>8</sup>        |         :white_check_mark: :pencil:         |  :heavy_multiplication_x:   | :heavy_multiplication_x: | fully tested               |
+| MediaMonkey               | :white_check_mark: :face_with_head_bandage: |  :heavy_multiplication_x:   | :heavy_multiplication_x: | fully tested               |
+| mpv                       |    :white_check_mark: :pencil: :wrench:     | :white_check_mark: :wrench: |           ...            | fully tested               |
+| MusicBee                  |         :white_check_mark: :pencil:         |  :heavy_multiplication_x:   | :heavy_multiplication_x: | fully tested               |
+| Next-Player<sup>2</sup>   |             :white_check_mark:              |  :heavy_multiplication_x:   | :heavy_multiplication_x: | fully tested               |
+| Nora<sup>3</sup>          |             :white_check_mark:              |  :heavy_multiplication_x:   |           ...            | fully tested               |
 | Pocket Casts              |             :white_check_mark:              |  :heavy_multiplication_x:   | :heavy_multiplication_x: | fully tested               |
 | Podurama<sup>9</sup>     |         :white_check_mark: :wrench:         |             ...             |           ...            | fully tested               |
+| Qobuz                     |             :white_check_mark:              |          :warning:          | :heavy_multiplication_x: | unpaid only*               |
+| Soundcloud<sup>4</sup>    |             :white_check_mark:              |             ...             |           ...            | fully tested               |
+| Spotify                   |             :white_check_mark:              |     :white_check_mark:      |           ...            | fully tested               |
+| TIDAL                     |             :white_check_mark:              |     :white_check_mark:      |           ...            | paid only*                 |
+| VLC Media Player          |    :white_check_mark: :pencil: :wrench:     |             ...             |           ...            | fully tested               |
+| WACUP                     |         :white_check_mark: :wrench:         |  :heavy_multiplication_x:   | :heavy_multiplication_x: | fully tested               |
+| Winamp<sup>6</sup>        |         :white_check_mark: :wrench:         |  :heavy_multiplication_x:   | :heavy_multiplication_x: | fully tested               |
+| Windows Media Player      | :white_check_mark: :face_with_head_bandage: |  :heavy_multiplication_x:   | :heavy_multiplication_x: | fully tested               |
 | Yandex Music              |             :white_check_mark:              |       :grey_question:       | :heavy_multiplication_x: | fully tested               |
-| Cider<sup>7</sup>         |               :grey_question:               |     :white_check_mark:      | :heavy_multiplication_x: | help needed                |
-| iTunes<sup>8</sup>        |         :white_check_mark: :pencil:         |  :heavy_multiplication_x:   | :heavy_multiplication_x: | fully tested               |
-| mpv                       |    :white_check_mark: :pencil: :wrench:     | :white_check_mark: :wrench: |           ...            | fully tested               |
+| YouTube Music<sup>1</sup> |             :white_check_mark:              |             ...             |           ...            | fully tested               |
 | YouTube<sup>9</sup>       |         :white_check_mark: :pencil:         |             ...             |           ...            | fully tested               |
 
 |          Symbol          | Meaning                                                                        |
