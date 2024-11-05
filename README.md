@@ -7,7 +7,9 @@
 &nbsp;
 [![Join the Discord server](https://img.shields.io/discord/1224509771068211292?logo=discord&logoColor=eee&label=Discord&labelColor=464ce5&color=fff&cacheSeconds=43200)](https://discord-invite.musicpresence.app)
 &nbsp;
-[![Support Music Presence on Patreon](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Fshieldsio-patreon.vercel.app%2Fapi%3Fusername%3Dmusicpresence%26type%3Dpatrons&style=social)](https://patreon.com/musicpresence)
+[![Support Music Presence on Patreon](https://img.shields.io/badge/Patreon-black?style=flat&logo=patreon&color=black)](https://patreon.com/musicpresence)
+&nbsp;
+[![Buy me a coffee](https://img.shields.io/badge/Buy%20me%20a%20coffee-black?style=flat&logo=buymeacoffee&logoColor=black&color=FFDD00)](https://buymeacoffee.com/jonasvandenberg)
 
 **Music Presence** shows your friends on Discord
 what music you are listening to.
@@ -36,7 +38,7 @@ Join the Discord: [**discord.gg/musicpresence**](https://discord.gg/musicpresenc
 &nbsp;&bullet;&nbsp;
 [**Discord**](https://discord.com/invite/7rc8dWD4ug)
 &nbsp;&bullet;&nbsp;
-[**Patreon**](https://patreon.com/musicpresence)
+[**Donate**](https://bio.site/musicpresence)
 &nbsp;&bullet;&nbsp;
 [**Documentation**](./documentation/README.md)
 &nbsp;&bullet;&nbsp;
