@@ -2,11 +2,15 @@
 
 ## 2.2.5
 
-- Enabled the **paused icon for streaming services** as well.
+- Added [more donation options](https://donate.musicpresence.app)
+  to the tray menu, including
+  [buymeacoffee.com](https://buymeacoffee.com/jonasvandenberg).
+  Thank you for supporting my work!
+- Added the option for a **paused icon for streaming services**.
   When you pause media you will see a paused icon
   instead of the streaming service logo,
   to more clearly indicate that the media is not playing,
-  as this as pretty unclear up until now.
+  as this was pretty unclear up until now.
   Playing media from streaming services
   will still always show the player's logo.
 - Added the option to show a **frozen progress bar for paused media**.
@@ -15,7 +19,7 @@
   You can now show no progress bar, a frozen one
   or how long the media is paused.
   Note that "frozen" means stuck at 0:00
-  since Discord doesn't offer any way to pin it to a specific time
+  since Discord doesn't offer a way to pin it to a specific time
 - Added the option to **show the artist and the album on the same line**,
   separated by a dash. This is great if want to show the album name
   without showing three lines of text
@@ -28,10 +32,10 @@
 - Apple Music on Windows:
   Automatically removing the Apple Music user name
   from songs that are played from a personalized "Station",
-  The name of the station usually contains the user's name.
+  The name of the station usually contains the user's name
 - The option to use the MusicBrainz API will be removed in a future version
   and is automatically disabled upon launching this version.
-  You can still enable it again, but if you rely on it please let me know by
+  You can still enable it again, but if you rely on it, please let me know by
   [opening an issue](https://github.com/ungive/discord-music-presence/issues)
   or [joining the Discord](https://discord-invite.musicpresence.app),
   otherwise it will disappear soon
