@@ -22,7 +22,7 @@ These players require a plugin or helper program:
 - **VLC**
 
 If you have issues with any of these players,
-please refer to
+please refer to the "Additional notes" in
 [**this document**](https://github.com/ungive/discord-music-presence/blob/master/documentation/supported-media-players.md)
 for instructions on which external plugins or helper programs are required
 to get them to be detected by Music Presence.
