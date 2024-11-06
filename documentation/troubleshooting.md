@@ -29,6 +29,23 @@ to get them to be detected by Music Presence.
 
 Otherwise, continue reading the next section.
 
+## The player is detected, but still no status
+
+Can you see the media player detected in the tray menu?
+
+![](../assets/screenshot-tray-player-active.png)
+
+And does the tray icon have this little triangle in the bottom right
+while you are playing music?
+
+![](../assets/screenshot-tray-icon-playing.png)
+
+If not, move on to the next section.
+
+Otherwise try reinstalling Discord.
+This happens rarely, but sometimes
+Discord just refuses to show any presence until you reinstall it completely.
+
 ## If your media player is still not detected
 
 First make sure you played some media with your media player
