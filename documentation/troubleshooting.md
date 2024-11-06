@@ -1,21 +1,35 @@
 # Troubleshooting
 
-## My media player is not detected
+Follow this guide step-by-step to troubleshoot your issue.
 
-Are you using any of the following media players?
+## Check your Discord settings first
 
-- **MusicBee**
+Make sure "Share your detected activites with others"
+is enabled in your Discord settings:
+
+![Screenshot of the "Activity Privacy" settings](../assets/screenshot-discord-activity-settings.png)
+
+If that does not help, read on.
+
+## Media players that don't work out of the box
+
+These players require a plugin or helper program:
+
 - **AIMP**
+- **iTunes**
+- **mpv**
+- **MusicBee**
 - **VLC**
 
-If that is the case, please read the section **Additional notes**
-in [**this document**](https://github.com/ungive/discord-music-presence/blob/master/documentation/supported-media-players.md) first,
-it contains additional steps that are necessary
-for these media players to be detected by Music Presence.
+If you have issues with any of these players,
+please refer to
+[**this document**](https://github.com/ungive/discord-music-presence/blob/master/documentation/supported-media-players.md)
+for instructions on which external plugins or helper programs are required
+to get them to be detected by Music Presence.
 
-Otherwise continue reading the next section.
+Otherwise, continue reading the next section.
 
-### Reporting an issue with a different media player
+## If your media player is still not detected
 
 First make sure you played some media with your media player
 while Music Presence is running.
