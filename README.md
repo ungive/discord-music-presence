@@ -119,10 +119,13 @@ Any donation is highly appreciated. Thank you!
 
 * **[Patreon](https://www.patreon.com/musicpresence)**
   &nbsp;&ndash;&nbsp; membership with additional perks
-* **[LiberaPay](https://liberapay.com/jonasvandenberg)**
-  &nbsp;&ndash;&nbsp; option to donate anonymously
+* **[Buy me a coffee](https://buymeacoffee.com/jonasvandenberg)**
+  &nbsp;&ndash;&nbsp; option for one-time donations
 * **[GitHub Sponsors](https://github.com/sponsors/ungive)**
-  &nbsp;&ndash;&nbsp; option for one-time donations, directly here on GitHub
+  &nbsp;&ndash;&nbsp; donate directly here on GitHub and get a sponsor badge
+* **[LiberaPay](https://liberapay.com/jonasvandenberg)**
+  &nbsp;&ndash;&nbsp; option for recurring donations
+  to build a steady side income
 
 You can read [**here**](./FUNDING.md) for more information.
 

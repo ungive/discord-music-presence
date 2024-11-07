@@ -7,19 +7,6 @@ and helps cover recurring server and domain costs,
 which ultimately helps in making improvements
 and working on [new features](./documentation/roadmap.md) that are waiting to be implemented!
 
-You can choose between these options:
-
-* **[Patreon](https://www.patreon.com/musicpresence)**
-  &nbsp;&ndash;&nbsp; membership with additional perks
-* **[LiberaPay](https://liberapay.com/jonasvandenberg)**
-  &nbsp;&ndash;&nbsp; option to donate anonymously
-* **[GitHub Sponsors](https://github.com/sponsors/ungive)**
-  &nbsp;&ndash;&nbsp; option for one-time donations, directly here on GitHub
-
-Thank you for your support and your interest in this project!
-
----
-
 Your donation will fund the following:
 
 * **Server costs**  
@@ -43,3 +30,17 @@ Your donation will fund the following:
   into programming and refining Music Presence.
   Your donation allows me to keep doing that and invest more of my time.
   Thank you!
+
+You can choose between these options:
+
+* **[Patreon](https://www.patreon.com/musicpresence)**
+  &nbsp;&ndash;&nbsp; membership with additional perks
+* **[Buy me a coffee](https://buymeacoffee.com/jonasvandenberg)**
+  &nbsp;&ndash;&nbsp; option for one-time donations
+* **[GitHub Sponsors](https://github.com/sponsors/ungive)**
+  &nbsp;&ndash;&nbsp; donate directly here on GitHub and get a sponsor badge
+* **[LiberaPay](https://liberapay.com/jonasvandenberg)**
+  &nbsp;&ndash;&nbsp; option for recurring donations
+  to build a steady side income
+
+Thank you for your support and your interest in this project!
