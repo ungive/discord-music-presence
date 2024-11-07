@@ -4,7 +4,7 @@ Follow this guide step-by-step to troubleshoot your issue.
 
 ## Check your Discord settings first
 
-Make sure "Share your detected activites with others"
+Make sure "Share your detected activities with others"
 is enabled in your Discord settings:
 
 ![Screenshot of the "Activity Privacy" settings](../assets/screenshot-discord-activity-settings.png)
