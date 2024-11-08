@@ -1,5 +1,12 @@
 # Changelog
 
+## 2.2.6
+
+- Bug fixes and improvements
+- Media players
+  - Added Windows 11 identifier for Cider
+  - Added Jellyfin Media Player on Windows
+
 ## 2.2.5
 
 - Added [more donation options](https://donate.musicpresence.app)

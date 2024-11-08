@@ -48,7 +48,7 @@ please visit the [**troubleshooting**](./troubleshooting.md) page
 | AIMP                      |    :white_check_mark: :pencil: :wrench:     |  :heavy_multiplication_x:   |           ...            |
 | Amazon Music              | :white_check_mark: :face_with_head_bandage: |     :white_check_mark:*     |           ...            |
 | Apple Music               |             :white_check_mark:              |     :white_check_mark:      |           ...            |
-| Cider<sup>7</sup>         |               :grey_question:               |     :white_check_mark:      | :heavy_multiplication_x: |
+| Cider<sup>7</sup>         |             :white_check_mark:              |     :white_check_mark:      | :heavy_multiplication_x: |
 | Deezer                    |             :white_check_mark:              |     :white_check_mark:*     |           ...            |
 | Dopamine<sup>5</sup>      |             :white_check_mark:              |             ...             |           ...            |
 | foobar2000                |         :white_check_mark: :pencil:         |     :white_check_mark:      | :heavy_multiplication_x: |
@@ -91,7 +91,7 @@ please visit the [**troubleshooting**](./troubleshooting.md) page
 <sup>4</sup> [Official app](https://apps.microsoft.com/detail/9nvjbt29b36l) (only works on Windows 11)  
 <sup>5</sup> [GitHub](https://github.com/digimezzo/dopamine), works with Dopamine version 2 and 3  
 <sup>6</sup> Winamp only works when installed via the [WACUP](https://getwacup.com) installer  
-<sup>7</sup> Not fully supported, your help is needed, see [this issue](https://github.com/ungive/discord-music-presence/issues/43)  
+<sup>7</sup> Works on Windows 11 and Mac  
 <sup>8</sup> iTunes for Mac only runs on Mac versions older than the ones Music Presence supports  
 <sup>9</sup> Right now this only works by installing it via [WebCatalog](https://webcatalog.io)
 
@@ -207,6 +207,7 @@ depending on which playback position you jump to in the song.
 - MediaMonkey on Windows
 - VLC on Windows
 - Harmonoid on Windows
+- Jellyfin on Windows
 
 #### Incorrect playback position timestamp
 
