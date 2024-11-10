@@ -2,6 +2,21 @@
 
 ## 2.2.6
 
+- Added translations into other languages and a language selection setting!
+  - Music Presence will now use your system language by default
+  - You can change the language by navigating to "Settings > Language"
+  - Music Presence is now available in the following languages:
+    - English
+    - Afrikaans
+    - Deutsch / German
+    - Español / Spanish
+    - Français / French
+    - Hrvatski / Croatian
+    - Indonesia / Indonesian
+    - Italiano / Italian
+    - Nederlands / Dutch
+    - Polski / Polish
+    - 正體中文 / Traditional Chinese (TW)
 - Bug fixes and improvements
 - Media players
   - Added Windows 11 identifier for Cider
