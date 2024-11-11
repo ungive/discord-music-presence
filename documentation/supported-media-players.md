@@ -54,6 +54,7 @@ please visit the [**troubleshooting**](./troubleshooting.md) page
 | foobar2000                |         :white_check_mark: :pencil:         |     :white_check_mark:      | :heavy_multiplication_x: |
 | Harmonoid                 |             :white_check_mark:              |  :heavy_multiplication_x:   |           ...            |
 | iTunes<sup>8</sup>        |         :white_check_mark: :pencil:         |  :heavy_multiplication_x:   | :heavy_multiplication_x: |
+| Jellyfin                  |         :white_check_mark: :wrench:         |             ...             |           ...            |
 | MediaMonkey               | :white_check_mark: :face_with_head_bandage: |  :heavy_multiplication_x:   | :heavy_multiplication_x: |
 | mpv                       |         :white_check_mark: :pencil:         | :white_check_mark: :wrench: |           ...            |
 | MusicBee                  |         :white_check_mark: :pencil:         |  :heavy_multiplication_x:   | :heavy_multiplication_x: |
