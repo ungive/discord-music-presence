@@ -142,7 +142,11 @@ and select that e-mail address as your "Commit e-mail".
 This will be used in the automatic GitHub commit
 that's created by Weblate when syncing translations to the repository.
 You might have to log out and in again for it to show up.
-- Commits should now properly link to your GitHub account.
+- New commits should now properly link to your GitHub account.
+- Older commits won't automatically be linked
+but they can be, by adding your e-mail address to this
+file in the repository: [`.mailmap`](https://github.com/music-presence/translations/blob/main/.mailmap). Let me know and I will add it for you,
+you may also create a pull request.
 
 Feel free to ping me if you want to test it out.
 Make a single translation, then I'll push it to the repo
