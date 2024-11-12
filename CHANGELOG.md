@@ -17,7 +17,12 @@
     - Nederlands / Dutch
     - Polski / Polish
     - 正體中文 / Traditional Chinese (TW)
+    - Русский / Russian
 - Bug fixes and improvements
+  - The player name is now shown by default instead of "Music"
+  - Fixed album and artist splitting for Apple Music
+    which sometimes split at the wrong position with multibyte characters
+    causing the status to contain scrambled song information
 - Media players
   - Added Windows 11 identifier for Cider
   - Added Jellyfin Media Player on Windows
