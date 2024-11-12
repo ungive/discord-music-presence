@@ -12,6 +12,7 @@
   * [Joining the project](#joining-the-project)
 * [Translation guide](#translation-guide)
   * [Things to keep in mind](#things-to-keep-in-mind)
+  * [Talk to other translators](#talk-to-other-translators)
 * [What happens next to my translations?](#what-happens-next-to-my-translations)
 * [Attribution of your work](#attribution-of-your-work)
   * [Ensuring your contributions appear on your GitHub profile](#ensuring-your-contributions-appear-on-your-github-profile)
@@ -81,6 +82,12 @@ Please take note of all the points in this guide before translating.
 - `{}` or `{...}` with text between the braces is a placeholder and must be copied 1:1 in the translation. The text inbetween the braces and/or the translation note describes what each of these placeholders will contain, e.g. `{player_name}` will contain the name of a media player. An example of a translation might be `Settings for {player_name}` which is translated to `Einstellungen für {player_name}` for German. In the app it will then appear as `Einstellungen für Spotify` for the player "Spotify".
 - Preserve HTML tags, e.g. `<b>Original text</b>` becomes `<b>Translated text</b>`. If you are not that familiar with HTML, you can find a helpful introduction [here](https://www.w3schools.com/html/html_intro.asp).
 - As a rule of thumb, simply always copy the text to translate into the translation box, then replace the English text with text in your language and never modify `{...}` or HTML tags.
+
+### Talk to other translators
+
+Feel free to talk and exchange with other translators!
+Check the pinned messages in the `#translations` channel on the Discord server
+to easily find who translated which languages.
 
 ## What happens next to my translations?
 
