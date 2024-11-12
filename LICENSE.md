@@ -77,11 +77,11 @@ Copyright (c) 2024 Jonas van den Berg
 A copy of the source code can be obtained at  
     <https://github.com/ungive/loon>
 
-ungive/libupdate  
+ungive/update  
 Copyright (c) 2024 Jonas van den Berg  
 Licensed under the MIT License.  
 A copy of the source code can be obtained at  
-    <https://github.com/ungive/libupdate>
+    <https://github.com/ungive/update>
 
 madler/zlib  
 Copyright (c) 1995-2024 Jean-loup Gailly and Mark Adler  
@@ -95,5 +95,24 @@ A copy of the source code can be obtained at
 
 google/protobuf  
 Copyright (c) 2008 Google Inc.  
+Licensed under the 3-Clause BSD License.  
 A copy of the source code can be obtained at  
     <https://github.com/protocolbuffers/protobuf>
+
+z4kn4fein/cpp-semver  
+Copyright (c) 2024 Peter Csajtai  
+Licensed under the MIT License.  
+A copy of the source code can be obtained at  
+    <https://github.com/z4kn4fein/cpp-semver>
+
+tailwindlabs/heroicons  
+Copyright (c) Tailwind Labs, Inc.  
+Licensed under the MIT License.  
+A copy of the source code can be obtained at  
+    <https://github.com/tailwindlabs/heroicons>
+
+music-presence/translations  
+Licensed under the MIT License.  
+Copyright (c) 2024 Jonas van den Berg and contributors  
+A copy of the source code can be obtained at  
+    <https://github.com/music-presence/translations>
