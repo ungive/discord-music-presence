@@ -13,4 +13,5 @@ If you feel like something is missing, feel free to open an issue.
 - [Automatic updates](./automatic-updates.md)
 - [Integrating with Music Presence for third-parties](./third-party-integration.md)
 - [Project roadmap](./roadmap.md)
-- [Help with translations](./translations.md)
+- [How to help with translations](./translations.md)
+- [How to contribute](./translations.md)
