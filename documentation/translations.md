@@ -141,6 +141,7 @@ go to https://translate.codeberg.org/accounts/profile/#account
 and select that e-mail address as your "Commit e-mail".
 This will be used in the automatic GitHub commit
 that's created by Weblate when syncing translations to the repository.
+You might have to log out and in again for it to show up.
 - Commits should now properly link to your GitHub account.
 
 Feel free to ping me if you want to test it out.
