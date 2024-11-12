@@ -147,6 +147,11 @@ Feel free to ping me if you want to test it out.
 Make a single translation, then I'll push it to the repo
 for you to check if everything's working.
 
+You can check if your contributions are linked properly
+by visiting the commit history: https://github.com/music-presence/translations/commits/main.
+If your name is clickable and opens your GitHub profile,
+everything's good!
+
 ---
 
 If you have any more questions, feel free to reach out!
