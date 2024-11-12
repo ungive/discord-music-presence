@@ -122,9 +122,11 @@ Please keep that in mind when making a contribution.
 
 ### Ensuring your contributions appear on your GitHub profile
 
-Please follow these steps
+Please follow these steps,
 if you want commits in the translations repository on GitHub
-to be properly linked to your GitHub account:
+to be properly linked to your GitHub account.
+Note that this is entirely optional though,
+you don't have to follow these steps.
 
 - Go to your [GitHub Email settings](https://github.com/settings/emails)
 and copy one of the e-mails that are associated with your GitHub account.
@@ -145,8 +147,8 @@ You might have to log out and in again for it to show up.
 - New commits should now properly link to your GitHub account.
 - Older commits won't automatically be linked
 but they can be, by adding your e-mail address to this
-file in the repository: [`.mailmap`](https://github.com/music-presence/translations/blob/main/.mailmap). Let me know and I will add it for you,
-you may also create a pull request.
+file in the repository: [`.mailmap`](https://github.com/music-presence/translations/blob/main/.mailmap). Let me know and I will add it for you.
+You may also create a pull request.
 
 Feel free to ping me if you want to test it out.
 Make a single translation, then I'll push it to the repo
