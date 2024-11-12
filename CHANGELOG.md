@@ -4,8 +4,9 @@
 
 - Added translations into other languages and a language selection setting!
   - Music Presence will now use your system language by default
-  - You can change the language by navigating to "Settings > Language"
-  - Music Presence is now available in the following languages:
+  - You can change the language by navigating to "Settings" (gear icon)
+    and then choosing a language under the "Language" menu item
+  - Music Presence is available in the following languages:
     - English
     - Afrikaans
     - Deutsch / German
@@ -18,6 +19,8 @@
     - Polski / Polish
     - 正體中文 / Traditional Chinese (TW)
     - Русский / Russian
+- Added an "About" window
+  - Everyone that helped with translations is mentioned here
 - Bug fixes and improvements
   - The player name is now shown by default instead of "Music"
   - Fixed album and artist splitting for Apple Music
