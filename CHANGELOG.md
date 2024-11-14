@@ -26,6 +26,11 @@
   - Fixed album and artist splitting for Apple Music
     which sometimes split at the wrong position with multibyte characters
     causing the status to contain scrambled song information
+  - Fixed missing cover image in the status
+    when the media player reports a cover image
+    but claims it has a different image type,
+    like Apple Music does on Apple Silicon.
+    Fixes [#77](https://github.com/ungive/discord-music-presence/issues/77)
 - Media players
   - Added Windows 11 identifier for Cider
   - Added Jellyfin Media Player on Windows
