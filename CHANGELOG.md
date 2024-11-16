@@ -23,17 +23,22 @@
     - 正體中文 / Traditional Chinese (TW)
     - Русский / Russian
 - Added an "About" window
-  - Everyone that helped with translations is mentioned here
+  - Everyone who has helped with translations is mentioned here
 - Bug fixes and improvements
-  - The player name is now shown by default instead of "Music"
-  - Fixed album and artist splitting for Apple Music
-    which sometimes split at the wrong position with multibyte characters
-    causing the status to contain scrambled song information
   - Fixed missing cover image in the status
     when the media player reports a cover image
     but claims it has a different image type,
     like Apple Music does on Apple Silicon.
     Fixes [#77](https://github.com/ungive/discord-music-presence/issues/77)
+  - Fixed album and artist splitting for Apple Music
+    which sometimes split at the wrong position with multibyte characters
+    causing the status to contain scrambled song information
+  - Improved app shutdown time, mainly so that it reloads faster
+    when changing the language of the application
+  - When enabling the setting
+    to show the artist and album name on the same line,
+    the album name setting is now automatically enabled, if it was disabled
+  - The player name is now shown by default instead of "Music"
 - Media players
   - Added Windows 11 identifier for Cider
   - Added Jellyfin Media Player on Windows
