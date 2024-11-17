@@ -2,14 +2,14 @@
 
 ## 2.2.6
 
-- Added translations into other languages and a language selection setting!
+- Added **translations to other languages** and a language selection setting!
   - Music Presence will now use your system language by default.
     You can change the language by navigating to "Settings" (gear icon)
     and then choosing a language under the "Language" menu item
   - Do you want to help with translating?
-    Read [here](https://github.com/ungive/discord-music-presence/blob/master/documentation/translations.md)
+    Read [**here**](https://github.com/ungive/discord-music-presence/blob/master/documentation/translations.md)
     for more information
-  - Music Presence is available in the following languages:
+  - Music Presence is now available in the following languages:
     - English
     - Afrikaans
     - Deutsch / German
@@ -22,7 +22,7 @@
     - Polski / Polish
     - 正體中文 / Traditional Chinese (TW)
     - Русский / Russian
-- Added an "About" window
+- Added an "About" window to the "Help" menu
   - Everyone who has helped with translations is mentioned here
 - Bug fixes and improvements
   - Fixed missing cover image in the status
