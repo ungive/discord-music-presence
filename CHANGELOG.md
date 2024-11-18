@@ -18,10 +18,12 @@
     - Hrvatski / Croatian
     - Indonesia / Indonesian
     - Italiano / Italian
+    - 한국어 / Korean
     - Nederlands / Dutch
     - Polski / Polish
-    - 正體中文 / Traditional Chinese (TW)
     - Русский / Russian
+    - українська / Ukrainian
+    - 正體中文 / Traditional Chinese (TW)
 - Added an "About" window to the "Help" menu
   - Everyone who has helped with translations is mentioned here
 - Bug fixes and improvements
