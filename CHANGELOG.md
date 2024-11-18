@@ -3,12 +3,13 @@
 ## 2.2.6
 
 - Added **translations to other languages** and a language selection setting!
-  - Music Presence will now use your system language by default.
+  - Music Presence will now be displayed in your system language by default.
     You can change the language by navigating to "Settings" (gear icon)
     and then choosing a language under the "Language" menu item
   - Do you want to help with translating?
-    Read [**here**](https://github.com/ungive/discord-music-presence/blob/master/documentation/translations.md)
-    for more information
+    Read [here](https://github.com/ungive/discord-music-presence/blob/master/documentation/translations.md) for more information
+    or come by and say Hi in the `#translations` channel
+    on our [Discord server](https://discord-invite.musicpresence.app)!
   - Music Presence is now available in the following languages:
     - English
     - Afrikaans
