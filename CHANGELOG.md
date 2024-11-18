@@ -39,6 +39,12 @@
     to show the artist and album name on the same line,
     the album name setting is now automatically enabled, if it was disabled
   - The player name is now shown by default instead of "Music"
+  - Fixed use of "C" locale on Mac instead of the proper system locale
+  - Fixed improper selection of the UTF-8 locale variant on Mac
+  - Removed some icons in the tray menu on Mac to make it look less cluttered
+    since menu icons shift the text to the right
+    which can look inconsistent in some cases.
+    Links that open a website still always have an "open" icon
 - Media players
   - Added Windows 11 identifier for Cider
   - Added Jellyfin Media Player on Windows
