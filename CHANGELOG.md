@@ -11,20 +11,20 @@
     or come by and say Hi in the `#translations` channel
     on our [Discord server](https://discord-invite.musicpresence.app)!
   - Music Presence is now available in the following languages:
-    - English
-    - Afrikaans
-    - Deutsch / German
-    - Español / Spanish
-    - Français / French
-    - Hrvatski / Croatian
-    - Indonesia / Indonesian
-    - Italiano / Italian
-    - 한국어 / Korean
-    - Nederlands / Dutch
-    - Polski / Polish
-    - Русский / Russian
-    - українська / Ukrainian
-    - 正體中文 / Traditional Chinese (TW)
+    - **English**
+    - **Afrikaans**
+    - **Deutsch** / German
+    - **Español** / Spanish
+    - **Français** / French
+    - **Hrvatski** / Croatian
+    - **Indonesia** / Indonesian
+    - **Italiano** / Italian
+    - **한국어** / Korean
+    - **Nederlands** / Dutch
+    - **Polski** / Polish
+    - **Русский** / Russian
+    - **українська** / Ukrainian
+    - **正體中文** / Traditional Chinese
 - Added an "About" window to the "Help" menu
   - Everyone who has helped with translations is mentioned here
 - Bug fixes and improvements
