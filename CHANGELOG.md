@@ -4,6 +4,7 @@
 
 - Fixed language selection not working for English.
   Fixes [#86](https://github.com/ungive/discord-music-presence/issues/86)
+- Improved changelog popup to show all versions since the last feature release
 
 ## 2.2.6
 
