@@ -147,14 +147,13 @@ I'm usually very active there and respond to messages rather quickly.
 
 Links to other places on the internet that mention Music Presence
 
+- 22.11.2024&nbsp; **freemediaheckyeah**&nbsp; [Featured on <ins>fmhy.net</ins> under Client Customization](https://fmhy.net/social-media-tools#client-customization)
 - 06.11.2024&nbsp; **r/AppleMusic**&nbsp; [The Discord integration you've been waiting for – Music Presence](https://www.reddit.com/r/AppleMusic/comments/1gkzkwu)
 - 01.11.2024&nbsp; **r/foobar2000**&nbsp; [Discord status problems? Try Music Presence and never look back](https://www.reddit.com/r/foobar2000/comments/1gh8bhb)
-- 24.09.2024&nbsp; Featured in [**NoPlagiarism/awesome-discord-activities**](https://github.com/NoPlagiarism/awesome-discord-activities)
-- 21.09.2024&nbsp; Featured in [**MoonWalker440/Music-Megathread**](https://github.com/MoonWalker440/Music-Megathread)
+- 24.09.2024&nbsp; **GitHub**&nbsp; [Featured in <ins>NoPlagiarism/awesome-discord-activities</ins>](https://github.com/NoPlagiarism/awesome-discord-activities)
+- 21.09.2024&nbsp; **GitHub**&nbsp; [Featured in <ins>MoonWalker440/Music-Megathread</ins>](https://github.com/MoonWalker440/Music-Megathread)
 - 21.09.2024&nbsp; **MusicBee Forum**&nbsp;
   [A new Discord Rich Presence for MusicBee](https://getmusicbee.com/forum/index.php?topic=41833.0)
-- 16.09.2024&nbsp; **jacc/awesome-discord**&nbsp;
-  [*Requested to be featured*](https://github.com/jacc/awesome-discord/pull/112)
 
 <!--
 - 02.06.2024&nbsp; **r/TIdaL**&nbsp;
