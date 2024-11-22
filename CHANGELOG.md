@@ -10,6 +10,15 @@
     showing as overridden, when any setting for the current media player
     is overridden.
     Fixes [#90](https://github.com/ungive/discord-music-presence/issues/90)
+  - Fixed crash on Mac when changing the language,
+    caused by improper termination of still-running threads
+    that attempt to access deallocated memory.
+    Fixes [#92](https://github.com/ungive/discord-music-presence/issues/92)
+  - Fixed crash on Mac when changing the language,
+    caused by not unregistering now playing notification observers
+    and old observers attempting to read deallocated memory
+  - Fixed a small memory leak with media detection on Mac on an application reload,
+    e.g. when changing the language in the settings
 - Media players
   - Added Apple Podcasts on Mac
 
