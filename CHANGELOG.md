@@ -2,6 +2,14 @@
 
 ## 2.2.8
 
+- Bug fixes and improvements
+  - Fixed update failure when another new version is installed
+    while a restart is pending for a previously installed update.
+    Fixes [#89](https://github.com/ungive/discord-music-presence/issues/89)
+  - Fixed setting "Show Music instead of the player name"
+    showing as overridden, when any setting for the current media player
+    is overridden.
+    Fixes [#90](https://github.com/ungive/discord-music-presence/issues/90)
 - Media players
   - Added Apple Podcasts on Mac
 
