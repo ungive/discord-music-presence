@@ -1,5 +1,10 @@
 # Changelog
 
+## 2.2.8
+
+- Media players
+  - Added Apple Podcasts on Mac
+
 ## 2.2.7
 
 - Fixed language selection not working for English.

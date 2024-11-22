@@ -48,6 +48,7 @@ please visit the [**troubleshooting**](./troubleshooting.md) page
 | AIMP                      |    :white_check_mark: :pencil: :wrench:     |  :heavy_multiplication_x:   |           ...            |
 | Amazon Music              | :white_check_mark: :face_with_head_bandage: |     :white_check_mark:*     |           ...            |
 | Apple Music               |             :white_check_mark:              |     :white_check_mark:      |           ...            |
+| Apple Podcasts            |          :heavy_multiplication_x:           |     :white_check_mark:      | :heavy_multiplication_x: |
 | Cider<sup>7</sup>         |             :white_check_mark:              |     :white_check_mark:      | :heavy_multiplication_x: |
 | Deezer                    |             :white_check_mark:              |     :white_check_mark:*     |           ...            |
 | Dopamine<sup>5</sup>      |             :white_check_mark:              |             ...             |           ...            |

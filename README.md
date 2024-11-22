@@ -54,7 +54,7 @@ Join the Discord: [**discord.gg/musicpresence**](https://discord.gg/musicpresenc
 
 - Music Presence works with **any** media player!  
   Currently
-  **[28](./documentation/supported-media-players.md)**
+  **[29](./documentation/supported-media-players.md)**
   different players are supported
   and adding a missing one is
   [trivial](./documentation/supported-media-players.md#my-media-player-is-not-detected-)
