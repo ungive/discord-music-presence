@@ -180,6 +180,9 @@ if you meet any of the following criteria:
 - You reviewed all translations for a language
   at the point where it wasn't available in the app yet.
   Reviewing translations after they were already published is not sufficient
+- You were quick to translate a good amount of new strings
+  that came in for the next version of Music Presence,
+  which ultimately helped me publish the next version sooner
 
 In rare cases you might lose your role again,
 mainly when you only translated an insignificant amount of strings
