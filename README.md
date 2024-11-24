@@ -101,7 +101,7 @@ Join the Discord: [**discord.gg/musicpresence**](https://discord.gg/musicpresenc
 ## Further links
 
 - [Supported media players](./documentation/supported-media-players.md)
-- [What if my media player is not detected?](./documentation/supported-media-players.md#my-media-player-is-not-detected-)
+- [What if my media player is not detected?](./documentation/troubleshooting.md)
 - [Integrating with Music Presence for third-parties](./documentation/third-party-integration.md)
 - [Verifying your download](./documentation/automatic-updates.md#verifying-releases)
 
