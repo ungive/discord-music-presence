@@ -2,6 +2,13 @@
 
 Follow this guide step-by-step to troubleshoot your issue.
 
+* [Check your Discord settings first](#check-your-discord-settings-first)
+* [Media players that don't work out of the box](#media-players-that-dont-work-out-of-the-box)
+* [The player is detected, but still no status](#the-player-is-detected-but-still-no-status)
+* [If your media player is still not detected](#if-your-media-player-is-still-not-detected)
+* [Your media player does not integrate with your operating system](#your-media-player-does-not-integrate-with-your-operating-system)
+* [Reporting a different problem](#reporting-a-different-problem)
+
 ## Check your Discord settings first
 
 Make sure "Share your detected activities with others"
@@ -64,6 +71,28 @@ If you don't want to register one,
 you can alternatively copy the link in the address bar,
 join the [Discord server](https://discord-invite.musicpresence.app)
 and then paste the copied link in the `#troubleshooting` channel.
+
+If the GitHub issue is empty,
+then your media player might not report anything to the operating system.
+In that case you may still submit the GitHub issue,
+but you mave to make a feature request with your media player.
+Read on for more information.
+
+## Your media player does not integrate with your operating system
+
+Do you not see any media controls for the song you are playing
+with your media player, like they are visible in the following screenshots?
+https://imgur.com/a/YDQegwW
+
+Then it's pretty certain that your media player does not report information
+about the media it is playing to your operating system.
+In that case you should make a **feature request with your media player**,
+to suggest that they integrate with your operating system.
+
+You can **use this template** for that,
+it contains all the important information
+the developers of the media player need to get started:
+[support-template.md](./support-template.md)
 
 ## Reporting a different problem
 
