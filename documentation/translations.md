@@ -107,9 +107,27 @@ as this is done in intervals.
 You will get a notification in the `#translations` announcement channel
 on the [Discord server](https://discord-invite.musicpresence.app).
 
+It is always a good idea to look at your translations directly in the app,
+as it gives a different perspective, since you'll see them
+in the place and context where the translations are actually used.
+To do that you can ping me in the `#translations` channel
+and I will send you an updated version of Music Presence
+that has your translations built-in.
+
+Please check for the following things once you see your translations in the app:
+- Does every translation read naturally and does it convey its intended meaning?
+- Is the name of the language under the Settings > Language menu accurate?
+- Adjust your translations, if you see any room for improvement.
+You can ping me again, if you want another version of Music Presence
+with any updated translations.
+
 Before every release of Music Presence
 I lock the Weblate project and review the translations in the GitHub repository,
 after which they make their way into the next Music Presence release.
+In some cases I might come back to you,
+if I find anything that does not seem right to me.
+
+Thank you for helping with making Music Presence accessible to more people!
 
 ## Attribution of your work
 
