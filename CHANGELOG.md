@@ -21,6 +21,10 @@
     e.g. when changing the language in the settings
 - Media players
   - Added Apple Podcasts on Mac
+- Languages
+  - Added Slovak / Slovenčina &nbsp;—&nbsp; Thank you [Tibor Stegmann](https://github.com/stegmann-tibor)
+  - Added Japanese / 日本語 &nbsp;—&nbsp; Thank you [momizi06](https://github.com/momizi06)
+  - Added Vietnamese / Tiếng Việt &nbsp;—&nbsp; Thank you [longnuub](https://github.com/coderheck)
 
 ## 2.2.7
 
