@@ -14,6 +14,10 @@
   that makes maintaining known media players much easier and efficient
   and opens up new possibilities for features in the future
   - Source: https://github.com/music-presence/media-players
+  - Versions of Music Presence prior to 2.2.8
+    won't get updates for supported media players anymore.
+    If you're media player is not detected as of this version,
+    then you will have to update Music Presence
 - Bug fixes and improvements
   - Fixed update failure when another new version is installed
     while a restart is pending for a previously installed update.
@@ -35,6 +39,8 @@
     when the duration of media is too high by limiting the duration
     and removing the duration entirely
     when the duration is unrealistically high
+  - Fixed certain TIDAL songs showing as the incorrect version in the status
+    due to how the TIDAL API formats versions of some songs
 - Languages
   - Added Slovak / Slovenčina &nbsp;—&nbsp; Thank you [Tibor Stegmann](https://github.com/stegmann-tibor)
   - Added Japanese / 日本語 &nbsp;—&nbsp; Thank you [momizi06](https://github.com/momizi06)
