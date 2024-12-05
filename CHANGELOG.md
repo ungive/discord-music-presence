@@ -2,6 +2,18 @@
 
 ## 2.2.8
 
+- Third-party clients for streaming services
+  now have an option in the "Player" menu
+  to display the player as the streaming service itself
+  but without the logo/branding for that streaming service
+  - Spotube can now be displayed as "Spotify"
+  - Cider can now be displayed as "Apple Music"
+  - Any future supported third-party client will have this option too
+- Updated the internal list of media players to version 3
+  which is a big improvement over the previous version
+  that makes maintaining known media players much easier and efficient
+  and opens up new possibilities for features in the future
+  - Source: https://github.com/music-presence/media-players
 - Bug fixes and improvements
   - Fixed update failure when another new version is installed
     while a restart is pending for a previously installed update.
@@ -19,12 +31,17 @@
     and old observers attempting to read deallocated memory
   - Fixed a small memory leak with media detection on Mac on an application reload,
     e.g. when changing the language in the settings
-- Media players
-  - Added Apple Podcasts on Mac
+  - Fixed negative numbers in the progress bar of the status
+    when the duration of media is too high by limiting the duration
+    and removing the duration entirely
+    when the duration is unrealistically high
 - Languages
   - Added Slovak / Slovenčina &nbsp;—&nbsp; Thank you [Tibor Stegmann](https://github.com/stegmann-tibor)
   - Added Japanese / 日本語 &nbsp;—&nbsp; Thank you [momizi06](https://github.com/momizi06)
   - Added Vietnamese / Tiếng Việt &nbsp;—&nbsp; Thank you [longnuub](https://github.com/coderheck)
+  - Added Hungarian / Magyar &nbsp;—&nbsp; Thank you cobra525
+- Media players
+  - Added Apple Podcasts on Mac
 
 ## 2.2.7
 
