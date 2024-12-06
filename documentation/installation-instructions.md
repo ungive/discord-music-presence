@@ -71,7 +71,7 @@ To work around this, please check the following help article:
 After you installed and started Music Presence,
 you should see an icon in the tray menu of your device:
 
-![Music Presence in the Windows tray overflow menu](../assets/tray-windows.png)
+![Music Presence in the Windows tray menu](../assets/tray-windows.png)
 
 On Windows it might be hidden under the little arrow
 when you start it for the first time:
@@ -80,7 +80,7 @@ when you start it for the first time:
 
 On Mac it should appear in your system tray as well:
 
-![alt text](image.png)
+![Music Presence in the Mac tray menu](../assets/tray-mac.png)
 
 Right-click on the icon to open the settings,
 the rest should be straight-forward!
