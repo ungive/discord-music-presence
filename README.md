@@ -36,8 +36,8 @@ These are some of the most notable features
 [<img src="https://raw.githubusercontent.com/ungive/discord-music-presence/refs/heads/master/assets/download-mac-dmg-x86_64-2x.png" width="182">](https://github.com/ungive/discord-music-presence/releases/download/v2.2.7/musicpresence-2.2.7-mac-x86_64.dmg)
 <!-- DL_BUTTONS_END -->
 
-For detailed installation instructions read this document:
-[**How to install and use Music Presence**](./documentation/installation-instructions.md)
+> For detailed installation instructions read this document:
+> [**How to install and use Music Presence**](./documentation/installation-instructions.md)
 
 Join the Discord: [**discord.gg/musicpresence**](https://discord.gg/musicpresence)
 
