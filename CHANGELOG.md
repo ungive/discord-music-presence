@@ -2,6 +2,11 @@
 
 ## 2.2.8
 
+- Added alternative placeholder images for the case
+  when there is no cover image available.
+  You can now choose between the media player logo (the default),
+  a music note, a physical CD, the playback status (playing/paused symbol)
+  and the Music Presence logo
 - Third-party clients for streaming services
   now have an option in the "Player" menu
   to display the player as the streaming service itself
@@ -16,7 +21,7 @@
   - Source: https://github.com/music-presence/media-players
   - Versions of Music Presence prior to 2.2.8
     won't get updates for supported media players anymore.
-    If you're media player is not detected as of this version,
+    If your media player is not detected as of this version,
     then you will have to update Music Presence
 - Bug fixes and improvements
   - Fixed update failure when another new version is installed
@@ -41,6 +46,15 @@
     when the duration is unrealistically high
   - Fixed certain TIDAL songs showing as the incorrect version in the status
     due to how the TIDAL API formats versions of some songs
+  - Fixed a potential for incomplete player icon downloads
+    when media players are updated at the start of Music Presence
+  - Downloaded icons of supported media players
+    (located in `%APPDATA%\Music Presence\assets` on Windows
+    and `~/Library/Application Support/Music Presence/assets` on Mac)
+    are now re-downloaded whenever they got an update
+    and old unused icons are now automatically deleted.
+    Music Presence now also only downloads supported players and icons
+    for the platform it is running on instead of all players for all platforms
 - Languages
   - Added Slovak / Slovenčina &nbsp;—&nbsp; Thank you [Tibor Stegmann](https://github.com/stegmann-tibor)
   - Added Japanese / 日本語 &nbsp;—&nbsp; Thank you [momizi06](https://github.com/momizi06)
