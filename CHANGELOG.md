@@ -4,7 +4,8 @@
 
 - Added alternative placeholder images for the case
   when there is no cover image available.
-  You can now choose between the media player logo (the default),
+  In the "Settings" menu
+  you can now choose between the media player logo (the default),
   a music note, a physical CD, the playback status (playing/paused symbol)
   and the Music Presence logo
 - Third-party clients for streaming services
