@@ -405,7 +405,7 @@ by clicking the respective button in the Tray Menu.
 
 ## Scope of this privacy policy
 
-This document applies to version 2.2.7 of Music Presence and that version only.
+This document applies to version 2.2.8 of Music Presence and that version only.
 
 ## Changes to this privacy policy
 
