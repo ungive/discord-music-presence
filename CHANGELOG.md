@@ -1,5 +1,12 @@
 # Changelog
 
+## 2.2.9
+
+- Media players
+  - Add Moosync on Windows and Mac
+  - Added Mini Radio Player on Windows
+  - Added Mac identifier for Dopamine
+
 ## 2.2.8
 
 - Added alternative placeholder images for the case
