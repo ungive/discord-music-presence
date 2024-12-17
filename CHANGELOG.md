@@ -1,9 +1,9 @@
 # Changelog
 
-## 2.2.9
+## 2.3.0
 
 - Media players
-  - Add Moosync on Windows and Mac
+  - Added Moosync on Windows and Mac
   - Added Mini Radio Player on Windows
   - Added Mac identifier for Dopamine
 
