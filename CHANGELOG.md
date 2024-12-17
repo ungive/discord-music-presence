@@ -2,6 +2,10 @@
 
 ## 2.3.0
 
+- Rewrite of the internal media processing pipeline (TODO describe)
+- Support for Linux! (TODO describe)
+- Bug fixes and improvements
+  - Applications are now ordered alphabetically in the tray menu
 - Media players
   - Added Moosync on Windows and Mac
   - Added Mini Radio Player on Windows
