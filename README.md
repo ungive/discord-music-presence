@@ -178,10 +178,6 @@ The following is a list of bug reports that were submitted
 in order to improve what metadata these players report,
 so that they can work better with Music Presence in the future.
 
-- 22.09.2024&nbsp; [**foobar2000 does not report accurate playback information to Windows**](https://hydrogenaud.io/index.php/topic,126644.0.html)  
-  foobar2000 does not report the album name,
-  the current playback timestamp and the duration of the song,
-  which causes the Discord status to have much less information than it could have.
 - 25.06.2024&nbsp; [**MediaSession API does not report the album to the Windows system**](https://issues.chromium.org/issues/349310439)  
   Many media players are built on-top of **Chromium**,
   especially media players of popular streaming services,
