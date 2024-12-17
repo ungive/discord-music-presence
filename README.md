@@ -156,6 +156,7 @@ I'm usually very active there and respond to messages rather quickly.
 
 Links to other places on the internet that mention Music Presence
 
+- 17.12.2024&nbsp; **Wotaku Wiki**&nbsp; [Featured on <ins>wotaku.wiki</ins> under Music](https://wotaku.wiki/music#misc)
 - 14.11.2024&nbsp; **freemediaheckyeah**&nbsp; [Featured on <ins>fmhy.net</ins> under Client Customization](https://fmhy.net/social-media-tools#client-customization)
 - 06.11.2024&nbsp; **r/AppleMusic**&nbsp; [The Discord integration you've been waiting for – Music Presence](https://www.reddit.com/r/AppleMusic/comments/1gkzkwu)
 - 01.11.2024&nbsp; **r/foobar2000**&nbsp; [Discord status problems? Try Music Presence and never look back](https://www.reddit.com/r/foobar2000/comments/1gh8bhb)
