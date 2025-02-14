@@ -142,6 +142,13 @@ After that it should be detected and you should see it in your status.
 
 iTunes on Mac is not supported as all versions for iTunes on Mac are too old.
 
+### Winamp
+
+For classic Winamp you might need this plugin,
+for the player to report the currently playing media to Windows:
+
+https://github.com/NanMetal/gen_smtc
+
 ### mpv
 
 On Windows, mpv must either be run with `--media-controls=yes`
