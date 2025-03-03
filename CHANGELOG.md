@@ -2,14 +2,31 @@
 
 ## 2.3.0
 
-- Rewrite of the internal media processing pipeline (TODO describe)
-- Support for Linux! (TODO describe)
+- Complete rewrite of how media is processed by the app (TODO describe)
+- Music Presence is now available for Linux (TODO describe)
 - Bug fixes and improvements
+  - Integrated the Spotify API for Spotify,
+    which adds additional artists of a song
+    and a "Listen to this song" button to your status.
+    [#166](https://github.com/ungive/discord-music-presence/issues/166)
+  - Integrated the iTunes API for Apple Music,
+    which adds a "Listen to this song" button to your status
+    and adds a progress bar to your status for some users
+    where the Apple Music app does not report the song duration.
+    Closes [#159](https://github.com/ungive/discord-music-presence/issues/159)
+    and [#166](https://github.com/ungive/discord-music-presence/issues/166)
+  - Fixed integration of the TIDAL API.
+    TIDAL now shows all artists and animated album covers again.
+    Fixes [#150](https://github.com/ungive/discord-music-presence/issues/150)
+  - Fixed occassional incorrect matches with search results from music APIs
+    where a song would be selected that only partially matches
+    with the actual song title
   - Applications are now ordered alphabetically in the tray menu
 - Media players
   - Added Moosync on Windows and Mac
   - Added Mini Radio Player on Windows
   - Added Mac identifier for Dopamine
+  - (TODO list all media players added since the last update)
 
 ## 2.2.8
 
