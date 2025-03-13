@@ -14,7 +14,6 @@
   Scrobbling to last.fm will be added next!
   - For more information see the related GitHub issue:
     [#84](https://github.com/ungive/discord-music-presence/issues/84)
-- Music Presence is now available for Linux (TODO describe)
 - Bug fixes and improvements
   - Integrated the Spotify API for Spotify,
     which adds additional artists of a song
