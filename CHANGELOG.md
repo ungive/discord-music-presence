@@ -2,7 +2,18 @@
 
 ## 2.3.0
 
-- Complete rewrite of how media is processed by the app (TODO describe)
+- This updates comes with a lot of changes to the source code of the app
+  that drastically improve maintainability and extensibility for the future.
+  This release serves the purpose of ensuring
+  that these changes are stable and bug-free for all users.
+- The app now processes media in a structured and organized way
+  which allows media to be prepared for multiple uses cases,
+  not just a Discord status.
+  The old code was written with a Discord status being the only feature in mind,
+  now it is possible to very easily add more ways to handle media.
+  Scrobbling to last.fm will be added next!
+  - For more information see the related GitHub issue:
+    [#84](https://github.com/ungive/discord-music-presence/issues/84)
 - Music Presence is now available for Linux (TODO describe)
 - Bug fixes and improvements
   - Integrated the Spotify API for Spotify,
