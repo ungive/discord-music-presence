@@ -34,6 +34,11 @@
   - Applications are now ordered alphabetically in the tray menu
   - Fixed cover images showing a question mark when the proxy client disconnects
     instead of attempting to reconnect or using a fallback image
+  - Fixed Player menu to not show disabled players anymore,
+    to always show the player that is currently active
+    and to update when a player is disabled.
+    When no player is enabled, the player that had the latest media changes
+    is shown in the Player menu.
 - Languages
   - Added Finish / Suomi &nbsp;—&nbsp; Thank you [ekimeister](https://github.com/ekimeister)
   - Added Romanian / Română &nbsp;—&nbsp; Thank you [Liviu](https://github.com/liviu-hariton)
