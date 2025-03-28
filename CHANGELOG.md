@@ -11,7 +11,7 @@
   not just a Discord status.
   The old code was written with a Discord status being the only feature in mind,
   now it is possible to very easily add more ways to handle media.
-  Scrobbling to last.fm will be added next!
+  I will be working on last.fm scrobbling next!
   - For more information see the related GitHub issue:
     [#84](https://github.com/ungive/discord-music-presence/issues/84)
 - Bug fixes and improvements
@@ -38,9 +38,12 @@
     to always show the player that is currently active
     and to update when a player is disabled.
     When no player is enabled, the player that had the latest media changes
-    is shown in the Player menu.
+    is shown in the Player menu
   - Fixed a rare crash on Windows when the SMTC library would
     return empty values for certain media properties
+  - Fixed improper handling of irrecoverable SMTC errors on Windows.
+    Media detection is now restarted whenever such an error occurs,
+    e.g. "The RPC server is unavailable" or "The remote procedure call failed"
 - Languages
   - Added Finish / Suomi &nbsp;—&nbsp; Thank you [ekimeister](https://github.com/ekimeister)
   - Added Romanian / Română &nbsp;—&nbsp; Thank you [Liviu](https://github.com/liviu-hariton)
