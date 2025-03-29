@@ -57,7 +57,7 @@ please visit the [**troubleshooting**](./troubleshooting.md) page
 | iTunes<sup>8</sup>        |         :white_check_mark: :pencil:         |  :heavy_multiplication_x:   | :heavy_multiplication_x: |
 | Jellyfin                  |         :white_check_mark: :wrench:         |             ...             |           ...            |
 | MediaMonkey               | :white_check_mark: :face_with_head_bandage: |  :heavy_multiplication_x:   | :heavy_multiplication_x: |
-| mpv                       |         :white_check_mark: :pencil:         | :white_check_mark: :wrench: |           ...            |
+| mpv                       |             :white_check_mark:              | :white_check_mark: :wrench: |           ...            |
 | MusicBee                  |         :white_check_mark: :pencil:         |  :heavy_multiplication_x:   | :heavy_multiplication_x: |
 | Next-Player<sup>2</sup>   |             :white_check_mark:              |  :heavy_multiplication_x:   | :heavy_multiplication_x: |
 | Nora<sup>3</sup>          |             :white_check_mark:              |  :heavy_multiplication_x:   |           ...            |
