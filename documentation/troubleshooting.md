@@ -53,6 +53,8 @@ Otherwise try reinstalling Discord.
 This happens rarely, but sometimes
 Discord just refuses to show any presence until you reinstall it completely.
 
+Does it still not work? Try logging in and out of your Discord account.
+
 ## If your media player is still not detected
 
 First make sure you played some media with your media player
