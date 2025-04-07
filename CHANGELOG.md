@@ -6,7 +6,6 @@
   that drastically improve maintainability and extensibility for the future.
   This release serves the purpose of ensuring
   that these changes are stable and bug-free for all users.
-
 - The app now processes media in a structured and organized way
   which allows media to be prepared for multiple uses cases,
   not just a Discord status.
@@ -15,7 +14,6 @@
   I will be working on last.fm scrobbling next!
   - For more information see the related GitHub issue:
     [#84](https://github.com/ungive/discord-music-presence/issues/84)
-
 - Bug fixes and improvements
   - Integrated the Spotify API for Spotify,
     which adds additional artists of a song
@@ -49,12 +47,10 @@
   - Fixed not handling the media with the most recent metadata updates.
     Detected media is tagged with a timestamp,
     which is now only updated when there are metadata updates.
-
 - Languages
   - Added Finish / Suomi &nbsp;—&nbsp; Thank you [ekimeister](https://github.com/ekimeister)
   - Added Romanian / Română &nbsp;—&nbsp; Thank you [Liviu](https://github.com/liviu-hariton)
   - Added Czech / Čeština &nbsp;—&nbsp; Thank you [Ondřej Kučera](https://github.com/kucendro)
-
 - Media players
   - Added Moosync on Windows and Mac
   - Added Mini Radio Player on Windows
