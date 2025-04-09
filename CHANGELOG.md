@@ -47,6 +47,7 @@
   - Fixed not handling the media with the most recent metadata updates.
     Detected media is tagged with a timestamp,
     which is now only updated when there are metadata updates.
+  - The song duration is now rounded to the nearest second instead of floored.
 - Languages
   - Added Finish / Suomi &nbsp;—&nbsp; Thank you [ekimeister](https://github.com/ekimeister)
   - Added Romanian / Română &nbsp;—&nbsp; Thank you [Liviu](https://github.com/liviu-hariton)
