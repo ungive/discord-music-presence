@@ -48,6 +48,10 @@
     Detected media is tagged with a timestamp,
     which is now only updated when there are metadata updates.
   - The song duration is now rounded to the nearest second instead of floored.
+  - Removed the MusicBrainz API as it does not serve much purpose
+    and it often does not yield any search results.
+    I recommend to properly tag your local files
+    or use a media player that reports all song metadata, not just partial data
 - Languages
   - Added Finish / Suomi &nbsp;—&nbsp; Thank you [ekimeister](https://github.com/ekimeister)
   - Added Romanian / Română &nbsp;—&nbsp; Thank you [Liviu](https://github.com/liviu-hariton)
