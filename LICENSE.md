@@ -1,6 +1,6 @@
 Music Presence
 
-Copyright (c) 2024 Jonas van den Berg
+Copyright (c) 2024-2025 Jonas van den Berg
 
 All rights reserved,  
 except those rights explicitly granted in the following permission notice.
@@ -37,19 +37,20 @@ A copy of the source code can be obtained at
     <https://download.qt.io/official_releases/qt/>
 
 openssl  
-Copyright (c) 1995-2024 The OpenSSL Project Authors.  
+Copyright (c) 1995-2025 The OpenSSL Project Authors.  
 Licensed under the Apache License 2.0.  
 A copy of the source code can be obtained at  
     <https://www.openssl.org/source/index.html>
 
-discord-rpc  
+ungive/discord-rpc  
 Copyright (c) 2017 Discord, Inc.  
+Copyright (c) 2024 Jonas van den Berg  
 Licensed under the MIT License.  
 A copy of the source code can be obtained at  
-    <https://github.com/discord/discord-rpc>
+    <https://github.com/ungive/discord-rpc>
 
 nlohmann/json  
-Copyright (c) 2013-2024 Niels Lohmann  
+Copyright (c) 2013-2025 Niels Lohmann  
 Licensed under the MIT License.  
 A copy of the source code can be obtained at  
     <https://github.com/nlohmann/json>
@@ -73,18 +74,19 @@ A copy of the source code can be obtained at
     <https://github.com/fmtlib/fmt>
 
 ungive/loon  
-Copyright (c) 2024 Jonas van den Berg  
+Copyright (c) 2024-2025 Jonas van den Berg  
+All rights reserved.  
 A copy of the source code can be obtained at  
     <https://github.com/ungive/loon>
 
 ungive/update  
-Copyright (c) 2024 Jonas van den Berg  
+Copyright (c) 2024-2025 Jonas van den Berg  
 Licensed under the MIT License.  
 A copy of the source code can be obtained at  
     <https://github.com/ungive/update>
 
 madler/zlib  
-Copyright (c) 1995-2024 Jean-loup Gailly and Mark Adler  
+Copyright (c) 1995-2025 Jean-loup Gailly and Mark Adler  
 A copy of the source code can be obtained at  
     <https://github.com/madler/zlib>
 
@@ -113,6 +115,19 @@ A copy of the source code can be obtained at
 
 music-presence/translations  
 Licensed under the MIT License.  
-Copyright (c) 2024 Jonas van den Berg and contributors  
+Copyright (c) 2024-2025 Jonas van den Berg and contributors  
 A copy of the source code can be obtained at  
     <https://github.com/music-presence/translations>
+
+tobiaslocker/base64  
+Licensed under the MIT License.  
+Copyright (c) 2019 Tobias Locker  
+A copy of the source code can be obtained at  
+    <https://github.com/tobiaslocker/base64>
+
+altdesktop/playerctl  
+The Software makes use of the playerctl library licensed under the
+GNU LGPLv3 license <https://www.gnu.org/licenses/lgpl-3.0.en.html>.  
+Copyright (c) 2014, Tony Crisci  
+A copy of the source code can be obtained at  
+    <https://github.com/altdesktop/playerctl>
