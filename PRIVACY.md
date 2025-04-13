@@ -47,7 +47,8 @@ about how your data is processed.
   * [Discord](#discord)
   * [TIDAL](#tidal)
   * [Deezer](#deezer)
-  * [MetaBrainz - MusicBrainz and Cover Art Archive](#metabrainz---musicbrainz-and-cover-art-archive)
+  * [Spotify](#spotify)
+  * [Apple](#apple)
   * [Simple Analytics](#simple-analytics)
   * [GitHub](#github)
   * [Our own services](#our-own-services)
@@ -216,6 +217,10 @@ to complete Media Metadata that is lacking song, track or video information
 and to get more information about the media that is playing
 from their online music database.
 
+This service is generally only used
+to complete Media Metadata from Media Players
+that stream media from **TIDAL**'s online services and no other Media Players.
+
 This service can be disabled in the settings of the Software.
 
 * **[TIDAL](https://tidal.com)**
@@ -229,24 +234,48 @@ to complete Media Metadata that is lacking song, track or video information
 and to get more information about the media that is playing
 from their online music database.
 
+This service is generally only used
+to complete Media Metadata from Media Players
+that stream media from **Deezer**'s online services and no other Media Players.
+
 This service can be disabled in the settings of the Software.
 
 * **[Deezer](https://www.deezer.com)**
   &ndash; [Privacy Policy](https://www.deezer.com/legal/personal-datas)
 
-### MetaBrainz - MusicBrainz and Cover Art Archive
+### Spotify
 
-Media Metadata may be sent to **MetaBrainz**, more specifically the
-[MusicBrainz API](https://musicbrainz.org/doc/MusicBrainz_API)
-and the [Cover Art Archive](https://coverartarchive.org/),
+Media Metadata may be sent to **Spotify**, more specifically the
+[Spotify API](https://developer.spotify.com/documentation/web-api),
 to complete Media Metadata that is lacking song, track or video information
 and to get more information about the media that is playing
-from an online music database.
+from their online music database.
+
+This service is generally only used
+to complete Media Metadata from Media Players
+that stream media from **Spotify**'s online services and no other Media Players.
 
 This service can be disabled in the settings of the Software.
 
-* **[MetaBrainz](https://metabrainz.org)**
-  &ndash; [Privacy Policy](https://metabrainz.org/privacy)
+* **[Spotify](https://www.spotify.com/about-us)**
+  &ndash; [Privacy Policy](https://www.spotify.com/legal/privacy-policy)
+
+### Apple
+
+Media Metadata may be sent to **Apple**, more specifically the
+[iTunes API](https://developer.apple.com/library/archive/documentation/AudioVideo/Conceptual/iTuneSearchAPI),
+to complete Media Metadata that is lacking song, track or video information
+and to get more information about the media that is playing
+from their online music database.
+
+This service is generally only used
+to complete Media Metadata from Media Players
+that stream media from **Apple**'s online services and no other Media Players.
+
+This service can be disabled in the settings of the Software.
+
+* **[Apple](https://www.apple.com)**
+  &ndash; [Privacy Policy](https://www.apple.com/privacy)
 
 ### Simple Analytics
 
@@ -304,7 +333,7 @@ These include the following services:
 All data is **encrypted** with the use of
 modern and secure transport protocols,
 when sent to
-**TIDAL**, **Deezer**, **MetaBrainz**, **Simple Analytics**, **GitHub**
+**TIDAL**, **Deezer**, **Spotify**, **Apple**, **Simple Analytics**, **GitHub**
 and our own services.
 Media Metadata that is sent to **Discord** communicates
 with the locally running Discord client application
@@ -405,7 +434,7 @@ by clicking the respective button in the Tray Menu.
 
 ## Scope of this privacy policy
 
-This document applies to version 2.2.8 of Music Presence and that version only.
+This document applies to version 2.3.0 of Music Presence and that version only.
 
 ## Changes to this privacy policy
 
@@ -413,7 +442,7 @@ This privacy policy is kept under regular review.
 Any updates are placed into this file in this repository.
 The last update to this policy is stated below.
 
-Last updated on 3 September 2024.  
+Last updated on 13 April 2025.  
 This does not include changes to the scope of this privacy policy.
 
 ## Contact details
