@@ -80,6 +80,9 @@
     not just partial data.
     If you have a use case for it, feel free to
     [open an issue](https://github.com/ungive/discord-music-presence/issues)
+- Privacy Policy ([link](https://github.com/ungive/discord-music-presence/blob/master/PRIVACY.md))
+  - Mentioned the use of the Spotify API and iTunes API (Apple)
+  - Clarified under which circumstances these and other APIs are used
 - Languages
   - Added Finish / Suomi &nbsp;—&nbsp; Thank you [ekimeister](https://github.com/ekimeister)
   - Added Romanian / Română &nbsp;—&nbsp; Thank you [Liviu](https://github.com/liviu-hariton)
