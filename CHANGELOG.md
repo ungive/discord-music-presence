@@ -98,6 +98,14 @@
     - Mac (prior to macOS 15.4): Dopamine, Pocket Casts
   - Miscellaneous
     - iTunes can now be displayed as "Apple Music"
+- This update involves around 25.000 new lines of code in nearly 1500 commits
+  and took months to complete.
+  Most of these are attributed to the new way of handling media.
+  About 8.000 lines of code are mere software tests to ensure proper function.
+- If you want to support my work, you can find several donation options [here](https://donate.musicpresence.app).
+  A small monthly donation allows me put more time into this project and
+  make [planned features](https://roadmap.musicpresence.app) a reality quicker. 
+  Thank you to everyone who has been supporting me this far!
 
 ## 2.2.8
 
