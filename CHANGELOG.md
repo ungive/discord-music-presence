@@ -21,8 +21,10 @@
   Music Presence now works again with macOS 15.4 and newer!
   Although it is compatible with far less players
   due to the changes Apple has introduced with version 15.4 of macOS.
-  - Music Presence now only works with Apple Music and Spotify.
+  - On devices that use macOS 15.4 or newer,
+    Music Presence now only works with Apple Music and Spotify.
     In a future update TIDAL and possibly YouTube Music will work as well.
+    Music Presence still works like before with macOS versions older than 15.4.
   - Automation of these media players is mandatory for this
     and needs to be granted when prompted.
     You will get the automation prompt automatically
@@ -70,19 +72,29 @@
     which is now only updated when there are metadata updates.
   - The song duration is now rounded to the nearest second
     instead of being floored.
-  - Removed the MusicBrainz API as it does not serve much purpose
-    and it often does not yield any search results.
+  - Removed the MusicBrainz API as it does not serve much purpose,
+    it often does not yield any search results
+    and it is rather slow.
     I recommend to properly tag your local files
-    or use a media player that reports all song metadata, not just partial data
+    or use a media player that reports all song metadata,
+    not just partial data.
+    If you have a use case for it, feel free to
+    [open an issue](https://github.com/ungive/discord-music-presence/issues)
 - Languages
   - Added Finish / Suomi &nbsp;—&nbsp; Thank you [ekimeister](https://github.com/ekimeister)
   - Added Romanian / Română &nbsp;—&nbsp; Thank you [Liviu](https://github.com/liviu-hariton)
   - Added Czech / Čeština &nbsp;—&nbsp; Thank you [Ondřej Kučera](https://github.com/kucendro)
 - Media players
-  - Added Moosync on Windows and Mac
-  - Added Mini Radio Player on Windows
-  - Added Mac identifier for Dopamine
-  - (TODO list all media players added since the last update)
+  - Added (Windows):
+    ampcast, Emby, JioSaavn, Mini Radio Player, Moosync, MPC-HC,
+    PotPlayer, Roon, Saturn (Deezer), Sonixd, Supersonic, Tauon and Wora
+  - Added (Mac): Doppler, Moosync, Plex, re:AMP, Roon and VLC &mdash;
+    These only work with versions of macOS prior to 15.4
+  - Better support for existing players with added player identifiers
+    - Windows: foobar2000, iTunes, Podurama, Spotube, WACUP, Yandex Music
+    - Mac (prior to macOS 15.4): Dopamine, Pocket Casts
+  - Miscellaneous
+    - iTunes can now be displayed as "Apple Music"
 
 ## 2.2.8
 
