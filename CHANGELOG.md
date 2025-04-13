@@ -4,16 +4,37 @@
 
 - This updates comes with a lot of changes to the source code of the app
   that drastically improve maintainability and extensibility for the future.
-  This release serves the purpose of ensuring
-  that these changes are stable and bug-free for all users.
-- The app now processes media in a structured and organized way
-  which allows media to be prepared for multiple uses cases,
+  The app now processes media in a structured and modular way
+  which allows detected media to be prepared for multiple uses cases,
   not just a Discord status.
-  The old code was written with a Discord status being the only feature in mind,
-  now it is possible to very easily add more ways to handle media.
-  I will be working on last.fm scrobbling next!
-  - For more information see the related GitHub issue:
+  Previously a Discord status was the only feature in mind,
+  now it is possible to very easily add more ways to handle media,
+  which lays the foundation for future developments!
+  - I will be working on last.fm scrobbling next, stay tuned!
+    The progress is tracked in
+    [#53](https://github.com/ungive/discord-music-presence/issues/53)
+  - For more information about these changes see the related GitHub issue:
     [#84](https://github.com/ungive/discord-music-presence/issues/84)
+  - For a roadmap of features I am planning to work on in the future,
+    click [here](https://roadmap.musicpresence.app)
+- Great news for macOS users:
+  Music Presence now works again with macOS 15.4 and newer!
+  Although it is compatible with far less players
+  due to the changes Apple has introduced with version 15.4 of macOS.
+  - Music Presence now only works with Apple Music and Spotify.
+    In a future update TIDAL and possibly YouTube Music will work as well.
+  - Automation of these media players is mandatory for this
+    and needs to be granted when prompted.
+    You will get the automation prompt automatically
+    once you start any of these two media players
+    while Music Presence is running.
+    Denying automation will disable the player
+    until it is manually granted in the system settings.
+    This fixes [#165](https://github.com/ungive/discord-music-presence/issues/165)
+  - Support for TIDAL is tracked in this issue:
+    [#211](https://github.com/ungive/discord-music-presence/issues/211)
+  - Support for YouTube Music is tracked in this issue:
+    [#211](https://github.com/ungive/discord-music-presence/issues/212)
 - Bug fixes and improvements
   - Integrated the Spotify API for Spotify,
     which adds additional artists of a song
@@ -47,7 +68,8 @@
   - Fixed not handling the media with the most recent metadata updates.
     Detected media is tagged with a timestamp,
     which is now only updated when there are metadata updates.
-  - The song duration is now rounded to the nearest second instead of floored.
+  - The song duration is now rounded to the nearest second
+    instead of being floored.
   - Removed the MusicBrainz API as it does not serve much purpose
     and it often does not yield any search results.
     I recommend to properly tag your local files
