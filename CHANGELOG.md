@@ -1,5 +1,11 @@
 # Changelog
 
+## 2.3.1
+
+- Bug fixes and improvements
+  - Fixed a potential for a rare deadlock (app freeze),
+    when toggling the presence on and off
+
 ## 2.3.0
 
 - This updates comes with a lot of changes to the source code of the app
