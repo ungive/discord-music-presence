@@ -39,7 +39,15 @@ These are some of the most notable features
 > For detailed installation instructions read this document:
 > [**How to install and use Music Presence**](./documentation/installation-instructions.md)
 
-Join the Discord: [**discord.gg/musicpresence**](https://discord.gg/musicpresence)
+On macOS, you can also install Music Presence via Homebrew
+and get automatic updates:
+
+```sh
+brew tap ungive/music-presence
+brew install music-presence
+```
+
+Join our Discord: [**discord.gg/musicpresence**](https://discord.gg/musicpresence)
 
 ---
 
