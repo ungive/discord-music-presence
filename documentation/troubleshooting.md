@@ -5,6 +5,7 @@ Follow this guide step-by-step to troubleshoot your issue.
 * [Check your Discord settings first](#check-your-discord-settings-first)
 * [Media players that don't work out of the box](#media-players-that-dont-work-out-of-the-box)
 * [The player is detected, but still no status](#the-player-is-detected-but-still-no-status)
+* [Are you running Discord as administrator?](#are-you-running-discord-as-administrator)
 * [If your media player is still not detected](#if-your-media-player-is-still-not-detected)
 * [Your media player does not integrate with your operating system](#your-media-player-does-not-integrate-with-your-operating-system)
 * [Reporting a different problem](#reporting-a-different-problem)
@@ -54,6 +55,20 @@ This happens rarely, but sometimes
 Discord just refuses to show any presence until you reinstall it completely.
 
 Does it still not work? Try logging in and out of your Discord account.
+
+## Are you running Discord as administrator?
+
+If not, continue with the next section.
+
+If you are running Discord as administrator,
+running it without these elevated privileges should fix your issue.
+
+If you insist on running Discord as administrator though,
+you won't get around running Music Presence as administrator as well,
+as otherwise it won't be able to communicate with the Discord client.
+This not recommended though, as running third-party software
+as administrator is a choice you should think at least twice about.
+I do not recommend this!
 
 ## If your media player is still not detected
 
