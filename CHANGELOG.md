@@ -2,11 +2,13 @@
 
 ## 2.3.1
 
+- Moved all settings into a dedicated settings window (TODO explain more)
 - Bug fixes and improvements
   - Added the option to manually override the tray icon and app theme
   - Fixed a potential for a rare deadlock (app freeze),
     when toggling the presence on and off
-  - Fixed the Mac app icon to follow Apple design guideliens.
+  - Fixed a potential for a rare deadlock within the media processing pipeline
+  - Fixed the Mac app icon to follow Apple design guidelines.
     Fixes [#223](https://github.com/ungive/discord-music-presence/issues/223)
 
 ## 2.3.0
