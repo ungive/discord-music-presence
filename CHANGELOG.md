@@ -2,7 +2,19 @@
 
 ## 2.3.1
 
-- Moved all settings into a dedicated settings window (TODO explain more)
+- Added a unified settings window to replace
+  the old three convoluted settings menus
+  - The "Appearance", "Player" and "Settings" menus are now removed
+    and all settings that were accessible there
+    have been moved into a dedicated window. This implements
+    [#44](https://github.com/ungive/discord-music-presence/issues/44)
+  - This was a much needed change to allow deeper customization in the future and to allow for more complex configuration, see [scrobbling](https://github.com/ungive/discord-music-presence/issues/53), [showing the artist name](https://github.com/ungive/discord-music-presence/issues/229), [fine-grained status customization](https://github.com/ungive/discord-music-presence/issues/42) and [blacklisting tracks](https://github.com/ungive/discord-music-presence/issues/62)
+  - Modifying settings should now be much more accessible than before.
+    Player-specific settings are organized into tabs in the Appearance menu
+    and you can modify settings for all players at the same time
+  - The section for offline players/non-streaming services
+    now has a dedicated explanation text. This fixes
+    [#36](https://github.com/ungive/discord-music-presence/issues/136)
 - Bug fixes and improvements
   - Added the option to manually override the tray icon and app theme
   - Fixed a potential for a rare deadlock (app freeze),
