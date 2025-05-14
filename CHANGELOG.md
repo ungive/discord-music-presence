@@ -15,6 +15,10 @@
   - The section for offline players/non-streaming services
     now has a dedicated explanation text. This fixes
     [#36](https://github.com/ungive/discord-music-presence/issues/136)
+- Fixed all media detection on all Mac versions, including macOS 15.4
+  - Music Presence should now work just the way it did before
+    and detect all media players that were supported in older versions of macOS.
+    See [#245](https://github.com/ungive/discord-music-presence/issues/245)
 - Bug fixes and improvements
   - Added the option to manually override the tray icon and app theme
   - Fixed a potential for a rare deadlock (app freeze),
