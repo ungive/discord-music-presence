@@ -20,7 +20,8 @@
     and detect all media players that were supported in older versions of macOS.
     See [#245](https://github.com/ungive/discord-music-presence/issues/245)
 - Bug fixes and improvements
-  - Added the option to manually override the tray icon and app theme
+  - Added the option to manually override the tray icon and app theme.
+    Implements [#190](https://github.com/ungive/discord-music-presence/issues/190)
   - Fixed a potential for a rare deadlock (app freeze),
     when toggling the presence on and off
   - Fixed a potential for a rare deadlock within the media processing pipeline
