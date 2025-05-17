@@ -38,6 +38,9 @@
   - The section for offline players/non-streaming services
     now has a dedicated explanation text, thanks to the settings window.
     This fixes [#36](https://github.com/ungive/discord-music-presence/issues/136)
+  - Added an option "Show the album name when the artist is missing",
+    mainly for podcasts which often do not have artist information.
+    Fixes [#193](https://github.com/ungive/discord-music-presence/issues/193)
 - Languages
   - TODO
 - Media players
