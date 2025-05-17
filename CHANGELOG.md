@@ -2,20 +2,22 @@
 
 ## 2.3.1
 
-- Added a unified settings window to replace
-  the old three convoluted settings menus
+- Added a settings window to replace the three menus in the tray
   - The "Appearance", "Player" and "Settings" menus are now removed
     and all settings that were accessible there
-    have been moved into a dedicated window. This implements
+    have been moved into a dedicated window.
+    To open it, press "Settings" in the tray menu. This implements
     [#44](https://github.com/ungive/discord-music-presence/issues/44)
-  - This was a much needed change to allow deeper customization in the future and to allow for more complex configuration, see [scrobbling](https://github.com/ungive/discord-music-presence/issues/53), [showing the artist name](https://github.com/ungive/discord-music-presence/issues/229), [fine-grained status customization](https://github.com/ungive/discord-music-presence/issues/42) and [blacklisting tracks](https://github.com/ungive/discord-music-presence/issues/62)
+  - This was a much needed change to allow deeper customization in the future
+    and to allow for more complex configuration. See
+    [scrobbling](https://github.com/ungive/discord-music-presence/issues/53),
+    [showing the artist name](https://github.com/ungive/discord-music-presence/issues/229),
+    [fine-grained status customization](https://github.com/ungive/discord-music-presence/issues/42) and
+    [blacklisting tracks](https://github.com/ungive/discord-music-presence/issues/62)
   - Modifying settings should now be much more accessible than before.
     Player-specific settings are organized into tabs in the Appearance menu
     and you can modify settings for all players at the same time
-  - The section for offline players/non-streaming services
-    now has a dedicated explanation text. This fixes
-    [#36](https://github.com/ungive/discord-music-presence/issues/136)
-- Fixed all media detection on all Mac versions, including macOS 15.4
+- Fixed all media detection for all Mac versions, including macOS 15.4 and above
   - Music Presence should now work just the way it did before
     and detect all media players that were supported in older versions of macOS.
     See [#245](https://github.com/ungive/discord-music-presence/issues/245)
@@ -33,6 +35,13 @@
     when "Notify when a new version is available" was disabled in the settings
   - Fixed updates installing multiple times for the same version,
     when clicking "Check for updates" after an update was already installed
+  - The section for offline players/non-streaming services
+    now has a dedicated explanation text, thanks to the settings window.
+    This fixes [#36](https://github.com/ungive/discord-music-presence/issues/136)
+- Languages
+  - TODO
+- Media players
+  - TODO
 
 ## 2.3.0
 
