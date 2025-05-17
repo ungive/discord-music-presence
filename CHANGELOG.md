@@ -27,6 +27,12 @@
   - Fixed a potential for a rare deadlock within the media processing pipeline
   - Fixed the Mac app icon to follow Apple design guidelines.
     Fixes [#223](https://github.com/ungive/discord-music-presence/issues/223)
+  - Fixed Windows autostart setting not being removed when uninstalling the app.
+    Fixes [#250](https://github.com/ungive/discord-music-presence/issues/250)
+  - Fixed the "View changelog" button which was not working
+    when "Notify when a new version is available" was disabled in the settings
+  - Fixed updates installing multiple times for the same version,
+    when clicking "Check for updates" after an update was already installed
 
 ## 2.3.0
 
