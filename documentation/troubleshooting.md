@@ -7,6 +7,7 @@ Follow this guide step-by-step to troubleshoot your issue.
 * [The player is detected, but still no status](#the-player-is-detected-but-still-no-status)
 * [Are you running Discord as administrator?](#are-you-running-discord-as-administrator)
 * [Use your default shell](#use-your-default-shell)
+* [Custom ISO installs may interfere](#custom-iso-installs-may-interfere)
 * [If your media player is still not detected](#if-your-media-player-is-still-not-detected)
 * [Your media player does not integrate with your operating system](#your-media-player-does-not-integrate-with-your-operating-system)
 * [Reporting a different problem](#reporting-a-different-problem)
@@ -83,6 +84,12 @@ Users of the following programs will need to revert their changes:
 - Explorer7
 
 If you do not know how to do this, see the support channels of the program, ask their GitHub page (if they have one), or reach out to our [Discord server](https://discord-invite.musicpresence.app) if there are no support servers.
+If this did not help, keep reading.
+
+## Custom ISO installs may interfere
+WIP
+
+If this did not help, keep reading.
 
 # If your media player is still not detected
 
