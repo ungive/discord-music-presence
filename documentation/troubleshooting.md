@@ -87,8 +87,14 @@ If you do not know how to do this, see the support channels of the program, ask 
 If this did not help, keep reading.
 
 ## Custom ISO installs may interfere
-WIP
+For users on Windows, some custom ISOs may interfere with Music Presence by making irreversible and other changes to the OS that disable or completely break SMTC. Support on these versions may not receive support officially as they make changes that interfere with SMTC.
 
+The following custom versions are known to be affected:
+- Atlas OS
+- Reunion7
+- Storage reducing ISOs (tiny11, Windows 10 Super Lite, etc)
+
+Instructions on how to restore SMTC will vary between mod to mod.
 If this did not help, keep reading.
 
 # If your media player is still not detected
