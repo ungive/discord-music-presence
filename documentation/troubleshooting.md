@@ -6,9 +6,12 @@ Follow this guide step-by-step to troubleshoot your issue.
 * [Media players that don't work out of the box](#media-players-that-dont-work-out-of-the-box)
 * [The player is detected, but still no status](#the-player-is-detected-but-still-no-status)
 * [Are you running Discord as administrator?](#are-you-running-discord-as-administrator)
+* [Use your default shell](#use-your-default-shell)
 * [If your media player is still not detected](#if-your-media-player-is-still-not-detected)
 * [Your media player does not integrate with your operating system](#your-media-player-does-not-integrate-with-your-operating-system)
 * [Reporting a different problem](#reporting-a-different-problem)
+
+# Common Issues 
 
 ## Check your Discord settings first
 
@@ -70,7 +73,18 @@ This not recommended though, as running third-party software
 as administrator is a choice you should think at least twice about.
 I do not recommend this!
 
-## If your media player is still not detected
+# Edge Cases
+
+## Use your default shell
+
+For users on Windows that use default shells, you must use Windows File Explorer (explorer.exe) for your music player to be detected. This is a requirement for the SMTC API. How to revert your shell will depend from program to program.
+
+Users of the following programs will need to revert their changes:
+- Explorer7
+
+If you do not know how to do this, see the support channels of the program, ask their GitHub page (if they have one), or reach out to our [Discord server](https://discord-invite.musicpresence.app) if there are no support servers.
+
+# If your media player is still not detected
 
 First make sure you played some media with your media player
 while Music Presence is running.
