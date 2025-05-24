@@ -8,6 +8,7 @@ Follow this guide step-by-step to troubleshoot your issue.
 * [Are you running Discord as administrator?](#are-you-running-discord-as-administrator)
 * [Custom ISO installs may interfere](#custom-iso-installs-may-interfere)
 * [Use your default shell](#use-your-default-shell)
+* [Undo any custom tweaks you applied](#undo-any-custom-tweaks-you-applied)
 * [If your media player is still not detected](#if-your-media-player-is-still-not-detected)
 * [Your media player does not integrate with your operating system](#your-media-player-does-not-integrate-with-your-operating-system)
 * [Reporting a different problem](#reporting-a-different-problem)
@@ -82,6 +83,13 @@ For users on Windows, some custom ISOs may interfere with Music Presence by maki
 Instructions on how to restore SMTC will vary between mod to mod. For some mods, you may not be able to restore SMTC, and will need to reinstall an official Windows version. Some mods, such as Reunion7, will not be affected. If you are unsure if your mod supports SMTC, try pausing your music with your keyboard, if you have a pause button. You may also reach out to our [Discord server](https://discord-invite.musicpresence.app) for support.
 
 If you are not using a custom ISO, or your windows install supports SMTC, keep reading.
+
+## Undo any custom tweaks you applied
+
+If you have used an optimization software recently, you may want to consider reverting some of the tweaks you applied. Some optimization software, such as Hellzerg's Optimizer and WinUtils may make changes that disables SMTC. If you recently made a change with one of these kinds of softwares, try reverting the changes you made first.
+Some software that only make cosmetic and other minor changes to the system, such as Winaero Tweaker and TronScript, are unaffected.
+
+If this did not help, keep reading.
 
 
 ## Use your default shell
