@@ -6,9 +6,15 @@ Follow this guide step-by-step to troubleshoot your issue.
 * [Media players that don't work out of the box](#media-players-that-dont-work-out-of-the-box)
 * [The player is detected, but still no status](#the-player-is-detected-but-still-no-status)
 * [Are you running Discord as administrator?](#are-you-running-discord-as-administrator)
+* [Custom ISO installs may interfere](#custom-iso-installs-may-interfere)
+* [Undo any custom tweaks you applied](#undo-any-custom-tweaks-you-applied)
+* [Use Windows 10 or above](#use-windows-10-or-above)
+* [Uninstall explorer7](#uninstall-explorer7)
 * [If your media player is still not detected](#if-your-media-player-is-still-not-detected)
 * [Your media player does not integrate with your operating system](#your-media-player-does-not-integrate-with-your-operating-system)
 * [Reporting a different problem](#reporting-a-different-problem)
+
+# Common Issues 
 
 ## Check your Discord settings first
 
@@ -70,7 +76,36 @@ This not recommended though, as running third-party software
 as administrator is a choice you should think at least twice about.
 I do not recommend this!
 
-## If your media player is still not detected
+# Edge Cases
+
+## Custom ISO installs may interfere
+For users on Windows, some custom ISOs may interfere with Music Presence by making irreversible and other changes to the OS that disable or completely break SMTC. Support on these versions may not receive support officially as they make changes that interfere with SMTC. This mainly affects optimization scripts that remove core Windows elements such as Atlas OS, ReviOS, Ghost Spectre, and some other projects that modify Windows components. While some operating systems mods such as Tiny11 may have SMTC, they may not be officiall supported.
+
+Instructions on how to restore SMTC will vary between mod to mod. For some mods, you may not be able to restore SMTC, and will need to reinstall an official Windows version. Some mods, such as Reunion7, will not be affected. If you are unsure if your mod supports SMTC, try pausing your music with your keyboard, if you have a pause button. You may also reach out to our [Discord server](https://discord-invite.musicpresence.app) for support.
+
+If you are not using a custom ISO, or your windows install supports SMTC, keep reading.
+
+## Undo any custom tweaks you applied
+
+If you have used an optimization software recently, you may want to consider reverting some of the tweaks you applied. Some optimization software, such as Hellzerg's Optimizer and WinUtils may make changes that disables SMTC. If you recently made a change with one of these kinds of softwares, try reverting the changes you made first.
+Some software that only make cosmetic and other minor changes to the system, such as Winaero Tweaker and TronScript, are unaffected.
+
+If this did not help, keep reading.
+
+## Use Windows 10 or above
+
+You must be using a windows version that is at least Windows 10 or above. Any version of Windows 10 or 11 should be perfectly fine, as long as it is not corrupted or heavily modified. If you are using a version under Windows 10 Build 10240 (2015), including a version of Windows with an extended kernel, you will have to update to use Music Presence.
+
+If you are not a Windows user, or this did not help, keep reading.
+
+
+## Uninstall explorer7
+
+If you are using explorer7, you will have to switch back to the Windows 10 explorer to use Music Presence. Because of how ex7 works, it uses the official Windows 7 shell, which disables features such as Microsoft Store apps and SMTC, which Music Presence relies on. Please revert the shell mode to Windows 10 before continuing.
+
+If this did not help, keep reading.
+
+# If your media player is still not detected
 
 First make sure you played some media with your media player
 while Music Presence is running.
