@@ -6,8 +6,8 @@ Follow this guide step-by-step to troubleshoot your issue.
 * [Media players that don't work out of the box](#media-players-that-dont-work-out-of-the-box)
 * [The player is detected, but still no status](#the-player-is-detected-but-still-no-status)
 * [Are you running Discord as administrator?](#are-you-running-discord-as-administrator)
-* [Use your default shell](#use-your-default-shell)
 * [Custom ISO installs may interfere](#custom-iso-installs-may-interfere)
+* [Use your default shell](#use-your-default-shell)
 * [If your media player is still not detected](#if-your-media-player-is-still-not-detected)
 * [Your media player does not integrate with your operating system](#your-media-player-does-not-integrate-with-your-operating-system)
 * [Reporting a different problem](#reporting-a-different-problem)
@@ -86,9 +86,9 @@ If you are not using a custom ISO, or your windows install supports SMTC, keep r
 
 ## Use your default shell
 
-For users on Windows that use default shells, you must use Windows File Explorer (explorer.exe) for your music player to be detected. This is a requirement for the SMTC API. How to revert your shell will depend from program to program. In most cases, simply uninstalling the shell replacement from Control Panel or Settings App works. Only Explorer7 is known to be affected.
+For users on Windows that use custom shells, you may experience issues using a shell other than the Windows File Explorer (explorer.exe). For shells that only run over Explorer.exe or mildly overwrite the shell such as Cairo Shell should still work, some other apps such as Explorer7 may make changes to the shell that interferes with Music Presence. How to revert your shell will depend from program to program. In most cases, simply uninstalling the shell replacement from Control Panel or Settings App works. Only Explorer7 is known to be affected as of now.
 
-If you do not know how to do this, see the support channels of the program, ask their GitHub page (if they have one), or reach out to our [Discord server](https://discord-invite.musicpresence.app) if there are no support servers.
+If you do not know how to do this, see the support channels of the shell or program you are using, ask their GitHub page (if they have one), or reach out to our [Discord server](https://discord-invite.musicpresence.app) if there are no support servers available.
 
 If this did not help, keep reading.
 
