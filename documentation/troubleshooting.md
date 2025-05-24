@@ -8,7 +8,8 @@ Follow this guide step-by-step to troubleshoot your issue.
 * [Are you running Discord as administrator?](#are-you-running-discord-as-administrator)
 * [Custom ISO installs may interfere](#custom-iso-installs-may-interfere)
 * [Undo any custom tweaks you applied](#undo-any-custom-tweaks-you-applied)
-* [Use your default shell](#use-your-default-shell)
+* [Use Windows 10 or above](#use-windows-10-or-above)
+* [Uninstall explorer7](#uninstall-explorer7)
 * [If your media player is still not detected](#if-your-media-player-is-still-not-detected)
 * [Your media player does not integrate with your operating system](#your-media-player-does-not-integrate-with-your-operating-system)
 * [Reporting a different problem](#reporting-a-different-problem)
@@ -91,12 +92,16 @@ Some software that only make cosmetic and other minor changes to the system, suc
 
 If this did not help, keep reading.
 
+## Use Windows 10 or above
 
-## Use your default shell
+You must be using a windows version that is at least Windows 10 or above. Any version of Windows 10 or 11 should be perfectly fine, as long as it is not corrupted or heavily modified. If you are using a version under Windows 10 Build 10240 (2015), including a version of Windows with an extended kernel, you will have to update to use Music Presence.
 
-For users on Windows that use custom shells, you may experience issues using a shell other than the Windows File Explorer (explorer.exe). For shells that only run over Explorer.exe or mildly overwrite the shell such as Cairo Shell should still work, some other apps such as Explorer7 may make changes to the shell that interferes with Music Presence. How to revert your shell will depend from program to program. In most cases, simply uninstalling the shell replacement from Control Panel or Settings App works. Only Explorer7 is known to be affected as of now.
+If you are not a Windows user, or this did not help, keep reading.
 
-If you do not know how to do this, see the support channels of the shell or program you are using, ask their GitHub page (if they have one), or reach out to our [Discord server](https://discord-invite.musicpresence.app) if there are no support servers available.
+
+## Uninstall explorer7
+
+If you are using explorer7, you will have to switch back to the Windows 10 explorer to use Music Presence. Because of how ex7 works, it uses the official Windows 7 shell, which disables features such as Microsoft Store apps and SMTC, which Music Presence relies on. Please revert the shell mode to Windows 10 before continuing.
 
 If this did not help, keep reading.
 
