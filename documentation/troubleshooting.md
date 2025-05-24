@@ -87,14 +87,11 @@ If you do not know how to do this, see the support channels of the program, ask 
 If this did not help, keep reading.
 
 ## Custom ISO installs may interfere
-For users on Windows, some custom ISOs may interfere with Music Presence by making irreversible and other changes to the OS that disable or completely break SMTC. Support on these versions may not receive support officially as they make changes that interfere with SMTC.
+For users on Windows, some custom ISOs may interfere with Music Presence by making irreversible and other changes to the OS that disable or completely break SMTC. Support on these versions may not receive support officially as they make changes that interfere with SMTC. This mainly affects optimization scripts that remove core Windows elements such as Atlas OS, ReviOS, Ghost Spectre, and some other projects that modify Windows components. While some operating systems mods such as Tiny11 may have SMTC, they may not be officiall supported.
 
-The following custom versions are known to be affected:
-- Atlas OS (and similar)
-- Storage reducing ISOs (tiny11, Windows 10 Super Lite, etc)
+Instructions on how to restore SMTC will vary between mod to mod. For some mods, you may not be able to restore SMTC, and will need to reinstall an official Windows version. Some mods, such as Reunion7, will not be affected. If you are unsure if your mod supports SMTC, try pausing your music with your keyboard, if you have a pause button. You may also reach out to our [Discord server](https://discord-invite.musicpresence.app) for support.
 
-Instructions on how to restore SMTC will vary between mod to mod.
-If this did not help, keep reading.
+If you are not using a custom ISO, or your windows install supports SMTC, keep reading.
 
 # If your media player is still not detected
 
