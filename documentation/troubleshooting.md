@@ -105,7 +105,7 @@ If you are using explorer7, you will have to switch back to the Windows 10 explo
 
 If this did not help, keep reading.
 
-# If your media player is still not detected
+## If your media player is still not detected
 
 First make sure you played some media with your media player
 while Music Presence is running.
