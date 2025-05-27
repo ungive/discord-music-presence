@@ -41,6 +41,14 @@
   - Added an option "Show the album name when the artist is missing",
     mainly for podcasts which often do not have artist information.
     Fixes [#193](https://github.com/ungive/discord-music-presence/issues/193)
+  - Added an option to always use local cover images,
+    for cases where an album cover from an API would be a different version.
+    This is disabled by default. Part of
+    [#219](https://github.com/ungive/discord-music-presence/issues/219)
+  - Added an option to alternatively display the "Listen to this song" button
+    as "Play&nbsp;on&nbsp;..." for better feature parity
+    with the official Spotify integration. Part of
+    [#219](https://github.com/ungive/discord-music-presence/issues/219)
 - Languages
   - TODO
 - Media players
