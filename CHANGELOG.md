@@ -18,9 +18,15 @@
     Player-specific settings are organized into tabs in the Appearance menu
     and you can modify settings for all players at the same time
 - Fixed all media detection for all Mac versions, including macOS 15.4 and above
-  - Music Presence should now work just the way it did before
-    and detect all media players that were supported in older versions of macOS.
+  - Music Presence now works with all media players again.
+    This fix is enabled by default.
     See [#245](https://github.com/ungive/discord-music-presence/issues/245)
+  - If you want to keep using the original fix for macOS,
+    which used Automation with AppleScript,
+    you can switch back to it under
+    "Settings" > "Advanced" > "Use AppleScript automation".
+    Make sure to fully restart the app for the change to take effect.
+    Note that this only works with Apple Music and Spotify
 - Bug fixes and improvements
   - Added the option to manually override the tray icon and app theme.
     Implements [#190](https://github.com/ungive/discord-music-presence/issues/190)
