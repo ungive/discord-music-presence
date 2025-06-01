@@ -26,23 +26,23 @@
     you can switch back to it under
     "Settings" > "Advanced" > "Use AppleScript automation".
     Make sure to fully restart the app for the change to take effect.
-    Note that this only works with Apple Music and Spotify
+    Note that AppleScript automation only works with Apple Music and Spotify
 - Bug fixes and improvements
   - Added the option to manually override the tray icon and app theme.
     Implements [#190](https://github.com/ungive/discord-music-presence/issues/190)
-  - Fixed a potential for a rare deadlock (app freeze),
-    when toggling the presence on and off
-  - Fixed a potential for a rare deadlock within the media processing pipeline
   - Fixed the Mac app icon to follow Apple design guidelines.
     Fixes [#223](https://github.com/ungive/discord-music-presence/issues/223)
   - Fixed Windows autostart setting not being removed when uninstalling the app.
     Fixes [#250](https://github.com/ungive/discord-music-presence/issues/250)
+  - Fixed the potential for some deadlocks,
+    when toggling the presence on and off
+    and within the media processing pipeline
   - Fixed the "View changelog" button which was not working
-    when "Notify when a new version is available" was disabled in the settings
+    when "Notify when a new version is available" was disabled
   - Fixed updates installing multiple times for the same version,
-    when clicking "Check for updates" after an update was already installed
-  - The section for offline players/non-streaming services
-    now has a dedicated explanation text, thanks to the settings window.
+    when clicking "Check for updates" after installing an update
+  - The section for offline players now has an explanation text,
+    thanks to the settings window.
     This fixes [#36](https://github.com/ungive/discord-music-presence/issues/136)
   - Added an option "Show the album name when the artist is missing",
     mainly for podcasts which often do not have artist information.
@@ -55,6 +55,8 @@
     as "Play&nbsp;on&nbsp;..." for better feature parity
     with the official Spotify integration. Part of
     [#219](https://github.com/ungive/discord-music-presence/issues/219)
+  - Fixed an app freeze on Mac when using AppleScript automation.
+    Fixes [#227](https://github.com/ungive/discord-music-presence/issues/227)
 - Languages
   - TODO
 - Media players
