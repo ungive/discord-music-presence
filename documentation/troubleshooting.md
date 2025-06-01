@@ -4,6 +4,7 @@ Follow this guide step-by-step to troubleshoot your issue.
 
 * [Check your Discord settings first](#check-your-discord-settings-first)
 * [Media players that don't work out of the box](#media-players-that-dont-work-out-of-the-box)
+* [Web versions of streaming services are not supported yet](#web-versions-of-streaming-services-are-not-supported-yet)
 * [The player is detected, but still no status](#the-player-is-detected-but-still-no-status)
 * [Are you running Discord as administrator?](#are-you-running-discord-as-administrator)
 * [Other edge cases](#other-edge-cases)
@@ -44,6 +45,20 @@ for instructions on which external plugins or helper programs are required
 to get them to be detected by Music Presence.
 
 Otherwise, continue reading the next section.
+
+## Web versions of streaming services are not supported yet
+
+For now, please use the desktop version of your streaming service.
+
+If you're not using a web player, move on to the next section.
+
+Music Presence won't detect media from websites yet,
+if you are on Mac or Windows.
+That is because these operating systems do not report
+what website the media is being played on,
+which makes it impossible to determine the source.
+Support for browsers will arrive
+[in a future update](https://github.com/ungive/discord-music-presence/issues/5).
 
 ## The player is detected, but still no status
 
