@@ -60,6 +60,9 @@
     [#219](https://github.com/ungive/discord-music-presence/issues/219)
   - Fixed an app freeze on Mac when using AppleScript automation.
     Fixes [#227](https://github.com/ungive/discord-music-presence/issues/227)
+  - Fixed a bug with cover images, where the proxy client would
+    disconnect and reconnect again when reusing a previously uploaded image,
+    due to not being put out of idling
 - Languages
   - TODO
 - Media players
