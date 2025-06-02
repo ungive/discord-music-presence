@@ -37,6 +37,9 @@
   - Fixed the potential for some deadlocks,
     when toggling the presence on and off
     and within the media processing pipeline
+  - Fixed a bug in the media processing pipeline
+    which did not fire a pipeline run (and a Discord status update)
+    when multiple pipeline hooks were configured at the same time
   - Fixed the "View changelog" button which was not working
     when "Notify when a new version is available" was disabled
   - Fixed updates installing multiple times for the same version,
