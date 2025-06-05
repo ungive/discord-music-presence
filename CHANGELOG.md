@@ -27,6 +27,17 @@
     "Settings" > "Advanced" > "Use AppleScript automation".
     Make sure to fully restart the app for the change to take effect.
     Note that AppleScript automation only works with Apple Music and Spotify
+- Music Presence for Mac is now signed and notarized!
+  - You will no longer get the "unidentified developer" warning
+    and you no longer have to perform workarounds
+    in order to bypass Gatekeeper and open the app.
+    My developer ID is "Jonas van den Berg (U64422JR94)"
+  - Donations are welcome, if you want to help sustain the costs
+    of the Apple Developer account that is needed for notarization:
+    [donate.musicpresence.app](https://donate.musicpresence.app)
+  - Animated cover images for Apple Music will arrive
+    in one of the next updates!
+    See [#123](https://github.com/ungive/discord-music-presence/issues/123)
 - Bug fixes and improvements
   - Added the option to manually override the tray icon and app theme.
     Implements [#190](https://github.com/ungive/discord-music-presence/issues/190)
