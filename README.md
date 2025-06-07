@@ -70,11 +70,12 @@ Join our Discord: [**discord.gg/musicpresence**](https://discord.gg/musicpresenc
 ## Features
 
 - Music Presence works with **any** media player!  
-  Currently
-  **[29](./documentation/supported-media-players.md)**
-  different players are supported
-  and adding a missing one is
-  [trivial](./documentation/supported-media-players.md#my-media-player-is-not-detected-)
+  Currently over **70** different players are supported,
+  you can find an updated overview
+  [here](https://musicpresence.pocha.moe/)
+  (this site was made by a community member).
+  Adding a missing one is
+  [trivial](./documentation/troubleshooting.md#if-your-media-player-is-still-not-detected)!
 - Shows the correct album cover image **100%** of the time!  
   *This works with any media player
   and is achieved without the use of external image sources.*
@@ -108,9 +109,10 @@ Join our Discord: [**discord.gg/musicpresence**](https://discord.gg/musicpresenc
   so you don't have to install new versions by downloading them manually.
   In addition to that you're always informed
   about any changes and additions with an informational popup
-- For TIDAL and Deezer users:
-  - Shows a "Listen to this song" button
+- For TIDAL, Deezer, Apple Music and Spotify users:
+  - Shows a "Listen to this song" or "Play on TIDAL" button
   - Shows all additional artists, not just the main one
+- For TIDAL users: Shows animated artworks
 
 *If you think a feature is missing, feel free to open
 [an issue](https://github.com/ungive/discord-music-presence/issues/new/choose)!*

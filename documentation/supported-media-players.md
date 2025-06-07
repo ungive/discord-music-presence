@@ -1,5 +1,12 @@
 # Supported media players
 
+> [!WARNING]
+> This page is not kept up to date.
+> You can find an updated overview [here](https://musicpresence.pocha.moe/),
+> which is a site created by a community member.
+> Thank you [@mercurialworld](https://github.com/mercurialworld)!
+> The [additional notes](#additional-notes) below still apply though.
+
 > [!NOTE]
 > If your media player is not detected,
 please visit the [**troubleshooting**](./troubleshooting.md) page
