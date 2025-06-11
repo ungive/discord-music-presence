@@ -38,6 +38,15 @@
   - Animated cover images for Apple Music will arrive
     in one of the next updates!
     See [#123](https://github.com/ungive/discord-music-presence/issues/123)
+- Added app news. You will now get a popup on app start whenever there are
+  news regarding Music Presence development
+  - News will only be published occassionally and only
+    when the news are important enough
+    that all Music Presence users need to be reached.
+    If you want to get all the news, feel free to
+    [join the Discord server](https://discord-invite.musicpresence.app/)!
+  - I will publish the first news a few weeks after version 2.3.1 released.
+    Stay tuned!
 - Bug fixes and improvements
   - Added the option to manually override the tray icon and app theme.
     Implements [#190](https://github.com/ungive/discord-music-presence/issues/190)
