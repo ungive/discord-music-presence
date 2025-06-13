@@ -99,25 +99,36 @@ is collected when observing media playback:
 
 The following anonymous metrics ("Analytics Metrics")
 are transmitted to a privacy-friendly analytics service
-(Simple Analytics, more information in the next section)
-at most once a day:
+(Simple Analytics, more information in the next section):
 
-* The version of the Software that is used
-* The operating system type (Windows, Mac or Linux) and its architecture
-* Your current time zone (for region information) and your local time
-* The following settings in regard to automatic updates:
-  * Whether automatic updates are enabled
-  * Whether update popups are enabled
-  * Whether the changelog is shown
-    when a new version is launched for the first time
+* At most once a day while the app is in use:
+  * The version of the Software that is used
+  * The operating system type (Windows, Mac or Linux) and its architecture
+  * Your current time zone (for region information) and your local time
+  * The following settings:
+    * Whether automatic updates are enabled
+    * Whether update popups are enabled
+    * Whether news popups are enabled
+    * Whether the changelog is shown
+      when a new version is launched for the first time
+* When the user interacts with in-app news from the developer:
+  * Whether the news were opened and viewed
+  * Which external links were clicked that are embedded in the news
+  * Any errors that might occur while loading and displaying news
+* When the user installs an app update:
+  * Any errors that might occur during installation of an update
 
-This data is only used to understand
+This data is used to understand
 which older versions of the Software are still being used,
 which operating system and architecture is used most predominantly
 and from which regions users are vaguely coming from.
 Additionally, the listed settings are reported
 in order to understand how many users
-are interested in updates of the Software.
+are interested in updates of the Software
+and news and messages from the developer.
+Interactions with news are recorded in order to grasp
+how much reach certain news entries have
+and how often certain links are clicked.
 
 When the user installs an update within the app,
 either manually or because automatic updates are enabled,
@@ -169,7 +180,7 @@ The user also has the option to report when a Media Player is not detected,
 by clicking on "My media player is not detected" in the "Help" menu
 of the Software.
 This will open a [new issue on GitHub](
-    https://github.com/jonasberge/discord-music-presence/issues/new)
+    https://github.com/ungive/discord-music-presence/issues/new)
 that is filled out with the following information ("Report Information"):
 
 * The user's operating system
@@ -303,18 +314,27 @@ and handled according to their privacy policy:
   &ndash; [Privacy Policy](
     https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement)
 
-Additionally, the following requests are made to **GitHub**
-on application startup:
+Additionally, the following requests are made to **GitHub**:
 
-* Download of information about media players from
+* At app start: Download of information about media players from
   [live.musicpresence.app](https://live.musicpresence.app),
   which is hosted on **GitHub**
-  ([repository](https://github.com/jonasberge/live.musicpresence.app)).
+  ([repository](https://github.com/music-presence/live),
+  [source](https://github.com/music-presence/media-players)).
   **GitHub** may collect data in accordance with their Privacy Policy.
-* Check for a new release of Music Presence.
+* At app start and every 24 hours:
+  Check for app news from
+  [news.musicpresence.app](https://news.musicpresence.app),
+  which is hosted on **GitHub**
+  ([source](https://github.com/music-presence/news)).
+* At app start and every 12 hours: Check for a new release of Music Presence.
   The Software makes a request to **GitHub**'s API
-  to check whether there is a new release of Music Presence.
+  to check whether a new version of the Software is available.
   **GitHub** may collect data in accordance with their Privacy Policy.
+* Whenever a new version is launched or the user opens the in-app changelog:
+  The file [CHANGELOG.md](https://raw.githubusercontent.com/ungive/discord-music-presence/refs/heads/master/CHANGELOG.md) is downloaded,
+  which is hosted on **GitHub**
+  ([source](https://github.com/ungive/discord-music-presence/blob/master/CHANGELOG.md)).
 
 ### Our own services
 
@@ -434,7 +454,7 @@ by clicking the respective button in the Tray Menu.
 
 ## Scope of this privacy policy
 
-This document applies to version 2.3.0 of Music Presence and that version only.
+This document applies to version 2.3.1 of Music Presence and that version only.
 
 ## Changes to this privacy policy
 
@@ -442,7 +462,7 @@ This privacy policy is kept under regular review.
 Any updates are placed into this file in this repository.
 The last update to this policy is stated below.
 
-Last updated on 13 April 2025.  
+Last updated on 13 June 2025.  
 This does not include changes to the scope of this privacy policy.
 
 ## Contact details
