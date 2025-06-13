@@ -131,3 +131,9 @@ GNU LGPLv3 license <https://www.gnu.org/licenses/lgpl-3.0.en.html>.
 Copyright (c) 2014, Tony Crisci  
 A copy of the source code can be obtained at  
     <https://github.com/altdesktop/playerctl>
+
+ungive/mediaremote-adapter  
+Licensed under the MIT License.  
+Copyright (c) 2025 Jonas van den Berg  
+A copy of the source code can be obtained at  
+    <https://github.com/ungive/mediaremote-adapter>
