@@ -205,4 +205,4 @@ so that they can work better with Music Presence in the future.
 
 ---
 
-Copyright (c) 2024 Jonas van den Berg
+Copyright (c) 2024-2025 Jonas van den Berg
