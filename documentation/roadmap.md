@@ -3,14 +3,19 @@
 ## Work in progress
 
 - **Scrobbling support** for last.fm, ListenBrainz and libre.fm
+  ([#53](https://github.com/ungive/discord-music-presence/issues/53))
+- A **Listening to "Artist"** status, similar to how Spotify has it
+  ([#229](https://github.com/ungive/discord-music-presence/issues/229))
 - Support for **browser media** in tandem with a custom
   [browser extension](https://github.com/ungive/media-control-extension)
+  ([#5](https://github.com/ungive/discord-music-presence/issues/5))
 - A **Linux release** &ndash; you can already test a preview build on the
-  [Discord server](https://discord-invite.musicpresence.app)!
+  [Discord server](https://discord-invite.musicpresence.app)
+  by checking the pinned messages in the #linux channel.
 
 ## Planned features
 
-- Listening along with other Music Presence users and your friends
+- **Listening along** with other Music Presence users and your friends
 - A button in your status that has links for the song
   to all major platforms (Spotify, TIDAL, etc.)
 - Integrations with other platforms,
