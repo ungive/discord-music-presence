@@ -39,12 +39,12 @@ These are some of the most notable features
 > For detailed installation instructions read this document:
 > [**How to install and use Music Presence**](./documentation/installation-instructions.md)
 
-On macOS, you can also install Music Presence via Homebrew
+On macOS, you can also install Music Presence via
+[Homebrew](https://formulae.brew.sh/cask/music-presence#default)
 and get automatic updates:
 
 ```sh
-brew tap ungive/music-presence
-brew install music-presence
+$ brew install --cask music-presence
 ```
 
 Join our Discord: [**discord.gg/musicpresence**](https://discord.gg/musicpresence)

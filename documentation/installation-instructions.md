@@ -13,6 +13,14 @@ To install Music Presence, pick the right download for your platform:
 > *Click [**here**](#which-download-should-i-choose)*
 > *or scroll to the bottom of the page.*
 
+On macOS, you can also install Music Presence via
+[Homebrew](https://formulae.brew.sh/cask/music-presence#default)
+and get automatic updates:
+
+```sh
+$ brew install --cask music-presence
+```
+
 Continue reading for detailed instructions on how to install your download.
 
 After installing the app for the first time,
