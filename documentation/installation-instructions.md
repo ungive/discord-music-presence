@@ -45,34 +45,16 @@ and you are good to go!
 
 ## Mac
 
-Installation on Mac can be a little more tricky, especially on macOS Sequoia.
+To install the app, mount the downloaded DMG file,
+drag the app into your applications folder and double-click it,
+it should open right-away after confirming that you want to open
+an app that was downloaded from the internet.
 
-At this time your Mac won't be able to
-"identify the developer" of Music Presence
-because the application is not signed by me yet.
-You might get a dialog that says one of the following things (in quotes):
+To start Music Presence whenever you log in to your computer,
+select it as a login item in your system settings.
 
-> "Music Presence cannot be opened because it is from an unidentified developer"
-
-In this case it should be enough to hold down your Control key
-while you right-click the app and click Open,
-and then click Open again in the popup window that appears.
-
-Alternatively you can navigate to your system settings,
-go to Privacy & Security and there should be an option to "open anyway".
-If not, try opening Music Presence again
-and see if you can click "open anyway" now.
-
-> "Music Presence is damaged and can't be opened"
-
-This is macOS Sequoia or newer "quarantining" any download it can't verify.
-In reality the file is *not* damaged and it *can* be opened,
-macOS is just trying to protect you from malicious downloads
-in a rather questionable way that puts you out of control.
-
-To work around this, please check the following help article:
-
-- https://discussions.apple.com/thread/253714860?sortBy=rank
+Since version 2.3.1, Music Presence for Mac
+is signed and notarized with my Apple Developer ID.
 
 ## After installation
 
@@ -90,11 +72,14 @@ On Mac it should appear in your system tray as well:
 
 ![Music Presence in the Mac tray menu](../assets/tray-mac.png)
 
-Right-click on the icon to open the settings,
-the rest should be straight-forward!
+Clicking on the icon will open a small menu.
+Play some media with your favourite media player
+and see if it appears in that menu.
+Most media players should work right out of the box.
 
 If your media player is not detected,
-please read the troubleshooting guide [**here**](./troubleshooting.md).
+please read the troubleshooting guide [**here**](./troubleshooting.md)
+or click on "Help" > "Something is not working" in the Music Presence menu.
 
 ## Which download should I choose?
 
@@ -127,11 +112,11 @@ Or open an issue here:
 You can make a small monthly donation to help with
 making the installation experience more straightforward and less involved,
 especially for Mac users.
-Your donation would allow me to:
+Your donation helps with:
 
-- Get an Apple Developer account (99 USD a year) to sign macOS builds
-  and completely remove the above errors.
-  Also allows me to add animated album art for Apple Music
+- Maintaining the costs for my Apple Developer account (99 USD a year)
+  to sign and notarize macOS builds
+  and maintain animated album covers for Apple Music
   ([#23](https://github.com/ungive/discord-music-presence/issues/123))
 - At some point get a Windows signing certificate
   (prices vary, but certificates cost multiple hundred dollars a year).
