@@ -5,7 +5,6 @@ Follow this guide step-by-step to troubleshoot your issue.
 * [Check your Discord settings first](#check-your-discord-settings-first)
 * [Media players that don't work out of the box](#media-players-that-dont-work-out-of-the-box)
 * [Web versions of streaming services are not supported yet](#web-versions-of-streaming-services-are-not-supported-yet)
-* [Reinstall your media player](#reinstall-your-media-player)
 * [The player is detected, but still no status](#the-player-is-detected-but-still-no-status)
 * [Are you running Discord as administrator?](#are-you-running-discord-as-administrator)
 * [Other edge cases](#other-edge-cases)
@@ -13,6 +12,7 @@ Follow this guide step-by-step to troubleshoot your issue.
 * [Your media player does not integrate with your operating system](#your-media-player-does-not-integrate-with-your-operating-system)
 * [Reporting a different problem](#reporting-a-different-problem)
 * [Edge cases](#edge-cases)
+    * [Fully reinstall your media player](#fully-reinstall-your-media-player)
     * [Custom Windows ISO installs may interfere](#custom-windows-iso-installs-may-interfere)
     * [Windows tweaks may interfere](#windows-tweaks-may-interfere)
     * [Windows 10 or later is needed](#windows-10-or-later-is-needed)
@@ -60,21 +60,6 @@ what website the media is being played on,
 which makes it impossible to determine the source.
 Support for browsers will arrive
 [in a future update](https://github.com/ungive/discord-music-presence/issues/5).
-
-## Reinstall your media player
-
-if you are having issues with your media player being detected,
-you could try to reinstall it. You may need to remove
-all traces of your media player in `%APPDATA%` to
-reinstall properly.
-
-If you are using Spotify on Windows
-and your player is not detected, this
-should help. Remove all traces of 
-Spotify in `%APPDATA%\Spotify` and 
-try again.
-
-If that did not help, continue reading to the next section.
 
 ## The player is detected, but still no status
 
@@ -166,6 +151,17 @@ If you have a different issue, please open a
 or join the [Discord server](https://discord-invite.musicpresence.app).
 
 ## Edge cases
+
+#### Fully reinstall your media player
+
+If you are having issues with your media player being detected,
+you could try to reinstall it. You may need to remove
+all traces of your media player in `%APPDATA%` to
+reinstall properly. In case you are using **Spotify on Windows**
+and your player is not detected, this
+could definitely help. Remove all traces of 
+Spotify in `%APPDATA%\Spotify` and 
+try again.
 
 #### Custom Windows ISO installs may interfere
 
