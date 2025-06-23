@@ -56,13 +56,11 @@ body:
       label: Device Info
       description: |
         **Please complete the following information**
-        - Discord Music Presence version: [e.g. 2.0.0]
-        - Operating system: [e.g. Windows]
-        - The media player you used (if applicable): [e.g. Spotify]
       value: |
-        - Discord Music Presence version: [e.g. 2.0.0]
-        - Operating system: [e.g. Windows]
+        - Music Presence version: [e.g. 2.0.0]
+        - Operating system and version: [e.g. Windows 11 or macOS Sequoia]
         - The media player you used (if applicable): [e.g. Spotify]
+        - Is the media player a desktop application? [Yes or no]
     validations:
       required: true
   - type: textarea
