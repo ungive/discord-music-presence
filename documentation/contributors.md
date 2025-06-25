@@ -10,7 +10,7 @@ Over the steady months of development, many users have contributed to many of Mu
 
 ## Recurring Donators
 - NocFA  
-- mercurialworld  
+- [mercurialworld](https://github.com/mercurialworld)
 - MoonLi  
 - Regor  
 - BluGiant  
@@ -31,6 +31,7 @@ Over the steady months of development, many users have contributed to many of Mu
 - courtney  
 - [DJSng](https://github.com/DJS4gnx)  
 - [NocFA](https://github.com/NocFA)  
+- [mercurialworld](https://github.com/mercurialworld)  
 
 # External Tools
 (to-do: should this be on readme.md instead?)
