@@ -26,6 +26,10 @@ Over the steady months of development, many users have contributed to many of Mu
 # Beta Testers
 (to-do: painstakingly list all the beta testers... but i don't wannaaaaa)
 
+- courtney  
+- DJSng  
+- NocFA  
+
 # External Tools
 (to-do: should this be on readme.md instead?)
 
