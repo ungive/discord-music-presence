@@ -29,8 +29,8 @@ Over the steady months of development, many users have contributed to many of Mu
 (to-do: painstakingly list all the beta testers... but i don't wannaaaaa)
 
 - courtney  
-- DJSng  
-- NocFA  
+- [DJSng](https://github.com/DJS4gnx)  
+- [NocFA](https://github.com/NocFA)  
 
 # External Tools
 (to-do: should this be on readme.md instead?)
