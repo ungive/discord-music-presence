@@ -32,6 +32,11 @@ Over the steady months of development, many users have contributed to many of Mu
 - [DJSng](https://github.com/DJS4gnx)  
 - [NocFA](https://github.com/NocFA)  
 - [mercurialworld](https://github.com/mercurialworld)  
+- 21mtd  
+- Snyri  
+- Stap  
+- Ayra  
+- Flawless
 
 # External Tools
 (to-do: should this be on readme.md instead?)
