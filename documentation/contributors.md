@@ -17,10 +17,12 @@ Over the steady months of development, many users have contributed to many of Mu
 - chrastoph  
 - Moe  
 - Mozoa  
+
+
 (to-do: list more, change how this is formatted?, credit by github name / preferred website)
 
 ## One-time donators
-- [DJSng](https://github.com/DJS4gnx): $10
+- [DJSng](https://github.com/DJS4gnx): $10  
 (to-do: maybe don't list the cash value? it might incentivise people to pay to the top. also, maybe list *just* donators, don't specify if they donate monthly or only made a one-time donation)
 
 # Beta Testers
