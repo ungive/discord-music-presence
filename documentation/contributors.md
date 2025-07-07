@@ -138,6 +138,17 @@ and [@VZCE](https://github.com/VZCE).
 
 Thinking back, great memories were made creating the first version of Music Presence with your translations.
 
+## Beta testers
+
+A big thank you to everyone who puts the work in to beta test the app,
+when the next big update comes around.
+The following people have found critical or substantial bugs
+before the next release which helped in making sure the app is stable before the release:
+
+- [@DJSng106](https://github.com/DJSng106) also known as "Crash Pilot"
+- [@jesssicabin](https://github.com/jesssicabin) also known as "Music Connoisseur"
+- And a lot more people...
+
 ## Discord server moderators
 
 Thank you to the following people who are actively moderating the Discord server:
@@ -146,7 +157,11 @@ Thank you to the following people who are actively moderating the Discord server
 - [@VZCE](https://github.com/VZCE)
 - [@NocFA](https://github.com/NocFA)
 
-You guys help me with not having to focus on everything 
+You guys help me with not having to focus on everything all at once by myself.
+
+Also big thank you to all past server moderators:
+
+- [@DJSng106](https://github.com/DJSng106)
 
 ## Active Discord server members
 
