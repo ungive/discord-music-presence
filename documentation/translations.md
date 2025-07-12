@@ -89,6 +89,12 @@ Please take note of all the points in this guide before translating.
 - As a rule of thumb, simply always copy the text to translate into the translation box, then replace the English text with text in your language and never modify `{...}` or HTML tags.
 - Some translation strings might have "Needs editing" checked. In that case verify the translations, modify it, if it needs correction, then uncheck the checkbox and save your changes.
 - Translate the word "presence" or "Presence", which stands for "Discord presence", "Discord activity" or "Discord status", to a suitable word that is used frequently by you and other Discord users that speak your language to describe the "Listening to" status on your profile. If you need inspiration, the official Discord Support site can be helpful, you can select a language at the top of the page: https://support.discord.com/hc/en-us/articles/7931156448919-Activity-Status-Recent-Activity
+- With translations that say in their note "Activity type:" and "IMPORTANT"
+  please read the note fully. For the activity types ("Listening", "Playing", etc.)
+  you should not translate manually, but use Discord's translation.
+  Change the Discord language, switch your status to the different activity types,
+  then copy the translation text over and replace any dynamic/changing text
+  that's specific to the song/media/player with an ellipsis: &#8230;
 
 ### Talk to other translators
 
