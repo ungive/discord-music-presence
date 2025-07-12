@@ -2,25 +2,49 @@
 
 ## 2.3.2
 
-- Added "Listening to Artist" and "Listening to Song title"
-  where the name of the artist and the name of the song/media is shown.
-  This shows the entire line that contains the artist/title,
-  keep that in mind.
-  See [#229](https://github.com/ungive/discord-music-presence/issues/229)
-- Added "Watching" activity type. This can be set per player individually.
-  See [#297](https://github.com/ungive/discord-music-presence/issues/297)
-- Updated mediaremote-adapter to v0.4.1. Fixes [#306](https://github.com/ungive/discord-music-presence/issues/306)
-- Fixed a rare deadlock within the media processing pipeline
-- New languages: Hebrew (HE), Belarusian (BE), Turkish (TR)
-- Improved length limit handling of strings sent via Discord RPC.
-  All strings that are too long or too short are truncated now
-  with a proper warning in the log file
+- Added "Listening to Artist" and "Listening to Title" options,
+  which show the name of the artist or the title of the media/song respectively.
+  You can configure this with the "Display text" setting
+  in the Discord appearance settings.
+  Note that this shows the entire line that contains the artist or title.
+  For new users the artist name is shown by default,
+  but if you are updating, you have to set this manually.
+  You can change this setting for each player individually.
+  A big thank you to [@lew](https://github.com/foxfirecodes)
+  and [@advaith](https://github.com/advaith1)
+  for implementing and pushing the
+  [relevant change](https://github.com/discord/discord-api-docs/pull/7674)
+  in the Discord API!
+  Implements [#229](https://github.com/ungive/discord-music-presence/issues/229)
+  - You can also configure if the media player name or the media type
+    shows in your profile with the "Profile display text" setting.
+    This setting is only relevant when you select
+    "Artist line" or "Title line" for "Display text"
+- Removed the "Show 'Music' instead of the player name" setting
+  in favor of the "Media type" option under the "Display text" setting.
+  If you had "Music" enabled before then the "Media type" option
+  is selected by default for you.
+  You can change this setting for each player individually.
+- Added the "Watching" activity type.
+  Right now you have to set this manually for every player
+  and "Listening" is still the default,
+  but in the future I'll add proper defaults for video players and such.
+  Implements [#297](https://github.com/ungive/discord-music-presence/issues/297)
+- Bug fixes and improvements
+  - Updated [mediaremote-adapter](https://github.com/ungive/mediaremote-adapter)
+    to v0.4.1 which fixes a rare fatal error that caused media detection to stop until restarting the app.
+    Fixes [#306](https://github.com/ungive/discord-music-presence/issues/306)
+  - Improved length limit handling of strings sent via Discord RPC.
+    All strings that are too long or too short are truncated/adjusted now
+    with a proper warning in the log file.
+    Fixed truncated URLs being malformed,
+    which caused setting the status to fail (happened often with Apple Music)
+  - Fixed a rare deadlock within the media processing pipeline
+- Languages
+  - Added Turkish / Türkçe &nbsp;—&nbsp; Thank you [yura](https://github.com/yurabyte) and [Cane](https://github.com/caneabi)
+  - Added Belarusian / беларуская &nbsp;—&nbsp; Thank you [owl](https://github.com/thaiowl)
+  - Added Hebrew / עברית &nbsp;—&nbsp; Thank you [Macro](https://github.com/qadqod)
 
-TODO Convert notes  
-TODO Reference issues  
-TODO Thank Discord interns for implementing the RPC updates  
-TODO Put each change into categories  
-TODO Properly credit translators  
 TODO Mention new players  
 
 ## 2.3.1
