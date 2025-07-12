@@ -11,7 +11,7 @@ or moderating the Discord server and helping new users.
 Without you the app would be lacking a soul
 and I would feel much less proud of our community.
 
-Last updated: 08.07.2025
+Last updated: 12.07.2025
 
 ## Sponsors
 
@@ -93,6 +93,7 @@ Thank you to all of these people:
 | [@21mtd](https://github.com/21mtd) | [vi](https://translate.codeberg.org/projects/music-presence/desktop-application/vi) |
 | [@ayovu](https://github.com/ayovu) | [ru](https://translate.codeberg.org/projects/music-presence/desktop-application/ru), [uk](https://translate.codeberg.org/projects/music-presence/desktop-application/uk) |
 | [@CluBstep77](https://github.com/CluBstep77) | [fr](https://translate.codeberg.org/projects/music-presence/desktop-application/fr) |
+| [@caneabi](https://github.com/caneabi) | [tr](https://translate.codeberg.org/projects/music-presence/desktop-application/tr) |
 | [@cobra525](https://github.com/cobra525) | [hu](https://translate.codeberg.org/projects/music-presence/desktop-application/hu) |
 | [@coderheck](https://github.com/coderheck) | [vi](https://translate.codeberg.org/projects/music-presence/desktop-application/vi) |
 | [@ekimeister](https://github.com/ekimeister) | [fi](https://translate.codeberg.org/projects/music-presence/desktop-application/fi) |
@@ -109,10 +110,12 @@ Thank you to all of these people:
 | [@mozoarella](https://github.com/mozoarella) | [nl](https://translate.codeberg.org/projects/music-presence/desktop-application/nl) |
 | [@naturbrilian](https://github.com/naturbrilian) | [id](https://translate.codeberg.org/projects/music-presence/desktop-application/id) |
 | [@pascal-00](https://github.com/pascal-00) | [it](https://translate.codeberg.org/projects/music-presence/desktop-application/it) |
+| [@qadqod](https://github.com/qadqod) | [he](https://translate.codeberg.org/projects/music-presence/desktop-application/he) |
 | [@Snyri](https://github.com/Snyri) | [it](https://translate.codeberg.org/projects/music-presence/desktop-application/it) |
 | SoundBlaster1998 | [pt-PT](https://translate.codeberg.org/projects/music-presence/desktop-application/pt-PT) |
 | [@scar1jpg](https://github.com/scar1jpg) | [pl](https://translate.codeberg.org/projects/music-presence/desktop-application/pl) |
 | [@stegmann-tibor](https://github.com/stegmann-tibor) | [sk](https://translate.codeberg.org/projects/music-presence/desktop-application/sk) |
+| [@thaiowl](https://github.com/thaiowl) | [be](https://translate.codeberg.org/projects/music-presence/desktop-application/be) |
 | [@thijmi](https://github.com/thijmi) | [af](https://translate.codeberg.org/projects/music-presence/desktop-application/af), [ko](https://translate.codeberg.org/projects/music-presence/desktop-application/ko), [ja](https://translate.codeberg.org/projects/music-presence/desktop-application/ja), [nl](https://translate.codeberg.org/projects/music-presence/desktop-application/nl) |
 | [@ungive](https://github.com/ungive) | [de](https://translate.codeberg.org/projects/music-presence/desktop-application/de) |
 | [@VZCE](https://github.com/VZCE) | [fr](https://translate.codeberg.org/projects/music-presence/desktop-application/fr) |
