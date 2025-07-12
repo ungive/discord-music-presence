@@ -108,7 +108,7 @@ TODO Mention new players
     due to not being put out of idling
 - Languages
   - Added Arabic / العربية &nbsp;—&nbsp; Thank you [Mystic](https://github.com/Mysticnotthemighty)
-  - Added Portuguese (Portugal) / português europeu &nbsp;—&nbsp; Thank you [SoundBlaster1998]()
+  - Added Portuguese (Portugal) / português europeu &nbsp;—&nbsp; Thank you [SoundBlaster1998](https://github.com/SoundBlaster1998)
 - Added media players
   - Windows: QQ Music (QQ音乐), Screenbox, Stream Music, WSA (Windows Subsystem for Android), YesPlayMusic (NetEase Cloud Music, 网易云音乐)
   - Mac: Cog, DaftCloud, Plexamp, Submariner
