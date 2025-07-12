@@ -1,5 +1,28 @@
 # Changelog
 
+## 2.3.2
+
+- Added "Listening to Artist" and "Listening to Song title"
+  where the name of the artist and the name of the song/media is shown.
+  This shows the entire line that contains the artist/title,
+  keep that in mind.
+  See [#229](https://github.com/ungive/discord-music-presence/issues/229)
+- Added "Watching" activity type. This can be set per player individually.
+  See [#297](https://github.com/ungive/discord-music-presence/issues/297)
+- Updated mediaremote-adapter to v0.4.1. Fixes [#306](https://github.com/ungive/discord-music-presence/issues/306)
+- Fixed a rare deadlock within the media processing pipeline
+- New languages: Hebrew (HE), Belarusian (BE), Turkish (TR)
+- Improved length limit handling of strings sent via Discord RPC.
+  All strings that are too long or too short are truncated now
+  with a proper warning in the log file
+
+TODO Convert notes  
+TODO Reference issues  
+TODO Thank Discord interns for implementing the RPC updates  
+TODO Put each change into categories  
+TODO Properly credit translators  
+TODO Mention new players  
+
 ## 2.3.1
 
 - Added a settings window to replace the three menus in the tray
