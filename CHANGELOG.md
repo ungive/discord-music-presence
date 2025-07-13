@@ -2,44 +2,70 @@
 
 ## 2.3.2
 
-- Added "Listening to Artist" and "Listening to Title" options,
-  which show the name of the artist or the title of the media/song respectively.
-  You can configure this with the "Display text" setting
+- Added "Listening to Artist" and "Listening to Title" options to the settings,
+  which show the name of the artist or the media title
+  in the text under your name respectively.
+  This setting is located under the "Display text" setting
   in the Discord appearance settings.
   Note that this shows the entire line that contains the artist or title.
-  For new users the artist name is shown by default,
-  but if you are updating, you have to set this manually.
-  You can change this setting for each player individually.
-  A big thank you to [@lew](https://github.com/foxfirecodes)
-  and [@advaith](https://github.com/advaith1)
-  for implementing and pushing the
-  [relevant change](https://github.com/discord/discord-api-docs/pull/7674)
-  in the Discord API!
   Implements [#229](https://github.com/ungive/discord-music-presence/issues/229)
   - You can also configure if the media player name or the media type
-    shows in your profile with the "Profile display text" setting.
-    This setting is only relevant when you select
+    shows in the activity on your profile card
+    with the "Profile display text" setting.
+    This is only relevant when you select
     "Artist line" or "Title line" for "Display text"
-- Removed the "Show 'Music' instead of the player name" setting
-  in favor of the "Media type" option under the "Display text" setting.
-  If you had "Music" enabled before then the "Media type" option
-  is selected by default for you.
-  You can change this setting for each player individually.
-- Added the "Watching" activity type.
-  Right now you have to set this manually for every player
-  and "Listening" is still the default,
-  but in the future I'll add proper defaults for video players and such.
+  - For new users the artist name is shown by default,
+    but if you are updating, you have to set this manually.
+    You can change this setting for each player individually.
+  - Thank you to [@lew](https://github.com/foxfirecodes)
+    and [@advaith](https://github.com/advaith1)
+    for implementing and pushing the
+    [needed changes](https://github.com/discord/discord-api-docs/pull/7674)
+    in the Discord API!
+- Added an "Activity type" setting
+  which lets you choose between "Listening", "Watching" and "Playing".
+  Currently all players use "Listening" by default.
+  Better defaults for video players will be added in a future update.
   Implements [#297](https://github.com/ungive/discord-music-presence/issues/297)
-- Bug fixes and improvements
-  - Updated [mediaremote-adapter](https://github.com/ungive/mediaremote-adapter)
-    to v0.4.1 which fixes a rare fatal error that caused media detection to stop until restarting the app.
-    Fixes [#306](https://github.com/ungive/discord-music-presence/issues/306)
+- Added settings under the "Discord" category:
+  You can now see all enabled media players at once
+  and enable or disable them without having to play media first.
+  Players can also be disabled by default
+  and you can reset all player states back to their default setting.
+  This should make it much clearer what media will be shared and which won't.
+  Implements [#300](https://github.com/ungive/discord-music-presence/issues/300)
+- Bug fixes and other small improvements
+  - Added a toggle "Never show podcasts" to the Spotify settings
+    to filter out podcasts
+    for better feature-parity with the official Spotify integration.
+    Implements [#314](https://github.com/ungive/discord-music-presence/issues/314)
+  - Spotify podcasts now show the album name
+    in the "state" or "details" fields (first or second line)
+    instead of "large_image_text" field (hover text of the large image).
+    This allows you to swap the episode name and podcast name
+    or show them on the same line and shows the podcast name
+    when "Artist line" is selected under "Display text".
+    Enabling "Show the album name when the artist is missing"
+    basically treats the album name as if it is the artist now
   - Improved length limit handling of strings sent via Discord RPC.
     All strings that are too long or too short are truncated/adjusted now
     with a proper warning in the log file.
-    Fixed truncated URLs being malformed,
-    which caused setting the status to fail (happened often with Apple Music)
+    Also fixed truncated URLs always being malformed,
+    which caused setting the status to fail
+    (happened often when using the iTunes API)
+  - Updated [mediaremote-adapter](https://github.com/ungive/mediaremote-adapter)
+    to v0.4.1 which fixes a rare fatal error that caused media detection to stop until restarting the app.
+    Fixes [#306](https://github.com/ungive/discord-music-presence/issues/306)
   - Fixed a rare deadlock within the media processing pipeline
+  - Added an "Enable presence" setting to the "Discord" settings category
+  - Removed the "Show 'Music' instead of the player name" setting
+    in favor of the "Media type" option under the "Display text" setting.
+    If you had "Music" enabled before then the "Media type" option
+    is selected automatically for you
+  - Removed the "Display your status as a 'Playing' activity" setting
+    in favor of the new "Activity type" setting.
+    If you had this enabled, then the "Playing" option
+    is selected automatically for you.
 - Languages
   - Added Turkish / Türkçe &nbsp;—&nbsp; Thank you [yura](https://github.com/yurabyte) and [Cane](https://github.com/caneabi)
   - Added Belarusian / беларуская &nbsp;—&nbsp; Thank you [owl](https://github.com/thaiowl)
