@@ -17,8 +17,8 @@
   - For new users the artist name is shown by default,
     but if you are updating, you have to set this manually.
     You can change this setting for each player individually.
-  - Thank you to [@lew](https://github.com/foxfirecodes)
-    and [@advaith](https://github.com/advaith1)
+  - Thank you to [@foxfirecodes](https://github.com/foxfirecodes)
+    and [@advaith1](https://github.com/advaith1)
     for implementing and pushing the
     [needed changes](https://github.com/discord/discord-api-docs/pull/7674)
     in the Discord API!
