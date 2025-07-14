@@ -1,4 +1,3 @@
-[![Upvote Music Presence on peerlist.io until July 13, 2025](./assets/banner-peerlist-live.png)](https://github.com/ungive/discord-music-presence/issues/330)
 ![Screenshot of the application in the tray menu and the Discord status](./assets/banner.png)
 
 [![Number of GitHub stars](https://img.shields.io/github/stars/ungive/discord-music-presence?style=flat&label=Stars&logo=github&labelColor=444&color=DAAA3F&cacheSeconds=3600)](https://star-history.com/#ungive/discord-music-presence&Date)
@@ -166,7 +165,7 @@ I'm usually very active there and respond to messages rather quickly.
 
 Links to other places on the internet that mention Music Presence
 
-- 07.07.2025&nbsp; **Peerlist**&nbsp; [Music Presence ranked #2 on Launchpad with 191 upvotes &ndash; **You can still upvote!**](https://peerlist.io/launchpad/2025/week/28)
+- 07.07.2025&nbsp; **Peerlist**&nbsp; [Music Presence ranked #2 on <ins>Peerlist's Launchpad</ins> with the most upvotes](https://peerlist.io/launchpad/2025/week/28)
 - 27.06.2025&nbsp; **r/discordapp**&nbsp; [Share any music player as a Discord activity with my tool Music Presence](https://www.reddit.com/r/discordapp/comments/1lloumc)
 - 17.12.2024&nbsp; **Wotaku Wiki**&nbsp; [Featured on <ins>wotaku.wiki</ins> under Music](https://wotaku.wiki/music#misc)
 - 14.11.2024&nbsp; **freemediaheckyeah**&nbsp; [Featured on <ins>fmhy.net</ins> under Client Customization](https://fmhy.net/social-media-tools#client-customization)
