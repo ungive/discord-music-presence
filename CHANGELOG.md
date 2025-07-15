@@ -34,6 +34,13 @@
   and you can reset all player states back to their default setting.
   This should make it much clearer what media will be shared and which won't.
   Implements [#300](https://github.com/ungive/discord-music-presence/issues/300)
+- Added animated album covers for Apple Music.
+  If you play a song that has such a cover in the Apple Music app,
+  then it should appear in your status as well,
+  if you have the Apple Music API enabled under "Services" in the settings.
+  This is enabled by default.
+  Powered by [ungive/video-conversion-service](https://github.com/ungive/video-conversion-service).
+  Implements [#123](https://github.com/ungive/discord-music-presence/issues/123)
 - Bug fixes and other small improvements
   - Added a toggle "Never show podcasts" to the Spotify settings
     to filter out podcasts
@@ -56,6 +63,10 @@
   - Updated [mediaremote-adapter](https://github.com/ungive/mediaremote-adapter)
     to v0.4.1 which fixes a rare fatal error that caused media detection to stop until restarting the app.
     Fixes [#306](https://github.com/ungive/discord-music-presence/issues/306)
+  - Fixed use of the beta TIDAL API to accomodate for the
+    [breaking changes](https://github.com/orgs/tidal-music/discussions/170)
+    made on June 16. Requests to it are now about 2x slower because
+    of [another likely uncircumventable roundtrip](https://github.com/orgs/tidal-music/discussions/170#discussioncomment-13751140) to get cover artworks
   - Fixed a rare deadlock within the media processing pipeline
   - Added an "Enable presence" setting to the "Discord" settings category
   - Removed the "Show 'Music' instead of the player name" setting
