@@ -5,7 +5,7 @@
 - Added "Listening to Artist" and "Listening to Title" options to the settings,
   which show the name of the artist or the media title
   in the text under your name respectively.
-  This setting is located under the "Display text" setting
+  This setting is located under the new "Display text" option
   in the Discord appearance settings.
   Note that this shows the entire line that contains the artist or title.
   Implements [#229](https://github.com/ungive/discord-music-presence/issues/229)
@@ -21,12 +21,14 @@
     and [@advaith1](https://github.com/advaith1)
     for implementing and pushing the
     [needed changes](https://github.com/discord/discord-api-docs/pull/7674)
-    in the Discord API!
+    in the Discord RPC API!
 - Added animated album covers for Apple Music.
   If you play a song that has such a cover in the Apple Music app,
   then it should appear in your status as well,
   if you have the Apple Music API enabled under "Services" in the settings.
   This is enabled by default.
+  This feature is experimental and may stop working in the future
+  or be removed until further notice.
   Powered by [ungive/video-conversion-service](https://github.com/ungive/video-conversion-service).
   Implements [#123](https://github.com/ungive/discord-music-presence/issues/123)
 - Added "Watching" as an option under the new "Activity type" setting.
@@ -44,13 +46,18 @@
   Implements [#300](https://github.com/ungive/discord-music-presence/issues/300)
 - Added new settings and improvements for external services and music APIs
   - Country codes are removed from links to streaming services in your status
-    and thereby don't reveal in which country you live anymore.
+    and thereby don't indirectly reveal in which country you live anymore.
     This is done on a best-effort basis as
     removing the country code is a [manual text replacement](https://github.com/ungive/discord-music-presence/issues/336#issuecomment-3075076617).
     Check your status for each streaming service, to be sure.
     If you see a country code in a link, please
     [report this](https://github.com/ungive/discord-music-presence/issues/new?template=bug.yml).
     Fixes [#336](https://github.com/ungive/discord-music-presence/issues/336)
+  - Added the Apple Music API as an alternative to the iTunes API
+    in the "Services" category of the settings. When updating,
+    the Apple Music API is enabled automatically inplace of the iTunes API.
+    This improves support for additional artists
+    and allows you to have animated album covers
   - Added a new settings category "Music API configuration" under "Services"
   - Added a setting "Send your country code"
     which uses your country code with music APIs.
