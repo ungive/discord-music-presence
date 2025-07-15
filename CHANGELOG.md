@@ -22,18 +22,6 @@
     for implementing and pushing the
     [needed changes](https://github.com/discord/discord-api-docs/pull/7674)
     in the Discord API!
-- Added an "Activity type" setting
-  which lets you choose between "Listening", "Watching" and "Playing".
-  Currently all players use "Listening" by default.
-  Better defaults for video players will be added in a future update.
-  Implements [#297](https://github.com/ungive/discord-music-presence/issues/297)
-- Added settings under the "Discord" category:
-  You can now see all enabled media players at once
-  and enable or disable them without having to play media first.
-  Players can also be disabled by default
-  and you can reset all player states back to their default setting.
-  This should make it much clearer what media will be shared and which won't.
-  Implements [#300](https://github.com/ungive/discord-music-presence/issues/300)
 - Added animated album covers for Apple Music.
   If you play a song that has such a cover in the Apple Music app,
   then it should appear in your status as well,
@@ -41,6 +29,36 @@
   This is enabled by default.
   Powered by [ungive/video-conversion-service](https://github.com/ungive/video-conversion-service).
   Implements [#123](https://github.com/ungive/discord-music-presence/issues/123)
+- Added "Watching" as an option under the new "Activity type" setting.
+  You can now choose between all available activity types:
+  "Listening", "Watching" and "Playing".
+  Currently all players use "Listening" by default.
+  Better defaults for video players will be added in a future update.
+  Implements [#297](https://github.com/ungive/discord-music-presence/issues/297)
+- Added new settings under the "Discord" category:
+  You can now see all enabled media players at once
+  and enable or disable them without having to play media first.
+  Players can also be disabled by default
+  and you can reset all player states back to their default setting.
+  This should make it much clearer what media will be shared and which won't.
+  Implements [#300](https://github.com/ungive/discord-music-presence/issues/300)
+- Added new settings and improvements for external services and music APIs
+  - Country codes are removed from links to streaming services in your status
+    and thereby don't reveal in which country you live anymore.
+    This is done on a best-effort basis as
+    removing the country code is a [manual text replacement](https://github.com/ungive/discord-music-presence/issues/336#issuecomment-3075076617).
+    Check your status for each streaming service, to be sure.
+    If you see a country code in a link, please
+    [report this](https://github.com/ungive/discord-music-presence/issues/new?template=bug.yml).
+    Fixes [#336](https://github.com/ungive/discord-music-presence/issues/336)
+  - Added a new settings category "Music API configuration" under "Services"
+  - Added a setting "Send your country code"
+    which uses your country code with music APIs.
+    This is required by some APIs and can improve search results
+    and might be needed to find certain songs
+    that are unavailable in other countries.
+    When disabled, "US" is used as a fallback
+    for APIs that require a country code
 - Bug fixes and other small improvements
   - Added a toggle "Never show podcasts" to the Spotify settings
     to filter out podcasts
@@ -67,6 +85,9 @@
     [breaking changes](https://github.com/orgs/tidal-music/discussions/170)
     made on June 16. Requests to it are now about 2x slower because
     of [another likely uncircumventable roundtrip](https://github.com/orgs/tidal-music/discussions/170#discussioncomment-13751140) to get cover artworks
+  - Fixed duplicate artists displaying in the status with the iTunes API.
+    This is only a limited fix because this API reports all artists combined in a single field.
+    Use the Apple Music API for better multi-artist support
   - Fixed a rare deadlock within the media processing pipeline
   - Added an "Enable presence" setting to the "Discord" settings category
   - Removed the "Show 'Music' instead of the player name" setting
