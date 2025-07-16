@@ -83,7 +83,8 @@
     When disabled, "US" is used as a fallback
     for APIs that require a country code.
     For this setting to take effect on previously listened to songs
-    you will need to restart the app or wait for the internal cache to clear
+    you will need to restart the app or wait for the internal cache to clear.
+    This is enabled by default.
     Part of [#332](https://github.com/ungive/discord-music-presence/issues/332)
     and [#336](https://github.com/ungive/discord-music-presence/issues/336)
 - Bug fixes and other small improvements
@@ -128,6 +129,11 @@
   - Fixed "Always show 'a Podcast' when listening to podcasts" not working for Deezer
   - Added an explanation for AppleScript automation to the "Advanced" settings on Mac. Implements [#308](https://github.com/ungive/discord-music-presence/issues/308)
   - Fixed crash when the updater fails to initialize (rarely happens)
+  - Fixed autostart being disabled on Windows
+    after uninstalling and reinstalling the app.
+    The autostart setting is now saved in settings.json
+    and restored when the app is reinstalled.
+    Fixes [#293](https://github.com/ungive/discord-music-presence/issues/293)
 - Languages
   - Added Turkish / Türkçe &nbsp;—&nbsp; Thank you [yura](https://github.com/yurabyte) and [Cane](https://github.com/caneabi)
   - Added Belarusian / беларуская &nbsp;—&nbsp; Thank you [owl](https://github.com/thaiowl)
