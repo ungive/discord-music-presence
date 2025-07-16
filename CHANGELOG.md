@@ -23,12 +23,13 @@
     [needed changes](https://github.com/discord/discord-api-docs/pull/7674)
     in the Discord RPC API!
 - Added animated album covers for Apple Music.
-  If you play a song that has such a cover in the Apple Music app,
-  then it should appear in your status as well,
-  if you have the Apple Music API enabled under "Services" in the settings.
-  This is enabled by default.
-  This feature is experimental and may stop working in the future
-  or be removed until further notice.
+  You need to enable this manually by checking "Get animated album covers"
+  in the new "Music API configuration" section of the "Services" category in the settings.
+  Animated album covers may take 10-20 seconds to load at the moment,
+  but this [will be improved](https://github.com/ungive/video-conversion-service/issues/1).
+  The "Apple Music API" must be enabled under "External services" for this to work.
+  This feature is **experimental** and may stop working in the future
+  or be removed entirely without notice.
   Powered by [ungive/video-conversion-service](https://github.com/ungive/video-conversion-service).
   Implements [#123](https://github.com/ungive/discord-music-presence/issues/123)
 - Added "Watching" as an option under the new "Activity type" setting.
@@ -45,6 +46,7 @@
   This should make it much clearer what media will be shared and which won't.
   Implements [#300](https://github.com/ungive/discord-music-presence/issues/300)
 - Added new settings and improvements for external services and music APIs
+  - Added a new settings category "Music API configuration" under "Services"
   - Country codes are removed from links to streaming services in your status
     and thereby don't indirectly reveal in which country you live anymore.
     This is done on a best-effort basis as
@@ -55,17 +57,35 @@
     Fixes [#336](https://github.com/ungive/discord-music-presence/issues/336)
   - Added the Apple Music API as an alternative to the iTunes API
     in the "Services" category of the settings. When updating,
-    the Apple Music API is enabled automatically inplace of the iTunes API.
+    the Apple Music API is enabled automatically inplace of the iTunes API,
+    if the iTunes API was enabled before.
     This improves support for additional artists
     and allows you to have animated album covers
-  - Added a new settings category "Music API configuration" under "Services"
+  - Added the "Get additional artists" setting to control
+    if all artists for a song are retrieved from music APIs
+    and shown in your status.
+    Part of [#332](https://github.com/ungive/discord-music-presence/issues/332)
+  - Added the "Get album cover images" setting to control
+    whether cover images are retrieved from music APIs and used in your status.
+    Cover images from media players are not used when this is enabled
+    Part of [#332](https://github.com/ungive/discord-music-presence/issues/332)
+  - Added the "Guess the album when it's missing" setting
+    for the case when a media player does not report the album name.
+    The album name is then guessed.
+    This must be enabled to show cover images retrieved from music APIs
+    for players that do not report the album name, e.g. TIDAL on Windows
+    Part of [#332](https://github.com/ungive/discord-music-presence/issues/332)
   - Added a setting "Send your country code"
     which uses your country code with music APIs.
     This is required by some APIs and can improve search results
     and might be needed to find certain songs
     that are unavailable in other countries.
     When disabled, "US" is used as a fallback
-    for APIs that require a country code
+    for APIs that require a country code.
+    For this setting to take effect on previously listened to songs
+    you will need to restart the app or wait for the internal cache to clear
+    Part of [#332](https://github.com/ungive/discord-music-presence/issues/332)
+    and [#336](https://github.com/ungive/discord-music-presence/issues/336)
 - Bug fixes and other small improvements
   - Added a toggle "Never show podcasts" to the Spotify settings
     to filter out podcasts
@@ -86,7 +106,7 @@
     which caused setting the status to fail
     (happened often when using the iTunes API)
   - Updated [mediaremote-adapter](https://github.com/ungive/mediaremote-adapter)
-    to v0.4.1 which fixes a rare fatal error that caused media detection to stop until restarting the app.
+    to v0.4.2 which fixes a rare fatal error that caused media detection to stop until restarting the app.
     Fixes [#306](https://github.com/ungive/discord-music-presence/issues/306)
   - Fixed use of the beta TIDAL API to accomodate for the
     [breaking changes](https://github.com/orgs/tidal-music/discussions/170)
@@ -105,6 +125,9 @@
     in favor of the new "Activity type" setting.
     If you had this enabled, then the "Playing" option
     is selected automatically for you.
+  - Fixed "Always show 'a Podcast' when listening to podcasts" not working for Deezer
+  - Added an explanation for AppleScript automation to the "Advanced" settings on Mac. Implements [#308](https://github.com/ungive/discord-music-presence/issues/308)
+  - Fixed crash when the updater fails to initialize (rarely happens)
 - Languages
   - Added Turkish / Türkçe &nbsp;—&nbsp; Thank you [yura](https://github.com/yurabyte) and [Cane](https://github.com/caneabi)
   - Added Belarusian / беларуская &nbsp;—&nbsp; Thank you [owl](https://github.com/thaiowl)
