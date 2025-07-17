@@ -20,8 +20,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut quis nunc luctus, mo
     or the media type shows in the activity on your profile card
     with the "Profile display text" setting
   - Thank you to [@foxfirecodes](https://github.com/foxfirecodes)
-    and [@advaith1](https://github.com/advaith1)
-    for [implementing this](https://github.com/discord/discord-api-docs/pull/7674)
+    and [@advaith1](https://github.com/advaith1) for
+    [making the necessary changes](https://github.com/discord/discord-api-docs/pull/7674)
     in the Discord API!
 - Added animated album covers for Apple Music.
   You need to enable this manually by checking "Get animated album covers"
