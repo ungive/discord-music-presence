@@ -2,26 +2,25 @@
 
 ## 2.3.2
 
-- Added "Listening to Artist" and "Listening to Title" options to the settings,
+- Added "Listening to Artist" and
+  "Listening to Title" options to the settings,
   which show the name of the artist or the media title
-  in the text under your name respectively.
+  in the text under your name respectively, instead of the player name.
   This setting is located under the new "Display text" option
-  in the Discord appearance settings.
+  in the Discord "Appearance" settings and is enabled by default.
   Note that this shows the entire line that contains the artist or title.
   Implements [#229](https://github.com/ungive/discord-music-presence/issues/229)
-  - You can also configure if the media player name or the media type
-    shows in the activity on your profile card
-    with the "Profile display text" setting.
-    This is only relevant when you select
-    "Artist line" or "Title line" for "Display text"
-  - For new users the artist name is shown by default,
-    but if you are updating, you have to set this manually.
-    You can change this setting for each player individually.
+  - You can always go back to showing the player name or "Music"
+    after "Listening to" by setting "Display text"
+    to "Player name" or "Media type" in the "Appearance" settings
+  - If you do show the artist or the title,
+    you can also configure whether the media player name
+    or the media type shows in the activity on your profile card
+    with the "Profile display text" setting
   - Thank you to [@foxfirecodes](https://github.com/foxfirecodes)
     and [@advaith1](https://github.com/advaith1)
-    for implementing and pushing the
-    [needed changes](https://github.com/discord/discord-api-docs/pull/7674)
-    in the Discord RPC API!
+    for [implementing this](https://github.com/discord/discord-api-docs/pull/7674)
+    in the Discord API!
 - Added animated album covers for Apple Music.
   You need to enable this manually by checking "Get animated album covers"
   in the new "Music API configuration" section of the "Services" category in the settings.
@@ -67,19 +66,22 @@
     Part of [#332](https://github.com/ungive/discord-music-presence/issues/332)
   - Added the "Get album cover images" setting to control
     whether cover images are retrieved from music APIs and used in your status.
-    Cover images from media players are not used when this is enabled
+    Cover images from media players are not used when this is enabled.
     Part of [#332](https://github.com/ungive/discord-music-presence/issues/332)
   - Added the "Guess the album when it's missing" setting
     for the case when a media player does not report the album name.
     The album name is then guessed.
     This must be enabled to show cover images retrieved from music APIs
-    for players that do not report the album name, e.g. TIDAL on Windows
+    for players that do not report the album name, e.g. TIDAL on Windows.
+    You can disable this if the wrong album name is showing in your status.
+    When incorrect album covers show,
+    you can try enabling "Always use local cover images" in the settings first.
     Part of [#332](https://github.com/ungive/discord-music-presence/issues/332)
   - Added a setting "Send your country code"
     which uses your country code with music APIs.
     This is required by some APIs and can improve search results
-    and might be needed to find certain songs
-    that are unavailable in other countries.
+    and might be needed to find songs
+    that are unavailable in certain countries.
     When disabled, "US" is used as a fallback
     for APIs that require a country code.
     For this setting to take effect on previously listened to songs
@@ -112,7 +114,8 @@
   - Fixed use of the beta TIDAL API to accomodate for the
     [breaking changes](https://github.com/orgs/tidal-music/discussions/170)
     made on June 16. Requests to it are now about 2x slower because
-    of [another likely uncircumventable roundtrip](https://github.com/orgs/tidal-music/discussions/170#discussioncomment-13751140) to get cover artworks
+    of [another likely uncircumventable roundtrip](https://github.com/orgs/tidal-music/discussions/170#discussioncomment-13751140)
+    to get cover artworks
   - Fixed duplicate artists displaying in the status with the iTunes API.
     This is only a limited fix because this API reports all artists combined in a single field.
     Use the Apple Music API for better multi-artist support
@@ -121,7 +124,7 @@
   - Removed the "Show 'Music' instead of the player name" setting
     in favor of the "Media type" option under the "Display text" setting.
     If you had "Music" enabled before then the "Media type" option
-    is selected automatically for you
+    is selected automatically for you under "Profile display text"
   - Removed the "Display your status as a 'Playing' activity" setting
     in favor of the new "Activity type" setting.
     If you had this enabled, then the "Playing" option
@@ -134,12 +137,13 @@
     The autostart setting is now saved in settings.json
     and restored when the app is reinstalled.
     Fixes [#293](https://github.com/ungive/discord-music-presence/issues/293)
-- Languages
+- New languages
   - Added Turkish / Türkçe &nbsp;—&nbsp; Thank you [yura](https://github.com/yurabyte) and [Cane](https://github.com/caneabi)
   - Added Belarusian / беларуская &nbsp;—&nbsp; Thank you [owl](https://github.com/thaiowl)
   - Added Hebrew / עברית &nbsp;—&nbsp; Thank you [Macro](https://github.com/qadqod)
-
-TODO Mention new players  
+- Added media players
+  - Windows: Bandcamp, Namida, Pandora
+  - Mac: Apple Books, Musicer
 
 ## 2.3.1
 
