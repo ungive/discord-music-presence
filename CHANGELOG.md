@@ -2,6 +2,8 @@
 
 ## 2.3.2
 
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut quis nunc luctus, mollis metus malesuada, mollis mi. Aenean aliquet rhoncus odio a rhoncus. Phasellus volutpat risus eu suscipit dignissim. Vestibulum sagittis felis sit amet sem laoreet, quis luctus odio vestibulum.
+
 - Added "Listening to Artist" and
   "Listening to Title" options to the settings,
   which show the name of the artist or the media title
