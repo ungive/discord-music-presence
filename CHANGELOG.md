@@ -10,10 +10,9 @@ You now also have the option to use the "Watching" activity type
 and I added new controls in the "Discord" and "Services" settings tabs.
 For Apple Music users there are also animated album covers now!
 
-Do you like Music Presence? Check out the new website
-[**musicpresence.app**](https://musicpresence.app?utm_source=app&utm_medium=changelog&utm_campaign=version-2.3.2)
-and consider
-[*donating*](https://musicpresence.app/donate?utm_source=app&utm_medium=changelog&utm_campaign=version-2.3.2).
+Do you like Music Presence? Consider
+[**donating**](https://musicpresence.app?utm_source=app&utm_medium=changelog&utm_campaign=version-2.3.2)
+to support the future of the app.
 I intend to work on Music Presence full-time
 to add scrobbling, browser support and listening along.
 More news on Sunday!
@@ -157,6 +156,7 @@ More news on Sunday!
   - Added Turkish / Türkçe &nbsp;—&nbsp; Thank you [yura](https://github.com/yurabyte) and [Cane](https://github.com/caneabi)
   - Added Belarusian / беларуская &nbsp;—&nbsp; Thank you [owl](https://github.com/thaiowl)
   - Added Hebrew / עברית &nbsp;—&nbsp; Thank you [Macro](https://github.com/qadqod)
+  - Added Chinese (Simplified) / 简体中文 &nbsp;—&nbsp; Thank you [Estarmel](https://translate.codeberg.org/user/Estarmel)
 - Added media players
   - Windows: Bandcamp, Namida, Pandora
   - Mac: Apple Books, Musicer
