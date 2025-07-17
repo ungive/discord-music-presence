@@ -133,7 +133,13 @@ A copy of the source code can be obtained at
     <https://github.com/altdesktop/playerctl>
 
 ungive/mediaremote-adapter  
-Licensed under the MIT License.  
+Licensed under the BSD-3-Clause license.  
 Copyright (c) 2025 Jonas van den Berg  
 A copy of the source code can be obtained at  
     <https://github.com/ungive/mediaremote-adapter>
+
+Thalhammer/jwt-cpp  
+Licensed under the MIT License.  
+Copyright (c) 2018 Dominik Thalhammer  
+A copy of the source code can be obtained at  
+    <https://github.com/Thalhammer/jwt-cpp>
