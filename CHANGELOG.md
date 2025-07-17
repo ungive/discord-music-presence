@@ -11,7 +11,7 @@ and I added new controls in the "Discord" and "Services" settings tabs.
 For Apple Music users there are also animated album covers now!
 
 Do you like Music Presence? Consider
-[**donating**](https://musicpresence.app?utm_source=app&utm_medium=changelog&utm_campaign=version-2.3.2)
+[donating](https://musicpresence.app?utm_source=app&utm_medium=changelog&utm_campaign=version-2.3.2)
 to support the future of the app.
 I intend to work on Music Presence full-time
 to add scrobbling, browser support and listening along.
