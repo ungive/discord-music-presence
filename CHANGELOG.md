@@ -149,6 +149,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut quis nunc luctus, mo
 
 ## 2.3.1
 
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut quis nunc luctus, mollis metus malesuada, mollis mi. Aenean aliquet rhoncus odio a rhoncus. Phasellus volutpat risus eu suscipit dignissim. Vestibulum sagittis felis sit amet sem laoreet, quis luctus odio vestibulum.
+
 - Added a settings window to replace the three menus in the tray
   - The "Appearance", "Player" and "Settings" menus are now removed
     and all settings that were accessible there
