@@ -232,7 +232,10 @@ This service is generally only used
 to complete Media Metadata from Media Players
 that stream media from **TIDAL**'s online services and no other Media Players.
 
-This service can be disabled in the settings of the Software.
+The use of this service can be disabled entirely
+in the settings of the Software.
+The country code of your device may be sent to improve search results,
+which can be also toggled in the settings of the Software.
 
 * **[TIDAL](https://tidal.com)**
   &ndash; [Privacy Policy](https://tidal.com/privacy)
@@ -249,7 +252,8 @@ This service is generally only used
 to complete Media Metadata from Media Players
 that stream media from **Deezer**'s online services and no other Media Players.
 
-This service can be disabled in the settings of the Software.
+The use of this service can be disabled entirely
+in the settings of the Software.
 
 * **[Deezer](https://www.deezer.com)**
   &ndash; [Privacy Policy](https://www.deezer.com/legal/personal-datas)
@@ -266,7 +270,10 @@ This service is generally only used
 to complete Media Metadata from Media Players
 that stream media from **Spotify**'s online services and no other Media Players.
 
-This service can be disabled in the settings of the Software.
+The use of this service can be disabled entirely
+in the settings of the Software.
+The country code of your device may be sent to improve search results,
+which can be also toggled in the settings of the Software.
 
 * **[Spotify](https://www.spotify.com/about-us)**
   &ndash; [Privacy Policy](https://www.spotify.com/legal/privacy-policy)
@@ -274,16 +281,21 @@ This service can be disabled in the settings of the Software.
 ### Apple
 
 Media Metadata may be sent to **Apple**, more specifically the
+[Apple Music API](https://developer.apple.com/documentation/applemusicapi)
+and the
 [iTunes API](https://developer.apple.com/library/archive/documentation/AudioVideo/Conceptual/iTuneSearchAPI),
 to complete Media Metadata that is lacking song, track or video information
 and to get more information about the media that is playing
 from their online music database.
 
-This service is generally only used
+These services are generally only used
 to complete Media Metadata from Media Players
 that stream media from **Apple**'s online services and no other Media Players.
 
-This service can be disabled in the settings of the Software.
+The use of these services can be disabled entirely
+in the settings of the Software.
+The country code of your device may be sent to improve search results,
+which can be also toggled in the settings of the Software.
 
 * **[Apple](https://www.apple.com)**
   &ndash; [Privacy Policy](https://www.apple.com/privacy)
@@ -454,7 +466,7 @@ by clicking the respective button in the Tray Menu.
 
 ## Scope of this privacy policy
 
-This document applies to version 2.3.1 of Music Presence and that version only.
+This document applies to version 2.3.2 of Music Presence and that version only.
 
 ## Changes to this privacy policy
 
@@ -462,7 +474,7 @@ This privacy policy is kept under regular review.
 Any updates are placed into this file in this repository.
 The last update to this policy is stated below.
 
-Last updated on 13 June 2025.  
+Last updated on 17 July 2025.  
 This does not include changes to the scope of this privacy policy.
 
 ## Contact details
