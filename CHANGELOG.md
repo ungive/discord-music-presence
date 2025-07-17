@@ -8,7 +8,7 @@ the artist you are listening to or even the title of the song
 after the "Listening to" text under your name.
 You now also have the option to use the "Watching" activity type
 and I added new controls in the "Discord" and "Services" settings tabs.
-For Apple Music users there are also animated album covers now!
+For Apple Music users, there are also animated album covers now!
 
 Do you like Music Presence? Consider
 [donating](https://musicpresence.app?utm_source=app&utm_medium=changelog&utm_campaign=version-2.3.2)
