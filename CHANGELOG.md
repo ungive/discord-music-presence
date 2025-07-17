@@ -2,6 +2,22 @@
 
 ## 2.3.2
 
+This update comes with a feature many of you waited for:
+"Listening to Artist"! Instead of the player name you can now show
+the artist you are listening to or even the title of the song
+after the "Listening to" text under your name.
+You now also have the option to use the "Watching" activity type
+and I added new controls in the "Discord" and "Services" settings tabs.
+For Apple Music users there are also animated album covers now!
+
+Do you like Music Presence? Check out the new website
+[**musicpresence.app**](https://musicpresence.app?utm_source=app&utm_medium=changelog&utm_campaign=version-2.3.2)
+and consider
+[**donating**](https://musicpresence.app/donate?utm_source=app&utm_medium=changelog&utm_campaign=version-2.3.2).
+I intend to work on Music Presence full-time
+to add scrobbling, browser support and listening along.
+More news on Sunday!
+
 - Added "Listening to Artist" and
   "Listening to Title" options to the settings,
   which show the name of the artist or the media title
