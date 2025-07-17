@@ -13,7 +13,7 @@ For Apple Music users there are also animated album covers now!
 Do you like Music Presence? Check out the new website
 [**musicpresence.app**](https://musicpresence.app?utm_source=app&utm_medium=changelog&utm_campaign=version-2.3.2)
 and consider
-[**donating**](https://musicpresence.app/donate?utm_source=app&utm_medium=changelog&utm_campaign=version-2.3.2).
+[*donating*](https://musicpresence.app/donate?utm_source=app&utm_medium=changelog&utm_campaign=version-2.3.2).
 I intend to work on Music Presence full-time
 to add scrobbling, browser support and listening along.
 More news on Sunday!
