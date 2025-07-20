@@ -1,3 +1,9 @@
+> [!NOTE]
+> **Music Presence is looking for funding**.
+> Check the project website [**musicpresence.app**](https://musicpresence.app?utm_source=github.com&utm_medium=project-readme&utm_content=funding-banner)
+> and [**this GitHub issue**](https://github.com/ungive/discord-music-presence/issues/355) for more information.
+> Also see the [**planned project timeline**](https://musicpresence.app?utm_source=github.com&utm_medium=project-readme&utm_content=funding-banner#timeline) and [**available donation options**](https://musicpresence.app/donate?utm_source=github.com&utm_medium=project-readme&utm_content=funding-banner).
+
 ![Screenshot of the application in the tray menu and the Discord status](./assets/banner.png)
 
 [![Number of GitHub stars](https://img.shields.io/github/stars/ungive/discord-music-presence?style=flat&label=Stars&logo=github&labelColor=444&color=DAAA3F&cacheSeconds=3600)](https://star-history.com/#ungive/discord-music-presence&Date)
