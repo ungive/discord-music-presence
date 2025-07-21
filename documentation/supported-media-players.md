@@ -242,6 +242,7 @@ for a song that's 3 minutes long.
 
 These players do not report the album cover to the operating system.
 
+- Amazon Music on Windows
 - MediaMonkey on Windows
 - VLC on Windows
 - Podurama on Windows
