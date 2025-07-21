@@ -245,3 +245,4 @@ These players do not report the album cover to the operating system.
 - MediaMonkey on Windows
 - VLC on Windows
 - Podurama on Windows
+- Amazon Music on Windows
