@@ -171,6 +171,7 @@ I'm usually very active there and respond to messages rather quickly.
 
 Links to other places on the internet that mention Music Presence
 
+- 24.07.2025&nbsp; **r/lastfm**&nbsp; [A universal last.fm scrobbler is coming – for any media player on any desktop device ](https://www.reddit.com/r/lastfm/comments/1m8fped)
 - 07.07.2025&nbsp; **Peerlist**&nbsp; [Music Presence ranked #2 on <ins>Peerlist's Launchpad</ins> with the most upvotes](https://peerlist.io/launchpad/2025/week/28)
 - 27.06.2025&nbsp; **r/discordapp**&nbsp; [Share any music player as a Discord activity with my tool Music Presence](https://www.reddit.com/r/discordapp/comments/1lloumc)
 - 17.12.2024&nbsp; **Wotaku Wiki**&nbsp; [Featured on <ins>wotaku.wiki</ins> under Music](https://wotaku.wiki/music#misc)
