@@ -74,53 +74,36 @@ Join our Discord: [**discord.gg/musicpresence**](https://discord.gg/musicpresenc
 
 ## Features
 
-- Music Presence works with **any** media player!  
-  Currently over **70** different players are supported,
-  you can find an updated overview
-  [here](https://musicpresence.pocha.moe/)
-  (this site was made by a community member).
-  Adding a missing one is
-  [trivial](./documentation/troubleshooting.md#if-your-media-player-is-still-not-detected)!
-- Shows the correct album cover image **100%** of the time!  
-  *This works with any media player
-  and is achieved without the use of external image sources.*
-- Fine-grained control
-  over which applications are shared in your status
-  and what your status looks like,
-  including individual settings and the option to override settings
-  for each media player individually.
-- Perfect synergy with Spotify and the official Spotify integration!
-  Podcasts can be shown in your status with the title "Listening to a Podcast",
-  while the official Spotify integration doesn't show podcasts.
-  You can also just use Music Presence for Spotify podcasts
-  and use the official Spotify integration for music.
-- The tray icon changes and reflects the current state of Music Presence,
-  i.e. whether it is currently sharing media in your status,
-  whether it's waiting for media playback
-  or if it has been disabled by you entirely
-- Always shows the exact playback position, if the media player supports it
-- Option to switch between the player name
-  and "Music" as the activity name with one click  
-  *This means you can either have it show "Listening to Music"
-  or e.g. "Listening to TIDAL"*
-- You can also show paused media in your status for as long as you want.
-  Offline media players get the option to show a playing and/or paused icon
-  instead of the player logo
-- Obsoletes the need for other Rich Presence applications
-  and specific plugins for your music player,
-  by giving you unified controls and customization for all media players
-  in a single place
-- In-app and automatic updates of Music Presence,
-  so you don't have to install new versions by downloading them manually.
-  In addition to that you're always informed
-  about any changes and additions with an informational popup
-- For TIDAL, Deezer, Apple Music and Spotify users:
-  - Shows a "Listen to this song" or "Play on TIDAL" button
-  - Shows all additional artists, not just the main one
-- For TIDAL users: Shows animated artworks
+- Music Presence works with *any* media player!  
+  Currently **75+** different players are supported. You can find an always up-to-date list [here](https://musicpresence.pocha.moe/) (this page was made by a community member). Adding a missing one is [trivial](./documentation/troubleshooting.md#if-your-media-player-is-still-not-detected)!
 
-*If you think a feature is missing, feel free to open
-[an issue](https://github.com/ungive/discord-music-presence/issues/new/choose)!*
+- Shows the correct album cover image **100%** of the time!  
+  *This works with any media player and is achieved without the use of external image sources.*
+
+- You have the option to show the artist name, song title, player name or the media type after the "Listening to" text. Examples are: "Listening to Billie Eilish", "Listening to Happier Than Ever", "Listening to Spotify" or "Listening to Music".
+
+- Shows animated album artwork directly in your status for supported players. This currently works with Apple Music and TIDAL. Album cover videos are converted on the fly and may take a few seconds to load.
+
+- You can also show paused media in your status for as long as you want! Love that one song so much, you wanna show it forever? Just play it once, pause it and basically sticky pin it to your profile card.
+
+- Fine-grained control over which applications are shared in your status and what your status looks like, including individual settings and the option to override settings for each media player individually.
+
+- Perfect synergy with Spotify and the official Spotify integration! Podcasts can be shown in your status with the title "Listening to a Podcast", while the official Spotify integration doesn't show podcasts. You can also just use Music Presence for Spotify podcasts and use the official Spotify integration for music.
+
+- The tray icon changes and reflects the current state of Music Presence, i.e. whether it is currently sharing media in your status, whether it's waiting for media playback or if it has been disabled by you entirely.
+
+- Always shows the exact playback position with a progress bar, if the media player supports it.
+
+- Obsoletes the need for other Rich Presence applications or plugins for your music player, by giving you unified controls and customization for all media players in a single place.
+
+- In-app and automatic updates of Music Presence, so you don't have to install new versions by downloading them manually. In addition to that you're always informed about any changes and additions with an informational popup.
+
+- Shows a "Play on Apple Music" button or similar for supported players. This is currently available for Apple Music, TIDAL, Deezer and Spotify only. The button may not always show due to API rate limiting. Additionally to buttons, you also get the option to load and show additional artists, not just the main one.
+
+- *And much, much more...*
+
+Looking for scrobbling, browser support and listening along?  
+Check out [**musicpresence.app**](https://musicpresence.app?utm_source=github.com&utm_medium=project-readme), specifically the "Timeline" section. I have big plans for the future!
 
 ## Further links
 
