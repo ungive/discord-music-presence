@@ -16,7 +16,6 @@ please visit the [**troubleshooting**](./troubleshooting.md) page
 **Streaming services**
 
 <span><a href="https://tidal.com"><img title="TIDAL" alt="" height="48" src="https://live.musicpresence.app/v2/tidal.ico"></a></span>&nbsp;
-<span><a href="https://www.qobuz.com"><img title="Qobuz" alt="" height="48" src="https://live.musicpresence.app/v2/qobuz.ico"></a></span>&nbsp;
 <span><a href="https://spotify.com"><img title="Spotify" alt="" height="48" src="https://live.musicpresence.app/v2/spotify.ico"></a></span>&nbsp;
 <span><a href="https://www.deezer.com"><img title="Deezer" alt="" height="48" src="https://live.musicpresence.app/v2/deezer.ico"></a></span>&nbsp;
 <span><a href="https://www.amazon.com/music"><img title="Amazon Music" alt="" height="48" src="https://live.musicpresence.app/v2/amazon-music.ico"></a></span>&nbsp;
@@ -70,7 +69,6 @@ please visit the [**troubleshooting**](./troubleshooting.md) page
 | Nora<sup>3</sup>          |             :white_check_mark:              |  :heavy_multiplication_x:   |                         :heavy_multiplication_x:                         |           ...            |
 | Pocket Casts              |             :white_check_mark:              |     :white_check_mark:      |                         :heavy_multiplication_x:                         | :heavy_multiplication_x: |
 | Podurama<sup>9</sup>      |         :white_check_mark: :wrench:         |             ...             |                                   ...                                    |           ...            |
-| Qobuz                     |             :white_check_mark:              |          :warning:          |                         :heavy_multiplication_x:                         | :heavy_multiplication_x: |
 | Soundcloud<sup>4</sup>    |             :white_check_mark:              |             ...             |                                   ...                                    |           ...            |
 | Spotify                   |             :white_check_mark:              |     :white_check_mark:      |                            :white_check_mark:                            |           ...            |
 | TIDAL                     |             :white_check_mark:              |     :white_check_mark:      | soon [#211](https://github.com/ungive/discord-music-presence/issues/211) |           ...            |
