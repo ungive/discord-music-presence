@@ -1,5 +1,32 @@
 # Changelog
 
+## 2.3.3
+
+- Music Presence is now available for Linux.
+  You can now download the app as an AppImage,
+  ~~Debian package~~ TODO (deb), ~~RPM package~~ TODO (rpm) or as a plain file archive (tar.gz).
+  MPRIS is used to detect playing media and the app works with media players
+  and websites alike! N (TODO) media players are supported out of the box:
+  - Supported media players: TODO
+  - Supported websites: TODO
+  - If you are running into problems, please
+    [open an issue](https://github.com/ungive/discord-music-presence/issues)
+- Bug fixes and other improvements
+  - Fixed a disconnect/reconnect loop from the cover image server that affected
+    Apple Music users only, due to a subtle bug that only occured when two APIs
+    were considered for use (the iTunes and Apple Music API in this case).
+    This also lead to being connected to the server, in cases where it wasn't
+    needed.
+    Fixes [#368](https://github.com/ungive/discord-music-presence/issues/368)
+  - Fixed incorrect interpretation of part of the TIDAL API response
+    that would make most API requests fail
+  - Fixed a crash when opening the settings window and a player is shown
+    which has no icon
+- New languages
+- Added media players
+  - Windows: TODO
+  - Mac: TODO
+
 ## 2.3.2
 
 This update comes with a feature many of you waited for:
