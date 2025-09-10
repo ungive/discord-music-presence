@@ -33,6 +33,9 @@
     which allows media players to be supported, which report e.g. as
     `com.apple.WebKit.GPU` in their bundle identifier. This is e.g. the case
     with media players that use WebKit, Tauri or similar for their UI
+  - For media detection on Mac you can now toggle between native system
+    interfaces (MediaRemote) and AppleScript automation without needing
+    to restart the app. The app now instantly switches
   - Fixed incorrect interpretation of part of the TIDAL API response
     that would make most API requests fail
   - Fixed a crash when opening the settings window and a player is shown
