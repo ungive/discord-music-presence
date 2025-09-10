@@ -5,6 +5,9 @@
 - Music Presence is now available for Linux!
   You can download the app as an AppImage, Debian package (deb),
   ~~RPM package~~ TODO (rpm) or as a plain file archive (tar.gz).
+  For distribution through other channels and availability with package
+  managers, please follow progress in this GitHub issue:
+  [#425](https://github.com/ungive/discord-music-presence/issues/425)
   - The AppImage and tar.gz bundle all dependencies (via linuxdeployqt),
     while the Debian and RPM package properly declare their dependencies and
     only ship with binaries that cannot be provided by a system package.
