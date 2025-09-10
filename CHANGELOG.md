@@ -2,6 +2,8 @@
 
 ## 2.3.3
 
+TODO Add Linux download buttons (AppImage, .deb, .rpm, .tar.gz)
+
 - Music Presence is now available for Linux!
   You can download the app as an AppImage, Debian package (deb),
   ~~RPM package~~ TODO (rpm) or as a plain file archive (tar.gz).
@@ -36,6 +38,13 @@
   - For media detection on Mac you can now toggle between native system
     interfaces (MediaRemote) and AppleScript automation without needing
     to restart the app. The app now instantly switches
+  - Fixed only one player working with AppleScript, when the AppleScript
+    automation permission check is performed for two players at the same time,
+    e.g. when launching Music Presence with Spotify and Apple Music both opened
+  - Fixed a rare potential for a freeze on Mac when closing the app due to
+    AppleScript blocking indefinitely sometimes
+  - Fixed media not being cleared on Mac while using native system interfaces,
+    when the player stops reporting any media without being fully closed
   - Fixed incorrect interpretation of part of the TIDAL API response
     that would make most API requests fail
   - Fixed a crash when opening the settings window and a player is shown
