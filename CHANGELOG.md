@@ -2,13 +2,17 @@
 
 ## 2.3.3
 
-- Music Presence is now available for Linux.
-  You can now download the app as an AppImage,
-  ~~Debian package~~ TODO (deb), ~~RPM package~~ TODO (rpm) or as a plain file archive (tar.gz).
-  MPRIS is used to detect playing media and the app works with media players
-  and websites alike! N (TODO) media players are supported out of the box:
-  - Supported media players: TODO
-  - Supported websites: TODO
+- Music Presence is now available for Linux!
+  You can download the app as an AppImage, Debian package (deb),
+  ~~RPM package~~ TODO (rpm) or as a plain file archive (tar.gz).
+  - The AppImage and tar.gz bundle all dependencies (via linuxdeployqt),
+    while the Debian and RPM package properly declare their dependencies and
+    only ship with binaries that cannot be provided by a system package.
+  - MPRIS is used to detect playing media and the app works with media players
+    and websites alike! This means you can use the web player of your streaming
+    service and it will be detected the same way as its desktop version.
+  - Supported media players (N (TODO)): TODO
+  - Supported websites (N (TODO)): TODO
   - If you are running into problems, please
     [open an issue](https://github.com/ungive/discord-music-presence/issues)
 - Bug fixes and other improvements
@@ -18,11 +22,22 @@
     This also lead to being connected to the server, in cases where it wasn't
     needed.
     Fixes [#368](https://github.com/ungive/discord-music-presence/issues/368)
+  - Fixed a memory leak with media detection on Mac which caused the
+    associated Perl process to take up a lot of memory over time.
+    Perl is used to detect media on your device, see the respective
+    [source code](https://github.com/ungive/mediaremote-adapter)
+  - Added detection of the parent application bundle identifier on Mac,
+    which allows media players to be supported, which report e.g. as
+    `com.apple.WebKit.GPU` in their bundle identifier. This is e.g. the case
+    with media players that use WebKit, Tauri or similar for their UI
   - Fixed incorrect interpretation of part of the TIDAL API response
     that would make most API requests fail
   - Fixed a crash when opening the settings window and a player is shown
-    which has no icon
-- New languages
+    which has no icon (only affected Linux)
+- New languages:
+  - Greek
+  - Portuguese (Brazil)
+  - TODO
 - Added media players
   - Windows: TODO
   - Mac: TODO
