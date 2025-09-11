@@ -13,6 +13,7 @@ Follow this guide step-by-step to troubleshoot your issue.
 * [Reporting a different problem](#reporting-a-different-problem)
 * [Edge cases](#edge-cases)
     * [Fully reinstall your media player](#fully-reinstall-your-media-player)
+    * [AppleScript automation is not working on Mac](#applescript-automation-is-not-working-on-mac)
     * [Custom Windows ISO installs may interfere](#custom-windows-iso-installs-may-interfere)
     * [Windows tweaks may interfere](#windows-tweaks-may-interfere)
     * [Windows 10 or later is needed](#windows-10-or-later-is-needed)
@@ -162,6 +163,20 @@ and your player is not detected, this
 could definitely help. Remove all traces of 
 Spotify in `%APPDATA%\Spotify` and 
 try again.
+
+#### AppleScript automation is not working on Mac
+
+On Mac it is possible that AppleScript automation does not work
+and re-enabling the media player causes it to always be disabled,
+even though automation permission is granted.
+Usually this issue can be resolved by resetting the automation permissions
+for Music Presence in the TCC database.
+The TCC database is sensitive, so use the following command at your own risk,
+but this should reset all permissions and allow you to enable the player again:
+
+```sh
+tccutil reset AppleEvents app.musicpresence.desktop
+```
 
 #### Custom Windows ISO installs may interfere
 
