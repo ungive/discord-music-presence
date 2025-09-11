@@ -8,43 +8,52 @@ TODO Add Linux download buttons (AppImage, .deb, .rpm, .tar.gz)
   You can download the app as an AppImage, Debian package (deb),
   ~~RPM package~~ TODO (rpm) or as a plain file archive (tar.gz).
   For distribution through other channels and availability with package
-  managers, please follow progress in this GitHub issue:
+  managers, please follow the progress in this GitHub issue:
   [#425](https://github.com/ungive/discord-music-presence/issues/425)
-  - The AppImage and tar.gz bundle all dependencies (via linuxdeployqt),
+  - The AppImage and tar.gz archive bundle all dependencies (via linuxdeployqt),
     while the Debian and RPM package properly declare their dependencies and
-    only ship with binaries that cannot be provided by a system package.
+    only ship with binaries that cannot be provided by a system package
   - MPRIS is used to detect playing media and the app works with media players
-    and websites alike! This means you can use the web player of your streaming
-    service and it will be detected the same way as its desktop version.
+    and websites alike. This means you can use the web player of your streaming
+    service and it will be detected the same way as its desktop version
   - Supported media players (N (TODO)): TODO
   - Supported websites (N (TODO)): TODO
   - If you are running into problems, please
     [open an issue](https://github.com/ungive/discord-music-presence/issues)
-- Bug fixes and other improvements
+- Various bug fixed and improvements for the Mac version
+  - Added a new setting "Switch to AppleScript when an error occurs",
+    which is useful when media detection through the native system interface
+    (MediaRemote) breaks again in a future macOS update
+    ([it has happened before](https://github.com/ungive/discord-music-presence/issues/165)).
+    You can find this setting in the "Advanced" settings section.
+    This setting is enabled by default
+  - In addition to this, you can now toggle between the native system
+    interface (MediaRemote) and AppleScript automation without needing
+    to restart the app. The app now instantly switches between the two
+  - Fixed a memory leak with media detection which caused the
+    associated Perl process to take up a lot of memory over time.
+    Perl is used to detect media on your device, see the respective
+    [source code](https://github.com/ungive/mediaremote-adapter)
+  - Added detection of the parent application bundle identifier,
+    which allows media players to be supported, which report e.g. as
+    `com.apple.WebKit.GPU` in their bundle identifier. This can e.g. be the case
+    with media players that use WebKit, Tauri or similar for their UI
+  - Fixed only one player working with AppleScript, when the AppleScript
+    automation permission check is performed for two players at the same time,
+    e.g. when launching Music Presence with Spotify and Apple Music both
+    opened
+  - Fixed a rare potential for a freeze when closing the app due to
+    AppleScript blocking indefinitely sometimes
+  - Fixed media not being cleared while using the native system
+    interface, when the player stops reporting any media without being fully
+    closed
+- Other bug fixes and other improvements
   - Fixed a disconnect/reconnect loop from the cover image server that affected
     Apple Music users only, due to a subtle bug that only occured when two APIs
     were considered for use (the iTunes and Apple Music API in this case).
     This also lead to being connected to the server, in cases where it wasn't
     needed.
     Fixes [#368](https://github.com/ungive/discord-music-presence/issues/368)
-  - Fixed a memory leak with media detection on Mac which caused the
-    associated Perl process to take up a lot of memory over time.
-    Perl is used to detect media on your device, see the respective
-    [source code](https://github.com/ungive/mediaremote-adapter)
-  - Added detection of the parent application bundle identifier on Mac,
-    which allows media players to be supported, which report e.g. as
-    `com.apple.WebKit.GPU` in their bundle identifier. This is e.g. the case
-    with media players that use WebKit, Tauri or similar for their UI
-  - For media detection on Mac you can now toggle between native system
-    interfaces (MediaRemote) and AppleScript automation without needing
-    to restart the app. The app now instantly switches
-  - Fixed only one player working with AppleScript, when the AppleScript
-    automation permission check is performed for two players at the same time,
-    e.g. when launching Music Presence with Spotify and Apple Music both opened
-  - Fixed a rare potential for a freeze on Mac when closing the app due to
-    AppleScript blocking indefinitely sometimes
-  - Fixed media not being cleared on Mac while using native system interfaces,
-    when the player stops reporting any media without being fully closed
   - Fixed incorrect interpretation of part of the TIDAL API response
     that would make most API requests fail
   - Fixed a crash when opening the settings window and a player is shown
