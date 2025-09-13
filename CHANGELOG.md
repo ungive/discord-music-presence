@@ -6,7 +6,7 @@ TODO Add Linux download buttons (AppImage, .deb, .rpm, .tar.gz)
 
 - Music Presence is now available for Linux!
   You can download the app as an AppImage, Debian package (deb),
-  ~~RPM package~~ TODO (rpm) or as a plain file archive (tar.gz).
+  RPM package (rpm) or as a plain file archive (tar.gz).
   For distribution through other channels and availability with package
   managers, please follow the progress in this GitHub issue:
   [#425](https://github.com/ungive/discord-music-presence/issues/425)
@@ -58,6 +58,8 @@ TODO Add Linux download buttons (AppImage, .deb, .rpm, .tar.gz)
     that would make most API requests fail
   - Fixed a crash when opening the settings window and a player is shown
     which has no icon (only affected Linux)
+  - Fixed neither the Apple Music API nor the iTunes API being enabled by
+    default, while other APIs are enabled by default
 - New languages:
   - Greek
   - Portuguese (Brazil)
