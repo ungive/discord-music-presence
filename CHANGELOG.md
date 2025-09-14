@@ -2,31 +2,31 @@
 
 ## 2.3.3
 
-TODO Add Linux download buttons (AppImage, .deb, .rpm, .tar.gz)
-
 - Music Presence is now available for Linux!
   You can download the app as an AppImage, Debian package (deb),
   RPM package (rpm) or as a plain file archive (tar.gz).
   For distribution through other channels and availability with package
   managers, please follow the progress in this GitHub issue:
   [#425](https://github.com/ungive/discord-music-presence/issues/425)
+  - 25 media players and 24 websites are supported out of the box!
+    MPRIS is used to detect playing media and the app works with media players
+    and websites alike. This means you can use the web player of your streaming
+    service and it will be detected the same way as its desktop version!
+    For a full list of supported media players
+    read the list at the bottom of this changelog
   - The AppImage and tar.gz archive bundle all dependencies (via linuxdeployqt),
     while the Debian and RPM package properly declare their dependencies and
     only ship with binaries that cannot be provided by a system package
-  - MPRIS is used to detect playing media and the app works with media players
-    and websites alike. This means you can use the web player of your streaming
-    service and it will be detected the same way as its desktop version
-  - Supported media players (N (TODO)): TODO
-  - Supported websites (N (TODO)): TODO
   - If you are running into problems, please
     [open an issue](https://github.com/ungive/discord-music-presence/issues)
-- Various bug fixed and improvements for the Mac version
+- Various bug fixes and improvements for the Mac version
   - Added a new setting "Switch to AppleScript when an error occurs",
     which is useful when media detection through the native system interface
     (MediaRemote) breaks again in a future macOS update
     ([it has happened before](https://github.com/ungive/discord-music-presence/issues/165)).
     You can find this setting in the "Advanced" settings section.
-    This setting is enabled by default
+    This setting is enabled by default.
+    Closes [#403](https://github.com/ungive/discord-music-presence/issues/403)
   - In addition to this, you can now toggle between the native system
     interface (MediaRemote) and AppleScript automation without needing
     to restart the app. The app now instantly switches between the two
@@ -37,7 +37,8 @@ TODO Add Linux download buttons (AppImage, .deb, .rpm, .tar.gz)
   - Added detection of the parent application bundle identifier,
     which allows media players to be supported, which report e.g. as
     `com.apple.WebKit.GPU` in their bundle identifier. This can e.g. be the case
-    with media players that use WebKit, Tauri or similar for their UI
+    with media players that use WebKit, Tauri or similar for their UI.
+    Closes [#371](https://github.com/ungive/discord-music-presence/issues/371)
   - Fixed only one player working with AppleScript, when the AppleScript
     automation permission check is performed for two players at the same time,
     e.g. when launching Music Presence with Spotify and Apple Music both
@@ -47,26 +48,32 @@ TODO Add Linux download buttons (AppImage, .deb, .rpm, .tar.gz)
   - Fixed media not being cleared while using the native system
     interface, when the player stops reporting any media without being fully
     closed
-- Other bug fixes and other improvements
+- Other bug fixes and improvements
   - Fixed a disconnect/reconnect loop from the cover image server that affected
     Apple Music users only, due to a subtle bug that only occured when two APIs
     were considered for use (the iTunes and Apple Music API in this case).
     This also lead to being connected to the server, in cases where it wasn't
     needed.
     Fixes [#368](https://github.com/ungive/discord-music-presence/issues/368)
+  - Fixed an issue where only one track is picked up by Music Presence
+    when you are playing multiple tracks in the same media player.
+    You can now play any number of tracks and the one that was last updated
+    is shown in your status.
+    Fixes [#394](https://github.com/ungive/discord-music-presence/issues/394)
   - Fixed incorrect interpretation of part of the TIDAL API response
     that would make most API requests fail
   - Fixed a crash when opening the settings window and a player is shown
     which has no icon (only affected Linux)
   - Fixed neither the Apple Music API nor the iTunes API being enabled by
     default, while other APIs are enabled by default
-- New languages:
-  - Greek
-  - Portuguese (Brazil)
-  - TODO
+- New languages
+  - Added Greek / Ελληνικά &nbsp;—&nbsp; Thank you [Jim The Cow](https://github.com/jimthecow001)
+  - Added Portuguese (Brazil) / Português (Brasil) &nbsp;—&nbsp; Thank you [SoundBlaster1998](https://github.com/SoundBlaster1998)
 - Added media players
-  - Windows: TODO
-  - Mac: TODO
+  - Linux: Amberol, Audacious, Cider, Clementine, cmus, Elisa, foobar2000, fooyin, Gapless, GNOME Music, Harmonoid, KDE Connect, kew, Lollypop, MPD, mpv, MusicBee, Quod Libet, Recordbox, Spotify, Strawberry, Tauon, TIDAL, VLC, YouTube Music
+  - Websites (Linux only): Amazon Music, Anghami, Apple Music, Apple Podcasts, Bandcamp, Deezer, iBroadcast, IDAGIO, JioSaavn, KHInsider, NetEase Cloud Music, 网易云音乐, Pandora, Plex, Pocket Casts, Podurama, Qobuz, QQ Music, SoundCloud, Spotify, TIDAL, Yandex Music, YouTube, YouTube Music
+  - Windows: Chromatix, FluentCast, iBroadcast, IDAGIO, KHInsider, Musbox, Rise Media Player, untitled
+  - Mac: Amperfy, Anghami, Aonsoku, Eter, Infuse, Longplay, Swinsian, Triode
 
 ## 2.3.2
 
