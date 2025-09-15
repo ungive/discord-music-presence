@@ -48,6 +48,14 @@
   - Fixed media not being cleared while using the native system
     interface, when the player stops reporting any media without being fully
     closed
+  - Fixed tracks without a title being shown in the status,
+    which happened sometimes e.g. when switching tracks in the TIDAL app
+  - Fixed an issue with TIDAL where the title updates first
+    and the artist updates about half a second later.
+    The fix only applies to TIDAL.
+    If you have a similar issue with another media player, please
+    [open an issue](https://github.com/ungive/discord-music-presence/issues)!
+    Fixes [#438](https://github.com/ungive/discord-music-presence/issues/438)
 - Other bug fixes and improvements
   - Fixed a disconnect/reconnect loop from the cover image server that affected
     Apple Music users only, due to a subtle bug that only occured when two APIs
