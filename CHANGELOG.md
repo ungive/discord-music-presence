@@ -11,7 +11,7 @@
   - 25 media players and 24 websites are supported out of the box!
     MPRIS is used to detect playing media and the app works with media players
     and websites alike. This means you can use the web player of your streaming
-    service and it will be detected the same way as its desktop version!
+    service and it will be detected the same way as its desktop version.
     For a full list of supported media players
     read the list at the bottom of this changelog
   - The AppImage and tar.gz archive bundle all dependencies (via linuxdeployqt),
