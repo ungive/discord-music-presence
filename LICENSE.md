@@ -76,7 +76,7 @@ A copy of the source code can be obtained at
 ungive/loon  
 Copyright (c) 2024-2025 Jonas van den Berg  
 All rights reserved.  
-A copy of the source code can be obtained at  
+The source code can be viewed at  
     <https://github.com/ungive/loon>
 
 ungive/update  
@@ -125,13 +125,6 @@ Copyright (c) 2019 Tobias Locker
 A copy of the source code can be obtained at  
     <https://github.com/tobiaslocker/base64>
 
-altdesktop/playerctl  
-The Software makes use of the playerctl library licensed under the
-GNU LGPLv3 license <https://www.gnu.org/licenses/lgpl-3.0.en.html>.  
-Copyright (c) 2014, Tony Crisci  
-A copy of the source code can be obtained at  
-    <https://github.com/altdesktop/playerctl>
-
 ungive/mediaremote-adapter  
 Licensed under the BSD-3-Clause license.  
 Copyright (c) 2025 Jonas van den Berg  
@@ -143,3 +136,9 @@ Licensed under the MIT License.
 Copyright (c) 2018 Dominik Thalhammer  
 A copy of the source code can be obtained at  
     <https://github.com/Thalhammer/jwt-cpp>
+
+Kistler-Group/sdbus-cpp  
+Licensed under the GNU LGPL-2.1 License.  
+Copyright (c) 2017-2025 Stanislav Angelovic  
+A copy of the source code can be obtained at  
+    <https://github.com/Kistler-Group/sdbus-cpp>
