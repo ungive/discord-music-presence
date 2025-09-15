@@ -42,7 +42,7 @@ about how your data is processed.
   * [Media Metadata](#media-metadata)
   * [Analytics Metrics (privacy-friendly)](#analytics-metrics-privacy-friendly)
   * [No Personal Data](#no-personal-data)
-  * [Reporting undetected media players](#reporting-undetected-media-players)
+  * [Submitting detected media players](#submitting-detected-media-players)
 * [How is the data being used and shared?](#how-is-the-data-being-used-and-shared)
   * [Discord](#discord)
   * [TIDAL](#tidal)
@@ -174,22 +174,29 @@ the data is handled by these third parties
 in accordance with their privacy policies
 (see the following sections).
 
-### Reporting undetected media players
+### Submitting detected media players
 
-The user also has the option to report when a Media Player is not detected,
-by clicking on "My media player is not detected" in the "Help" menu
+The user also has the option to submit detected media players
+that are not supported by the Software yet,
+by clicking on "Submit detected media players" in the "Help" menu
 of the Software.
 This will open a [new issue on GitHub](
     https://github.com/ungive/discord-music-presence/issues/new)
 that is filled out with the following information ("Report Information"):
 
+* The version of the application
 * The user's operating system
 * Which media players the user has used to play media with
   since the installation of the Software.
   This includes the name of the application and a unique identifier,
   that is specific to the operating system on which the Software is running:
-  * On Windows and Linux: The executable name
-  * On Mac: The bundle identifier
+  * On Windows: The executable name or a generated unique identifier
+  * On Mac: The bundle identifier of the app
+  * On Linux: A unique identifier chosen by the application developer
+
+Websites are never included in the Report Information,
+even when media is detected there,
+in order to protect the user's privacy.
 
 ## How is the data being used and shared?
 
@@ -474,7 +481,7 @@ This privacy policy is kept under regular review.
 Any updates are placed into this file in this repository.
 The last update to this policy is stated below.
 
-Last updated on 17 July 2025.  
+Last updated on 15 September 2025.  
 This does not include changes to the scope of this privacy policy.
 
 ## Contact details
