@@ -2,6 +2,14 @@
 
 ## 2.3.3
 
+Linux support is finally here!
+The app should work just the same way as on Windows and Mac,
+with one major difference: Websites are detected by default!
+25 media players and 24 websites are supported out of the box.
+This update also comes with a lot of
+stability and reliability improvements for the Mac version
+and several general bug fixes.
+
 - Music Presence is now available for Linux!
   You can download the app as an AppImage, Debian package (deb),
   RPM package (rpm) or as a plain file archive (tar.gz).
@@ -54,8 +62,16 @@
     and the artist updates about half a second later.
     The fix only applies to TIDAL.
     If you have a similar issue with another media player, please
-    [open an issue](https://github.com/ungive/discord-music-presence/issues)!
+    [open an issue](https://github.com/ungive/discord-music-presence/issues).
     Fixes [#438](https://github.com/ungive/discord-music-presence/issues/438)
+  - Switched to using the MediaRemote framework
+    via the [mediaremote-adapter](https://github.com/ungive/mediaremote-adapter)
+    on macOS Sonoma and earlier.
+    The app was still using the old code which stopped working with macOS 15.4,
+    but the adapter should now be stable enough
+    to justify using it on all macOS versions.
+    Should there be any problems, please
+    [open an issue](https://github.com/ungive/discord-music-presence/issues)
 - Other bug fixes and improvements
   - Fixed a disconnect/reconnect loop from the cover image server that affected
     Apple Music users only, due to a subtle bug that only occured when two APIs
