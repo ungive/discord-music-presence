@@ -1,5 +1,11 @@
 # Changelog
 
+## 2.3.4
+
+This version fixes a bug that was introduced in version 2.3.3,
+which caused the "Apple Music API" setting
+to not stay enabled across app restarts.
+
 ## 2.3.3
 
 Linux support is finally here!
