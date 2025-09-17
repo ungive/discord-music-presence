@@ -1,5 +1,12 @@
 # Changelog
 
+## 2.3.5
+
+- Bug fixes and improvements
+  - The Linux version is now built using GCC 10 instead of GCC 13,
+    which should allow it to run on systems with an older version of libstdc++.
+    Fixes [#440](https://github.com/ungive/discord-music-presence/issues/440)
+
 ## 2.3.4
 
 This version fixes a bug that was introduced in version 2.3.3,
