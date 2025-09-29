@@ -28,6 +28,10 @@ is enabled in your Discord settings:
 
 ![Screenshot of the "Activity Privacy" settings](../assets/screenshot-discord-activity-settings.png)
 
+Also make sure you didn't add "Music Presence" as a game.
+If you see "Playing Music Presence" in your status,
+then you most likely added it as a game and you should remove it again.
+
 If that does not help, read on.
 
 ## Media players that don't work out of the box
@@ -61,6 +65,12 @@ what website the media is being played on,
 which makes it impossible to determine the source.
 Support for browsers will arrive
 [in a future update](https://github.com/ungive/discord-music-presence/issues/5).
+
+For now you can try [WebCatalog](https://webcatalog.io)
+to install a website as a desktop application.
+This is known to work quite well with some websites.
+If the player is not detected,
+please read the "If your media player is still not detected" section below.
 
 ## The player is detected, but still no status
 
@@ -153,18 +163,18 @@ or join the [Discord server](https://discord-invite.musicpresence.app).
 
 ## Edge cases
 
-#### Fully reinstall your media player
+#### Spotify is not detected on Windows
 
-If you are having issues with your media player being detected,
-you could try to reinstall it. You may need to remove
-all traces of your media player in `%APPDATA%` to
-reinstall properly. In case you are using **Spotify on Windows**
-and your player is not detected, this
-could definitely help. Remove all traces of 
-Spotify in `%APPDATA%\Spotify` and 
-try again.
+In case you are using Spotify on Windows and your player is not detected,
+you can try removing all traces of Spotify in `%APPDATA%\Spotify`
+and then install the app again.
+Some have reported that installing Spotify through the **Microsoft Store**
+works, while installing it with the installer from the Spotify website doesn't,
+so you might have luck with that.
 
 #### AppleScript automation is not working on Mac
+
+> **macOS 26 Beta**: AppleScript appears to be broken on this version of macOS.
 
 On Mac it is possible that AppleScript automation does not work
 and re-enabling the media player causes it to always be disabled,
