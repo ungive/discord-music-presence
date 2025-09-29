@@ -3,10 +3,14 @@
 To install Music Presence, pick the right download for your platform:
 
 <!-- DL_BUTTONS_BEGIN -->
-[<img src="https://raw.githubusercontent.com/ungive/discord-music-presence/refs/heads/master/assets/download-win-exe-x64-2x.png" width="182">](https://github.com/ungive/discord-music-presence/releases/download/v2.3.4/musicpresence-2.3.4-windows-x64-installer.exe)&ensp;
-[<img src="https://raw.githubusercontent.com/ungive/discord-music-presence/refs/heads/master/assets/download-win-zip-x64-2x.png" width="182">](https://github.com/ungive/discord-music-presence/releases/download/v2.3.4/musicpresence-2.3.4-windows-x64.zip)&ensp;
-[<img src="https://raw.githubusercontent.com/ungive/discord-music-presence/refs/heads/master/assets/download-mac-dmg-arm64-2x.png" width="182">](https://github.com/ungive/discord-music-presence/releases/download/v2.3.4/musicpresence-2.3.4-mac-arm64.dmg)&ensp;
-[<img src="https://raw.githubusercontent.com/ungive/discord-music-presence/refs/heads/master/assets/download-mac-dmg-x86_64-2x.png" width="182">](https://github.com/ungive/discord-music-presence/releases/download/v2.3.4/musicpresence-2.3.4-mac-x86_64.dmg)
+[<img src="https://raw.githubusercontent.com/ungive/discord-music-presence/refs/heads/master/assets/download_windows-installer-x64.png" width="182">](https://github.com/ungive/discord-music-presence/releases/download/v2.3.4/musicpresence-2.3.4-windows-x64-installer.exe)&ensp;
+[<img src="https://raw.githubusercontent.com/ungive/discord-music-presence/refs/heads/master/assets/download_windows-zip-x64.png" width="182">](https://github.com/ungive/discord-music-presence/releases/download/v2.3.4/musicpresence-2.3.4-windows-x64.zip)&ensp;
+[<img src="https://raw.githubusercontent.com/ungive/discord-music-presence/refs/heads/master/assets/download_mac-dmg-arm64.png" width="182">](https://github.com/ungive/discord-music-presence/releases/download/v2.3.4/musicpresence-2.3.4-mac-arm64.dmg)&ensp;
+[<img src="https://raw.githubusercontent.com/ungive/discord-music-presence/refs/heads/master/assets/download_mac-dmg-x86_64.png" width="182">](https://github.com/ungive/discord-music-presence/releases/download/v2.3.4/musicpresence-2.3.4-mac-x86_64.dmg)&ensp;
+[<img src="https://raw.githubusercontent.com/ungive/discord-music-presence/refs/heads/master/assets/download_linux-AppImage-x64.png" width="182">](https://github.com/ungive/discord-music-presence/releases/download/v2.3.4/musicpresence-2.3.4-linux-x86_64.AppImage)&ensp;
+[<img src="https://raw.githubusercontent.com/ungive/discord-music-presence/refs/heads/master/assets/download_linux-deb-x64.png" width="182">](https://github.com/ungive/discord-music-presence/releases/download/v2.3.4/musicpresence-2.3.4-linux-x86_64.deb)&ensp;
+[<img src="https://raw.githubusercontent.com/ungive/discord-music-presence/refs/heads/master/assets/download_linux-rpm-x64.png" width="182">](https://github.com/ungive/discord-music-presence/releases/download/v2.3.4/musicpresence-2.3.4-linux-x86_64.rpm)&ensp;
+[<img src="https://raw.githubusercontent.com/ungive/discord-music-presence/refs/heads/master/assets/download_linux-tar-gz-x64.png" width="182">](https://github.com/ungive/discord-music-presence/releases/download/v2.3.4/musicpresence-2.3.4-linux-x86_64.tar.gz)
 <!-- DL_BUTTONS_END -->
 
 > *Don't know what download to choose?*
