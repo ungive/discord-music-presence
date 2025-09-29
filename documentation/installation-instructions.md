@@ -13,17 +13,14 @@ To install Music Presence, pick the right download for your platform:
 [<img src="https://raw.githubusercontent.com/ungive/discord-music-presence/refs/heads/master/assets/download_linux-tar-gz-x64.png" width="190">](https://github.com/ungive/discord-music-presence/releases/download/v2.3.4/musicpresence-2.3.4-linux-x86_64.tar.gz)
 <!-- DL_BUTTONS_END -->
 
-> *Don't know what download to choose?*
-> *Click [**here**](#which-download-should-i-choose)*
-> *or scroll to the bottom of the page.*
+> Don't know what download to choose?
+> Click [**here**](#which-download-should-i-choose)
+> or scroll to the bottom of the page.
 
-On macOS, you can also install Music Presence via
-[Homebrew](https://formulae.brew.sh/cask/music-presence#default)
-and get automatic updates:
+You can also install Music Presence using a package manager:
 
-```sh
-$ brew install --cask music-presence
-```
+- On macOS via Homebrew: `$ brew install music-presence`
+- On Arch via the AUR: `$ yay -S music-presence-bin` (unofficial, verify before installing)
 
 Continue reading for detailed instructions on how to install your download.
 
@@ -87,8 +84,8 @@ or click on "Help" > "Something is not working" in the Music Presence menu.
 
 ## Which download should I choose?
 
-Are you on Windows? Simply pick the `exe` download,
-this should be the easiest to install!
+Are you on Windows? Simply pick the "Installer" download,
+this should be the easiest to install.
 
 On Mac you need to check if you're using an Intel or an Apple Silicon Mac first.
 Click the Apple logo in the top left of your screen,
@@ -100,6 +97,8 @@ then click "About This Mac".
 - If it shows "Intel" under the Processor category,
   you're using an **Intel** CPU and you need to pick the
   "Intel x86_64" download from above
+
+If you're a Linux user, I'm sure you know which one to pick!
 
 ## Still need help?
 

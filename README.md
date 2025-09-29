@@ -42,13 +42,10 @@ These are some of the most notable features
 > For detailed installation instructions read this document:
 > [**How to install and use Music Presence**](./documentation/installation-instructions.md)
 
-On macOS, you can also install Music Presence via
-[Homebrew](https://formulae.brew.sh/cask/music-presence#default)
-and get automatic updates:
+You can also install Music Presence using a package manager:
 
-```sh
-$ brew install --cask music-presence
-```
+- On macOS via Homebrew: `$ brew install music-presence`
+- On Arch via the AUR: `$ yay -S music-presence-bin` (unofficial, verify before installing)
 
 Join our Discord: [**discord.gg/musicpresence**](https://discord.gg/musicpresence)
 
