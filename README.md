@@ -26,7 +26,7 @@ These are some of the most notable features
 - The tray icon changes and reflects
   whether your status is currently active or not
 
----
+## Download
 
 <!-- DL_BUTTONS_BEGIN -->
 [<img src="https://raw.githubusercontent.com/ungive/discord-music-presence/refs/heads/master/assets/download_windows-installer-x64.png" width="190">](https://github.com/ungive/discord-music-presence/releases/download/v2.3.4/musicpresence-2.3.4-windows-x64-installer.exe)
@@ -39,15 +39,13 @@ These are some of the most notable features
 [<img src="https://raw.githubusercontent.com/ungive/discord-music-presence/refs/heads/master/assets/download_linux-tar-gz-x64.png" width="190">](https://github.com/ungive/discord-music-presence/releases/download/v2.3.4/musicpresence-2.3.4-linux-x86_64.tar.gz)
 <!-- DL_BUTTONS_END -->
 
-> For detailed installation instructions read this document:
-> [**How to install and use Music Presence**](./documentation/installation-instructions.md)
-
 You can also install Music Presence using a package manager:
 
 - On macOS via Homebrew: `$ brew install music-presence`
 - On Arch via the AUR: `$ yay -S music-presence-bin` (unofficial, verify before installing)
 
-Join our Discord: [**discord.gg/musicpresence**](https://discord.gg/musicpresence)
+Need help? Read [**How to install and use Music Presence**](./documentation/installation-instructions.md)
+or join our Discord: [**discord.gg/musicpresence**](https://discord.gg/musicpresence)
 
 ---
 
