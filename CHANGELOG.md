@@ -3,16 +3,27 @@
 ## 2.4.0
 
 - Implemented scrobbling (public beta) TODO describe more
-- Improved the settings UI:
+- Several UI improvements:
   - Improved highlighting of selected and hovered categories in the sidebar
   - Reduced the use of lines and improved visibility of individual sections
-- Bug fixes and improvements
+  - Removed black borders around media player logos in the app
+- Bug fixes and other improvements
   - Linux: Music Presence is now built using GCC 10 instead of GCC 13,
     which should allow it to run on systems with an older version of libstdc++.
     Fixes [#440](https://github.com/ungive/discord-music-presence/issues/440)
   - Linux: Fixed MPRIS instance-suffixes not being parsed properly
     with some applications (e.g. "firefox.instance_1_2") and
-    settings.json being flooded with "unknown" media player entries as a result
+    settings.json being flooded with "unknown" media player entries
+  - Linux: Fixed occassional fatal media detection failure,
+    when an application is closed.
+    A warning message is logged instead now
+  - Linux: Fixed fatal media detection error, when a media player would be used
+    that does not wrap properties in a D-Bus "variant" type,
+    like Harmonoid.
+    Fixes [#444](https://github.com/ungive/discord-music-presence/issues/444)
+  - Linux: Fixed occassional fatal media detection failure,
+    when subscribing to updates from a media player
+    immediately after discovering it fails
 - New languages TODO
 - Added media players TODO
 
