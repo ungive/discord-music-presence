@@ -24,6 +24,8 @@
   - Linux: Fixed occassional fatal media detection failure,
     when subscribing to updates from a media player
     immediately after discovering it fails
+  - Apple Music: Fixed failing API requests with long song names due to
+    the search query being limited to 100 characters
 - New languages TODO
 - Added media players TODO
 
