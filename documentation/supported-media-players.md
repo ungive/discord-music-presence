@@ -135,8 +135,7 @@ but everything else seems to work just fine.
 VLC requires this plugin to work:
 https://github.com/spmn/vlc-win10smtc
 
-At the moment this plugin does not report any cover images,
-nor an accurate playback position.
+At the moment this plugin does not report an accurate playback position.
 
 ### iTunes
 
@@ -241,6 +240,5 @@ for a song that's 3 minutes long.
 These players do not report the album cover to the operating system.
 
 - MediaMonkey on Windows
-- VLC on Windows
 - Podurama on Windows
 - Amazon Music on Windows
