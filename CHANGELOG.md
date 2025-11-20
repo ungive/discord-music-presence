@@ -26,6 +26,13 @@
     immediately after discovering it fails
   - Apple Music: Fixed failing API requests with long song names due to
     the search query being limited to 100 characters
+  - Linux: Implemented detection of media players
+    which can only be uniquely identified by their D-Bus property
+    "org.mpris.MediaPlayer2.Identity", but not by their service name.
+    This adds support for VacuumTube
+    ([#475](https://github.com/ungive/discord-music-presence/issues/475))
+    and certain Cider installations
+    ([#524](https://github.com/ungive/discord-music-presence/issues/524))
 - New languages TODO
 - Added media players TODO
 
