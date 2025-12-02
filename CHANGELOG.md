@@ -1,8 +1,13 @@
 # Changelog
 
-## 2.4.0
+## 2.3.5
 
-- Implemented scrobbling (public beta) TODO describe more
+- Added the option to hide the tray icon and open the settings window
+  when launching the application while it's already running.
+  Also added the option on Windows to open the settings window
+  when left-clicking the tray icon. This is disabled by default,
+  in order to not break old behaviour. On Linux this is already the default.
+  You can find these settings under General > Interaction.
 - Several UI improvements:
   - Improved highlighting of selected and hovered categories in the sidebar
   - Reduced the use of lines and improved visibility of individual sections
