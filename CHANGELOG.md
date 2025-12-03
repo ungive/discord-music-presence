@@ -7,12 +7,20 @@
   Also added the option on Windows to open the settings window
   when left-clicking the tray icon. This is disabled by default,
   in order to not break old behaviour. On Linux this is already the default.
-  You can find these settings under General > Interaction.
+  You can find these settings under General > Interaction. Implements
+  [#503](https://github.com/ungive/discord-music-presence/issues/503)
 - Several UI improvements:
   - Improved highlighting of selected and hovered categories in the sidebar
   - Reduced the use of lines and improved visibility of individual sections
   - Removed black borders around media player logos in the app
 - Bug fixes and other improvements
+  - Fixed unnecessary connections to the cover image proxy server
+    for Apple Music users, which lead to more load on the server than necessary.
+    This bug was introduced in version 2.3.2
+    when a second API was added for Apple Music,
+    which lead to out of order processing and the proxy client connecting,
+    even though the API loaded a cover URL from the API.
+    Fixes [#368](https://github.com/ungive/discord-music-presence/issues/368)
   - Linux: Music Presence is now built using GCC 10 instead of GCC 13,
     which should allow it to run on systems with an older version of libstdc++.
     Fixes [#440](https://github.com/ungive/discord-music-presence/issues/440)
@@ -38,6 +46,15 @@
     ([#475](https://github.com/ungive/discord-music-presence/issues/475))
     and certain Cider installations
     ([#524](https://github.com/ungive/discord-music-presence/issues/524))
+  - Windows: Added a "User-Agent" header to GitHub API requests
+    to hopefully fix random automatic update errors for certain users
+    [#348](https://github.com/ungive/discord-music-presence/issues/348)
+  - Updated bundled OpenSSL to version 3.5 (LTS) and httplib to version 0.27.0
+    and removed statically linked OpenSSL, which sometimes could cause crashes
+    when used together with dynamically linked OpenSSL.
+    Switched to managing dependencies with Conan instead of vcpkg.
+    On Linux, the AppImage now bundles OpenSSL libraries
+    and the deb and rpm packages properly declare OpenSSL as a dependency
 - New languages TODO
 - Added media players TODO
 
