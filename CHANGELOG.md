@@ -2,10 +2,10 @@
 
 ## 2.3.5
 
-- Added the option to hide the tray icon and open the settings window
+- Added the option to hide the tray icon and to open the settings window
   when launching the application while it's already running.
   Also added the option on Windows to open the settings window
-  when left-clicking the tray icon. This is disabled by default,
+  when left-clicking the tray icon, which is disabled by default,
   in order to not break old behaviour. On Linux this is already the default.
   You can find these settings under General > Interaction. Implements
   [#503](https://github.com/ungive/discord-music-presence/issues/503)
@@ -55,6 +55,15 @@
     Switched to managing dependencies with Conan instead of vcpkg.
     On Linux, the AppImage now bundles OpenSSL libraries
     and the deb and rpm packages properly declare OpenSSL as a dependency
+  - Linux: Fixed startup failure on Linux, when Xwayland is not installed,
+    and the warning message, when Xwayland was used for compatibility.
+    On Wayland, the settings window now also has a proper window icon.
+    Fixes [#465](https://github.com/ungive/discord-music-presence/issues/465)
+  - Linux: Fixed some cover image URLs that contain or resolve to IP addresses
+    in private networks being incorrectly identified as internet-accessible.
+    Now all covers that are hosted in private networks
+    are downloaded locally and then uploaded to the cover image proxy server.
+    Fixes [#325](https://github.com/ungive/discord-music-presence/issues/325)
 - New languages TODO
 - Added media players TODO
 
