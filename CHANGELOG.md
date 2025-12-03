@@ -63,7 +63,7 @@
     in private networks being incorrectly identified as internet-accessible.
     Now all covers that are hosted in private networks
     are downloaded locally and then uploaded to the cover image proxy server.
-    Fixes [#325](https://github.com/ungive/discord-music-presence/issues/325)
+    Fixes [#515](https://github.com/ungive/discord-music-presence/issues/515)
 - New languages TODO
 - Added media players TODO
 
