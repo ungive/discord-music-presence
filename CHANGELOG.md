@@ -64,6 +64,16 @@
     Now all covers that are hosted in private networks
     are downloaded locally and then uploaded to the cover image proxy server.
     Fixes [#515](https://github.com/ungive/discord-music-presence/issues/515)
+  - Apple Music: Fixed personal data showing in the Discord status,
+    when the name of the station that is being listened to is in the track title
+    instead of the artist or album field.
+    Fixes [#449](https://github.com/ungive/discord-music-presence/issues/449)
+  - Apple Music: Now filtering out tracks that only have "Connecting..."
+    in their title and that have no other metadata.
+    Fixes [#448](https://github.com/ungive/discord-music-presence/issues/448)
+  - TIDAL: Fixed some tracks not being found with the TIDAL API
+    due to an ambiguously formatted and thereby misinterpreted API response.
+    Fixes [#525](https://github.com/ungive/discord-music-presence/issues/525)
 - New languages TODO
 - Added media players TODO
 
