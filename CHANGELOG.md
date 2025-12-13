@@ -2,6 +2,12 @@
 
 ## 2.3.5
 
+- Added the option to display custom text in your status
+  by setting a custom Discord application ID under Discord > Appearance.
+  This can be done globally or per media player.
+  You can select "Custom" for "Display text" or "Profile display text"
+  and an example ID will be pre-filled alongside a useful help text. Implements
+  [#520](https://github.com/ungive/discord-music-presence/issues/520)
 - Added the option to hide the tray icon and to open the settings window
   when launching the application while it's already running.
   Also added the option on Windows to open the settings window
@@ -9,18 +15,47 @@
   in order to not break old behaviour. On Linux this is already the default.
   You can find these settings under General > Interaction. Implements
   [#503](https://github.com/ungive/discord-music-presence/issues/503)
-- Several UI improvements:
+- Several improvements to the settings window:
+  - Drastically improved startup time.
+    Opening the settings should now feel instant
+  - The settings window is now opened when the app is launched again.
+    This is enabled by default and can be disabled in the General settings.
+    This behaviour is always enabled, when the tray icon is disabled. Implements
+    [#503](https://github.com/ungive/discord-music-presence/issues/503)
+  - Added the option on Windows to open the settings window
+    when left-clicking the tray icon. This is disabled by default,
+    in order to not make it seem like the tray menu has been removed.
+    On Linux this is already the default.
+    This can be enabled under General > Interaction
   - Improved highlighting of selected and hovered categories in the sidebar
   - Reduced the use of lines and improved visibility of individual sections
   - Removed black borders around media player logos in the app
 - Bug fixes and other improvements
-  - Fixed unnecessary connections to the cover image proxy server
+  - Covers: Fixed the Discord status not updating anymore
+    when the connection to the cover image server
+    is unstable or lost frequently.
+    This was due to Qt's WebSocket library sometimes freezing indefinitely
+    causing all Discord status updates to be halted.
+    The library that powers cover images
+    ("[loon](https://github.com/ungive/loon)")
+    now uses the magnificent
+    [libdatachannel](https://github.com/paullouisageneau/libdatachannel)
+    library for WebSocket communication.
+    Fixes [#559](https://github.com/ungive/discord-music-presence/issues/559)
+  - Covers (Apple Music):
+    Fixed unnecessary connections to the cover image proxy server
     for Apple Music users, which lead to more load on the server than necessary.
     This bug was introduced in version 2.3.2
     when a second API was added for Apple Music,
     which lead to out of order processing and the proxy client connecting,
     even though the API loaded a cover URL from the API.
     Fixes [#368](https://github.com/ungive/discord-music-presence/issues/368)
+  - Covers (Linux): Reusing previously uploaded cover images,
+    if the image contents haven't changed,
+    but the reported file path to the cover image changed.
+    This is noticable e.g. with Strawberry,
+    which changes the file path when changing the song,
+    even when the cover image is the same
   - Linux: Music Presence is now built using GCC 10 instead of GCC 13,
     which should allow it to run on systems with an older version of libstdc++.
     Fixes [#440](https://github.com/ungive/discord-music-presence/issues/440)
@@ -74,6 +109,18 @@
   - TIDAL: Fixed some tracks not being found with the TIDAL API
     due to an ambiguously formatted and thereby misinterpreted API response.
     Fixes [#525](https://github.com/ungive/discord-music-presence/issues/525)
+  - All music APIs: Fixed an issue where tracks without an artist or album
+    incorrectly had a random artist assigned to them.
+    API requests are now only made when the title is non-empty
+    and either the artist or album name is present
+  - Settings: Fixed "Profile display text" not changing
+    for a specific media player, while being overridden
+  - Settings: You can now override a Discord appearance setting
+    for a media player to the same setting that is set globally
+    by selecting it again. Previously, selecting it again would do nothing
+  - Settings: Added suitable window size constraints. On Linux,
+    if you are using a tiling window manager,
+    the settings window should now be floating by default
 - New languages TODO
 - Added media players TODO
 
