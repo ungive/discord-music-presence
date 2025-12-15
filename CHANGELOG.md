@@ -23,8 +23,8 @@
   - Your account ID and username is stored locally on your device
     in settings.json and stats.json in
     "%APPDATA%/Music Presence" on Windows,
-    "~/Library/Application Support/Music Presence" on Mac
-    and "~/.local/share/Music Presence" on Linux.
+    "/Users/You/Library/Application Support/Music Presence" on Mac
+    and "/home/you/.local/share/Music Presence" on Linux.
     Do not share these files with anyone,
     if you don't want to reveal which accounts are your alt accounts
 - Several improvements to the settings window:
