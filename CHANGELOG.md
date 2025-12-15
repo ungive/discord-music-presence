@@ -15,6 +15,18 @@
   in order to not break old behaviour. On Linux this is already the default.
   You can find these settings under General > Interaction. Implements
   [#503](https://github.com/ungive/discord-music-presence/issues/503)
+- Added the option to toggle presence per Discord account.
+  If you are using multiple accounts,
+  you can now selectively disable the Discord presence for each account.
+  The setting is located under Settings > Discord and
+  by default the presence is enabled for all accounts you use
+  - Your account ID and username is stored locally on your device
+    in settings.json and stats.json in
+    "%APPDATA%/Music Presence" on Windows,
+    "~/Library/Application Support/Music Presence" on Mac
+    and "~/.local/share/Music Presence" on Linux.
+    Do not share these files with anyone,
+    if you don't want to reveal which accounts are your alt accounts
 - Several improvements to the settings window:
   - Drastically improved startup time.
     Opening the settings should now feel instant
