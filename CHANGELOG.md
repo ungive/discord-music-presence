@@ -2,6 +2,12 @@
 
 ## 2.3.5
 
+- Added the option to display custom text in your status
+  by setting a custom Discord application ID under Discord > Appearance.
+  This can be done globally or per media player.
+  You can select "Custom" for "Display text" or "Profile display text"
+  and an example ID will be pre-filled alongside a useful help text. Implements
+  [#520](https://github.com/ungive/discord-music-presence/issues/520)
 - Added the option to enter your own music API credentials for Spotify an TIDAL.
   This helps with retrieving additional song metadata more reliably,
   especially for Spotify, whose API unfortunately gets rate limited heavily.
@@ -13,22 +19,12 @@
     for the streaming services that you are using
   - The credentials you enter are stored locally on your device in stats.json.
     Do not share this file with anyone.
+    Note that these credentials do not grant access to your Spotify account,
+    so in the event that you do accidentally share them,
+    someone else won't be able access your account with these credentials.
     Read the [documentation](https://github.com/ungive/discord-music-presence/blob/master/documentation/music-presence-files.md)
     to find out where this file is located
-- Added the option to display custom text in your status
-  by setting a custom Discord application ID under Discord > Appearance.
-  This can be done globally or per media player.
-  You can select "Custom" for "Display text" or "Profile display text"
-  and an example ID will be pre-filled alongside a useful help text. Implements
-  [#520](https://github.com/ungive/discord-music-presence/issues/520)
-- Added the option to hide the tray icon and to open the settings window
-  when launching the application while it's already running.
-  Also added the option on Windows to open the settings window
-  when left-clicking the tray icon, which is disabled by default,
-  in order to not break old behaviour. On Linux this is already the default.
-  You can find these settings under General > Interaction. Implements
-  [#503](https://github.com/ungive/discord-music-presence/issues/503)
-- Added the option to toggle presence per Discord account.
+- Added the option to toggle your presence per Discord account.
   If you are using multiple accounts,
   you can now selectively disable the Discord presence for each account.
   The setting is located under Settings > Discord and
@@ -39,6 +35,13 @@
     if you don't want to reveal which Discord accounts are your alt accounts!
     Read the [documentation](https://github.com/ungive/discord-music-presence/blob/master/documentation/music-presence-files.md)
     to find out where this file is located
+- Added the option to hide the tray icon and to open the settings window
+  when launching the application while it's already running.
+  Also added the option on Windows to open the settings window
+  when left-clicking the tray icon, which is disabled by default,
+  in order to not break old behaviour. On Linux this is already the default.
+  You can find these settings under General > Interaction. Implements
+  [#503](https://github.com/ungive/discord-music-presence/issues/503)
 - Several improvements to the settings window:
   - Drastically improved startup time.
     Opening the settings should now feel instant
