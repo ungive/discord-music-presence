@@ -2,6 +2,19 @@
 
 ## 2.3.5
 
+- Added the option to enter your own music API credentials for Spotify an TIDAL.
+  This helps with retrieving additional song metadata more reliably,
+  especially for Spotify, whose API unfortunately gets rate limited heavily.
+  In the settings, go to Discord > Services, then scroll down
+  to find instructions how to create and enter your own credentials.
+  Implements [#555](https://github.com/ungive/discord-music-presence/issues/555)
+  - For instance, if you want all artists to show up for a song consistently,
+    you should follow these steps to enter your own API credentials
+    for the streaming services that you are using
+  - The credentials you enter are stored locally on your device in stats.json.
+    Do not share this file with anyone.
+    Read the [documentation](https://github.com/ungive/discord-music-presence/blob/master/documentation/music-presence-files.md)
+    to find out where this file is located
 - Added the option to display custom text in your status
   by setting a custom Discord application ID under Discord > Appearance.
   This can be done globally or per media player.
@@ -20,13 +33,12 @@
   you can now selectively disable the Discord presence for each account.
   The setting is located under Settings > Discord and
   by default the presence is enabled for all accounts you use
-  - Your account ID and username is stored locally on your device
-    in settings.json and stats.json in
-    "%APPDATA%/Music Presence" on Windows,
-    "/Users/You/Library/Application Support/Music Presence" on Mac
-    and "/home/you/.local/share/Music Presence" on Linux.
-    Do not share these files with anyone,
-    if you don't want to reveal which accounts are your alt accounts
+  - The IDs and usernames of the accounts you use Music Presence with
+    are stored locally on your device in stats.json.
+    Do not share this file with anyone,
+    if you don't want to reveal which Discord accounts are your alt accounts!
+    Read the [documentation](https://github.com/ungive/discord-music-presence/blob/master/documentation/music-presence-files.md)
+    to find out where this file is located
 - Several improvements to the settings window:
   - Drastically improved startup time.
     Opening the settings should now feel instant
@@ -96,7 +108,7 @@
   - Windows: Added a "User-Agent" header to GitHub API requests
     to hopefully fix random automatic update errors for certain users
     [#348](https://github.com/ungive/discord-music-presence/issues/348)
-  - Updated bundled OpenSSL to version 3.5 (LTS) and httplib to version 0.27.0
+  - Updated bundled OpenSSL to version 3.0 (LTS) and httplib to version 0.27.0
     and removed statically linked OpenSSL, which sometimes could cause crashes
     when used together with dynamically linked OpenSSL.
     Switched to managing dependencies with Conan instead of vcpkg.
@@ -133,6 +145,9 @@
   - Settings: Added suitable window size constraints. On Linux,
     if you are using a tiling window manager,
     the settings window should now be floating by default
+  - Fixed the status showing up for a split-second
+    after switching Discord accounts.
+    The status is now cleared when Discord is closed or the account is switched
 - New languages TODO
 - Added media players TODO
 
