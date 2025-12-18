@@ -33,26 +33,27 @@ about how your data is processed.
 
 ## Table of Contents
 
-<!-- TOC -->
+<!-- TOC depthfrom:2 updateonsave:false -->
 
 * [Overview](#overview)
 * [Table of Contents](#table-of-contents)
 * [How does the Software collect data?](#how-does-the-software-collect-data)
 * [What data is collected by the Software?](#what-data-is-collected-by-the-software)
-  * [Media Metadata](#media-metadata)
-  * [Analytics Metrics (privacy-friendly)](#analytics-metrics-privacy-friendly)
-  * [No Personal Data](#no-personal-data)
-  * [Submitting detected media players](#submitting-detected-media-players)
+    * [Media Metadata](#media-metadata)
+    * [Analytics Metrics (privacy-friendly)](#analytics-metrics-privacy-friendly)
+    * [No Personal Data](#no-personal-data)
+    * [Submitting detected media players](#submitting-detected-media-players)
 * [How is the data being used and shared?](#how-is-the-data-being-used-and-shared)
-  * [Discord](#discord)
-  * [TIDAL](#tidal)
-  * [Deezer](#deezer)
-  * [Spotify](#spotify)
-  * [Apple](#apple)
-  * [Simple Analytics](#simple-analytics)
-  * [GitHub](#github)
-  * [Our own services](#our-own-services)
-  * [Encryption](#encryption)
+    * [Discord](#discord)
+    * [TIDAL](#tidal)
+    * [Deezer](#deezer)
+    * [Spotify](#spotify)
+    * [Apple](#apple)
+    * [Simple Analytics](#simple-analytics)
+    * [GitHub](#github)
+    * [Our own services](#our-own-services)
+    * [Custom cover image proxy server](#custom-cover-image-proxy-server)
+    * [Encryption](#encryption)
 * [Which Media Metadata is shared by default?](#which-media-metadata-is-shared-by-default)
 * [How can the user control which data is shared?](#how-can-the-user-control-which-data-is-shared)
 * [Automatic updates](#automatic-updates)
@@ -366,6 +367,15 @@ These include the following services:
   for a short amount of time,
   such that they can be shown in a Rich Presence on Discord.
   This service can be disabled in the settings.
+
+### Custom cover image proxy server
+
+In the settings of the Software it is possible to enter connection details
+for a "Custom cover proxy server".
+By entering these details,
+your IP address may be revealed to the server.
+Your use of third-party servers is not governed by this privacy policy.
+It's recommended to "self-host" or only use servers that you trust.
 
 ### Encryption
 
