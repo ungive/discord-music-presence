@@ -8,7 +8,8 @@
   You can select "Custom" for "Display text" or "Profile display text"
   and an example ID will be pre-filled alongside a useful help text. Implements
   [#520](https://github.com/ungive/discord-music-presence/issues/520)
-- Added the option to enter your own music API credentials for Spotify an TIDAL.
+- Added the option to enter your own music API credentials
+  for Spotify and TIDAL.
   This helps with retrieving additional song metadata more reliably,
   especially for Spotify, whose API unfortunately gets rate limited heavily.
   In the settings, go to Discord > Services, then scroll down
@@ -24,6 +25,17 @@
     someone else won't be able access your account with these credentials.
     Read the [documentation](https://github.com/ungive/discord-music-presence/blob/master/documentation/music-presence-files.md)
     to find out where this file is located
+- Added the option to self-host a cover image proxy server
+  and use it with Music Presence!
+  Open the settings and go to Discord > Services,
+  then scroll all the way down to "Custom cover proxy server".
+  For instructions on how to get started, read the
+  [documentation](https://github.com/ungive/discord-music-presence/blob/master/documentation/self-hosted-cover-image-proxy.md).
+  - Self-hosting a cover proxy server allows you to show
+    higher quality album covers in your Discord status,
+    be independent of any outages of the server
+    that is shared amongst all Music Presence users
+    and takes some pressure off of the shared server
 - Added the option to toggle your presence per Discord account.
   If you are using multiple accounts,
   you can now selectively disable the Discord presence for each account.
