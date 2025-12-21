@@ -163,6 +163,12 @@
   - Fixed the status showing up for a split-second
     after switching Discord accounts.
     The status is now cleared when Discord is closed or the account is switched
+  - Windows: Fixed installer deleting all files
+    in the selected install directory,
+    when it's not the default installation directory.
+    Since this can cause data loss when choosing directory with personal files,
+    files are now not deleted anymore.
+    Fixes [#498](https://github.com/ungive/discord-music-presence/issues/498)
 - New languages TODO
 - Added media players TODO
 
