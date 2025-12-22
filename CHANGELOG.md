@@ -2,6 +2,15 @@
 
 ## 2.3.5
 
+This is a maintenance release to fix various bugs
+and introduce a couple new features.
+Meanwhile **Last.fm scrobbling** is currently in beta on the
+[Discord server](https://discord.com/invite/7rc8dWD4ug),
+if you are curious how far the progress is getting along
+and if you want to give it a try!
+Feel free to join the server and drop a message,
+if you want to get access.
+
 - Added the option to display custom text in your status
   by setting a custom Discord application ID under Discord > Appearance.
   This can be done globally or per media player.
@@ -169,8 +178,10 @@
     Since this can cause data loss when choosing directory with personal files,
     files are now not deleted anymore.
     Fixes [#498](https://github.com/ungive/discord-music-presence/issues/498)
-- New languages TODO
-- Added media players TODO
+- Added media players
+  - Windows: Chillhop, Feishin, Fladder, FocalSonic, Freefy, Grover Podcast, Murglar, Musicloud, Nagi, Neutron
+  - Mac: Apple TV, Audible, Discrete, IINA, Manet, Overcast, Prologue, VOX
+  - Linux: DeaDBeeF, Feishin, Finamp, gmusicbrowser, Haruna, High Tide, Kasts, Metrolist, OuterTune, Poweramp, Rhythmbox, Sayonara, VacuumTube, Valent
 
 ## 2.3.4
 
