@@ -63,6 +63,12 @@ if you want to get access.
   in order to not break old behaviour. On Linux this is already the default.
   You can find these settings under General > Interaction. Implements
   [#503](https://github.com/ungive/discord-music-presence/issues/503)
+- Added the option to explicitly set the country code
+  to be used for music API requests.
+  This can be necessary when your device's country is different
+  from your streaming service account's country,
+  which can lead to some songs not being found
+  that have slightly different metadata in different countries
 - Several improvements to the settings window:
   - Drastically improved startup time.
     Opening the settings should now feel instant
@@ -161,6 +167,11 @@ if you want to get access.
     incorrectly had a random artist assigned to them.
     API requests are now only made when the title is non-empty
     and either the artist or album name is present
+  - All music APIs: Fixed random additional artists being added to songs,
+    when the API wouldn't find the right song by the artist,
+    but other songs with a matching title
+  - All music APIs: Fixed incorrect songs being matched
+    that are not similar enough to the queried song title
   - Settings: Fixed "Profile display text" not changing
     for a specific media player, while being overridden
   - Settings: You can now override a Discord appearance setting
@@ -180,7 +191,7 @@ if you want to get access.
     Fixes [#498](https://github.com/ungive/discord-music-presence/issues/498)
 - Added media players
   - Windows: Chillhop, Feishin, Fladder, FocalSonic, Freefy, Grover Podcast, Murglar, Musicloud, Nagi, Neutron
-  - Mac: Apple TV, Audible, Discrete, IINA, Manet, Overcast, Prologue, VOX
+  - Mac: Apple TV, Audible, Discrete, IINA, Manet, Overcast, Prologue, Samply, VOX
   - Linux: DeaDBeeF, Feishin, Finamp, gmusicbrowser, Haruna, High Tide, Kasts, Metrolist, OuterTune, Poweramp, Rhythmbox, Sayonara, VacuumTube, Valent
 
 ## 2.3.4
