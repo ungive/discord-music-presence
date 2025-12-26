@@ -483,7 +483,7 @@ by clicking the respective button in the Tray Menu.
 
 ## Scope of this privacy policy
 
-This document applies to version 2.3.4 of Music Presence and that version only.
+This document applies to version 2.3.5 of Music Presence and that version only.
 
 ## Changes to this privacy policy
 
@@ -491,7 +491,7 @@ This privacy policy is kept under regular review.
 Any updates are placed into this file in this repository.
 The last update to this policy is stated below.
 
-Last updated on 15 September 2025.  
+Last updated on 18 December 2025.  
 This does not include changes to the scope of this privacy policy.
 
 ## Contact details
