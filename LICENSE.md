@@ -142,3 +142,13 @@ Licensed under the GNU LGPL-2.1 License.
 Copyright (c) 2017-2025 Stanislav Angelovic  
 A copy of the source code can be obtained at  
     <https://github.com/Kistler-Group/sdbus-cpp>
+
+oclero/qlementine-icons  
+Licensed under the MIT License.  
+Copyright (c) 2023 Olivier Cléro  
+    <https://github.com/oclero/qlementine-icons>
+
+paullouisageneau/libdatachannel  
+Licensed under the MPL-2.0 License.  
+Copyright (c) 2019-2025 Paul-Louis Ageneau  
+    <https://github.com/paullouisageneau/libdatachannel>
