@@ -4,7 +4,7 @@
 
 This is a maintenance release to fix various bugs
 and introduce a couple new features.
-Meanwhile **Last.fm&nbsp;scrobbling** is currently in beta on the
+Meanwhile **Last.fm**&nbsp;**scrobbling** is currently in beta on the
 [Discord server](https://discord.com/invite/7rc8dWD4ug),
 if you are curious how far the progress is getting along
 and if you want to give it a try!
