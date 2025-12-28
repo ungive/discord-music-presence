@@ -13,7 +13,8 @@
 **Music Presence** shows your friends on Discord
 what music you are listening to.
 
-It works with any media player, be that e.g. Spotify, TIDAL or foobar2000.
+It works with any media player,
+be that e.g. Apple Music, Spotify or even foobar2000.
 When you play music with an app, it is automatically detected
 and appears in the tray menu, as you can see in the screenshot above!
 
@@ -25,6 +26,7 @@ These are some of the most notable features
 - Fine-grained control over which applications are shared and which are not
 - The tray icon changes and reflects
   whether your status is currently active or not
+- Looks and feels like an official integration, but with many more features
 
 ## Download
 
@@ -68,14 +70,14 @@ or join our Discord: [**discord.gg/musicpresence**](https://discord.gg/musicpres
 ## Features
 
 - Music Presence works with *any* media player!  
-  Currently **75+** different players are supported. You can find an always up-to-date list [here](https://musicpresence.pocha.moe/) (this page was made by a community member). Adding a missing one is [trivial](./documentation/troubleshooting.md#if-your-media-player-is-still-not-detected)!
+  Currently **100+** different players are supported. Adding a missing one is [trivial](./documentation/troubleshooting.md#if-your-media-player-is-still-not-detected)!
 
 - Shows the correct album cover image **100%** of the time!  
-  *This works with any media player and is achieved without the use of external image sources.*
+  This works with any media player and is achieved without the use of external image sources.
 
 - You have the option to show the artist name, song title, player name or the media type after the "Listening to" text. Examples are: "Listening to Billie Eilish", "Listening to Happier Than Ever", "Listening to Spotify" or "Listening to Music".
 
-- Shows animated album artwork directly in your status for supported players. This currently works with Apple Music and TIDAL. Album cover videos are converted on the fly and may take a few seconds to load.
+- Shows animated album artwork directly in your status for supported players. This currently works with Apple Music and TIDAL. Album cover videos are converted on the fly and may take a few seconds to load. This is disabled by default and must be enabled explicitly.
 
 - You can also show paused media in your status for as long as you want! Love that one song so much, you wanna show it forever? Just play it once, pause it and basically sticky pin it to your profile card.
 
