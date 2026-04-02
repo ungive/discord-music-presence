@@ -1,5 +1,114 @@
 # Changelog
 
+## 2.4.0
+
+**Last.fm scrobbling** is finally here!
+You can now scrobble any media player
+with the utmost precision on Windows, Mac and Linux.
+I've built this feature from the ground to support multiple media sources,
+to configure exactly when a scrobble happens,
+to scrobble the primary artist with 100% reliability,
+to edit metadata with regular expressions
+and to filter out songs that matches regular expressions
+and even individual artists.
+
+- Added **Last.fm scrobbling**. To get started open the settings,
+  go to Scrobbling > Accounts and connect your Last.fm account.
+  After connecting your account you will see further instructions.
+  You need to enable each media player you want to scrobble explicitly
+  in the Scrobbling > Players settings
+  - **Precise configuration** -
+    In the Scrobbling > Configuration settings
+    you will find plenty of configuration options
+    to control exactly if and when a track is scrobbled.
+    Options include the minimum playback duration,
+    a percentage threshold,
+    the minimum track duration,
+    whether to scrobble once the threshold is reached or when the track ends,
+    how strictly to record played sections of a track,
+    the minimum rewind duration to trigger a scrobble
+    and a recording error tolerance.
+    There are also explicit settings for media players
+    that do not report a track duration,
+    as normal thresholds can't be applied with those
+  - **Primary artist scrobbling** -
+    Multiple artists are split at common separators
+    like commas, ampersands and conjunctions like "and" in various languages.
+    This works with 100% reliability and takes real-world artists into account.
+    Artist names like "Tyler, The Creator" are e.g. not split at the comma.
+    Configure this in the setup screen after connecting your account
+    and in the Scrobbling > Metadata settings
+  - **Edit metadata with regular expressions** -
+    Create any number of regex replacements, reorder them
+    and toggle each one on and off.
+    Supports the powerful PCRE2 regular expression syntax.
+    Each metadata attribute (title, artist, album, ...)
+    is matched with its own regular expression.
+    All provided regular expressions must match
+    in order to perform a replacement.
+    You can reference capturing groups from any attribute
+    or the whole match of an attribute in the replacement text
+    with syntax like `$group`, `$title:group`, `$0`, `$1` and `%{group}`.
+    This allows you to e.g. move matches from one attribute to another,
+    e.g. to add featured artists in the title to the artist list.
+    Supports two replacement modes:
+    The default one replaces all metadata attributes entirely
+    with the replacement text.
+    The second mode searches for matches and replaces only the match itself,
+    either only the first occurrence or all occurrences.
+    Next to matching each attribute with a regular expressions,
+    you can also require certain individual artists
+    to be present in the artist attribute,
+    which even works when multiple artists are listed,
+    separated by comma or other delimiters.
+    You can restrict replacements to specific media players.
+    Test your regular expression in real-time with a dedicated input form.
+    There are several presets for the most common edits
+    and you can even suggest your replacements as presets for everyone to use.
+    On Mac and Linux you can also match the composer, if you ever need to
+  - **Blacklist tracks with specific metadata** -
+    You can blacklist tracks either with regular expressions
+    or that matches specific metadata exactly.
+    You can therefore e.g. filter out specific tracks of an artist,
+    an entire album or all tracks of a specific individual artist.
+    This uses artist splitting to reliably filter out tracks from artists,
+    even when multiple artists are listed,
+    separated by comma or other delimiters
+  - **Enable media players explicitly** -
+    You need to explicitly enable which media players you want to scrobble
+    in the Scrobbling > Players settings.
+    By default, no media player is scrobbled.
+    You are also informed about this fact in the small setup wizard,
+    that appears immediately after you connected your account
+- Bug fixes and other improvements
+  - Reduced original memory usage while all windows and menus are closed
+    by about 75% by not caching all media player icons in memory.
+    Hardly noticable though, as the memory is now used for other components
+  - Covers: Fixed some cover images consistently failing to upload.
+    Fixes [#624](https://github.com/ungive/discord-music-presence/issues/624)
+  - Covers: Increased the maximum cover image size
+    for the custom/self-hosted cover image proxy
+    from 128 pixels to to 1024 pixels.
+    You can now show higher quality covers by self-hosting
+    a [loon](https://github.com/ungive/loon) server
+  - Linux: Now stripping any `.profile*` suffix from D-Bus service names
+    so players like `JellyfinDesktop.profile...` can be detected
+    without the random component.
+    See [#605](<https://github.com/ungive/discord-music-presence/issues/605>)
+  - Settings: Fixed input placeholder text color
+    sometimes being hard to read in dark mode for some people.
+    The color is now set explicitly, it wasn't before
+  - Settings: The width of the category list on the side
+    now dynamically adjusts to the longest word,
+    based on the currently selected language
+- New languages
+  - TODO
+- Added media players
+  - Linux: TODO
+  - Websites (Linux only): TODO
+  - Windows: TODO
+  - Mac: TODO
+
 ## 2.3.5
 
 This is a maintenance release to fix various bugs
