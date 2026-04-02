@@ -1,108 +1,30 @@
 # Supported media players
 
-> [!WARNING]
-> This page is not kept up to date.
-> You can find an updated overview [here](https://musicpresence.pocha.moe/),
-> which is a site created by a community member.
-> Thank you [@mercurialworld](https://github.com/mercurialworld)!
-> The [additional notes](#additional-notes) below still apply though.
+For an always up-to-date list of support media players visit:
 
-> [!NOTE]
-> If your media player is not detected,
-please visit the [**troubleshooting**](./troubleshooting.md) page
+**https://nimigames68.github.io/Music-Presence-Players**
 
-## Overview
+This site was created by the community member [@NimiGames68](https://github.com/NimiGames68).
 
-**Streaming services**
+If your media player is not detected,
+visit the [**troubleshooting**](./troubleshooting.md) page.
 
-<span><a href="https://tidal.com"><img title="TIDAL" alt="" height="48" src="https://live.musicpresence.app/v2/tidal.ico"></a></span>&nbsp;
-<span><a href="https://spotify.com"><img title="Spotify" alt="" height="48" src="https://live.musicpresence.app/v2/spotify.ico"></a></span>&nbsp;
-<span><a href="https://www.deezer.com"><img title="Deezer" alt="" height="48" src="https://live.musicpresence.app/v2/deezer.ico"></a></span>&nbsp;
-<span><a href="https://www.amazon.com/music"><img title="Amazon Music" alt="" height="48" src="https://live.musicpresence.app/v2/amazon-music.ico"></a></span>&nbsp;
-<span><a href="https://music.apple.com"><img title="Apple Music" alt="" height="48" src="https://live.musicpresence.app/v2/apple-music.ico"></a></span>&nbsp;
-<span><a href="https://th-ch.github.io/youtube-music/"><img title="YouTube Music (Unofficial Desktop)" alt="" height="48" src="https://live.musicpresence.app/v2/youtube-music.ico"></a></span>&nbsp;
-<span><a href="https://apps.microsoft.com/detail/9nvjbt29b36l"><img title="SoundCloud" alt="" height="48" src="https://live.musicpresence.app/v2/soundcloud.ico"></a></span>&nbsp;
-<span><a href="https://pocketcasts.com/"><img title="Pocket Casts (Podcasts)" alt="" height="48" src="https://live.musicpresence.app/v2/pocketcasts.ico"></a></span>&nbsp;
-<span><a href="https://en.wikipedia.org/wiki/Yandex_Music"><img title="Yandex Music" alt="" height="48" src="https://live.musicpresence.app/v2/yandex-music.ico"></a></span>&nbsp;
-<span><a href="https://cider.sh"><img title="Cider (Apple Music)" alt="" height="48" src="https://live.musicpresence.app/v2/cider.ico"></a></span>&nbsp;
-<span><a href="https://youtube.com"><img title="YouTube" alt="" height="48" src="https://live.musicpresence.app/v2/youtube.ico"></a></span>&nbsp;
-<span><a href="https://podurama.com/"><img title="Podurama" alt="" height="48" src="https://live.musicpresence.app/v2/podurama.ico"></a></span>&nbsp;
+## Required plugins and helper programs
 
-**Offline media players**
+Some media players require a plugin or helper program.
+Please refer to the list below for your media player.
 
-<span><a href="https://www.foobar2000.org"><img title="foobar2000" alt="" height="48" src="https://live.musicpresence.app/v2/foobar2000.ico"></a></span>&nbsp;
-<span><a href="https://www.getmusicbee.com"><img title="MusicBee" alt="" height="48" src="https://live.musicpresence.app/v2/musicbee.ico"></a></span>&nbsp;
-<span><a href="https://getwacup.com/"><img title="Winamp (installed via WACUP)" alt="" height="48" src="https://live.musicpresence.app/v2/winamp.ico"></a></span>&nbsp;
-<span><a href="https://getwacup.com/"><img title="WACUP" alt="" height="48" src="https://live.musicpresence.app/v2/wacup.ico"></a></span>&nbsp;
-<span><a href="https://www.videolan.org/vlc"><img title="VLC Media Player" alt="" height="48" src="https://live.musicpresence.app/v2/vlc.ico"></a></span>&nbsp;
-<span><a href="https://www.aimp.ru"><img title="AIMP" alt="" height="48" src="https://live.musicpresence.app/v2/aimp.ico"></a></span>&nbsp;
-<span><a href="https://www.mediamonkey.com"><img title="MediaMonkey" alt="" height="48" src="https://live.musicpresence.app/v2/mediamonkey.ico"></a></span>&nbsp;
-<span><a href="https://en.wikipedia.org/wiki/Windows_Media_Player_(2022)"><img title="Windows Media Player" alt="" height="48" src="https://live.musicpresence.app/v2/windows-media-player.ico"></a></span>&nbsp;
-<span><a href="https://github.com/Sandakan/Nora"><img title="Nora Music" alt="" height="48" src="https://live.musicpresence.app/v2/nora.ico"></a></span>&nbsp;
-<span><a href="https://apps.microsoft.com/detail/9nblggh67n4f"><img title="Next-Player (DryForest)" alt="" height="48" src="https://live.musicpresence.app/v2/next-player.ico"></a></span>&nbsp;
-<span><a href="https://github.com/digimezzo/dopamine"><img title="Dopamine" alt="" height="48" src="https://live.musicpresence.app/v2/dopamine.ico"></a></span>&nbsp;
-<span><a href="https://harmonoid.com"><img title="Harmonoid" alt="" height="48" src="https://live.musicpresence.app/v2/harmonoid.ico"></a></span>&nbsp;
-<span><a href="https://www.apple.com/de/itunes"><img title="iTunes" alt="" height="48" src="https://live.musicpresence.app/v2/itunes.ico"></a></span>&nbsp;
-<span><a href="https://mpv.io"><img title="mpv" alt="" height="48" src="https://live.musicpresence.app/v2/mpv.ico"></a></span>&nbsp;
+### Qobuz
 
-## Support Table
+Since a past update Qobuz has stopped reporting what it's playing to Windows.
 
-> Media from websites in browsers and Linux are not yet supported
+Possible workarounds are:
+- Downgrading your Qobuz version, see this GitHub issue comment: https://github.com/ungive/discord-music-presence/issues/244#issuecomment-3556269025
+- Modifying your Qobuz installation (might violate ToS): https://github.com/TubaApollo/qobuz-smtc
 
-| Desktop Application       |                   Windows                   |          Mac <15.4          |                                Mac >=15.4                                |          Linux           |
-|---------------------------|:-------------------------------------------:|:---------------------------:|:------------------------------------------------------------------------:|:------------------------:|
-| AIMP                      |    :white_check_mark: :pencil: :wrench:     |  :heavy_multiplication_x:   |                         :heavy_multiplication_x:                         |           ...            |
-| Amazon Music              | :white_check_mark: :face_with_head_bandage: |     :white_check_mark:*     |                         :heavy_multiplication_x:                         |           ...            |
-| Apple Music               |             :white_check_mark:              |     :white_check_mark:      |                            :white_check_mark:                            |           ...            |
-| Apple Podcasts            |          :heavy_multiplication_x:           |     :white_check_mark:      |                         :heavy_multiplication_x:                         | :heavy_multiplication_x: |
-| Cider<sup>7</sup>         |             :white_check_mark:              |     :white_check_mark:      |                         :heavy_multiplication_x:                         | :heavy_multiplication_x: |
-| Deezer                    |             :white_check_mark:              |     :white_check_mark:*     |                         :heavy_multiplication_x:                         |           ...            |
-| Dopamine<sup>5</sup>      |             :white_check_mark:              |             ...             |                                   ...                                    |           ...            |
-| foobar2000                |         :white_check_mark: :pencil:         |     :white_check_mark:      |                         :heavy_multiplication_x:                         | :heavy_multiplication_x: |
-| Harmonoid                 |             :white_check_mark:              |  :heavy_multiplication_x:   |                         :heavy_multiplication_x:                         |           ...            |
-| iTunes<sup>8</sup>        |         :white_check_mark: :pencil:         |  :heavy_multiplication_x:   |                         :heavy_multiplication_x:                         | :heavy_multiplication_x: |
-| Jellyfin                  |         :white_check_mark: :wrench:         |             ...             |                                   ...                                    |           ...            |
-| MediaMonkey               | :white_check_mark: :face_with_head_bandage: |  :heavy_multiplication_x:   |                         :heavy_multiplication_x:                         | :heavy_multiplication_x: |
-| mpv                       |             :white_check_mark:              | :white_check_mark: :wrench: |                         :heavy_multiplication_x:                         |           ...            |
-| MusicBee                  |         :white_check_mark: :pencil:         |  :heavy_multiplication_x:   |                         :heavy_multiplication_x:                         | :heavy_multiplication_x: |
-| Next-Player<sup>2</sup>   |             :white_check_mark:              |  :heavy_multiplication_x:   |                         :heavy_multiplication_x:                         | :heavy_multiplication_x: |
-| Nora<sup>3</sup>          |             :white_check_mark:              |  :heavy_multiplication_x:   |                         :heavy_multiplication_x:                         |           ...            |
-| Pocket Casts              |             :white_check_mark:              |     :white_check_mark:      |                         :heavy_multiplication_x:                         | :heavy_multiplication_x: |
-| Podurama<sup>9</sup>      |         :white_check_mark: :wrench:         |             ...             |                                   ...                                    |           ...            |
-| Soundcloud<sup>4</sup>    |             :white_check_mark:              |             ...             |                                   ...                                    |           ...            |
-| Spotify                   |             :white_check_mark:              |     :white_check_mark:      |                            :white_check_mark:                            |           ...            |
-| TIDAL                     |             :white_check_mark:              |     :white_check_mark:      | soon [#211](https://github.com/ungive/discord-music-presence/issues/211) |           ...            |
-| VLC Media Player          |    :white_check_mark: :pencil: :wrench:     |             ...             |                                   ...                                    |           ...            |
-| WACUP                     |         :white_check_mark: :wrench:         |  :heavy_multiplication_x:   |                         :heavy_multiplication_x:                         | :heavy_multiplication_x: |
-| Winamp<sup>6</sup>        |         :white_check_mark: :wrench:         |  :heavy_multiplication_x:   |                         :heavy_multiplication_x:                         | :heavy_multiplication_x: |
-| Windows Media Player      | :white_check_mark: :face_with_head_bandage: |  :heavy_multiplication_x:   |                         :heavy_multiplication_x:                         | :heavy_multiplication_x: |
-| Yandex Music              |             :white_check_mark:              |       :grey_question:       |                             :grey_question:                              | :heavy_multiplication_x: |
-| YouTube Music<sup>1</sup> |             :white_check_mark:              |             ...             | soon [#212](https://github.com/ungive/discord-music-presence/issues/212) |           ...            |
-| YouTube<sup>9</sup>       |         :white_check_mark: :pencil:         |             ...             |                                   ...                                    |           ...            |
-
-|          Symbol          | Meaning                                                                        |
-|:------------------------:|--------------------------------------------------------------------------------|
-|    :white_check_mark:    | This player is supported                                                       |
-|         :pencil:         | Needs additional configuration, please check the additional notes below        |
-|         :wrench:         | This player is supported, but only reports basic playback information          |
-| :face_with_head_bandage: | This player has known issues, see below                                        |
-| :ballot_box_with_check:  | This player is supported and should work, but wasn't explicitly tested         |
-|        :warning:         | Does not report any playback information unfortunately                         |
-| :heavy_multiplication_x: | Not available on this operating system                                         |
-|     :grey_question:      | Not tested or not known to have a desktop application on this operating system |
-|           ...            | Not supported yet, but will likely be added in the future                      |
-
-<sup>1</sup> Using [this](https://github.com/th-ch/youtube-music) unofficial desktop app  
-<sup>2</sup> From the developer "DryForest", [link](https://apps.microsoft.com/detail/9nblggh67n4f)  
-<sup>3</sup> [GitHub](https://github.com/Sandakan/Nora)  
-<sup>4</sup> [Official app](https://apps.microsoft.com/detail/9nvjbt29b36l) (only works on Windows 11)  
-<sup>5</sup> [GitHub](https://github.com/digimezzo/dopamine), works with Dopamine version 2 and 3  
-<sup>6</sup> Winamp only works when installed via the [WACUP](https://getwacup.com) installer  
-<sup>7</sup> Works on Windows 11 and Mac  
-<sup>8</sup> iTunes for Mac only runs on Mac versions older than the ones Music Presence supports  
-<sup>9</sup> Right now this only works by installing it via [WebCatalog](https://webcatalog.io)
-
-## Additional notes
+If you are on Linux, you can use the Qobuz website in a Firefox-based browser
+or the install QBZ Qobuz desktop client: https://github.com/vicrodh/qbz.
+Music played with either option will be detected by Music Presence
 
 ### MusicBee
 
@@ -175,72 +97,26 @@ try updating mpv or installing a development version of mpv.
 
 ## Players with known issues
 
-> These are issues with the ***media players themselves***,
-> not with Music Presence!
-> Affected players are sometimes reporting
-> incorrect song metadata or playback information,
-> we unfortunately can't do much about that.
+Some media players do not report metadata properly.
+Note that these are issues with the ***media players themselves***,
+not with Music Presence.
+Affected players are sometimes reporting
+incorrect song metadata or playback information,
+we unfortunately can't do much about that.
 
-> Also note that the information here was gathered some time ago
-> and might be outdated for some media players.
-> Contributions with updated information are very welcome.
+Known cases:
 
-### Not working randomly
+- **Windows Media Player** (Windows 10) stops working randomly
+  and does not report album covers.
+  If you are looking for suitable alternative that works with Music Presence,
+  have a look at [ScreenBox](https://apps.microsoft.com/detail/9ntsnmsvcb5l)
+- **Amazon Music** consistently reports bad metadata
+  and never reports the album cover.
+  The only solution is to switch streaming services
+- **foobar2000**: Out of the box, foobar2000 does not report the album
+  and the track duration, so you won't see a progress bar in your status.
+  You need to install the
+  [foo_mediacontrol](https://github.com/ungive/foo_mediacontrol)
+  plugin for this
 
-Some players stop reporting song information arbitrarily at some point.
-
-- Windows Media Player on Windows
-
-### Incorrect song metadata
-
-The following players sometimes report incorrect song information,
-like a missing artist, a scrambled song name or no information at all,
-which might cause some songs to not be shown in your status
-or only with incomplete information.
-
-- Amazon Music on Windows
-
-### Players with only basic playback information
-
-#### No precise playback position
-
-These players do not report a precise playback position
-and will only show how much time has elapsed since starting the song,
-instead of adjusting correctly,
-depending on which playback position you jump to in the song.
-
-- Amazon Music on Windows
-- Amazon Music on Mac
-- Deezer on Windows
-- Deezer on Mac
-- foobar2000 on Windows
-- Qobuz on Windows
-- Winamp on Windows
-- WACUP on Windows
-- AIMP on Windows
-- MediaMonkey on Windows
-- VLC on Windows
-- Harmonoid on Windows
-- Jellyfin on Windows
-
-#### Incorrect playback position timestamp
-
-These media players report a playback position
-(which might also be imprecise, see above),
-but they also say e.g. "this playback position is from 10 minutes ago"
-even though the media just started playing and it should say something like
-"this playback position is from a few seconds ago".
-This only becomes a problem when pausing the song and continuing it later,
-which might report something like "13:04 elapsed"
-for a song that's 3 minutes long.
-
-- Deezer on Mac
-
-#### Missing album cover image
-
-These players do not report the album cover to the operating system.
-
-- MediaMonkey on Windows
-- VLC on Windows
-- Podurama on Windows
-- Amazon Music on Windows
+This list is a non-exhaustive.
