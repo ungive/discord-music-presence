@@ -101,6 +101,9 @@ and even individual artists.
   - Settings: The width of the category list on the side
     now dynamically adjusts to the longest word,
     based on the currently selected language
+  - Linux: Fixed WebP covers, e.g. from Feishin,
+    not showing up in the Discord status.
+    Fixes [#727](https://github.com/ungive/discord-music-presence/issues/727)
 - New languages
   - TODO
 - Added media players
