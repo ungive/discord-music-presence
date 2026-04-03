@@ -9,7 +9,7 @@ I've built this feature from the ground to support multiple media sources,
 to configure exactly when a scrobble happens,
 to scrobble the primary artist with 100% reliability,
 to edit metadata with regular expressions
-and to filter out songs that matches regular expressions
+and to filter out songs that match regular expressions
 and even individual artists.
 
 - Added **Last.fm scrobbling**. To get started open the settings,
