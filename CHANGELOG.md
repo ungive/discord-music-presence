@@ -84,6 +84,8 @@ and even individual artists.
   - Reduced original memory usage while all windows and menus are closed
     by about 75% by not caching all media player icons in memory.
     Hardly noticable though, as the memory is now used for other components
+  - Covers: Fixed covers not working when there were IPv6 issues.
+    Fixes [#623](https://github.com/ungive/discord-music-presence/issues/623)
   - Covers: Fixed some cover images consistently failing to upload.
     Fixes [#624](https://github.com/ungive/discord-music-presence/issues/624)
   - Covers: Increased the maximum cover image size
