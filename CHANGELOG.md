@@ -2,10 +2,11 @@
 
 ## 2.3.6
 
+- Added a welcome panel to the settings window with an introduction to the app and helpful links. This should greatly help new users with setting up Music Presence and finding the information they need
+- The presence is now set for all Discord clients that are running on the device, not just one. Toggling individual Discord accounts in the settings also properly toggles the status for that account with each client. Thank you to [@NotAFour](https://github.com/NotAFour) for the PR that makes this possible: [ungive/discord-rpc#1](<https://github.com/ungive/discord-rpc/pull/1>)
 - Bug fixes and other improvements
-  - Reduced original memory usage while all windows and menus are closed
-    by about 75% by not caching all media player icons in memory.
-    Hardly noticable though, as the memory is now used for other components
+  - Reduced memory usage while all windows and menus are closed
+    by not caching all media player icons in memory
   - Covers: Fixed covers not working when there were IPv6 issues.
     Fixes [#623](https://github.com/ungive/discord-music-presence/issues/623)
   - Covers: Fixed some cover images consistently failing to upload.
@@ -28,6 +29,14 @@
   - Linux: Fixed WebP covers, e.g. from Feishin,
     not showing up in the Discord status.
     Fixes [#727](https://github.com/ungive/discord-music-presence/issues/727)
+  - Discord: The log file now displays the IPC file that is connected and the last 4 digits of the connected user ID for each operation, which should help with debugging, if there are issues with a Discord client not connecting or a Discord status not being set correctly for a specific account
+  - Discord: Fixed empty album or artist names sometimes being shown in the Discord status
+  - Discord: Now logging API error responses and message to assist with troubleshooting
+  - Discord/Services: Fixed normal and animated album covers for TIDAL. This was broken because the TIDAL API now requires additional parameters to fetch cover art in one request. This caused normal and video album artwork to not show in the status. Fixes [#831](https://github.com/ungive/discord-music-presence/issues/831)
+  - Discord/Services: Fixed an HTTP 400 error code with the Apple Music API when a country code is used that is not a valid storefront. The used country code is now validated by first retrieving all valid storefronts and the app falls back to "US", if the country is not supported. Fixes [#702](https://github.com/ungive/discord-music-presence/issues/702)
+  - Discord/Services: Fixed an HTTP 400 error code with the Spotify API, when an invalid country code is used. Country codes are now validated against a list of all vlaid ISO 3166-1 alpha-2 country codes and the app falls back to "US", if the country code is invalid. Fixes [#667](https://github.com/ungive/discord-music-presence/issues/667)
+  - Discord/Services: Fixed seemingly random HTTP 400 error codes with the Spotify API, which was caused by a change to the Spotify API that restricted the search result limit from 50 to 10 search results. Fixes [#667](https://github.com/ungive/discord-music-presence/issues/667)
+  - Discord/Services: Fixed the Apple Music API not working anymore due to an error extracting the API key from the Apple Music website. Fixes [#838](https://github.com/ungive/discord-music-presence/issues/838)
 - New languages
   - TODO
 - Added media players
