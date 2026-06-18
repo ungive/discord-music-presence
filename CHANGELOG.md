@@ -37,6 +37,7 @@
   - Discord/Services: Fixed an HTTP 400 error code with the Spotify API, when an invalid country code is used. Country codes are now validated against a list of all vlaid ISO 3166-1 alpha-2 country codes and the app falls back to "US", if the country code is invalid. Fixes [#667](https://github.com/ungive/discord-music-presence/issues/667)
   - Discord/Services: Fixed seemingly random HTTP 400 error codes with the Spotify API, which was caused by a change to the Spotify API that restricted the search result limit from 50 to 10 search results. Fixes [#667](https://github.com/ungive/discord-music-presence/issues/667)
   - Discord/Services: Fixed the Apple Music API not working anymore due to an error extracting the API key from the Apple Music website. Fixes [#838](https://github.com/ungive/discord-music-presence/issues/838)
+  - Mac: Fixed TIFF cover images from Kaset not showing up in the Discord status. TIFF covers are now supported and will be converted without an error
 - New languages
   - TODO
 - Added media players
