@@ -2,13 +2,13 @@
 
 ## 2.3.6
 
-- Added a welcome panel to the settings window with an introduction to the app and helpful links. This should greatly help new users with setting up Music Presence and finding the information they need
+- Added a Welcome panel to the settings window with an introduction to the app, its features, how to get started and helpful links. This should greatly help new users with setting up Music Presence and finding the information they need. Also added introduction panels for each major settings category
+- Added toggles for presets that are applied to song metadata, like the removal of "- Single" and "- EP" with Apple Music, fixes for broken metadata and advertisement filters. You can find it under Metadata > Edits. More ways to edit metadata will come with the Scrobbling update
 - The presence is now set for all Discord clients that are running on the device, not just one. Toggling individual Discord accounts in the settings also properly toggles the status for that account with each client. Thank you to [@NotAFour](https://github.com/NotAFour) for the PR that makes this possible: [ungive/discord-rpc#1](<https://github.com/ungive/discord-rpc/pull/1>)
 - Bug fixes and other improvements
   - Reduced memory usage while all windows and menus are closed
     by not caching all media player icons in memory
-  - Covers: Fixed covers not working when there were IPv6 issues.
-    Fixes [#623](https://github.com/ungive/discord-music-presence/issues/623)
+  - Covers: Fixed local cover images not showing up in the status, when the device preferred IPv6, but the cover image proxy server was not reachable by the client via IPv6. This is fixed now by connecting via IPv6 and IPv4 in parallel. Fixes [#623](https://github.com/ungive/discord-music-presence/issues/623)
   - Covers: Fixed some cover images consistently failing to upload.
     Fixes [#624](https://github.com/ungive/discord-music-presence/issues/624)
   - Covers: Increased the maximum cover image size
@@ -39,6 +39,10 @@
   - Discord/Services: Fixed the Apple Music API not working anymore due to an error extracting the API key from the Apple Music website. Fixes [#838](https://github.com/ungive/discord-music-presence/issues/838)
   - Mac: Fixed TIFF cover images not showing up in the Discord status. Fixes [#835](https://github.com/ungive/discord-music-presence/issues/835)
   - Linux: Fixed music APIs overwriting the cover image URL that is directly reported by a media player. This sometimes caused the wrong cover image to be shown. Fixes [#843](https://github.com/ungive/discord-music-presence/issues/843)
+  - Linux: Discord/Services: Fixed locally available cover image URLs being overwritten with music API URLs. This sometimes caused the status to show the wrong album cover image
+  - Windows: Fixed newer settings that were introduced by a version that was installed via automatic updates being overwritten, when the app was launched with an older version that did not have this setting, e.g. from a ZIP archive. Fixes [#662](https://github.com/ungive/discord-music-presence/issues/662)
+  - Mac: Fixed single-character songs not showing up in the status. This was due to an issue detecting a suitable UTF-8 locale. Fixes [#701](https://github.com/ungive/discord-music-presence/issues/701)
+  - Settings: Improved the appearance of tabs under Discord > Appearance to look more modern
 - New languages
   - TODO
 - Added media players
