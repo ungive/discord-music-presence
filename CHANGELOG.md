@@ -43,6 +43,7 @@
   - Windows: Fixed newer settings that were introduced by a version that was installed via automatic updates being overwritten, when the app was launched with an older version that did not have this setting, e.g. from a ZIP archive. Fixes [#662](https://github.com/ungive/discord-music-presence/issues/662)
   - Mac: Fixed single-character songs not showing up in the status. This was due to an issue detecting a suitable UTF-8 locale. Fixes [#701](https://github.com/ungive/discord-music-presence/issues/701)
   - Settings: Improved the appearance of tabs under Discord > Appearance to look more modern
+  - Discord: Improved responsiveness of status updates when skipping a lot of songs by limiting updates to 1 update per 4 seconds instead of the previous 2 updates per 5 seconds combined with 5 updates per 20 seconds (Discord limit), which would sometimes lead to long delays after skipping. Fixes [#825](https://github.com/ungive/discord-music-presence/issues/825)
 - New languages
   - TODO
 - Added media players
