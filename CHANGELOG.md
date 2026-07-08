@@ -2,7 +2,7 @@
 
 ## 2.3.6
 
-This is another maintenance release that adds a few new features and fixes various bugs. Scrobbling to Last.fm will be released shortly after this update in version 2.4.0!
+This is another maintenance release that adds a couple new features, fixes various bugs and comes with better documentation. Scrobbling to Last.fm will be released shortly after this update in version 2.4.0!
 
 - Added links to track, artist and album pages for supported streaming services (Spotify, Apple Music, TIDAL and Deezer), if the respective music API is enabled under Discord > Services. You can now click the title, artist or album and the respective page will open in your browser. Implements [#345](https://github.com/ungive/discord-music-presence/issues/345)
   - The song link button ("Play on ...") is now disabled by default and optional, since clicking the track title now links to the song page. That means the status for streaming services can be completely button-free. This button can be enabled again though, if desired
