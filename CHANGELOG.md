@@ -2,22 +2,24 @@
 
 ## 2.3.6
 
+This is another maintenance release that adds a few new features and fixes various bugs. Scrobbling to Last.fm will be released shortly after this update in version 2.4.0!
+
 - Added links to track, artist and album pages for supported streaming services (Spotify, Apple Music, TIDAL and Deezer), if the respective music API is enabled under Discord > Services. You can now click the title, artist or album and the respective page will open in your browser. Implements [#345](https://github.com/ungive/discord-music-presence/issues/345)
-  - The song link button ("Play on ...") is now disabled by default and optional, since the clicking the track title now links to the song page. That means the status for streaming services can be completely button-free. This button can be enabled again though, if desired
-- Added an option to add a custom button to your Discord status with custom text and a custom URL (optional). The custom button is always shown at the top. Implements [#773](https://github.com/ungive/discord-music-presence/issues/773)
+  - The song link button ("Play on ...") is now disabled by default and optional, since clicking the track title now links to the song page. That means the status for streaming services can be completely button-free. This button can be enabled again though, if desired
+- Added an option to add a custom button to your Discord status with custom text and a custom website link (optional). The custom button is always shown above other buttons. Implements [#773](https://github.com/ungive/discord-music-presence/issues/773)
 - The presence is now set for all Discord clients that are running on the device, not just one. Toggling individual Discord accounts in the settings also properly toggles the status for that account with each client. Thank you to [@NotAFour](https://github.com/NotAFour) for the PR that makes this possible: [ungive/discord-rpc#1](<https://github.com/ungive/discord-rpc/pull/1>). Implements [#781](https://github.com/ungive/discord-music-presence/issues/781)
 - Added toggles for presets that are applied to song metadata, like the removal of "- Single" and "- EP" with Apple Music, fixes for broken metadata and advertisement filters. You can find it under Metadata > Edits. More ways to edit metadata will come in version 2.4.0
+- The Spotify API is now disabled by default under Discord > Services. This is in response to an [update to the Spotify API](https://developer.spotify.com/blog/2026-02-06-update-on-developer-access-and-platform-security) that added the requirement for Spotify Premium to use the API in Development Mode. Since Music Presence is not eligible for Production Mode and Development Mode applications are heavily rate-limited, you now need to enter your own Spotify API credentials and it will only work, if you have Spotify Premium
   - The individual player settings from the "Appearance" settings were moved here
 - Increased the default image resolution for album covers from music APIs to 200x200 pixels instead of 100x100 pixels. You can now also select your preferred image size for album covers from music APIs under Discord > Services > Music API configuration. This is e.g. useful, if other tools make use of your current Discord status and you need higher-resolution cover images. Note that this currently does not apply to local cover images that are uploaded to the proxy server. Implements [#751](https://github.com/ungive/discord-music-presence/issues/751)
-- The Spotify API is now disabled by default under Discord > Services. This is in response to an [update to the Spotify API](https://developer.spotify.com/blog/2026-02-06-update-on-developer-access-and-platform-security) that added the requirement for Spotify Premium to use the API in Development Mode. Since Music Presence is not eligible for Production Mode and Development Mode applications are heavily rate-limited, you now need to enter your own Spotify API credentials and it will only work, if you have Spotify Premium
 - Added a Welcome panel to the settings window with an introduction to the app, its features, how to get started and helpful links. It is opened automatically at first launch of the app. This should greatly help new users with setting up Music Presence and finding the information they need. Also added introduction panels for each major settings category
-- Slowly migrating the [old documentation](https://github.com/ungive/discord-music-presence/tree/master/documentation) to the new documentation website at [docs.musicpresence.app](https://docs.musicpresence.app). Contributions are welcome in [music-presence/documentation](https://github.com/music-presence/documentation). Thank you to [@StroepWafel](https://github.com/StroepWafel) for bringing my attention to [Zensical](https://zensical.org). Implements [#331](https://github.com/ungive/discord-music-presence/issues/331)
+- Slowly migrating the documentation over to [docs.musicpresence.app](https://docs.musicpresence.app). You can still find the old documentation [here](https://github.com/ungive/discord-music-presence/tree/master/documentation). Contributions are highly appreciated in the documentation source code repository: [music-presence/documentation](https://github.com/music-presence/documentation). Thank you to [@StroepWafel](https://github.com/StroepWafel) for bringing my attention to [Zensical](https://zensical.org). Implements [#331](https://github.com/ungive/discord-music-presence/issues/331)
 - The privacy policy is now located on the documentation website at [docs.musicpresence.app](https://docs.musicpresence.app) instead of in the GitHub repository. It's also updated to account for changes in the upcoming 2.4.0 update related to scrobbling. The sections and paragraphs related to scrobbling are not relevant for version 2.3.6
 - Added a "Donate" panel to the settings window with a list of all donation options, information on how donating supports the project and links to the website. The "Donate" button in the tray menu now opens this panel instead of going straight to the website
 - Bug fixes and other improvements
   - Reduced memory usage while all windows and menus are closed
     by not caching all media player icons in memory
-  - Covers: Fixed local cover images not showing up in the status, when the device preferred IPv6, but the cover image proxy server was not reachable by the client via IPv6. This is fixed now by connecting via IPv6 and IPv4 in parallel. Fixes [#623](https://github.com/ungive/discord-music-presence/issues/623)
+  - Covers: Fixed local cover images not showing up in the status, when the device preferred IPv6, but the cover image proxy server was not reachable by the client via IPv6. This is fixed now by connecting via IPv6 and IPv4 in parallel. Implemented in [paullouisageneau/libdatachannel#1596](https://github.com/paullouisageneau/libdatachannel/pull/1596). Fixes [#623](https://github.com/ungive/discord-music-presence/issues/623)
   - Covers: Fixed some cover images consistently failing to upload.
     Fixes [#624](https://github.com/ungive/discord-music-presence/issues/624)
   - Covers: Increased the maximum cover image size
@@ -60,12 +62,12 @@
   - Linux: Added a workaround for an issue where the notifications are seemingly clicked without user interaction. Notifications that open links now open the link only on first click on Linux. Fixes [#622](https://github.com/ungive/discord-music-presence/issues/622)
   - Settings: Disabled scrolling for dropdown menus, as it would interrupt normal scrolling and often lead to changing a setting unintentionally, without a simple way to revert it
 - New languages
-  - TODO
+  - Added Serbian / српски &nbsp;—&nbsp; Thank you [Marko XCX](https://github.com/markoxcx)
 - Added media players
-  - Linux: TODO
-  - Websites (Linux only): TODO
-  - Windows: TODO
-  - Mac: TODO
+  - Windows: Aiiko Music, Astra, Audion, Bloomee, Eclipse, Hummingbird, KKBOX, KuGou, Lyra, ncspot, NetEase Cloud Music, Psysonic, Qishui, Rune, ShairportQt, Sidra, Silphium, SiriusXM, Sonosano, Strawberry, Swing Music, Telegram, Trdo, VacuumTube, Voxity, WaveFlow, Windows Media Player, WindowsSpin
+  - Mac: AdAmp, ampcast, AirPlay (Control Center), Bandcamp, Chromatix, ClassicTunes, Evervideo, Feishin, Finamp, Finer, Flacbox, HiFidelity, Hummingbird, JRiver, Kaset, KuGou, Nuage, NullPlayer, Optimus Player, Petrichor, Psysonic, QBZ, Qishui, SomaFM, Tunebar, TuneIn
+  - Linux: ampcast, Aonsoku, Harmony, Jellyfin, mtoc, Namida, Parachord, Psysonic, QBZ, QMPlay2, ratune, Seanime, Shairport Sync, Shortwave, Sidra, SMPlayer, SONE, Voxity, Wora
+  - Websites (Linux only): kugou.com, music.douyin.com, youtube-nocookie.com
 
 ## 2.3.5
 
