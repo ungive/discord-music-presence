@@ -1,6 +1,6 @@
 Music Presence
 
-Copyright (c) 2024-2025 Jonas van den Berg
+Copyright (c) 2024-2026 Jonas van den Berg
 
 All rights reserved,  
 except those rights explicitly granted in the following permission notice.
@@ -152,3 +152,34 @@ paullouisageneau/libdatachannel
 Licensed under the MPL-2.0 License.  
 Copyright (c) 2019-2025 Paul-Louis Ageneau  
     <https://github.com/paullouisageneau/libdatachannel>
+
+abseil/abseil-cpp  
+Licensed under the Apache-2.0 License.  
+Copyright (c) The abseil library authors  
+    <https://github.com/abseil/abseil-cpp>
+
+lz4/lz4  
+Licensed under the BSD 2-Clause License.  
+Copyright (c) 2011-2020, Yann Collet  
+    <https://github.com/lz4/lz4>
+
+JuliaStrings/utf8proc  
+Licensed under the MIT License.  
+Copyright © 2014-2021 by Steven G. Johnson, Jiahao Chen, Tony Kelman, Jonas Fonseca, and other contributors listed in the git history.  
+    <https://github.com/JuliaStrings/utf8proc>
+
+pboettch/json-schema-validator  
+Licensed under the MIT License.  
+Copyright (c) 2016 Patrick Boettcher  
+    <https://github.com/pboettch/json-schema-validator>
+
+jpcre2/jpcre2  
+Licensed under the BSD-3-Clause License.  
+Copyright (c) Md Jahidul Hamid
+    <https://github.com/jpcre2/jpcre2>
+
+rapidfuzz/rapidfuzz-cpp  
+Licensed under the MIT License.  
+Copyright (c) 2020 Max Bachmann  
+Copyright (c) 2011 Adam Cohen  
+    <https://github.com/rapidfuzz/rapidfuzz-cpp>
