@@ -61,6 +61,7 @@ This is another maintenance release that adds a couple new features, fixes vario
   - Moved to a new link redirect mechanism so external links in the app load faster
   - Linux: Added a workaround for an issue where the notifications are seemingly clicked without user interaction. Notifications that open links now open the link only on first click on Linux. Fixes [#622](https://github.com/ungive/discord-music-presence/issues/622)
   - Settings: Disabled scrolling for dropdown menus, as it would interrupt normal scrolling and often lead to changing a setting unintentionally, without a simple way to revert it
+  - Updated Qt to 6.11.1. This raises the minimum macOS version from macOS 12 to macOS 13
 - New languages
   - Added Serbian / српски &nbsp;—&nbsp; Thank you [Marko XCX](https://github.com/markoxcx)
 - Added media players
