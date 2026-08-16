@@ -143,7 +143,7 @@ I'm usually very active there and respond to messages rather quickly.
 
 ## Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=ungive/discord-music-presence&type=Date)](https://star-history.com/#ungive/discord-music-presence&Date)
+[![Star History Chart](https://star-history.dera.page/svg?repos=ungive/discord-music-presence&type=Date)](https://star-history.dera.page/#ungive/discord-music-presence&Date)
 
 ## Media
 
