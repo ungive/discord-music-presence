@@ -1,5 +1,28 @@
 # Changelog
 
+## 2.3.7
+
+- Added a setting to hide the album name when it matches the title. Implements [#898](<https://github.com/ungive/discord-music-presence/issues/898>)
+- Bug fixes and other improvements
+  - Proxy: Fixed premature cancellation of ongoing connection attempts under certain circumstances. Fixes [#911](https://github.com/ungive/discord-music-presence/issues/911)
+  - Fixed very rare freezes of the app due to a bug in the cover image proxy client that caused thread starvation. Fixes [#902](<https://github.com/ungive/discord-music-presence/issues/902>)
+  - Fixed the TIDAL API not working anymore due to a breaking change that made all API requests fail. Fixes [#979](<https://github.com/ungive/discord-music-presence/issues/979>)
+  - Linux: Fixed fatal media detection errors with some media players. Failing players now do not cause fatal errors anymore. Fixes [#930](<https://github.com/ungive/discord-music-presence/issues/930>)
+  - Fixed changes to some player-specific metadata edits not being stored properly. Fixes [#884](<https://github.com/ungive/discord-music-presence/issues/884>)
+  - Fixed some Unicode characters not appearing in the Discord presence. Fixes [#885](<https://github.com/ungive/discord-music-presence/issues/885>)
+  - Linux: Players with the suffix `.pid<digits>` can now be detected by Music Presence. Fixes [#963](<https://github.com/ungive/discord-music-presence/issues/963>)
+  - Fixed occassional "SSL server verification failed" errors for some people. Fixes [#972](<https://github.com/ungive/discord-music-presence/issues/972>)
+  - Fixed Spotify podcast settings not working anymore. Fixes [#884](<https://github.com/ungive/discord-music-presence/issues/884>)
+  - Fixed SSL server verification failures by updating cpp-httplib to version 0.62.0. Fixes [#972](<https://github.com/ungive/discord-music-presence/issues/972>)
+  - Linux: Fixed mpv detection by matching instance suffixes with letters in them. Fixes [#1034](https://github.com/ungive/discord-music-presence/issues/1034)
+- New languages
+  - TODO
+- Added media players
+  - Windows: TODO
+  - Mac: TODO
+  - Linux: TODO
+  - Websites (Linux only): TODO
+
 ## 2.3.6
 
 This is another maintenance release that adds a couple new features, fixes various bugs and comes with better documentation. Scrobbling to Last.fm will be released shortly after this update in version 2.4.0!
