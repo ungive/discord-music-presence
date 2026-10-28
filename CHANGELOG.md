@@ -2,9 +2,10 @@
 
 ## 2.3.7
 
+- Added a setting to display the album name underneath your name, if Discord's presence limitations allow for it. This is only possible, when the album name is shown on the first or second line of your presence. You need to configure your status that way before the "Album line" option under "Display type" is available. Implements [#406](https://github.com/ungive/discord-music-presence/issues/406)
+- Added the option to use music APIs with third-party clients of streaming services. You can now enable the Spotify, Apple Music, TIDAL or Deezer API for third-party clients of those streaming services. Implements [#965](https://github.com/ungive/discord-music-presence/issues/965)
 - Added a setting to hide the album name when it matches the title. Implements [#898](<https://github.com/ungive/discord-music-presence/issues/898>)
 - Added two settings to hide the title and artist in the presence respectively. This way you can toggle between showing the title, artist and album individually. Implements [#900](https://github.com/ungive/discord-music-presence/issues/900)
-- Added a setting to display the album name underneath your name, if Discord allows it. This is only possible, when the album name is shown on the first or second line. You need to configure your status that way before the "Album line" option under "Display type"
 - Bug fixes and other improvements
   - Proxy: Fixed premature cancellation of ongoing connection attempts under certain circumstances. Fixes [#911](https://github.com/ungive/discord-music-presence/issues/911)
   - Fixed very rare freezes of the app due to a bug in the cover image proxy client that caused thread starvation. Fixes [#902](<https://github.com/ungive/discord-music-presence/issues/902>)
