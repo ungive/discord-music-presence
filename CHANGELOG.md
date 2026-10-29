@@ -16,10 +16,11 @@
   - Linux: Players with the suffix `.pid<digits>` can now be detected by Music Presence. Fixes [#963](<https://github.com/ungive/discord-music-presence/issues/963>)
   - Fixed occassional "SSL server verification failed" errors for some people. Fixes [#972](<https://github.com/ungive/discord-music-presence/issues/972>)
   - Fixed Spotify podcast settings not working anymore. Fixes [#884](<https://github.com/ungive/discord-music-presence/issues/884>)
-  - Fixed SSL server verification failures by updating cpp-httplib to version 0.62.0. Fixes [#972](<https://github.com/ungive/discord-music-presence/issues/972>)
+  - Fixed SSL server verification failures by updating cpp-httplib to version 0.61.0. Fixes [#972](<https://github.com/ungive/discord-music-presence/issues/972>)
   - Linux: Fixed mpv detection by matching instance suffixes with letters in them. Fixes [#1034](https://github.com/ungive/discord-music-presence/issues/1034)
   - When "Title line" or "Artist line" is selected for "Display text", the configured profile display text is shown as the display text, when the title or artist are not known or disabled respectively
   - Fixed the album being shown in the place of the artist when settings like "Show the song title and artist on a single line" were enabled
+  - Windows: Fixed missing cover images when using certain system-wide tunneling/proxying or VPN software that didn't work with IPv6 or had IPv6 disabled. Fixes [#839](https://github.com/ungive/discord-music-presence/issues/839)
 - New languages
   - TODO
 - Added media players
