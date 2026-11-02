@@ -21,6 +21,10 @@
   - When "Title line" or "Artist line" is selected for "Display text", the configured profile display text is shown as the display text, when the title or artist are not known or disabled respectively
   - Fixed the album being shown in the place of the artist when settings like "Show the song title and artist on a single line" were enabled
   - Windows: Fixed missing cover images when using certain system-wide tunneling/proxying or VPN software that didn't work with IPv6 or had IPv6 disabled. Fixes [#839](https://github.com/ungive/discord-music-presence/issues/839)
+  - Added a metadata preset to filter out media with only the title "Not Playing" in the latest Apple Music desktop app. This is enabled by default. Fixes [#1047](https://github.com/ungive/discord-music-presence/issues/1047)
+  - Fixed album names erroneously being an empty string, when the album is not reported by a player. This was a regression caused by the addition of metadata edits/presets. This also fixes songs not being found with certain music APIs. Fixes [#1046](https://github.com/ungive/discord-music-presence/issues/1046)
+  - Fixed missing album URL in the status, when the album name is not reported by the media player and is guessed from the API results
+  - Added a fix for the Apple Music website, which consistently reports incorrect playback positions and track durations. If something breaks or malfunctions, this fix can be disabled in the advanced settings of Music Presence, to restore the original behavior. Fixes [#1041](https://github.com/ungive/discord-music-presence/issues/1041)
 - New languages
   - TODO
 - Added media players
