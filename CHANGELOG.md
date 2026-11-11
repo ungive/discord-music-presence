@@ -25,6 +25,9 @@
   - Fixed album names erroneously being an empty string, when the album is not reported by a player. This was a regression caused by the addition of metadata edits/presets. This also fixes songs not being found with certain music APIs. Fixes [#1046](https://github.com/ungive/discord-music-presence/issues/1046)
   - Fixed missing album URL in the status, when the album name is not reported by the media player and is guessed from the API results
   - Added a fix for the Apple Music website, which consistently reports incorrect playback positions and track durations. If something breaks or malfunctions, this fix can be disabled in the advanced settings of Music Presence, to restore the original behavior. Fixes [#1041](https://github.com/ungive/discord-music-presence/issues/1041)
+  - Improved player detection and identification to include documentation of caveats and quirks of specific media player implementations. This allows executing specific fixes only for specific player implementations that actually need those fixes
+  - Implemented matching of the product name on Windows with media player identification, to allow for more fine-grained media player identification and more accurate documentation of media player caveats
+  - Fixed typo in the name and description of the metadata preset that removes media with the title "Connecting..."
 - New languages
   - TODO
 - Added media players
