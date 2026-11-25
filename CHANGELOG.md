@@ -38,9 +38,6 @@
   - Linux: TODO
   - Websites (Linux only): TODO
 
-todo:
-- Updated the metadata preset that filters out "Connecting..." in the title to include the German translation "Verbinden..."
-
 ## 2.3.6
 
 This is another maintenance release that adds a couple new features, fixes various bugs and comes with better documentation. Scrobbling to Last.fm will be released shortly after this update in version 2.4.0!
