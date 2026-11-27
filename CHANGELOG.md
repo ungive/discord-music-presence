@@ -29,7 +29,7 @@
   - Implemented matching of the product name on Windows with media player identification, to allow for more fine-grained media player identification and more accurate documentation of media player caveats
   - Fixed typo in the name and description of the metadata preset that removes media with the title "Connecting..."
   - Fixed local files on Spotify sometimes being filtered out by the Spotify advertisement filter. Removed the filter from Metadata > Edits > Presets > Basic filters and turned it into a switch under the Advanced settings, as pure metadata filtering is insufficient to detect advertisements. Fixes [#1050](https://github.com/ungive/discord-music-presence/issues/1050)
-  - Removed the filter Deezer advertisement filter from Metadata > Edits > Presets > Basic filters and turned it into a switch under the Advanced settings, as pure metadata filtering is insufficient to detect advertisements
+  - Removed the filter Deezer advertisement filter from Metadata > Edits > Presets > Basic filters. Deezer advertisements cannot be detected reliably anymore, as they are reported with normal song metadata, which makes them effectively indistinguishable from real songs. See [#1091](https://github.com/ungive/discord-music-presence/issues/1091)
 - New languages
   - TODO
 - Added media players
